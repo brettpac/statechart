@@ -1,0 +1,4 @@
+<map id="boost::statechart::state_machine::send_event" name="boost::statechart::state_machine::send_event">
+<area shape="rect" id="node2" href="$classboost_1_1statechart_1_1state__machine.html#a78598d4982f6b85e83358652eb1c3d6e" title="boost::statechart::\lstate_machine\&lt; CustomReaction\lEventBaseTest, X1 \&gt;::process_event" alt="" coords="236,5,477,61"/>
+<area shape="rect" id="node3" href="$classboost_1_1statechart_1_1state__machine.html#af158f951f31691cdec6c00b48612124c" title="boost::statechart::\lstate_machine\&lt; CustomReaction\lEventBaseTest, X1 \&gt;::process\l_queued_events" alt="" coords="248,86,465,157"/>
+</map>

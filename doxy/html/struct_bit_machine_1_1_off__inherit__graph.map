@@ -1,0 +1,4 @@
+<map id="BitMachine&lt; NoOfBits, FirstTransitionBit &gt;::Off" name="BitMachine&lt; NoOfBits, FirstTransitionBit &gt;::Off">
+<area shape="rect" id="node2" href="$classstate.html" title="{state\&lt; Off \&gt;\n|&#45; instance_\l|+ state()\l+ instance()\l}" alt="" coords="40,160,133,252"/>
+<area shape="rect" id="node3" href="$classstate__base.html" title="{state_base\n||+ ~state_base()\l+ react()\l# state_base()\l}" alt="" coords="29,5,144,112"/>
+</map>

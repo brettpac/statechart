@@ -1,0 +1,5 @@
+<map id="EvTerminateF" name="EvTerminateF">
+<area shape="rect" id="node2" href="$classboost_1_1statechart_1_1event.html" title="{boost::statechart::\levent\&lt; EvTerminateF \&gt;\n||+ operator new()\l+ operator new()\l+ operator delete()\l+ operator delete()\l# event()\l# ~event()\l&#45; clone()\l}" alt="" coords="23,417,183,597"/>
+<area shape="rect" id="node3" href="$classboost_1_1statechart_1_1detail_1_1rtti__policy_1_1rtti__derived__type.html" title="{boost::statechart::\ldetail::rtti_policy\l::rtti_derived_type\&lt;\l EvTerminateF, event_base \&gt;\n||+ static_type()\l+ custom_static_type_ptr()\l+ custom_static_type_ptr()\l# ~rtti_derived_type()\l# rtti_derived_type()\l}" alt="" coords="5,189,200,369"/>
+<area shape="rect" id="node4" href="$classboost_1_1statechart_1_1event__base.html" title="{boost::statechart::\levent_base\n||+ intrusive_from_this()\l# event_base()\l# ~event_base()\l&#45; clone()\l}" alt="" coords="27,5,179,141"/>
+</map>

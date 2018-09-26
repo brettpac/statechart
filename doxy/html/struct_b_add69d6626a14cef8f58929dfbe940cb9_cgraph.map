@@ -1,0 +1,4 @@
+<map id="B::react" name="B::react">
+<area shape="rect" id="node2" href="$classboost_1_1statechart_1_1simple__state.html#a5a2e9abf29040c3dd91ac9d98a17f564" title="boost::statechart::\lsimple_state\&lt; B, A,\l mpl::list\&lt; sc::shallow\l_history\&lt; J \&gt;, sc::deep\l_history\&lt; N \&gt; \&gt;, sc::has\l_full_history \&gt;::outermost\l_context" alt="" coords="133,5,304,120"/>
+<area shape="rect" id="node3" href="$classboost_1_1statechart_1_1simple__state.html#a9892a580bc7f9b502e5c01970bff17cf" title="boost::statechart::\lsimple_state\&lt; B, A,\l mpl::list\&lt; sc::shallow\l_history\&lt; J \&gt;, sc::deep\l_history\&lt; N \&gt; \&gt;, sc::has\l_full_history \&gt;::forward_event" alt="" coords="121,145,316,245"/>
+</map>

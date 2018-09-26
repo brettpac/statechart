@@ -1,0 +1,4 @@
+<map id="X1::react" name="X1::react">
+<area shape="rect" id="node2" href="$classboost_1_1statechart_1_1simple__state.html#a5a2e9abf29040c3dd91ac9d98a17f564" title="boost::statechart::\lsimple_state\&lt; X1, Transition\lEventBaseTest \&gt;::outermost\l_context" alt="" coords="139,5,330,76"/>
+<area shape="rect" id="node3" href="$classboost_1_1statechart_1_1simple__state.html#aba633726b29a7bd07d69429bab4a3a1b" title="boost::statechart::\lsimple_state\&lt; X1, Transition\lEventBaseTest \&gt;::discard_event" alt="" coords="128,101,341,157"/>
+</map>

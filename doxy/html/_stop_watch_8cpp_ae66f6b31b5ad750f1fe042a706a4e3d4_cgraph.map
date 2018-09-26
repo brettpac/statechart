@@ -1,0 +1,6 @@
+<map id="main" name="main">
+<area shape="rect" id="node2" href="$classboost_1_1statechart_1_1state__machine.html#a7165ce3d1120b98dde6e8d669e35aba9" title="boost::statechart::\lstate_machine::initiate" alt="" coords="127,5,281,47"/>
+<area shape="rect" id="node3" href="$_stop_watch_8cpp.html#a2d42937c3f3d49c8958ce119e6b745fd" title="GetKey" alt="" coords="171,71,237,98"/>
+<area shape="rect" id="node4" href="$classboost_1_1statechart_1_1state__machine.html#a78598d4982f6b85e83358652eb1c3d6e" title="boost::statechart::\lstate_machine::process_event" alt="" coords="104,123,304,164"/>
+<area shape="rect" id="node5" href="$classboost_1_1statechart_1_1state__machine.html#aabd07005b47036311b5e80e05c1746c2" title="boost::statechart::\lstate_machine::state_cast" alt="" coords="116,188,292,229"/>
+</map>

@@ -1,0 +1,4 @@
+<map id="Active::react" name="Active::react">
+<area shape="rect" id="node2" href="$classboost_1_1statechart_1_1simple__state.html#af1b306e54db708323280093a4452da13" title="boost::statechart::\lsimple_state\&lt; Active,\l StopWatch, Stopped \&gt;\l::terminate" alt="" coords="149,5,308,76"/>
+<area shape="rect" id="node3" href="$classboost_1_1statechart_1_1simple__state.html#aba633726b29a7bd07d69429bab4a3a1b" title="boost::statechart::\lsimple_state\&lt; Active,\l StopWatch, Stopped \&gt;\l::discard_event" alt="" coords="149,100,308,171"/>
+</map>

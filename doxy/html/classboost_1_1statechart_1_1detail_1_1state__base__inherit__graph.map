@@ -1,0 +1,5 @@
+<map id="boost::statechart::detail::state_base&lt; Allocator, RttiPolicy &gt;" name="boost::statechart::detail::state_base&lt; Allocator, RttiPolicy &gt;">
+<area shape="rect" id="node4" href="$classboost_1_1statechart_1_1detail_1_1leaf__state.html" title="{boost::statechart::\ldetail::leaf_state\&lt;\l Allocator, RttiPolicy \&gt;\n|&#45; listPosition_\l|+ set_list_position()\l+ remove_from_state_list()\l+ exit_impl()\l# leaf_state()\l# ~leaf_state()\l}" alt="" coords="5,432,184,597"/>
+<area shape="rect" id="node5" href="$classboost_1_1statechart_1_1detail_1_1node__state__base.html" title="{boost::statechart::\ldetail::node_state_base\l\&lt; Allocator, RttiPolicy \&gt;\n||+ exit_impl()\l# node_state_base()\l# ~node_state_base()\l}" alt="" coords="208,447,371,583"/>
+<area shape="rect" id="node6" href="$classboost_1_1statechart_1_1detail_1_1node__state.html" title="{boost::statechart::\ldetail::node_state\&lt;\l Allocator, RttiPolicy \&gt;\n|&#45; pInnerStates\l|+ add_inner_state()\l+ remove_inner_state()\l+ remove_from_state_list()\l# node_state()\l# ~node_state()\l&#45; is_not_null()\l}" alt="" coords="200,645,379,825"/>
+</map>

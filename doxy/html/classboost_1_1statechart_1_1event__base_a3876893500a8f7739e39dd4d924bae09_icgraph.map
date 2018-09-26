@@ -1,0 +1,4 @@
+<map id="boost::statechart::event_base::intrusive_from_this" name="boost::statechart::event_base::intrusive_from_this">
+<area shape="rect" id="node2" href="$classboost_1_1statechart_1_1state__machine.html#a78598d4982f6b85e83358652eb1c3d6e" title="boost::statechart::\lstate_machine\&lt; CustomReaction\lEventBaseTest, X1 \&gt;::process_event" alt="" coords="200,5,441,61"/>
+<area shape="rect" id="node3" href="$classboost_1_1statechart_1_1state__machine.html#a1c2de8cd216efdafba64c256ed2c958c" title="boost::statechart::\lstate_machine\&lt; CustomReaction\lEventBaseTest, X1 \&gt;::post\l_event_impl" alt="" coords="212,86,429,157"/>
+</map>

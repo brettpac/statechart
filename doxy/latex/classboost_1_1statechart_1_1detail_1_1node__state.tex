@@ -1,0 +1,167 @@
+\hypertarget{classboost_1_1statechart_1_1detail_1_1node__state}{}\section{boost\+:\+:statechart\+:\+:detail\+:\+:node\+\_\+state$<$ Orthogonal\+Region\+Count, Allocator, Rtti\+Policy $>$ Class Template Reference}
+\label{classboost_1_1statechart_1_1detail_1_1node__state}\index{boost\+::statechart\+::detail\+::node\+\_\+state$<$ Orthogonal\+Region\+Count, Allocator, Rtti\+Policy $>$@{boost\+::statechart\+::detail\+::node\+\_\+state$<$ Orthogonal\+Region\+Count, Allocator, Rtti\+Policy $>$}}
+
+
+{\ttfamily \#include $<$node\+\_\+state.\+hpp$>$}
+
+
+
+Inheritance diagram for boost\+:\+:statechart\+:\+:detail\+:\+:node\+\_\+state$<$ Orthogonal\+Region\+Count, Allocator, Rtti\+Policy $>$\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=550pt]{classboost_1_1statechart_1_1detail_1_1node__state__inherit__graph}
+\end{center}
+\end{figure}
+
+
+Collaboration diagram for boost\+:\+:statechart\+:\+:detail\+:\+:node\+\_\+state$<$ Orthogonal\+Region\+Count, Allocator, Rtti\+Policy $>$\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=550pt]{classboost_1_1statechart_1_1detail_1_1node__state__coll__graph}
+\end{center}
+\end{figure}
+\subsection*{Public Types}
+\begin{DoxyCompactItemize}
+\item 
+typedef \mbox{\hyperlink{classboost_1_1statechart_1_1detail_1_1node__state__base_a2b7ddb7642a5452045d9448444426735}{base\+\_\+type\+::state\+\_\+base\+\_\+type}} \mbox{\hyperlink{classboost_1_1statechart_1_1detail_1_1node__state_a0687cb4eadba3b2feb66322c6b57475b}{state\+\_\+base\+\_\+type}}
+\item 
+typedef base\+\_\+type\+::direct\+\_\+state\+\_\+base\+\_\+ptr\+\_\+type \mbox{\hyperlink{classboost_1_1statechart_1_1detail_1_1node__state_aa558d33fc74e9580389232c0b7dc7e92}{direct\+\_\+state\+\_\+base\+\_\+ptr\+\_\+type}}
+\end{DoxyCompactItemize}
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+void \mbox{\hyperlink{classboost_1_1statechart_1_1detail_1_1node__state_a69765d54be1730efeb31133a3828ff16}{add\+\_\+inner\+\_\+state}} (\mbox{\hyperlink{namespaceboost_1_1statechart_1_1detail_a3bedea0b807a16fa222733417183d2c9}{orthogonal\+\_\+position\+\_\+type}} position, \mbox{\hyperlink{classboost_1_1statechart_1_1detail_1_1node__state__base_a2b7ddb7642a5452045d9448444426735}{state\+\_\+base\+\_\+type}} $\ast$p\+Inner\+State)
+\item 
+void \mbox{\hyperlink{classboost_1_1statechart_1_1detail_1_1node__state_ab1c9cbc3ca4599a9f1633cb93cebd385}{remove\+\_\+inner\+\_\+state}} (\mbox{\hyperlink{namespaceboost_1_1statechart_1_1detail_a3bedea0b807a16fa222733417183d2c9}{orthogonal\+\_\+position\+\_\+type}} position)
+\item 
+virtual void \mbox{\hyperlink{classboost_1_1statechart_1_1detail_1_1node__state_a1022b2fe0c4ea5f8b47d6fd1fb7e7ffb}{remove\+\_\+from\+\_\+state\+\_\+list}} (typename state\+\_\+base\+\_\+type\+::state\+\_\+list\+\_\+type\+::iterator \&states\+End, typename \mbox{\hyperlink{classboost_1_1statechart_1_1detail_1_1state__base_a8e3dd0f80bf95d7df21417a50f1dbaa1}{state\+\_\+base\+\_\+type\+::node\+\_\+state\+\_\+base\+\_\+ptr\+\_\+type}} \&p\+Outermost\+Unstable\+State, bool perform\+Full\+Exit)
+\end{DoxyCompactItemize}
+\subsection*{Protected Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{classboost_1_1statechart_1_1detail_1_1node__state_ac0adf39c0e3b92be15801f8d25bf4996}{node\+\_\+state}} (typename Rtti\+Policy\+::id\+\_\+provider\+\_\+type id\+Provider)
+\item 
+\mbox{\hyperlink{classboost_1_1statechart_1_1detail_1_1node__state_a50990fc8652671fc112570393c2d3204}{$\sim$node\+\_\+state}} ()
+\end{DoxyCompactItemize}
+\subsection*{Private Types}
+\begin{DoxyCompactItemize}
+\item 
+typedef \mbox{\hyperlink{classboost_1_1statechart_1_1detail_1_1node__state__base}{node\+\_\+state\+\_\+base}}$<$ Allocator, Rtti\+Policy $>$ \mbox{\hyperlink{classboost_1_1statechart_1_1detail_1_1node__state_a6ca25f58492e36e3a2a1b234925c5199}{base\+\_\+type}}
+\end{DoxyCompactItemize}
+\subsection*{Static Private Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+static bool \mbox{\hyperlink{classboost_1_1statechart_1_1detail_1_1node__state_a58441ed647eb2389e12c3bf341005047}{is\+\_\+not\+\_\+null}} (const \mbox{\hyperlink{classboost_1_1statechart_1_1detail_1_1node__state__base_a2b7ddb7642a5452045d9448444426735}{state\+\_\+base\+\_\+type}} $\ast$p\+Inner)
+\end{DoxyCompactItemize}
+\subsection*{Private Attributes}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{classboost_1_1statechart_1_1detail_1_1node__state__base_a2b7ddb7642a5452045d9448444426735}{state\+\_\+base\+\_\+type}} $\ast$ \mbox{\hyperlink{classboost_1_1statechart_1_1detail_1_1node__state_a5846a2cfb93ebd33d1de2c3beec1f29f}{p\+Inner\+States}} \mbox{[}Orthogonal\+Region\+Count\+::value\mbox{]}
+\end{DoxyCompactItemize}
+
+
+\subsection{Member Typedef Documentation}
+\mbox{\Hypertarget{classboost_1_1statechart_1_1detail_1_1node__state_a6ca25f58492e36e3a2a1b234925c5199}\label{classboost_1_1statechart_1_1detail_1_1node__state_a6ca25f58492e36e3a2a1b234925c5199}} 
+\index{boost\+::statechart\+::detail\+::node\+\_\+state@{boost\+::statechart\+::detail\+::node\+\_\+state}!base\+\_\+type@{base\+\_\+type}}
+\index{base\+\_\+type@{base\+\_\+type}!boost\+::statechart\+::detail\+::node\+\_\+state@{boost\+::statechart\+::detail\+::node\+\_\+state}}
+\subsubsection{\texorpdfstring{base\+\_\+type}{base\_type}}
+{\footnotesize\ttfamily template$<$class Orthogonal\+Region\+Count , class Allocator , class Rtti\+Policy $>$ \\
+typedef \mbox{\hyperlink{classboost_1_1statechart_1_1detail_1_1node__state__base}{node\+\_\+state\+\_\+base}}$<$ Allocator, Rtti\+Policy $>$ \mbox{\hyperlink{classboost_1_1statechart_1_1detail_1_1node__state}{boost\+::statechart\+::detail\+::node\+\_\+state}}$<$ Orthogonal\+Region\+Count, Allocator, Rtti\+Policy $>$\+::\mbox{\hyperlink{classboost_1_1statechart_1_1detail_1_1node__state__base_a6a4897d400d9fb49ee9a7dac1f6c6f58}{base\+\_\+type}}\hspace{0.3cm}{\ttfamily [private]}}
+
+\mbox{\Hypertarget{classboost_1_1statechart_1_1detail_1_1node__state_aa558d33fc74e9580389232c0b7dc7e92}\label{classboost_1_1statechart_1_1detail_1_1node__state_aa558d33fc74e9580389232c0b7dc7e92}} 
+\index{boost\+::statechart\+::detail\+::node\+\_\+state@{boost\+::statechart\+::detail\+::node\+\_\+state}!direct\+\_\+state\+\_\+base\+\_\+ptr\+\_\+type@{direct\+\_\+state\+\_\+base\+\_\+ptr\+\_\+type}}
+\index{direct\+\_\+state\+\_\+base\+\_\+ptr\+\_\+type@{direct\+\_\+state\+\_\+base\+\_\+ptr\+\_\+type}!boost\+::statechart\+::detail\+::node\+\_\+state@{boost\+::statechart\+::detail\+::node\+\_\+state}}
+\subsubsection{\texorpdfstring{direct\+\_\+state\+\_\+base\+\_\+ptr\+\_\+type}{direct\_state\_base\_ptr\_type}}
+{\footnotesize\ttfamily template$<$class Orthogonal\+Region\+Count , class Allocator , class Rtti\+Policy $>$ \\
+typedef base\+\_\+type\+::direct\+\_\+state\+\_\+base\+\_\+ptr\+\_\+type \mbox{\hyperlink{classboost_1_1statechart_1_1detail_1_1node__state}{boost\+::statechart\+::detail\+::node\+\_\+state}}$<$ Orthogonal\+Region\+Count, Allocator, Rtti\+Policy $>$\+::\mbox{\hyperlink{classboost_1_1statechart_1_1detail_1_1node__state__base_a52fa5db06246a5d37b5980aa378fa41c}{direct\+\_\+state\+\_\+base\+\_\+ptr\+\_\+type}}}
+
+\mbox{\Hypertarget{classboost_1_1statechart_1_1detail_1_1node__state_a0687cb4eadba3b2feb66322c6b57475b}\label{classboost_1_1statechart_1_1detail_1_1node__state_a0687cb4eadba3b2feb66322c6b57475b}} 
+\index{boost\+::statechart\+::detail\+::node\+\_\+state@{boost\+::statechart\+::detail\+::node\+\_\+state}!state\+\_\+base\+\_\+type@{state\+\_\+base\+\_\+type}}
+\index{state\+\_\+base\+\_\+type@{state\+\_\+base\+\_\+type}!boost\+::statechart\+::detail\+::node\+\_\+state@{boost\+::statechart\+::detail\+::node\+\_\+state}}
+\subsubsection{\texorpdfstring{state\+\_\+base\+\_\+type}{state\_base\_type}}
+{\footnotesize\ttfamily template$<$class Orthogonal\+Region\+Count , class Allocator , class Rtti\+Policy $>$ \\
+typedef \mbox{\hyperlink{classboost_1_1statechart_1_1detail_1_1node__state__base_a2b7ddb7642a5452045d9448444426735}{base\+\_\+type\+::state\+\_\+base\+\_\+type}} \mbox{\hyperlink{classboost_1_1statechart_1_1detail_1_1node__state}{boost\+::statechart\+::detail\+::node\+\_\+state}}$<$ Orthogonal\+Region\+Count, Allocator, Rtti\+Policy $>$\+::\mbox{\hyperlink{classboost_1_1statechart_1_1detail_1_1node__state__base_a2b7ddb7642a5452045d9448444426735}{state\+\_\+base\+\_\+type}}}
+
+
+
+\subsection{Constructor \& Destructor Documentation}
+\mbox{\Hypertarget{classboost_1_1statechart_1_1detail_1_1node__state_ac0adf39c0e3b92be15801f8d25bf4996}\label{classboost_1_1statechart_1_1detail_1_1node__state_ac0adf39c0e3b92be15801f8d25bf4996}} 
+\index{boost\+::statechart\+::detail\+::node\+\_\+state@{boost\+::statechart\+::detail\+::node\+\_\+state}!node\+\_\+state@{node\+\_\+state}}
+\index{node\+\_\+state@{node\+\_\+state}!boost\+::statechart\+::detail\+::node\+\_\+state@{boost\+::statechart\+::detail\+::node\+\_\+state}}
+\subsubsection{\texorpdfstring{node\+\_\+state()}{node\_state()}}
+{\footnotesize\ttfamily template$<$class Orthogonal\+Region\+Count , class Allocator , class Rtti\+Policy $>$ \\
+\mbox{\hyperlink{classboost_1_1statechart_1_1detail_1_1node__state}{boost\+::statechart\+::detail\+::node\+\_\+state}}$<$ Orthogonal\+Region\+Count, Allocator, Rtti\+Policy $>$\+::\mbox{\hyperlink{classboost_1_1statechart_1_1detail_1_1node__state}{node\+\_\+state}} (\begin{DoxyParamCaption}\item[{typename Rtti\+Policy\+::id\+\_\+provider\+\_\+type}]{id\+Provider }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [protected]}}
+
+\mbox{\Hypertarget{classboost_1_1statechart_1_1detail_1_1node__state_a50990fc8652671fc112570393c2d3204}\label{classboost_1_1statechart_1_1detail_1_1node__state_a50990fc8652671fc112570393c2d3204}} 
+\index{boost\+::statechart\+::detail\+::node\+\_\+state@{boost\+::statechart\+::detail\+::node\+\_\+state}!````~node\+\_\+state@{$\sim$node\+\_\+state}}
+\index{````~node\+\_\+state@{$\sim$node\+\_\+state}!boost\+::statechart\+::detail\+::node\+\_\+state@{boost\+::statechart\+::detail\+::node\+\_\+state}}
+\subsubsection{\texorpdfstring{$\sim$node\+\_\+state()}{~node\_state()}}
+{\footnotesize\ttfamily template$<$class Orthogonal\+Region\+Count , class Allocator , class Rtti\+Policy $>$ \\
+\mbox{\hyperlink{classboost_1_1statechart_1_1detail_1_1node__state}{boost\+::statechart\+::detail\+::node\+\_\+state}}$<$ Orthogonal\+Region\+Count, Allocator, Rtti\+Policy $>$\+::$\sim$\mbox{\hyperlink{classboost_1_1statechart_1_1detail_1_1node__state}{node\+\_\+state}} (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [protected]}}
+
+
+
+\subsection{Member Function Documentation}
+\mbox{\Hypertarget{classboost_1_1statechart_1_1detail_1_1node__state_a69765d54be1730efeb31133a3828ff16}\label{classboost_1_1statechart_1_1detail_1_1node__state_a69765d54be1730efeb31133a3828ff16}} 
+\index{boost\+::statechart\+::detail\+::node\+\_\+state@{boost\+::statechart\+::detail\+::node\+\_\+state}!add\+\_\+inner\+\_\+state@{add\+\_\+inner\+\_\+state}}
+\index{add\+\_\+inner\+\_\+state@{add\+\_\+inner\+\_\+state}!boost\+::statechart\+::detail\+::node\+\_\+state@{boost\+::statechart\+::detail\+::node\+\_\+state}}
+\subsubsection{\texorpdfstring{add\+\_\+inner\+\_\+state()}{add\_inner\_state()}}
+{\footnotesize\ttfamily template$<$class Orthogonal\+Region\+Count , class Allocator , class Rtti\+Policy $>$ \\
+void \mbox{\hyperlink{classboost_1_1statechart_1_1detail_1_1node__state}{boost\+::statechart\+::detail\+::node\+\_\+state}}$<$ Orthogonal\+Region\+Count, Allocator, Rtti\+Policy $>$\+::add\+\_\+inner\+\_\+state (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{namespaceboost_1_1statechart_1_1detail_a3bedea0b807a16fa222733417183d2c9}{orthogonal\+\_\+position\+\_\+type}}}]{position,  }\item[{\mbox{\hyperlink{classboost_1_1statechart_1_1detail_1_1node__state__base_a2b7ddb7642a5452045d9448444426735}{state\+\_\+base\+\_\+type}} $\ast$}]{p\+Inner\+State }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+\mbox{\Hypertarget{classboost_1_1statechart_1_1detail_1_1node__state_a58441ed647eb2389e12c3bf341005047}\label{classboost_1_1statechart_1_1detail_1_1node__state_a58441ed647eb2389e12c3bf341005047}} 
+\index{boost\+::statechart\+::detail\+::node\+\_\+state@{boost\+::statechart\+::detail\+::node\+\_\+state}!is\+\_\+not\+\_\+null@{is\+\_\+not\+\_\+null}}
+\index{is\+\_\+not\+\_\+null@{is\+\_\+not\+\_\+null}!boost\+::statechart\+::detail\+::node\+\_\+state@{boost\+::statechart\+::detail\+::node\+\_\+state}}
+\subsubsection{\texorpdfstring{is\+\_\+not\+\_\+null()}{is\_not\_null()}}
+{\footnotesize\ttfamily template$<$class Orthogonal\+Region\+Count , class Allocator , class Rtti\+Policy $>$ \\
+static bool \mbox{\hyperlink{classboost_1_1statechart_1_1detail_1_1node__state}{boost\+::statechart\+::detail\+::node\+\_\+state}}$<$ Orthogonal\+Region\+Count, Allocator, Rtti\+Policy $>$\+::is\+\_\+not\+\_\+null (\begin{DoxyParamCaption}\item[{const \mbox{\hyperlink{classboost_1_1statechart_1_1detail_1_1node__state__base_a2b7ddb7642a5452045d9448444426735}{state\+\_\+base\+\_\+type}} $\ast$}]{p\+Inner }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [static]}, {\ttfamily [private]}}
+
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=335pt]{classboost_1_1statechart_1_1detail_1_1node__state_a58441ed647eb2389e12c3bf341005047_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{classboost_1_1statechart_1_1detail_1_1node__state_a1022b2fe0c4ea5f8b47d6fd1fb7e7ffb}\label{classboost_1_1statechart_1_1detail_1_1node__state_a1022b2fe0c4ea5f8b47d6fd1fb7e7ffb}} 
+\index{boost\+::statechart\+::detail\+::node\+\_\+state@{boost\+::statechart\+::detail\+::node\+\_\+state}!remove\+\_\+from\+\_\+state\+\_\+list@{remove\+\_\+from\+\_\+state\+\_\+list}}
+\index{remove\+\_\+from\+\_\+state\+\_\+list@{remove\+\_\+from\+\_\+state\+\_\+list}!boost\+::statechart\+::detail\+::node\+\_\+state@{boost\+::statechart\+::detail\+::node\+\_\+state}}
+\subsubsection{\texorpdfstring{remove\+\_\+from\+\_\+state\+\_\+list()}{remove\_from\_state\_list()}}
+{\footnotesize\ttfamily template$<$class Orthogonal\+Region\+Count , class Allocator , class Rtti\+Policy $>$ \\
+virtual void \mbox{\hyperlink{classboost_1_1statechart_1_1detail_1_1node__state}{boost\+::statechart\+::detail\+::node\+\_\+state}}$<$ Orthogonal\+Region\+Count, Allocator, Rtti\+Policy $>$\+::remove\+\_\+from\+\_\+state\+\_\+list (\begin{DoxyParamCaption}\item[{typename state\+\_\+base\+\_\+type\+::state\+\_\+list\+\_\+type\+::iterator \&}]{states\+End,  }\item[{typename \mbox{\hyperlink{classboost_1_1statechart_1_1detail_1_1state__base_a8e3dd0f80bf95d7df21417a50f1dbaa1}{state\+\_\+base\+\_\+type\+::node\+\_\+state\+\_\+base\+\_\+ptr\+\_\+type}} \&}]{p\+Outermost\+Unstable\+State,  }\item[{bool}]{perform\+Full\+Exit }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [virtual]}}
+
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=335pt]{classboost_1_1statechart_1_1detail_1_1node__state_a1022b2fe0c4ea5f8b47d6fd1fb7e7ffb_cgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{classboost_1_1statechart_1_1detail_1_1node__state_ab1c9cbc3ca4599a9f1633cb93cebd385}\label{classboost_1_1statechart_1_1detail_1_1node__state_ab1c9cbc3ca4599a9f1633cb93cebd385}} 
+\index{boost\+::statechart\+::detail\+::node\+\_\+state@{boost\+::statechart\+::detail\+::node\+\_\+state}!remove\+\_\+inner\+\_\+state@{remove\+\_\+inner\+\_\+state}}
+\index{remove\+\_\+inner\+\_\+state@{remove\+\_\+inner\+\_\+state}!boost\+::statechart\+::detail\+::node\+\_\+state@{boost\+::statechart\+::detail\+::node\+\_\+state}}
+\subsubsection{\texorpdfstring{remove\+\_\+inner\+\_\+state()}{remove\_inner\_state()}}
+{\footnotesize\ttfamily template$<$class Orthogonal\+Region\+Count , class Allocator , class Rtti\+Policy $>$ \\
+void \mbox{\hyperlink{classboost_1_1statechart_1_1detail_1_1node__state}{boost\+::statechart\+::detail\+::node\+\_\+state}}$<$ Orthogonal\+Region\+Count, Allocator, Rtti\+Policy $>$\+::remove\+\_\+inner\+\_\+state (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{namespaceboost_1_1statechart_1_1detail_a3bedea0b807a16fa222733417183d2c9}{orthogonal\+\_\+position\+\_\+type}}}]{position }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+\subsection{Member Data Documentation}
+\mbox{\Hypertarget{classboost_1_1statechart_1_1detail_1_1node__state_a5846a2cfb93ebd33d1de2c3beec1f29f}\label{classboost_1_1statechart_1_1detail_1_1node__state_a5846a2cfb93ebd33d1de2c3beec1f29f}} 
+\index{boost\+::statechart\+::detail\+::node\+\_\+state@{boost\+::statechart\+::detail\+::node\+\_\+state}!p\+Inner\+States@{p\+Inner\+States}}
+\index{p\+Inner\+States@{p\+Inner\+States}!boost\+::statechart\+::detail\+::node\+\_\+state@{boost\+::statechart\+::detail\+::node\+\_\+state}}
+\subsubsection{\texorpdfstring{p\+Inner\+States}{pInnerStates}}
+{\footnotesize\ttfamily template$<$class Orthogonal\+Region\+Count , class Allocator , class Rtti\+Policy $>$ \\
+\mbox{\hyperlink{classboost_1_1statechart_1_1detail_1_1node__state__base_a2b7ddb7642a5452045d9448444426735}{state\+\_\+base\+\_\+type}}$\ast$ \mbox{\hyperlink{classboost_1_1statechart_1_1detail_1_1node__state}{boost\+::statechart\+::detail\+::node\+\_\+state}}$<$ Orthogonal\+Region\+Count, Allocator, Rtti\+Policy $>$\+::p\+Inner\+States\mbox{[}Orthogonal\+Region\+Count\+::value\mbox{]}\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+include/boost/statechart/detail/\mbox{\hyperlink{node__state_8hpp}{node\+\_\+state.\+hpp}}\end{DoxyCompactItemize}

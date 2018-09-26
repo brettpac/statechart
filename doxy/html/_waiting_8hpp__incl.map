@@ -1,0 +1,23 @@
+<map id="example/PingPong/Waiting.hpp" name="example/PingPong/Waiting.hpp">
+<area shape="rect" id="node2" href="$_player_8hpp.html" title="Player.hpp" alt="" coords="1248,80,1332,107"/>
+<area shape="rect" id="node41" href="$state_8hpp.html" title="boost/statechart/state.hpp" alt="" coords="4745,162,4920,189"/>
+<area shape="rect" id="node60" href="$transition_8hpp.html" title="boost/statechart/transition.hpp" alt="" coords="2504,162,2703,189"/>
+<area shape="rect" id="node62" href="$custom__reaction_8hpp.html" title="boost/statechart/custom\l_reaction.hpp" alt="" coords="1631,333,1794,375"/>
+<area shape="rect" id="node3" href="$event_8hpp.html" title="boost/statechart/event.hpp" alt="" coords="1328,341,1505,367"/>
+<area shape="rect" id="node13" href="$fifo__scheduler_8hpp.html" title="boost/statechart/fifo\l_scheduler.hpp" alt="" coords="435,244,574,285"/>
+<area shape="rect" id="node19" href="$asynchronous__state__machine_8hpp.html" title="boost/statechart/asynchronous\l_state_machine.hpp" alt="" coords="1000,155,1201,196"/>
+<area shape="rect" id="node4" href="$event__base_8hpp.html" title="boost/statechart/event\l_base.hpp" alt="" coords="826,423,978,464"/>
+<area shape="rect" id="node5" href="$rtti__policy_8hpp.html" title="boost/statechart/detail\l/rtti_policy.hpp" alt="" coords="1059,512,1209,553"/>
+<area shape="rect" id="node9" href="$memory_8hpp.html" title="boost/statechart/detail\l/memory.hpp" alt="" coords="3587,423,3737,464"/>
+<area shape="rect" id="node14" href="$fifo__worker_8hpp.html" title="boost/statechart/fifo\l_worker.hpp" alt="" coords="261,333,399,375"/>
+<area shape="rect" id="node17" href="$processor__container_8hpp.html" title="boost/statechart/processor\l_container.hpp" alt="" coords="700,333,877,375"/>
+<area shape="rect" id="node18" href="$event__processor_8hpp.html" title="boost/statechart/event\l_processor.hpp" alt="" coords="549,423,701,464"/>
+<area shape="rect" id="node20" href="$state__machine_8hpp.html" title="boost/statechart/state\l_machine.hpp" alt="" coords="2053,244,2202,285"/>
+<area shape="rect" id="node21" href="$null__exception__translator_8hpp.html" title="boost/statechart/null\l_exception_translator.hpp" alt="" coords="1818,333,1989,375"/>
+<area shape="rect" id="node22" href="$result_8hpp.html" title="boost/statechart/result.hpp" alt="" coords="2039,430,2216,457"/>
+<area shape="rect" id="node23" href="$leaf__state_8hpp.html" title="boost/statechart/detail\l/leaf_state.hpp" alt="" coords="2549,333,2700,375"/>
+<area shape="rect" id="node24" href="$node__state_8hpp.html" title="boost/statechart/detail\l/node_state.hpp" alt="" coords="3071,423,3221,464"/>
+<area shape="rect" id="node25" href="$constructor_8hpp.html" title="boost/statechart/detail\l/constructor.hpp" alt="" coords="3832,333,3983,375"/>
+<area shape="rect" id="node42" href="$simple__state_8hpp.html" title="boost/statechart/simple\l_state.hpp" alt="" coords="4511,244,4669,285"/>
+<area shape="rect" id="node61" href="$reaction__dispatcher_8hpp.html" title="boost/statechart/detail\l/reaction_dispatcher.hpp" alt="" coords="2521,244,2685,285"/>
+</map>

@@ -1,0 +1,1032 @@
+\hypertarget{classboost_1_1statechart_1_1state__machine}{}\section{boost\+:\+:statechart\+:\+:state\+\_\+machine$<$ Most\+Derived, Initial\+State, Allocator, Exception\+Translator $>$ Class Template Reference}
+\label{classboost_1_1statechart_1_1state__machine}\index{boost\+::statechart\+::state\+\_\+machine$<$ Most\+Derived, Initial\+State, Allocator, Exception\+Translator $>$@{boost\+::statechart\+::state\+\_\+machine$<$ Most\+Derived, Initial\+State, Allocator, Exception\+Translator $>$}}
+
+
+{\ttfamily \#include $<$state\+\_\+machine.\+hpp$>$}
+
+
+
+Inheritance diagram for boost\+:\+:statechart\+:\+:state\+\_\+machine$<$ Most\+Derived, Initial\+State, Allocator, Exception\+Translator $>$\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=550pt]{classboost_1_1statechart_1_1state__machine__inherit__graph}
+\end{center}
+\end{figure}
+
+
+Collaboration diagram for boost\+:\+:statechart\+:\+:state\+\_\+machine$<$ Most\+Derived, Initial\+State, Allocator, Exception\+Translator $>$\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=550pt]{classboost_1_1statechart_1_1state__machine__coll__graph}
+\end{center}
+\end{figure}
+\subsection*{Classes}
+\begin{DoxyCompactItemize}
+\item 
+class \mbox{\hyperlink{classboost_1_1statechart_1_1state__machine_1_1exception__event__handler}{exception\+\_\+event\+\_\+handler}}
+\item 
+class \mbox{\hyperlink{classboost_1_1statechart_1_1state__machine_1_1initial__construct__function}{initial\+\_\+construct\+\_\+function}}
+\item 
+class \mbox{\hyperlink{classboost_1_1statechart_1_1state__machine_1_1state__iterator}{state\+\_\+iterator}}
+\item 
+class \mbox{\hyperlink{classboost_1_1statechart_1_1state__machine_1_1terminate__function}{terminate\+\_\+function}}
+\item 
+class \mbox{\hyperlink{classboost_1_1statechart_1_1state__machine_1_1terminator}{terminator}}
+\end{DoxyCompactItemize}
+\subsection*{Public Types}
+\begin{DoxyCompactItemize}
+\item 
+typedef Allocator \mbox{\hyperlink{classboost_1_1statechart_1_1state__machine_a7345d6567cd1a829234bbb7f6c0715da}{allocator\+\_\+type}}
+\item 
+typedef \mbox{\hyperlink{structboost_1_1statechart_1_1detail_1_1rtti__policy}{detail\+::rtti\+\_\+policy}} \mbox{\hyperlink{classboost_1_1statechart_1_1state__machine_af2a620c579a5248103aee4d3ccb4d632}{rtti\+\_\+policy\+\_\+type}}
+\item 
+typedef \mbox{\hyperlink{classboost_1_1statechart_1_1event__base}{event\+\_\+base}} \mbox{\hyperlink{classboost_1_1statechart_1_1state__machine_adb0e98d6d780a0977209fa7389b20bcd}{event\+\_\+base\+\_\+type}}
+\item 
+typedef intrusive\+\_\+ptr$<$ const \mbox{\hyperlink{classboost_1_1statechart_1_1state__machine_adb0e98d6d780a0977209fa7389b20bcd}{event\+\_\+base\+\_\+type}} $>$ \mbox{\hyperlink{classboost_1_1statechart_1_1state__machine_aa2f1c567e2d1a66786d28769312dfa08}{event\+\_\+base\+\_\+ptr\+\_\+type}}
+\item 
+typedef \mbox{\hyperlink{classboost_1_1statechart_1_1detail_1_1state__base}{detail\+::state\+\_\+base}}$<$ \mbox{\hyperlink{classboost_1_1statechart_1_1state__machine_a7345d6567cd1a829234bbb7f6c0715da}{allocator\+\_\+type}}, \mbox{\hyperlink{classboost_1_1statechart_1_1state__machine_af2a620c579a5248103aee4d3ccb4d632}{rtti\+\_\+policy\+\_\+type}} $>$ \mbox{\hyperlink{classboost_1_1statechart_1_1state__machine_a69cc258c29fcabec25c5dc8bedb7d530}{state\+\_\+base\+\_\+type}}
+\item 
+typedef Most\+Derived \mbox{\hyperlink{classboost_1_1statechart_1_1state__machine_ae051793d49b601dad268a2d1c35c613f}{inner\+\_\+context\+\_\+type}}
+\item 
+typedef mpl\+::integral\+\_\+c$<$ \mbox{\hyperlink{namespaceboost_1_1statechart_1_1detail_a3bedea0b807a16fa222733417183d2c9}{detail\+::orthogonal\+\_\+position\+\_\+type}}, 0 $>$ \mbox{\hyperlink{classboost_1_1statechart_1_1state__machine_afaec7011d17371269ebbe87e25273d0b}{inner\+\_\+orthogonal\+\_\+position}}
+\item 
+typedef mpl\+::integral\+\_\+c$<$ \mbox{\hyperlink{namespaceboost_1_1statechart_1_1detail_a3bedea0b807a16fa222733417183d2c9}{detail\+::orthogonal\+\_\+position\+\_\+type}}, 1 $>$ \mbox{\hyperlink{classboost_1_1statechart_1_1state__machine_ae7f178d74dedd129cd88adffc0f63092}{no\+\_\+of\+\_\+orthogonal\+\_\+regions}}
+\item 
+typedef Most\+Derived \mbox{\hyperlink{classboost_1_1statechart_1_1state__machine_a3c047829e797a9501c7d69151d17e368}{outermost\+\_\+context\+\_\+type}}
+\item 
+typedef \mbox{\hyperlink{classboost_1_1statechart_1_1state__machine}{state\+\_\+machine}} \mbox{\hyperlink{classboost_1_1statechart_1_1state__machine_a05b007af532fafe2f186a18351beaa5e}{outermost\+\_\+context\+\_\+base\+\_\+type}}
+\item 
+typedef \mbox{\hyperlink{classboost_1_1statechart_1_1state__machine}{state\+\_\+machine}} $\ast$ \mbox{\hyperlink{classboost_1_1statechart_1_1state__machine_a9943ccf227161502104d8843521b6131}{inner\+\_\+context\+\_\+ptr\+\_\+type}}
+\item 
+typedef \mbox{\hyperlink{classboost_1_1statechart_1_1detail_1_1state__base_a8e3dd0f80bf95d7df21417a50f1dbaa1}{state\+\_\+base\+\_\+type\+::node\+\_\+state\+\_\+base\+\_\+ptr\+\_\+type}} \mbox{\hyperlink{classboost_1_1statechart_1_1state__machine_a5d90f1176309ec8307979aa79dd6f4a3}{node\+\_\+state\+\_\+base\+\_\+ptr\+\_\+type}}
+\item 
+typedef \mbox{\hyperlink{classboost_1_1statechart_1_1detail_1_1state__base_a80b7d62ba0bb8e4fbef3e2e76e2a6021}{state\+\_\+base\+\_\+type\+::leaf\+\_\+state\+\_\+ptr\+\_\+type}} \mbox{\hyperlink{classboost_1_1statechart_1_1state__machine_a70f60d22dbc67497b1388e72e2bf6824}{leaf\+\_\+state\+\_\+ptr\+\_\+type}}
+\item 
+typedef \mbox{\hyperlink{classboost_1_1statechart_1_1detail_1_1state__base_a30bb6c4893e4cd84e80133feb2cc8230}{state\+\_\+base\+\_\+type\+::state\+\_\+list\+\_\+type}} \mbox{\hyperlink{classboost_1_1statechart_1_1state__machine_afe501a67ddcd1da38728f6c672b57198}{state\+\_\+list\+\_\+type}}
+\item 
+typedef mpl\+::clear$<$ mpl\+::list$<$$>$ $>$\+::type \mbox{\hyperlink{classboost_1_1statechart_1_1state__machine_a40f2c6990aa142c91dd400bc677ccb15}{context\+\_\+type\+\_\+list}}
+\item 
+typedef mpl\+::bool\+\_\+$<$ false $>$ \mbox{\hyperlink{classboost_1_1statechart_1_1state__machine_a2e31e5e73f5e9e5f3714b04eb11cda08}{shallow\+\_\+history}}
+\item 
+typedef mpl\+::bool\+\_\+$<$ false $>$ \mbox{\hyperlink{classboost_1_1statechart_1_1state__machine_abd323e1963ca64cc774ed0ab2cff9dfd}{deep\+\_\+history}}
+\item 
+typedef mpl\+::bool\+\_\+$<$ false $>$ \mbox{\hyperlink{classboost_1_1statechart_1_1state__machine_a98a2ce0dcdc9f2abab9127ce3c1eea67}{inherited\+\_\+deep\+\_\+history}}
+\end{DoxyCompactItemize}
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+void \mbox{\hyperlink{classboost_1_1statechart_1_1state__machine_a7165ce3d1120b98dde6e8d669e35aba9}{initiate}} ()
+\item 
+void \mbox{\hyperlink{classboost_1_1statechart_1_1state__machine_a6abd7c38c09f87fa662c5aa5e8f6f3ff}{terminate}} ()
+\item 
+bool \mbox{\hyperlink{classboost_1_1statechart_1_1state__machine_a78fc6d94ce7ba0ac18e0a83e96f3b215}{terminated}} () const
+\item 
+void \mbox{\hyperlink{classboost_1_1statechart_1_1state__machine_a78598d4982f6b85e83358652eb1c3d6e}{process\+\_\+event}} (const \mbox{\hyperlink{classboost_1_1statechart_1_1state__machine_adb0e98d6d780a0977209fa7389b20bcd}{event\+\_\+base\+\_\+type}} \&evt)
+\item 
+{\footnotesize template$<$class Target $>$ }\\Target \mbox{\hyperlink{classboost_1_1statechart_1_1state__machine_aabd07005b47036311b5e80e05c1746c2}{state\+\_\+cast}} () const
+\item 
+{\footnotesize template$<$class Target $>$ }\\Target \mbox{\hyperlink{classboost_1_1statechart_1_1state__machine_a8054170cced8b908272d9d8ba9e5deb9}{state\+\_\+downcast}} () const
+\item 
+\mbox{\hyperlink{classboost_1_1statechart_1_1state__machine_1_1state__iterator}{state\+\_\+iterator}} \mbox{\hyperlink{classboost_1_1statechart_1_1state__machine_a270c21248c558be7daf8139c032b1f0c}{state\+\_\+begin}} () const
+\item 
+\mbox{\hyperlink{classboost_1_1statechart_1_1state__machine_1_1state__iterator}{state\+\_\+iterator}} \mbox{\hyperlink{classboost_1_1statechart_1_1state__machine_aab9cfe96af77fbfb10098f9c6ba209a5}{state\+\_\+end}} () const
+\item 
+void \mbox{\hyperlink{classboost_1_1statechart_1_1state__machine_ac9ec2b1cfa39a11852cf1b90e4a2aa12}{unconsumed\+\_\+event}} (const \mbox{\hyperlink{classboost_1_1statechart_1_1event__base}{event\+\_\+base}} \&)
+\item 
+{\footnotesize template$<$class History\+Context , detail\+::orthogonal\+\_\+position\+\_\+type orthogonal\+Position$>$ }\\void \mbox{\hyperlink{classboost_1_1statechart_1_1state__machine_a03faf369327ddc16441c8e69db08e861}{clear\+\_\+shallow\+\_\+history}} ()
+\item 
+{\footnotesize template$<$class History\+Context , detail\+::orthogonal\+\_\+position\+\_\+type orthogonal\+Position$>$ }\\void \mbox{\hyperlink{classboost_1_1statechart_1_1state__machine_a5b60164ba8ab165421fad2ecbccad4e8}{clear\+\_\+deep\+\_\+history}} ()
+\item 
+const \mbox{\hyperlink{classboost_1_1statechart_1_1state__machine_adb0e98d6d780a0977209fa7389b20bcd}{event\+\_\+base\+\_\+type}} $\ast$ \mbox{\hyperlink{classboost_1_1statechart_1_1state__machine_afe07725d4e0977f598d3747679cf64ca}{triggering\+\_\+event}} () const
+\item 
+void \mbox{\hyperlink{classboost_1_1statechart_1_1state__machine_ac2e9c9c0d773811364289ae11d21f0fc}{post\+\_\+event\+\_\+impl}} (const \mbox{\hyperlink{classboost_1_1statechart_1_1state__machine_aa2f1c567e2d1a66786d28769312dfa08}{event\+\_\+base\+\_\+ptr\+\_\+type}} \&p\+Event)
+\item 
+void \mbox{\hyperlink{classboost_1_1statechart_1_1state__machine_a1c2de8cd216efdafba64c256ed2c958c}{post\+\_\+event\+\_\+impl}} (const \mbox{\hyperlink{classboost_1_1statechart_1_1event__base}{event\+\_\+base}} \&evt)
+\item 
+\mbox{\hyperlink{namespaceboost_1_1statechart_1_1detail_ab091bbb4c29327fb46ee479ea1b7255b}{detail\+::reaction\+\_\+result}} \mbox{\hyperlink{classboost_1_1statechart_1_1state__machine_ade128c9521e56191502b711f15b438cd}{react\+\_\+impl}} (const \mbox{\hyperlink{classboost_1_1statechart_1_1state__machine_adb0e98d6d780a0977209fa7389b20bcd}{event\+\_\+base\+\_\+type}} \&, typename \mbox{\hyperlink{structboost_1_1statechart_1_1detail_1_1rtti__policy_a57d56a3531686fb2b92d733b5da620c2}{rtti\+\_\+policy\+\_\+type\+::id\+\_\+type}})
+\item 
+void \mbox{\hyperlink{classboost_1_1statechart_1_1state__machine_a9486745c6ec90b852dc30c3bbcade535}{exit\+\_\+impl}} (\mbox{\hyperlink{classboost_1_1statechart_1_1state__machine_a9943ccf227161502104d8843521b6131}{inner\+\_\+context\+\_\+ptr\+\_\+type}} \&, typename \mbox{\hyperlink{classboost_1_1statechart_1_1detail_1_1state__base_a8e3dd0f80bf95d7df21417a50f1dbaa1}{state\+\_\+base\+\_\+type\+::node\+\_\+state\+\_\+base\+\_\+ptr\+\_\+type}} \&, bool)
+\item 
+void \mbox{\hyperlink{classboost_1_1statechart_1_1state__machine_a986877a10c5bbba4fabdd398893f8bda}{set\+\_\+outermost\+\_\+unstable\+\_\+state}} (typename \mbox{\hyperlink{classboost_1_1statechart_1_1detail_1_1state__base_a8e3dd0f80bf95d7df21417a50f1dbaa1}{state\+\_\+base\+\_\+type\+::node\+\_\+state\+\_\+base\+\_\+ptr\+\_\+type}} \&p\+Outermost\+Unstable\+State)
+\item 
+{\footnotesize template$<$class Context $>$ }\\Context \& \mbox{\hyperlink{classboost_1_1statechart_1_1state__machine_a05dc556eca3931ddd2afb6bec54973ae}{context}} ()
+\item 
+{\footnotesize template$<$class Context $>$ }\\const Context \& \mbox{\hyperlink{classboost_1_1statechart_1_1state__machine_a0f5270e37c35f915c724b702044b8902}{context}} () const
+\item 
+\mbox{\hyperlink{classboost_1_1statechart_1_1state__machine_a3c047829e797a9501c7d69151d17e368}{outermost\+\_\+context\+\_\+type}} \& \mbox{\hyperlink{classboost_1_1statechart_1_1state__machine_a937f603c12a217efe19ce49f536b254d}{outermost\+\_\+context}} ()
+\item 
+const \mbox{\hyperlink{classboost_1_1statechart_1_1state__machine_a3c047829e797a9501c7d69151d17e368}{outermost\+\_\+context\+\_\+type}} \& \mbox{\hyperlink{classboost_1_1statechart_1_1state__machine_a882a09cb2b9013e63780ac7bf12b9e2a}{outermost\+\_\+context}} () const
+\item 
+\mbox{\hyperlink{classboost_1_1statechart_1_1state__machine_a05b007af532fafe2f186a18351beaa5e}{outermost\+\_\+context\+\_\+base\+\_\+type}} \& \mbox{\hyperlink{classboost_1_1statechart_1_1state__machine_a799d85b75a1d8f6eb4bc637427aab641}{outermost\+\_\+context\+\_\+base}} ()
+\item 
+const \mbox{\hyperlink{classboost_1_1statechart_1_1state__machine_a05b007af532fafe2f186a18351beaa5e}{outermost\+\_\+context\+\_\+base\+\_\+type}} \& \mbox{\hyperlink{classboost_1_1statechart_1_1state__machine_a29f6efc956b6277593d2cd4dcd963e12}{outermost\+\_\+context\+\_\+base}} () const
+\item 
+void \mbox{\hyperlink{classboost_1_1statechart_1_1state__machine_af1b30d30e04a470cc89c3e9e3792e993}{terminate\+\_\+as\+\_\+reaction}} (\mbox{\hyperlink{classboost_1_1statechart_1_1state__machine_a69cc258c29fcabec25c5dc8bedb7d530}{state\+\_\+base\+\_\+type}} \&the\+State)
+\item 
+void \mbox{\hyperlink{classboost_1_1statechart_1_1state__machine_ad67f22f0ca7a18cada1420b9d851530c}{terminate\+\_\+as\+\_\+part\+\_\+of\+\_\+transit}} (\mbox{\hyperlink{classboost_1_1statechart_1_1state__machine_a69cc258c29fcabec25c5dc8bedb7d530}{state\+\_\+base\+\_\+type}} \&the\+State)
+\item 
+void \mbox{\hyperlink{classboost_1_1statechart_1_1state__machine_a91a89a86d256b7ba4dd3ae50d7087c3f}{terminate\+\_\+as\+\_\+part\+\_\+of\+\_\+transit}} (\mbox{\hyperlink{classboost_1_1statechart_1_1state__machine}{state\+\_\+machine}} \&)
+\item 
+{\footnotesize template$<$class State $>$ }\\void \mbox{\hyperlink{classboost_1_1statechart_1_1state__machine_ae1b47e23bb0486e60f2cc9d80fb76b99}{add}} (const intrusive\+\_\+ptr$<$ State $>$ \&p\+State)
+\item 
+void \mbox{\hyperlink{classboost_1_1statechart_1_1state__machine_ae3cebe8b5870bda788a95be852e5d3be}{add\+\_\+inner\+\_\+state}} (\mbox{\hyperlink{namespaceboost_1_1statechart_1_1detail_a3bedea0b807a16fa222733417183d2c9}{detail\+::orthogonal\+\_\+position\+\_\+type}} position, \mbox{\hyperlink{classboost_1_1statechart_1_1state__machine_a69cc258c29fcabec25c5dc8bedb7d530}{state\+\_\+base\+\_\+type}} $\ast$p\+Outermost\+State)
+\item 
+void \mbox{\hyperlink{classboost_1_1statechart_1_1state__machine_a3d848420d633249edb93d984e2bd8bb4}{remove\+\_\+inner\+\_\+state}} (\mbox{\hyperlink{namespaceboost_1_1statechart_1_1detail_a3bedea0b807a16fa222733417183d2c9}{detail\+::orthogonal\+\_\+position\+\_\+type}} position)
+\item 
+void \mbox{\hyperlink{classboost_1_1statechart_1_1state__machine_ac1526a82bacd6c9e9b3d6bb5001809a9}{release\+\_\+events}} ()
+\item 
+{\footnotesize template$<$class Historized\+State $>$ }\\void \mbox{\hyperlink{classboost_1_1statechart_1_1state__machine_a3af3b88318ab1711324e1c4b37fa055c}{store\+\_\+shallow\+\_\+history}} ()
+\item 
+{\footnotesize template$<$class Default\+State $>$ }\\void \mbox{\hyperlink{classboost_1_1statechart_1_1state__machine_ab1ea201332087d93ce5483a413fc1e7f}{construct\+\_\+with\+\_\+shallow\+\_\+history}} (const typename Default\+State\+::context\+\_\+ptr\+\_\+type \&p\+Context)
+\item 
+{\footnotesize template$<$class Historized\+State , class Leaf\+State $>$ }\\void \mbox{\hyperlink{classboost_1_1statechart_1_1state__machine_a26b501c3b813c446d450aad3981dbfe3}{store\+\_\+deep\+\_\+history}} ()
+\item 
+{\footnotesize template$<$class Default\+State $>$ }\\void \mbox{\hyperlink{classboost_1_1statechart_1_1state__machine_a56fbbcb60de6f8a423b3b79ddb06ba34}{construct\+\_\+with\+\_\+deep\+\_\+history}} (const typename Default\+State\+::context\+\_\+ptr\+\_\+type \&p\+Context)
+\end{DoxyCompactItemize}
+\subsection*{Protected Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{classboost_1_1statechart_1_1state__machine_add3649c5baab6017a094ae563d6075b6}{state\+\_\+machine}} ()
+\item 
+virtual \mbox{\hyperlink{classboost_1_1statechart_1_1state__machine_abd03251def3e351d14451e6b8ffd73b4}{$\sim$state\+\_\+machine}} ()
+\item 
+void \mbox{\hyperlink{classboost_1_1statechart_1_1state__machine_ab0b16e3139d505968f463861913850ed}{post\+\_\+event}} (const \mbox{\hyperlink{classboost_1_1statechart_1_1state__machine_aa2f1c567e2d1a66786d28769312dfa08}{event\+\_\+base\+\_\+ptr\+\_\+type}} \&p\+Event)
+\item 
+void \mbox{\hyperlink{classboost_1_1statechart_1_1state__machine_affa0211ad348886e2f01e8ec1cc55654}{post\+\_\+event}} (const \mbox{\hyperlink{classboost_1_1statechart_1_1event__base}{event\+\_\+base}} \&evt)
+\end{DoxyCompactItemize}
+\subsection*{Private Types}
+\begin{DoxyCompactItemize}
+\item 
+typedef \mbox{\hyperlink{classboost_1_1statechart_1_1detail_1_1history__key}{detail\+::history\+\_\+key}}$<$ \mbox{\hyperlink{classboost_1_1statechart_1_1state__machine_af2a620c579a5248103aee4d3ccb4d632}{rtti\+\_\+policy\+\_\+type}} $>$ \mbox{\hyperlink{classboost_1_1statechart_1_1state__machine_a4f8e1e85e0ba11488c57318b61950e32}{history\+\_\+key\+\_\+type}}
+\item 
+typedef std\+::map$<$ \mbox{\hyperlink{classboost_1_1statechart_1_1state__machine_a4f8e1e85e0ba11488c57318b61950e32}{history\+\_\+key\+\_\+type}}, void($\ast$)(), std\+::less$<$ \mbox{\hyperlink{classboost_1_1statechart_1_1state__machine_a4f8e1e85e0ba11488c57318b61950e32}{history\+\_\+key\+\_\+type}} $>$, typename boost\+::detail\+::allocator\+::rebind\+\_\+to$<$ \mbox{\hyperlink{classboost_1_1statechart_1_1state__machine_a7345d6567cd1a829234bbb7f6c0715da}{allocator\+\_\+type}}, std\+::pair$<$ const \mbox{\hyperlink{classboost_1_1statechart_1_1state__machine_a4f8e1e85e0ba11488c57318b61950e32}{history\+\_\+key\+\_\+type}}, void($\ast$)() $>$ $>$\+::type $>$ \mbox{\hyperlink{classboost_1_1statechart_1_1state__machine_a9b8fdd7b5af3b0c9143f9d6fb4036ff7}{history\+\_\+map\+\_\+type}}
+\item 
+typedef std\+::list$<$ \mbox{\hyperlink{classboost_1_1statechart_1_1state__machine_aa2f1c567e2d1a66786d28769312dfa08}{event\+\_\+base\+\_\+ptr\+\_\+type}}, typename boost\+::detail\+::allocator\+::rebind\+\_\+to$<$ \mbox{\hyperlink{classboost_1_1statechart_1_1state__machine_a7345d6567cd1a829234bbb7f6c0715da}{allocator\+\_\+type}}, \mbox{\hyperlink{classboost_1_1statechart_1_1state__machine_aa2f1c567e2d1a66786d28769312dfa08}{event\+\_\+base\+\_\+ptr\+\_\+type}} $>$\+::type $>$ \mbox{\hyperlink{classboost_1_1statechart_1_1state__machine_a308a12082f9cd10b95118871f01e94da}{event\+\_\+queue\+\_\+type}}
+\item 
+typedef std\+::map$<$ const \mbox{\hyperlink{classboost_1_1statechart_1_1state__machine_a69cc258c29fcabec25c5dc8bedb7d530}{state\+\_\+base\+\_\+type}} $\ast$, \mbox{\hyperlink{classboost_1_1statechart_1_1state__machine_a308a12082f9cd10b95118871f01e94da}{event\+\_\+queue\+\_\+type}}, std\+::less$<$ const \mbox{\hyperlink{classboost_1_1statechart_1_1state__machine_a69cc258c29fcabec25c5dc8bedb7d530}{state\+\_\+base\+\_\+type}} $\ast$$>$, typename boost\+::detail\+::allocator\+::rebind\+\_\+to$<$ \mbox{\hyperlink{classboost_1_1statechart_1_1state__machine_a7345d6567cd1a829234bbb7f6c0715da}{allocator\+\_\+type}}, std\+::pair$<$ const \mbox{\hyperlink{classboost_1_1statechart_1_1state__machine_a69cc258c29fcabec25c5dc8bedb7d530}{state\+\_\+base\+\_\+type}} $\ast$const, \mbox{\hyperlink{classboost_1_1statechart_1_1state__machine_a308a12082f9cd10b95118871f01e94da}{event\+\_\+queue\+\_\+type}} $>$ $>$\+::type $>$ \mbox{\hyperlink{classboost_1_1statechart_1_1state__machine_a0ef83e245c8ae93aa6904990769c999f}{deferred\+\_\+map\+\_\+type}}
+\end{DoxyCompactItemize}
+\subsection*{Private Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+void \mbox{\hyperlink{classboost_1_1statechart_1_1state__machine_a858feecd60fbbb1484cc8e01c1e1b5b0}{initial\+\_\+construct}} ()
+\item 
+{\footnotesize template$<$class Exception\+Event $>$ }\\\mbox{\hyperlink{namespaceboost_1_1statechart_1_1detail_ab091bbb4c29327fb46ee479ea1b7255b}{detail\+::reaction\+\_\+result}} \mbox{\hyperlink{classboost_1_1statechart_1_1state__machine_a870e55352a7a01e7224ae0f06f89b0e9}{handle\+\_\+exception\+\_\+event}} (const Exception\+Event \&exception\+Event, \mbox{\hyperlink{classboost_1_1statechart_1_1state__machine_a69cc258c29fcabec25c5dc8bedb7d530}{state\+\_\+base\+\_\+type}} $\ast$p\+Current\+State)
+\item 
+\mbox{\hyperlink{namespaceboost_1_1statechart_1_1detail_ab091bbb4c29327fb46ee479ea1b7255b}{detail\+::reaction\+\_\+result}} \mbox{\hyperlink{classboost_1_1statechart_1_1state__machine_ae429789fa4f90eecdce95f56fd72f985}{send\+\_\+event}} (const \mbox{\hyperlink{classboost_1_1statechart_1_1state__machine_adb0e98d6d780a0977209fa7389b20bcd}{event\+\_\+base\+\_\+type}} \&evt)
+\item 
+void \mbox{\hyperlink{classboost_1_1statechart_1_1state__machine_af158f951f31691cdec6c00b48612124c}{process\+\_\+queued\+\_\+events}} ()
+\item 
+void \mbox{\hyperlink{classboost_1_1statechart_1_1state__machine_a74a1650e45e284366802f9709b15cf31}{terminate\+\_\+impl}} (bool perform\+Full\+Exit)
+\item 
+void \mbox{\hyperlink{classboost_1_1statechart_1_1state__machine_a847e2c019fcd29ed9be547a81090c6a5}{terminate\+\_\+impl}} (\mbox{\hyperlink{classboost_1_1statechart_1_1state__machine_a69cc258c29fcabec25c5dc8bedb7d530}{state\+\_\+base\+\_\+type}} \&the\+State, bool perform\+Full\+Exit)
+\item 
+\mbox{\hyperlink{classboost_1_1statechart_1_1state__machine_a5d90f1176309ec8307979aa79dd6f4a3}{node\+\_\+state\+\_\+base\+\_\+ptr\+\_\+type}} \mbox{\hyperlink{classboost_1_1statechart_1_1state__machine_a1e24717585bec9141b46d1807c40f517}{add\+\_\+impl}} (const \mbox{\hyperlink{classboost_1_1statechart_1_1state__machine_a70f60d22dbc67497b1388e72e2bf6824}{leaf\+\_\+state\+\_\+ptr\+\_\+type}} \&p\+State, \mbox{\hyperlink{classboost_1_1statechart_1_1detail_1_1leaf__state}{detail\+::leaf\+\_\+state}}$<$ \mbox{\hyperlink{classboost_1_1statechart_1_1state__machine_a7345d6567cd1a829234bbb7f6c0715da}{allocator\+\_\+type}}, \mbox{\hyperlink{classboost_1_1statechart_1_1state__machine_af2a620c579a5248103aee4d3ccb4d632}{rtti\+\_\+policy\+\_\+type}} $>$ \&)
+\item 
+\mbox{\hyperlink{classboost_1_1statechart_1_1state__machine_a5d90f1176309ec8307979aa79dd6f4a3}{node\+\_\+state\+\_\+base\+\_\+ptr\+\_\+type}} \mbox{\hyperlink{classboost_1_1statechart_1_1state__machine_a7e879458268733c24259d71969278ac5}{add\+\_\+impl}} (const \mbox{\hyperlink{classboost_1_1statechart_1_1state__machine_a5d90f1176309ec8307979aa79dd6f4a3}{node\+\_\+state\+\_\+base\+\_\+ptr\+\_\+type}} \&p\+State, \mbox{\hyperlink{classboost_1_1statechart_1_1state__machine_a69cc258c29fcabec25c5dc8bedb7d530}{state\+\_\+base\+\_\+type}} \&)
+\item 
+void \mbox{\hyperlink{classboost_1_1statechart_1_1state__machine_abb755807d8a21c92ec5484d747b05d14}{store\+\_\+history\+\_\+impl}} (\mbox{\hyperlink{classboost_1_1statechart_1_1state__machine_a9b8fdd7b5af3b0c9143f9d6fb4036ff7}{history\+\_\+map\+\_\+type}} \&history\+Map, const \mbox{\hyperlink{classboost_1_1statechart_1_1state__machine_a4f8e1e85e0ba11488c57318b61950e32}{history\+\_\+key\+\_\+type}} \&history\+Id, void($\ast$p\+Construct\+Function)())
+\item 
+{\footnotesize template$<$class Default\+State $>$ }\\void \mbox{\hyperlink{classboost_1_1statechart_1_1state__machine_aeb9f786953e992c8a4725404f011395b}{construct\+\_\+with\+\_\+history\+\_\+impl}} (\mbox{\hyperlink{classboost_1_1statechart_1_1state__machine_a9b8fdd7b5af3b0c9143f9d6fb4036ff7}{history\+\_\+map\+\_\+type}} \&history\+Map, const typename Default\+State\+::context\+\_\+ptr\+\_\+type \&p\+Context)
+\end{DoxyCompactItemize}
+\subsection*{Static Private Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+{\footnotesize template$<$class State $>$ }\\static bool \mbox{\hyperlink{classboost_1_1statechart_1_1state__machine_ad61cc29a03b3adfe91a1ae83864c5229}{is\+\_\+in\+\_\+highest\+\_\+orthogonal\+\_\+region}} ()
+\end{DoxyCompactItemize}
+\subsection*{Private Attributes}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{classboost_1_1statechart_1_1state__machine_a308a12082f9cd10b95118871f01e94da}{event\+\_\+queue\+\_\+type}} \mbox{\hyperlink{classboost_1_1statechart_1_1state__machine_a54523308f4c5c8aae7fb68cf684e9ba4}{event\+Queue\+\_\+}}
+\item 
+\mbox{\hyperlink{classboost_1_1statechart_1_1state__machine_a308a12082f9cd10b95118871f01e94da}{event\+\_\+queue\+\_\+type}} \mbox{\hyperlink{classboost_1_1statechart_1_1state__machine_a86145bf7f1229a0f481348a61a3bc3c4}{deferred\+Event\+Queue\+\_\+}}
+\item 
+\mbox{\hyperlink{classboost_1_1statechart_1_1state__machine_afe501a67ddcd1da38728f6c672b57198}{state\+\_\+list\+\_\+type}} \mbox{\hyperlink{classboost_1_1statechart_1_1state__machine_a9deab0444eeb25aeb8451bd6a62ec645}{current\+States\+\_\+}}
+\item 
+state\+\_\+list\+\_\+type\+::iterator \mbox{\hyperlink{classboost_1_1statechart_1_1state__machine_af4f0ac6b55e17e5f88e6bd7177ee6175}{current\+States\+End\+\_\+}}
+\item 
+\mbox{\hyperlink{classboost_1_1statechart_1_1state__machine_a69cc258c29fcabec25c5dc8bedb7d530}{state\+\_\+base\+\_\+type}} $\ast$ \mbox{\hyperlink{classboost_1_1statechart_1_1state__machine_a00e489e60fee093aea3de451e0f32358}{p\+Outermost\+State\+\_\+}}
+\item 
+bool \mbox{\hyperlink{classboost_1_1statechart_1_1state__machine_a36642a513713885561837d85a0f7085f}{is\+Innermost\+Common\+Outer\+\_\+}}
+\item 
+\mbox{\hyperlink{classboost_1_1statechart_1_1state__machine_a5d90f1176309ec8307979aa79dd6f4a3}{node\+\_\+state\+\_\+base\+\_\+ptr\+\_\+type}} \mbox{\hyperlink{classboost_1_1statechart_1_1state__machine_a4337bcc933d4af38b1a33424eef94e76}{p\+Outermost\+Unstable\+State\+\_\+}}
+\item 
+Exception\+Translator \mbox{\hyperlink{classboost_1_1statechart_1_1state__machine_adbb6619d6e1365b97f08a0558f3e0821}{translator\+\_\+}}
+\item 
+bool \mbox{\hyperlink{classboost_1_1statechart_1_1state__machine_a9ae64cb7ef7369c8a29cf86fb8a6daf9}{perform\+Full\+Exit\+\_\+}}
+\item 
+\mbox{\hyperlink{classboost_1_1statechart_1_1state__machine_a9b8fdd7b5af3b0c9143f9d6fb4036ff7}{history\+\_\+map\+\_\+type}} \mbox{\hyperlink{classboost_1_1statechart_1_1state__machine_a799d498bd7ae723b79188f0316c38bbf}{shallow\+History\+Map\+\_\+}}
+\item 
+\mbox{\hyperlink{classboost_1_1statechart_1_1state__machine_a9b8fdd7b5af3b0c9143f9d6fb4036ff7}{history\+\_\+map\+\_\+type}} \mbox{\hyperlink{classboost_1_1statechart_1_1state__machine_aeb7e89e544766bf849f78a0b0d2927b6}{deep\+History\+Map\+\_\+}}
+\item 
+const \mbox{\hyperlink{classboost_1_1statechart_1_1state__machine_adb0e98d6d780a0977209fa7389b20bcd}{event\+\_\+base\+\_\+type}} $\ast$ \mbox{\hyperlink{classboost_1_1statechart_1_1state__machine_a9c2659b211e590134bdfa98105e71db3}{p\+Triggering\+Event\+\_\+}}
+\end{DoxyCompactItemize}
+\subsection*{Friends}
+\begin{DoxyCompactItemize}
+\item 
+class \mbox{\hyperlink{classboost_1_1statechart_1_1state__machine_afba0b3c3c9e9a6365a84f4ab210e2c74}{initial\+\_\+construct\+\_\+function}}
+\item 
+class \mbox{\hyperlink{classboost_1_1statechart_1_1state__machine_aa71ed4085290df278ffb602ea5329faf}{terminate\+\_\+function}}
+\item 
+class \mbox{\hyperlink{classboost_1_1statechart_1_1state__machine_a6cdb9334070fa619595ce2aaa7102994}{exception\+\_\+event\+\_\+handler}}
+\item 
+class \mbox{\hyperlink{classboost_1_1statechart_1_1state__machine_a8dde3c257059e43db0e48de79ffb385b}{terminator}}
+\end{DoxyCompactItemize}
+
+
+\subsection{Member Typedef Documentation}
+\mbox{\Hypertarget{classboost_1_1statechart_1_1state__machine_a7345d6567cd1a829234bbb7f6c0715da}\label{classboost_1_1statechart_1_1state__machine_a7345d6567cd1a829234bbb7f6c0715da}} 
+\index{boost\+::statechart\+::state\+\_\+machine@{boost\+::statechart\+::state\+\_\+machine}!allocator\+\_\+type@{allocator\+\_\+type}}
+\index{allocator\+\_\+type@{allocator\+\_\+type}!boost\+::statechart\+::state\+\_\+machine@{boost\+::statechart\+::state\+\_\+machine}}
+\subsubsection{\texorpdfstring{allocator\+\_\+type}{allocator\_type}}
+{\footnotesize\ttfamily template$<$class Most\+Derived, class Initial\+State, class Allocator = std\+::allocator$<$ void $>$, class Exception\+Translator = null\+\_\+exception\+\_\+translator$>$ \\
+typedef Allocator \mbox{\hyperlink{classboost_1_1statechart_1_1state__machine}{boost\+::statechart\+::state\+\_\+machine}}$<$ Most\+Derived, Initial\+State, Allocator, Exception\+Translator $>$\+::\mbox{\hyperlink{classboost_1_1statechart_1_1state__machine_a7345d6567cd1a829234bbb7f6c0715da}{allocator\+\_\+type}}}
+
+\mbox{\Hypertarget{classboost_1_1statechart_1_1state__machine_a40f2c6990aa142c91dd400bc677ccb15}\label{classboost_1_1statechart_1_1state__machine_a40f2c6990aa142c91dd400bc677ccb15}} 
+\index{boost\+::statechart\+::state\+\_\+machine@{boost\+::statechart\+::state\+\_\+machine}!context\+\_\+type\+\_\+list@{context\+\_\+type\+\_\+list}}
+\index{context\+\_\+type\+\_\+list@{context\+\_\+type\+\_\+list}!boost\+::statechart\+::state\+\_\+machine@{boost\+::statechart\+::state\+\_\+machine}}
+\subsubsection{\texorpdfstring{context\+\_\+type\+\_\+list}{context\_type\_list}}
+{\footnotesize\ttfamily template$<$class Most\+Derived, class Initial\+State, class Allocator = std\+::allocator$<$ void $>$, class Exception\+Translator = null\+\_\+exception\+\_\+translator$>$ \\
+typedef mpl\+::clear$<$ mpl\+::list$<$$>$ $>$\+::type \mbox{\hyperlink{classboost_1_1statechart_1_1state__machine}{boost\+::statechart\+::state\+\_\+machine}}$<$ Most\+Derived, Initial\+State, Allocator, Exception\+Translator $>$\+::\mbox{\hyperlink{classboost_1_1statechart_1_1state__machine_a40f2c6990aa142c91dd400bc677ccb15}{context\+\_\+type\+\_\+list}}}
+
+\mbox{\Hypertarget{classboost_1_1statechart_1_1state__machine_abd323e1963ca64cc774ed0ab2cff9dfd}\label{classboost_1_1statechart_1_1state__machine_abd323e1963ca64cc774ed0ab2cff9dfd}} 
+\index{boost\+::statechart\+::state\+\_\+machine@{boost\+::statechart\+::state\+\_\+machine}!deep\+\_\+history@{deep\+\_\+history}}
+\index{deep\+\_\+history@{deep\+\_\+history}!boost\+::statechart\+::state\+\_\+machine@{boost\+::statechart\+::state\+\_\+machine}}
+\subsubsection{\texorpdfstring{deep\+\_\+history}{deep\_history}}
+{\footnotesize\ttfamily template$<$class Most\+Derived, class Initial\+State, class Allocator = std\+::allocator$<$ void $>$, class Exception\+Translator = null\+\_\+exception\+\_\+translator$>$ \\
+typedef mpl\+::bool\+\_\+$<$ false $>$ \mbox{\hyperlink{classboost_1_1statechart_1_1state__machine}{boost\+::statechart\+::state\+\_\+machine}}$<$ Most\+Derived, Initial\+State, Allocator, Exception\+Translator $>$\+::\mbox{\hyperlink{classboost_1_1statechart_1_1state__machine_abd323e1963ca64cc774ed0ab2cff9dfd}{deep\+\_\+history}}}
+
+\mbox{\Hypertarget{classboost_1_1statechart_1_1state__machine_a0ef83e245c8ae93aa6904990769c999f}\label{classboost_1_1statechart_1_1state__machine_a0ef83e245c8ae93aa6904990769c999f}} 
+\index{boost\+::statechart\+::state\+\_\+machine@{boost\+::statechart\+::state\+\_\+machine}!deferred\+\_\+map\+\_\+type@{deferred\+\_\+map\+\_\+type}}
+\index{deferred\+\_\+map\+\_\+type@{deferred\+\_\+map\+\_\+type}!boost\+::statechart\+::state\+\_\+machine@{boost\+::statechart\+::state\+\_\+machine}}
+\subsubsection{\texorpdfstring{deferred\+\_\+map\+\_\+type}{deferred\_map\_type}}
+{\footnotesize\ttfamily template$<$class Most\+Derived, class Initial\+State, class Allocator = std\+::allocator$<$ void $>$, class Exception\+Translator = null\+\_\+exception\+\_\+translator$>$ \\
+typedef std\+::map$<$ const \mbox{\hyperlink{classboost_1_1statechart_1_1state__machine_a69cc258c29fcabec25c5dc8bedb7d530}{state\+\_\+base\+\_\+type}} $\ast$, \mbox{\hyperlink{classboost_1_1statechart_1_1state__machine_a308a12082f9cd10b95118871f01e94da}{event\+\_\+queue\+\_\+type}}, std\+::less$<$ const \mbox{\hyperlink{classboost_1_1statechart_1_1state__machine_a69cc258c29fcabec25c5dc8bedb7d530}{state\+\_\+base\+\_\+type}} $\ast$ $>$, typename boost\+::detail\+::allocator\+::rebind\+\_\+to$<$ \mbox{\hyperlink{classboost_1_1statechart_1_1state__machine_a7345d6567cd1a829234bbb7f6c0715da}{allocator\+\_\+type}}, std\+::pair$<$ const \mbox{\hyperlink{classboost_1_1statechart_1_1state__machine_a69cc258c29fcabec25c5dc8bedb7d530}{state\+\_\+base\+\_\+type}} $\ast$ const, \mbox{\hyperlink{classboost_1_1statechart_1_1state__machine_a308a12082f9cd10b95118871f01e94da}{event\+\_\+queue\+\_\+type}} $>$ $>$\+::type $>$ \mbox{\hyperlink{classboost_1_1statechart_1_1state__machine}{boost\+::statechart\+::state\+\_\+machine}}$<$ Most\+Derived, Initial\+State, Allocator, Exception\+Translator $>$\+::\mbox{\hyperlink{classboost_1_1statechart_1_1state__machine_a0ef83e245c8ae93aa6904990769c999f}{deferred\+\_\+map\+\_\+type}}\hspace{0.3cm}{\ttfamily [private]}}
+
+\mbox{\Hypertarget{classboost_1_1statechart_1_1state__machine_aa2f1c567e2d1a66786d28769312dfa08}\label{classboost_1_1statechart_1_1state__machine_aa2f1c567e2d1a66786d28769312dfa08}} 
+\index{boost\+::statechart\+::state\+\_\+machine@{boost\+::statechart\+::state\+\_\+machine}!event\+\_\+base\+\_\+ptr\+\_\+type@{event\+\_\+base\+\_\+ptr\+\_\+type}}
+\index{event\+\_\+base\+\_\+ptr\+\_\+type@{event\+\_\+base\+\_\+ptr\+\_\+type}!boost\+::statechart\+::state\+\_\+machine@{boost\+::statechart\+::state\+\_\+machine}}
+\subsubsection{\texorpdfstring{event\+\_\+base\+\_\+ptr\+\_\+type}{event\_base\_ptr\_type}}
+{\footnotesize\ttfamily template$<$class Most\+Derived, class Initial\+State, class Allocator = std\+::allocator$<$ void $>$, class Exception\+Translator = null\+\_\+exception\+\_\+translator$>$ \\
+typedef intrusive\+\_\+ptr$<$ const \mbox{\hyperlink{classboost_1_1statechart_1_1state__machine_adb0e98d6d780a0977209fa7389b20bcd}{event\+\_\+base\+\_\+type}} $>$ \mbox{\hyperlink{classboost_1_1statechart_1_1state__machine}{boost\+::statechart\+::state\+\_\+machine}}$<$ Most\+Derived, Initial\+State, Allocator, Exception\+Translator $>$\+::\mbox{\hyperlink{classboost_1_1statechart_1_1state__machine_aa2f1c567e2d1a66786d28769312dfa08}{event\+\_\+base\+\_\+ptr\+\_\+type}}}
+
+\mbox{\Hypertarget{classboost_1_1statechart_1_1state__machine_adb0e98d6d780a0977209fa7389b20bcd}\label{classboost_1_1statechart_1_1state__machine_adb0e98d6d780a0977209fa7389b20bcd}} 
+\index{boost\+::statechart\+::state\+\_\+machine@{boost\+::statechart\+::state\+\_\+machine}!event\+\_\+base\+\_\+type@{event\+\_\+base\+\_\+type}}
+\index{event\+\_\+base\+\_\+type@{event\+\_\+base\+\_\+type}!boost\+::statechart\+::state\+\_\+machine@{boost\+::statechart\+::state\+\_\+machine}}
+\subsubsection{\texorpdfstring{event\+\_\+base\+\_\+type}{event\_base\_type}}
+{\footnotesize\ttfamily template$<$class Most\+Derived, class Initial\+State, class Allocator = std\+::allocator$<$ void $>$, class Exception\+Translator = null\+\_\+exception\+\_\+translator$>$ \\
+typedef \mbox{\hyperlink{classboost_1_1statechart_1_1event__base}{event\+\_\+base}} \mbox{\hyperlink{classboost_1_1statechart_1_1state__machine}{boost\+::statechart\+::state\+\_\+machine}}$<$ Most\+Derived, Initial\+State, Allocator, Exception\+Translator $>$\+::\mbox{\hyperlink{classboost_1_1statechart_1_1state__machine_adb0e98d6d780a0977209fa7389b20bcd}{event\+\_\+base\+\_\+type}}}
+
+\mbox{\Hypertarget{classboost_1_1statechart_1_1state__machine_a308a12082f9cd10b95118871f01e94da}\label{classboost_1_1statechart_1_1state__machine_a308a12082f9cd10b95118871f01e94da}} 
+\index{boost\+::statechart\+::state\+\_\+machine@{boost\+::statechart\+::state\+\_\+machine}!event\+\_\+queue\+\_\+type@{event\+\_\+queue\+\_\+type}}
+\index{event\+\_\+queue\+\_\+type@{event\+\_\+queue\+\_\+type}!boost\+::statechart\+::state\+\_\+machine@{boost\+::statechart\+::state\+\_\+machine}}
+\subsubsection{\texorpdfstring{event\+\_\+queue\+\_\+type}{event\_queue\_type}}
+{\footnotesize\ttfamily template$<$class Most\+Derived, class Initial\+State, class Allocator = std\+::allocator$<$ void $>$, class Exception\+Translator = null\+\_\+exception\+\_\+translator$>$ \\
+typedef std\+::list$<$ \mbox{\hyperlink{classboost_1_1statechart_1_1state__machine_aa2f1c567e2d1a66786d28769312dfa08}{event\+\_\+base\+\_\+ptr\+\_\+type}}, typename boost\+::detail\+::allocator\+::rebind\+\_\+to$<$ \mbox{\hyperlink{classboost_1_1statechart_1_1state__machine_a7345d6567cd1a829234bbb7f6c0715da}{allocator\+\_\+type}}, \mbox{\hyperlink{classboost_1_1statechart_1_1state__machine_aa2f1c567e2d1a66786d28769312dfa08}{event\+\_\+base\+\_\+ptr\+\_\+type}} $>$\+::type $>$ \mbox{\hyperlink{classboost_1_1statechart_1_1state__machine}{boost\+::statechart\+::state\+\_\+machine}}$<$ Most\+Derived, Initial\+State, Allocator, Exception\+Translator $>$\+::\mbox{\hyperlink{classboost_1_1statechart_1_1state__machine_a308a12082f9cd10b95118871f01e94da}{event\+\_\+queue\+\_\+type}}\hspace{0.3cm}{\ttfamily [private]}}
+
+\mbox{\Hypertarget{classboost_1_1statechart_1_1state__machine_a4f8e1e85e0ba11488c57318b61950e32}\label{classboost_1_1statechart_1_1state__machine_a4f8e1e85e0ba11488c57318b61950e32}} 
+\index{boost\+::statechart\+::state\+\_\+machine@{boost\+::statechart\+::state\+\_\+machine}!history\+\_\+key\+\_\+type@{history\+\_\+key\+\_\+type}}
+\index{history\+\_\+key\+\_\+type@{history\+\_\+key\+\_\+type}!boost\+::statechart\+::state\+\_\+machine@{boost\+::statechart\+::state\+\_\+machine}}
+\subsubsection{\texorpdfstring{history\+\_\+key\+\_\+type}{history\_key\_type}}
+{\footnotesize\ttfamily template$<$class Most\+Derived, class Initial\+State, class Allocator = std\+::allocator$<$ void $>$, class Exception\+Translator = null\+\_\+exception\+\_\+translator$>$ \\
+typedef \mbox{\hyperlink{classboost_1_1statechart_1_1detail_1_1history__key}{detail\+::history\+\_\+key}}$<$ \mbox{\hyperlink{classboost_1_1statechart_1_1state__machine_af2a620c579a5248103aee4d3ccb4d632}{rtti\+\_\+policy\+\_\+type}} $>$ \mbox{\hyperlink{classboost_1_1statechart_1_1state__machine}{boost\+::statechart\+::state\+\_\+machine}}$<$ Most\+Derived, Initial\+State, Allocator, Exception\+Translator $>$\+::\mbox{\hyperlink{classboost_1_1statechart_1_1state__machine_a4f8e1e85e0ba11488c57318b61950e32}{history\+\_\+key\+\_\+type}}\hspace{0.3cm}{\ttfamily [private]}}
+
+\mbox{\Hypertarget{classboost_1_1statechart_1_1state__machine_a9b8fdd7b5af3b0c9143f9d6fb4036ff7}\label{classboost_1_1statechart_1_1state__machine_a9b8fdd7b5af3b0c9143f9d6fb4036ff7}} 
+\index{boost\+::statechart\+::state\+\_\+machine@{boost\+::statechart\+::state\+\_\+machine}!history\+\_\+map\+\_\+type@{history\+\_\+map\+\_\+type}}
+\index{history\+\_\+map\+\_\+type@{history\+\_\+map\+\_\+type}!boost\+::statechart\+::state\+\_\+machine@{boost\+::statechart\+::state\+\_\+machine}}
+\subsubsection{\texorpdfstring{history\+\_\+map\+\_\+type}{history\_map\_type}}
+{\footnotesize\ttfamily template$<$class Most\+Derived, class Initial\+State, class Allocator = std\+::allocator$<$ void $>$, class Exception\+Translator = null\+\_\+exception\+\_\+translator$>$ \\
+typedef std\+::map$<$ \mbox{\hyperlink{classboost_1_1statechart_1_1state__machine_a4f8e1e85e0ba11488c57318b61950e32}{history\+\_\+key\+\_\+type}}, void ($\ast$)(), std\+::less$<$ \mbox{\hyperlink{classboost_1_1statechart_1_1state__machine_a4f8e1e85e0ba11488c57318b61950e32}{history\+\_\+key\+\_\+type}} $>$, typename boost\+::detail\+::allocator\+::rebind\+\_\+to$<$ \mbox{\hyperlink{classboost_1_1statechart_1_1state__machine_a7345d6567cd1a829234bbb7f6c0715da}{allocator\+\_\+type}}, std\+::pair$<$ const \mbox{\hyperlink{classboost_1_1statechart_1_1state__machine_a4f8e1e85e0ba11488c57318b61950e32}{history\+\_\+key\+\_\+type}}, void ($\ast$)() $>$ $>$\+::type $>$ \mbox{\hyperlink{classboost_1_1statechart_1_1state__machine}{boost\+::statechart\+::state\+\_\+machine}}$<$ Most\+Derived, Initial\+State, Allocator, Exception\+Translator $>$\+::\mbox{\hyperlink{classboost_1_1statechart_1_1state__machine_a9b8fdd7b5af3b0c9143f9d6fb4036ff7}{history\+\_\+map\+\_\+type}}\hspace{0.3cm}{\ttfamily [private]}}
+
+\mbox{\Hypertarget{classboost_1_1statechart_1_1state__machine_a98a2ce0dcdc9f2abab9127ce3c1eea67}\label{classboost_1_1statechart_1_1state__machine_a98a2ce0dcdc9f2abab9127ce3c1eea67}} 
+\index{boost\+::statechart\+::state\+\_\+machine@{boost\+::statechart\+::state\+\_\+machine}!inherited\+\_\+deep\+\_\+history@{inherited\+\_\+deep\+\_\+history}}
+\index{inherited\+\_\+deep\+\_\+history@{inherited\+\_\+deep\+\_\+history}!boost\+::statechart\+::state\+\_\+machine@{boost\+::statechart\+::state\+\_\+machine}}
+\subsubsection{\texorpdfstring{inherited\+\_\+deep\+\_\+history}{inherited\_deep\_history}}
+{\footnotesize\ttfamily template$<$class Most\+Derived, class Initial\+State, class Allocator = std\+::allocator$<$ void $>$, class Exception\+Translator = null\+\_\+exception\+\_\+translator$>$ \\
+typedef mpl\+::bool\+\_\+$<$ false $>$ \mbox{\hyperlink{classboost_1_1statechart_1_1state__machine}{boost\+::statechart\+::state\+\_\+machine}}$<$ Most\+Derived, Initial\+State, Allocator, Exception\+Translator $>$\+::\mbox{\hyperlink{classboost_1_1statechart_1_1state__machine_a98a2ce0dcdc9f2abab9127ce3c1eea67}{inherited\+\_\+deep\+\_\+history}}}
+
+\mbox{\Hypertarget{classboost_1_1statechart_1_1state__machine_a9943ccf227161502104d8843521b6131}\label{classboost_1_1statechart_1_1state__machine_a9943ccf227161502104d8843521b6131}} 
+\index{boost\+::statechart\+::state\+\_\+machine@{boost\+::statechart\+::state\+\_\+machine}!inner\+\_\+context\+\_\+ptr\+\_\+type@{inner\+\_\+context\+\_\+ptr\+\_\+type}}
+\index{inner\+\_\+context\+\_\+ptr\+\_\+type@{inner\+\_\+context\+\_\+ptr\+\_\+type}!boost\+::statechart\+::state\+\_\+machine@{boost\+::statechart\+::state\+\_\+machine}}
+\subsubsection{\texorpdfstring{inner\+\_\+context\+\_\+ptr\+\_\+type}{inner\_context\_ptr\_type}}
+{\footnotesize\ttfamily template$<$class Most\+Derived, class Initial\+State, class Allocator = std\+::allocator$<$ void $>$, class Exception\+Translator = null\+\_\+exception\+\_\+translator$>$ \\
+typedef \mbox{\hyperlink{classboost_1_1statechart_1_1state__machine}{state\+\_\+machine}}$\ast$ \mbox{\hyperlink{classboost_1_1statechart_1_1state__machine}{boost\+::statechart\+::state\+\_\+machine}}$<$ Most\+Derived, Initial\+State, Allocator, Exception\+Translator $>$\+::\mbox{\hyperlink{classboost_1_1statechart_1_1state__machine_a9943ccf227161502104d8843521b6131}{inner\+\_\+context\+\_\+ptr\+\_\+type}}}
+
+\mbox{\Hypertarget{classboost_1_1statechart_1_1state__machine_ae051793d49b601dad268a2d1c35c613f}\label{classboost_1_1statechart_1_1state__machine_ae051793d49b601dad268a2d1c35c613f}} 
+\index{boost\+::statechart\+::state\+\_\+machine@{boost\+::statechart\+::state\+\_\+machine}!inner\+\_\+context\+\_\+type@{inner\+\_\+context\+\_\+type}}
+\index{inner\+\_\+context\+\_\+type@{inner\+\_\+context\+\_\+type}!boost\+::statechart\+::state\+\_\+machine@{boost\+::statechart\+::state\+\_\+machine}}
+\subsubsection{\texorpdfstring{inner\+\_\+context\+\_\+type}{inner\_context\_type}}
+{\footnotesize\ttfamily template$<$class Most\+Derived, class Initial\+State, class Allocator = std\+::allocator$<$ void $>$, class Exception\+Translator = null\+\_\+exception\+\_\+translator$>$ \\
+typedef Most\+Derived \mbox{\hyperlink{classboost_1_1statechart_1_1state__machine}{boost\+::statechart\+::state\+\_\+machine}}$<$ Most\+Derived, Initial\+State, Allocator, Exception\+Translator $>$\+::\mbox{\hyperlink{classboost_1_1statechart_1_1state__machine_ae051793d49b601dad268a2d1c35c613f}{inner\+\_\+context\+\_\+type}}}
+
+\mbox{\Hypertarget{classboost_1_1statechart_1_1state__machine_afaec7011d17371269ebbe87e25273d0b}\label{classboost_1_1statechart_1_1state__machine_afaec7011d17371269ebbe87e25273d0b}} 
+\index{boost\+::statechart\+::state\+\_\+machine@{boost\+::statechart\+::state\+\_\+machine}!inner\+\_\+orthogonal\+\_\+position@{inner\+\_\+orthogonal\+\_\+position}}
+\index{inner\+\_\+orthogonal\+\_\+position@{inner\+\_\+orthogonal\+\_\+position}!boost\+::statechart\+::state\+\_\+machine@{boost\+::statechart\+::state\+\_\+machine}}
+\subsubsection{\texorpdfstring{inner\+\_\+orthogonal\+\_\+position}{inner\_orthogonal\_position}}
+{\footnotesize\ttfamily template$<$class Most\+Derived, class Initial\+State, class Allocator = std\+::allocator$<$ void $>$, class Exception\+Translator = null\+\_\+exception\+\_\+translator$>$ \\
+typedef mpl\+::integral\+\_\+c$<$ \mbox{\hyperlink{namespaceboost_1_1statechart_1_1detail_a3bedea0b807a16fa222733417183d2c9}{detail\+::orthogonal\+\_\+position\+\_\+type}}, 0 $>$ \mbox{\hyperlink{classboost_1_1statechart_1_1state__machine}{boost\+::statechart\+::state\+\_\+machine}}$<$ Most\+Derived, Initial\+State, Allocator, Exception\+Translator $>$\+::\mbox{\hyperlink{classboost_1_1statechart_1_1state__machine_afaec7011d17371269ebbe87e25273d0b}{inner\+\_\+orthogonal\+\_\+position}}}
+
+\mbox{\Hypertarget{classboost_1_1statechart_1_1state__machine_a70f60d22dbc67497b1388e72e2bf6824}\label{classboost_1_1statechart_1_1state__machine_a70f60d22dbc67497b1388e72e2bf6824}} 
+\index{boost\+::statechart\+::state\+\_\+machine@{boost\+::statechart\+::state\+\_\+machine}!leaf\+\_\+state\+\_\+ptr\+\_\+type@{leaf\+\_\+state\+\_\+ptr\+\_\+type}}
+\index{leaf\+\_\+state\+\_\+ptr\+\_\+type@{leaf\+\_\+state\+\_\+ptr\+\_\+type}!boost\+::statechart\+::state\+\_\+machine@{boost\+::statechart\+::state\+\_\+machine}}
+\subsubsection{\texorpdfstring{leaf\+\_\+state\+\_\+ptr\+\_\+type}{leaf\_state\_ptr\_type}}
+{\footnotesize\ttfamily template$<$class Most\+Derived, class Initial\+State, class Allocator = std\+::allocator$<$ void $>$, class Exception\+Translator = null\+\_\+exception\+\_\+translator$>$ \\
+typedef \mbox{\hyperlink{classboost_1_1statechart_1_1detail_1_1state__base_a80b7d62ba0bb8e4fbef3e2e76e2a6021}{state\+\_\+base\+\_\+type\+::leaf\+\_\+state\+\_\+ptr\+\_\+type}} \mbox{\hyperlink{classboost_1_1statechart_1_1state__machine}{boost\+::statechart\+::state\+\_\+machine}}$<$ Most\+Derived, Initial\+State, Allocator, Exception\+Translator $>$\+::\mbox{\hyperlink{classboost_1_1statechart_1_1state__machine_a70f60d22dbc67497b1388e72e2bf6824}{leaf\+\_\+state\+\_\+ptr\+\_\+type}}}
+
+\mbox{\Hypertarget{classboost_1_1statechart_1_1state__machine_ae7f178d74dedd129cd88adffc0f63092}\label{classboost_1_1statechart_1_1state__machine_ae7f178d74dedd129cd88adffc0f63092}} 
+\index{boost\+::statechart\+::state\+\_\+machine@{boost\+::statechart\+::state\+\_\+machine}!no\+\_\+of\+\_\+orthogonal\+\_\+regions@{no\+\_\+of\+\_\+orthogonal\+\_\+regions}}
+\index{no\+\_\+of\+\_\+orthogonal\+\_\+regions@{no\+\_\+of\+\_\+orthogonal\+\_\+regions}!boost\+::statechart\+::state\+\_\+machine@{boost\+::statechart\+::state\+\_\+machine}}
+\subsubsection{\texorpdfstring{no\+\_\+of\+\_\+orthogonal\+\_\+regions}{no\_of\_orthogonal\_regions}}
+{\footnotesize\ttfamily template$<$class Most\+Derived, class Initial\+State, class Allocator = std\+::allocator$<$ void $>$, class Exception\+Translator = null\+\_\+exception\+\_\+translator$>$ \\
+typedef mpl\+::integral\+\_\+c$<$ \mbox{\hyperlink{namespaceboost_1_1statechart_1_1detail_a3bedea0b807a16fa222733417183d2c9}{detail\+::orthogonal\+\_\+position\+\_\+type}}, 1 $>$ \mbox{\hyperlink{classboost_1_1statechart_1_1state__machine}{boost\+::statechart\+::state\+\_\+machine}}$<$ Most\+Derived, Initial\+State, Allocator, Exception\+Translator $>$\+::\mbox{\hyperlink{classboost_1_1statechart_1_1state__machine_ae7f178d74dedd129cd88adffc0f63092}{no\+\_\+of\+\_\+orthogonal\+\_\+regions}}}
+
+\mbox{\Hypertarget{classboost_1_1statechart_1_1state__machine_a5d90f1176309ec8307979aa79dd6f4a3}\label{classboost_1_1statechart_1_1state__machine_a5d90f1176309ec8307979aa79dd6f4a3}} 
+\index{boost\+::statechart\+::state\+\_\+machine@{boost\+::statechart\+::state\+\_\+machine}!node\+\_\+state\+\_\+base\+\_\+ptr\+\_\+type@{node\+\_\+state\+\_\+base\+\_\+ptr\+\_\+type}}
+\index{node\+\_\+state\+\_\+base\+\_\+ptr\+\_\+type@{node\+\_\+state\+\_\+base\+\_\+ptr\+\_\+type}!boost\+::statechart\+::state\+\_\+machine@{boost\+::statechart\+::state\+\_\+machine}}
+\subsubsection{\texorpdfstring{node\+\_\+state\+\_\+base\+\_\+ptr\+\_\+type}{node\_state\_base\_ptr\_type}}
+{\footnotesize\ttfamily template$<$class Most\+Derived, class Initial\+State, class Allocator = std\+::allocator$<$ void $>$, class Exception\+Translator = null\+\_\+exception\+\_\+translator$>$ \\
+typedef \mbox{\hyperlink{classboost_1_1statechart_1_1detail_1_1state__base_a8e3dd0f80bf95d7df21417a50f1dbaa1}{state\+\_\+base\+\_\+type\+::node\+\_\+state\+\_\+base\+\_\+ptr\+\_\+type}} \mbox{\hyperlink{classboost_1_1statechart_1_1state__machine}{boost\+::statechart\+::state\+\_\+machine}}$<$ Most\+Derived, Initial\+State, Allocator, Exception\+Translator $>$\+::\mbox{\hyperlink{classboost_1_1statechart_1_1state__machine_a5d90f1176309ec8307979aa79dd6f4a3}{node\+\_\+state\+\_\+base\+\_\+ptr\+\_\+type}}}
+
+\mbox{\Hypertarget{classboost_1_1statechart_1_1state__machine_a05b007af532fafe2f186a18351beaa5e}\label{classboost_1_1statechart_1_1state__machine_a05b007af532fafe2f186a18351beaa5e}} 
+\index{boost\+::statechart\+::state\+\_\+machine@{boost\+::statechart\+::state\+\_\+machine}!outermost\+\_\+context\+\_\+base\+\_\+type@{outermost\+\_\+context\+\_\+base\+\_\+type}}
+\index{outermost\+\_\+context\+\_\+base\+\_\+type@{outermost\+\_\+context\+\_\+base\+\_\+type}!boost\+::statechart\+::state\+\_\+machine@{boost\+::statechart\+::state\+\_\+machine}}
+\subsubsection{\texorpdfstring{outermost\+\_\+context\+\_\+base\+\_\+type}{outermost\_context\_base\_type}}
+{\footnotesize\ttfamily template$<$class Most\+Derived, class Initial\+State, class Allocator = std\+::allocator$<$ void $>$, class Exception\+Translator = null\+\_\+exception\+\_\+translator$>$ \\
+typedef \mbox{\hyperlink{classboost_1_1statechart_1_1state__machine}{state\+\_\+machine}} \mbox{\hyperlink{classboost_1_1statechart_1_1state__machine}{boost\+::statechart\+::state\+\_\+machine}}$<$ Most\+Derived, Initial\+State, Allocator, Exception\+Translator $>$\+::\mbox{\hyperlink{classboost_1_1statechart_1_1state__machine_a05b007af532fafe2f186a18351beaa5e}{outermost\+\_\+context\+\_\+base\+\_\+type}}}
+
+\mbox{\Hypertarget{classboost_1_1statechart_1_1state__machine_a3c047829e797a9501c7d69151d17e368}\label{classboost_1_1statechart_1_1state__machine_a3c047829e797a9501c7d69151d17e368}} 
+\index{boost\+::statechart\+::state\+\_\+machine@{boost\+::statechart\+::state\+\_\+machine}!outermost\+\_\+context\+\_\+type@{outermost\+\_\+context\+\_\+type}}
+\index{outermost\+\_\+context\+\_\+type@{outermost\+\_\+context\+\_\+type}!boost\+::statechart\+::state\+\_\+machine@{boost\+::statechart\+::state\+\_\+machine}}
+\subsubsection{\texorpdfstring{outermost\+\_\+context\+\_\+type}{outermost\_context\_type}}
+{\footnotesize\ttfamily template$<$class Most\+Derived, class Initial\+State, class Allocator = std\+::allocator$<$ void $>$, class Exception\+Translator = null\+\_\+exception\+\_\+translator$>$ \\
+typedef Most\+Derived \mbox{\hyperlink{classboost_1_1statechart_1_1state__machine}{boost\+::statechart\+::state\+\_\+machine}}$<$ Most\+Derived, Initial\+State, Allocator, Exception\+Translator $>$\+::\mbox{\hyperlink{classboost_1_1statechart_1_1state__machine_a3c047829e797a9501c7d69151d17e368}{outermost\+\_\+context\+\_\+type}}}
+
+\mbox{\Hypertarget{classboost_1_1statechart_1_1state__machine_af2a620c579a5248103aee4d3ccb4d632}\label{classboost_1_1statechart_1_1state__machine_af2a620c579a5248103aee4d3ccb4d632}} 
+\index{boost\+::statechart\+::state\+\_\+machine@{boost\+::statechart\+::state\+\_\+machine}!rtti\+\_\+policy\+\_\+type@{rtti\+\_\+policy\+\_\+type}}
+\index{rtti\+\_\+policy\+\_\+type@{rtti\+\_\+policy\+\_\+type}!boost\+::statechart\+::state\+\_\+machine@{boost\+::statechart\+::state\+\_\+machine}}
+\subsubsection{\texorpdfstring{rtti\+\_\+policy\+\_\+type}{rtti\_policy\_type}}
+{\footnotesize\ttfamily template$<$class Most\+Derived, class Initial\+State, class Allocator = std\+::allocator$<$ void $>$, class Exception\+Translator = null\+\_\+exception\+\_\+translator$>$ \\
+typedef \mbox{\hyperlink{structboost_1_1statechart_1_1detail_1_1rtti__policy}{detail\+::rtti\+\_\+policy}} \mbox{\hyperlink{classboost_1_1statechart_1_1state__machine}{boost\+::statechart\+::state\+\_\+machine}}$<$ Most\+Derived, Initial\+State, Allocator, Exception\+Translator $>$\+::\mbox{\hyperlink{classboost_1_1statechart_1_1state__machine_af2a620c579a5248103aee4d3ccb4d632}{rtti\+\_\+policy\+\_\+type}}}
+
+\mbox{\Hypertarget{classboost_1_1statechart_1_1state__machine_a2e31e5e73f5e9e5f3714b04eb11cda08}\label{classboost_1_1statechart_1_1state__machine_a2e31e5e73f5e9e5f3714b04eb11cda08}} 
+\index{boost\+::statechart\+::state\+\_\+machine@{boost\+::statechart\+::state\+\_\+machine}!shallow\+\_\+history@{shallow\+\_\+history}}
+\index{shallow\+\_\+history@{shallow\+\_\+history}!boost\+::statechart\+::state\+\_\+machine@{boost\+::statechart\+::state\+\_\+machine}}
+\subsubsection{\texorpdfstring{shallow\+\_\+history}{shallow\_history}}
+{\footnotesize\ttfamily template$<$class Most\+Derived, class Initial\+State, class Allocator = std\+::allocator$<$ void $>$, class Exception\+Translator = null\+\_\+exception\+\_\+translator$>$ \\
+typedef mpl\+::bool\+\_\+$<$ false $>$ \mbox{\hyperlink{classboost_1_1statechart_1_1state__machine}{boost\+::statechart\+::state\+\_\+machine}}$<$ Most\+Derived, Initial\+State, Allocator, Exception\+Translator $>$\+::\mbox{\hyperlink{classboost_1_1statechart_1_1state__machine_a2e31e5e73f5e9e5f3714b04eb11cda08}{shallow\+\_\+history}}}
+
+\mbox{\Hypertarget{classboost_1_1statechart_1_1state__machine_a69cc258c29fcabec25c5dc8bedb7d530}\label{classboost_1_1statechart_1_1state__machine_a69cc258c29fcabec25c5dc8bedb7d530}} 
+\index{boost\+::statechart\+::state\+\_\+machine@{boost\+::statechart\+::state\+\_\+machine}!state\+\_\+base\+\_\+type@{state\+\_\+base\+\_\+type}}
+\index{state\+\_\+base\+\_\+type@{state\+\_\+base\+\_\+type}!boost\+::statechart\+::state\+\_\+machine@{boost\+::statechart\+::state\+\_\+machine}}
+\subsubsection{\texorpdfstring{state\+\_\+base\+\_\+type}{state\_base\_type}}
+{\footnotesize\ttfamily template$<$class Most\+Derived, class Initial\+State, class Allocator = std\+::allocator$<$ void $>$, class Exception\+Translator = null\+\_\+exception\+\_\+translator$>$ \\
+typedef \mbox{\hyperlink{classboost_1_1statechart_1_1detail_1_1state__base}{detail\+::state\+\_\+base}}$<$ \mbox{\hyperlink{classboost_1_1statechart_1_1state__machine_a7345d6567cd1a829234bbb7f6c0715da}{allocator\+\_\+type}}, \mbox{\hyperlink{classboost_1_1statechart_1_1state__machine_af2a620c579a5248103aee4d3ccb4d632}{rtti\+\_\+policy\+\_\+type}} $>$ \mbox{\hyperlink{classboost_1_1statechart_1_1state__machine}{boost\+::statechart\+::state\+\_\+machine}}$<$ Most\+Derived, Initial\+State, Allocator, Exception\+Translator $>$\+::\mbox{\hyperlink{classboost_1_1statechart_1_1state__machine_a69cc258c29fcabec25c5dc8bedb7d530}{state\+\_\+base\+\_\+type}}}
+
+\mbox{\Hypertarget{classboost_1_1statechart_1_1state__machine_afe501a67ddcd1da38728f6c672b57198}\label{classboost_1_1statechart_1_1state__machine_afe501a67ddcd1da38728f6c672b57198}} 
+\index{boost\+::statechart\+::state\+\_\+machine@{boost\+::statechart\+::state\+\_\+machine}!state\+\_\+list\+\_\+type@{state\+\_\+list\+\_\+type}}
+\index{state\+\_\+list\+\_\+type@{state\+\_\+list\+\_\+type}!boost\+::statechart\+::state\+\_\+machine@{boost\+::statechart\+::state\+\_\+machine}}
+\subsubsection{\texorpdfstring{state\+\_\+list\+\_\+type}{state\_list\_type}}
+{\footnotesize\ttfamily template$<$class Most\+Derived, class Initial\+State, class Allocator = std\+::allocator$<$ void $>$, class Exception\+Translator = null\+\_\+exception\+\_\+translator$>$ \\
+typedef \mbox{\hyperlink{classboost_1_1statechart_1_1detail_1_1state__base_a30bb6c4893e4cd84e80133feb2cc8230}{state\+\_\+base\+\_\+type\+::state\+\_\+list\+\_\+type}} \mbox{\hyperlink{classboost_1_1statechart_1_1state__machine}{boost\+::statechart\+::state\+\_\+machine}}$<$ Most\+Derived, Initial\+State, Allocator, Exception\+Translator $>$\+::\mbox{\hyperlink{classboost_1_1statechart_1_1state__machine_afe501a67ddcd1da38728f6c672b57198}{state\+\_\+list\+\_\+type}}}
+
+
+
+\subsection{Constructor \& Destructor Documentation}
+\mbox{\Hypertarget{classboost_1_1statechart_1_1state__machine_add3649c5baab6017a094ae563d6075b6}\label{classboost_1_1statechart_1_1state__machine_add3649c5baab6017a094ae563d6075b6}} 
+\index{boost\+::statechart\+::state\+\_\+machine@{boost\+::statechart\+::state\+\_\+machine}!state\+\_\+machine@{state\+\_\+machine}}
+\index{state\+\_\+machine@{state\+\_\+machine}!boost\+::statechart\+::state\+\_\+machine@{boost\+::statechart\+::state\+\_\+machine}}
+\subsubsection{\texorpdfstring{state\+\_\+machine()}{state\_machine()}}
+{\footnotesize\ttfamily template$<$class Most\+Derived, class Initial\+State, class Allocator = std\+::allocator$<$ void $>$, class Exception\+Translator = null\+\_\+exception\+\_\+translator$>$ \\
+\mbox{\hyperlink{classboost_1_1statechart_1_1state__machine}{boost\+::statechart\+::state\+\_\+machine}}$<$ Most\+Derived, Initial\+State, Allocator, Exception\+Translator $>$\+::\mbox{\hyperlink{classboost_1_1statechart_1_1state__machine}{state\+\_\+machine}} (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [protected]}}
+
+\mbox{\Hypertarget{classboost_1_1statechart_1_1state__machine_abd03251def3e351d14451e6b8ffd73b4}\label{classboost_1_1statechart_1_1state__machine_abd03251def3e351d14451e6b8ffd73b4}} 
+\index{boost\+::statechart\+::state\+\_\+machine@{boost\+::statechart\+::state\+\_\+machine}!````~state\+\_\+machine@{$\sim$state\+\_\+machine}}
+\index{````~state\+\_\+machine@{$\sim$state\+\_\+machine}!boost\+::statechart\+::state\+\_\+machine@{boost\+::statechart\+::state\+\_\+machine}}
+\subsubsection{\texorpdfstring{$\sim$state\+\_\+machine()}{~state\_machine()}}
+{\footnotesize\ttfamily template$<$class Most\+Derived, class Initial\+State, class Allocator = std\+::allocator$<$ void $>$, class Exception\+Translator = null\+\_\+exception\+\_\+translator$>$ \\
+virtual \mbox{\hyperlink{classboost_1_1statechart_1_1state__machine}{boost\+::statechart\+::state\+\_\+machine}}$<$ Most\+Derived, Initial\+State, Allocator, Exception\+Translator $>$\+::$\sim$\mbox{\hyperlink{classboost_1_1statechart_1_1state__machine}{state\+\_\+machine}} (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [protected]}, {\ttfamily [virtual]}}
+
+
+
+\subsection{Member Function Documentation}
+\mbox{\Hypertarget{classboost_1_1statechart_1_1state__machine_ae1b47e23bb0486e60f2cc9d80fb76b99}\label{classboost_1_1statechart_1_1state__machine_ae1b47e23bb0486e60f2cc9d80fb76b99}} 
+\index{boost\+::statechart\+::state\+\_\+machine@{boost\+::statechart\+::state\+\_\+machine}!add@{add}}
+\index{add@{add}!boost\+::statechart\+::state\+\_\+machine@{boost\+::statechart\+::state\+\_\+machine}}
+\subsubsection{\texorpdfstring{add()}{add()}}
+{\footnotesize\ttfamily template$<$class Most\+Derived, class Initial\+State, class Allocator = std\+::allocator$<$ void $>$, class Exception\+Translator = null\+\_\+exception\+\_\+translator$>$ \\
+template$<$class State $>$ \\
+void \mbox{\hyperlink{classboost_1_1statechart_1_1state__machine}{boost\+::statechart\+::state\+\_\+machine}}$<$ Most\+Derived, Initial\+State, Allocator, Exception\+Translator $>$\+::add (\begin{DoxyParamCaption}\item[{const intrusive\+\_\+ptr$<$ State $>$ \&}]{p\+State }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+\mbox{\Hypertarget{classboost_1_1statechart_1_1state__machine_a1e24717585bec9141b46d1807c40f517}\label{classboost_1_1statechart_1_1state__machine_a1e24717585bec9141b46d1807c40f517}} 
+\index{boost\+::statechart\+::state\+\_\+machine@{boost\+::statechart\+::state\+\_\+machine}!add\+\_\+impl@{add\+\_\+impl}}
+\index{add\+\_\+impl@{add\+\_\+impl}!boost\+::statechart\+::state\+\_\+machine@{boost\+::statechart\+::state\+\_\+machine}}
+\subsubsection{\texorpdfstring{add\+\_\+impl()}{add\_impl()}\hspace{0.1cm}{\footnotesize\ttfamily [1/2]}}
+{\footnotesize\ttfamily template$<$class Most\+Derived, class Initial\+State, class Allocator = std\+::allocator$<$ void $>$, class Exception\+Translator = null\+\_\+exception\+\_\+translator$>$ \\
+\mbox{\hyperlink{classboost_1_1statechart_1_1state__machine_a5d90f1176309ec8307979aa79dd6f4a3}{node\+\_\+state\+\_\+base\+\_\+ptr\+\_\+type}} \mbox{\hyperlink{classboost_1_1statechart_1_1state__machine}{boost\+::statechart\+::state\+\_\+machine}}$<$ Most\+Derived, Initial\+State, Allocator, Exception\+Translator $>$\+::add\+\_\+impl (\begin{DoxyParamCaption}\item[{const \mbox{\hyperlink{classboost_1_1statechart_1_1state__machine_a70f60d22dbc67497b1388e72e2bf6824}{leaf\+\_\+state\+\_\+ptr\+\_\+type}} \&}]{p\+State,  }\item[{\mbox{\hyperlink{classboost_1_1statechart_1_1detail_1_1leaf__state}{detail\+::leaf\+\_\+state}}$<$ \mbox{\hyperlink{classboost_1_1statechart_1_1state__machine_a7345d6567cd1a829234bbb7f6c0715da}{allocator\+\_\+type}}, \mbox{\hyperlink{classboost_1_1statechart_1_1state__machine_af2a620c579a5248103aee4d3ccb4d632}{rtti\+\_\+policy\+\_\+type}} $>$ \&}]{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [private]}}
+
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classboost_1_1statechart_1_1state__machine_a1e24717585bec9141b46d1807c40f517_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{classboost_1_1statechart_1_1state__machine_a7e879458268733c24259d71969278ac5}\label{classboost_1_1statechart_1_1state__machine_a7e879458268733c24259d71969278ac5}} 
+\index{boost\+::statechart\+::state\+\_\+machine@{boost\+::statechart\+::state\+\_\+machine}!add\+\_\+impl@{add\+\_\+impl}}
+\index{add\+\_\+impl@{add\+\_\+impl}!boost\+::statechart\+::state\+\_\+machine@{boost\+::statechart\+::state\+\_\+machine}}
+\subsubsection{\texorpdfstring{add\+\_\+impl()}{add\_impl()}\hspace{0.1cm}{\footnotesize\ttfamily [2/2]}}
+{\footnotesize\ttfamily template$<$class Most\+Derived, class Initial\+State, class Allocator = std\+::allocator$<$ void $>$, class Exception\+Translator = null\+\_\+exception\+\_\+translator$>$ \\
+\mbox{\hyperlink{classboost_1_1statechart_1_1state__machine_a5d90f1176309ec8307979aa79dd6f4a3}{node\+\_\+state\+\_\+base\+\_\+ptr\+\_\+type}} \mbox{\hyperlink{classboost_1_1statechart_1_1state__machine}{boost\+::statechart\+::state\+\_\+machine}}$<$ Most\+Derived, Initial\+State, Allocator, Exception\+Translator $>$\+::add\+\_\+impl (\begin{DoxyParamCaption}\item[{const \mbox{\hyperlink{classboost_1_1statechart_1_1state__machine_a5d90f1176309ec8307979aa79dd6f4a3}{node\+\_\+state\+\_\+base\+\_\+ptr\+\_\+type}} \&}]{p\+State,  }\item[{\mbox{\hyperlink{classboost_1_1statechart_1_1state__machine_a69cc258c29fcabec25c5dc8bedb7d530}{state\+\_\+base\+\_\+type}} \&}]{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [private]}}
+
+\mbox{\Hypertarget{classboost_1_1statechart_1_1state__machine_ae3cebe8b5870bda788a95be852e5d3be}\label{classboost_1_1statechart_1_1state__machine_ae3cebe8b5870bda788a95be852e5d3be}} 
+\index{boost\+::statechart\+::state\+\_\+machine@{boost\+::statechart\+::state\+\_\+machine}!add\+\_\+inner\+\_\+state@{add\+\_\+inner\+\_\+state}}
+\index{add\+\_\+inner\+\_\+state@{add\+\_\+inner\+\_\+state}!boost\+::statechart\+::state\+\_\+machine@{boost\+::statechart\+::state\+\_\+machine}}
+\subsubsection{\texorpdfstring{add\+\_\+inner\+\_\+state()}{add\_inner\_state()}}
+{\footnotesize\ttfamily template$<$class Most\+Derived, class Initial\+State, class Allocator = std\+::allocator$<$ void $>$, class Exception\+Translator = null\+\_\+exception\+\_\+translator$>$ \\
+void \mbox{\hyperlink{classboost_1_1statechart_1_1state__machine}{boost\+::statechart\+::state\+\_\+machine}}$<$ Most\+Derived, Initial\+State, Allocator, Exception\+Translator $>$\+::add\+\_\+inner\+\_\+state (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{namespaceboost_1_1statechart_1_1detail_a3bedea0b807a16fa222733417183d2c9}{detail\+::orthogonal\+\_\+position\+\_\+type}}}]{position,  }\item[{\mbox{\hyperlink{classboost_1_1statechart_1_1state__machine_a69cc258c29fcabec25c5dc8bedb7d530}{state\+\_\+base\+\_\+type}} $\ast$}]{p\+Outermost\+State }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+\mbox{\Hypertarget{classboost_1_1statechart_1_1state__machine_a5b60164ba8ab165421fad2ecbccad4e8}\label{classboost_1_1statechart_1_1state__machine_a5b60164ba8ab165421fad2ecbccad4e8}} 
+\index{boost\+::statechart\+::state\+\_\+machine@{boost\+::statechart\+::state\+\_\+machine}!clear\+\_\+deep\+\_\+history@{clear\+\_\+deep\+\_\+history}}
+\index{clear\+\_\+deep\+\_\+history@{clear\+\_\+deep\+\_\+history}!boost\+::statechart\+::state\+\_\+machine@{boost\+::statechart\+::state\+\_\+machine}}
+\subsubsection{\texorpdfstring{clear\+\_\+deep\+\_\+history()}{clear\_deep\_history()}}
+{\footnotesize\ttfamily template$<$class Most\+Derived, class Initial\+State, class Allocator = std\+::allocator$<$ void $>$, class Exception\+Translator = null\+\_\+exception\+\_\+translator$>$ \\
+template$<$class History\+Context , detail\+::orthogonal\+\_\+position\+\_\+type orthogonal\+Position$>$ \\
+void \mbox{\hyperlink{classboost_1_1statechart_1_1state__machine}{boost\+::statechart\+::state\+\_\+machine}}$<$ Most\+Derived, Initial\+State, Allocator, Exception\+Translator $>$\+::clear\+\_\+deep\+\_\+history (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=261pt]{classboost_1_1statechart_1_1state__machine_a5b60164ba8ab165421fad2ecbccad4e8_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{classboost_1_1statechart_1_1state__machine_a03faf369327ddc16441c8e69db08e861}\label{classboost_1_1statechart_1_1state__machine_a03faf369327ddc16441c8e69db08e861}} 
+\index{boost\+::statechart\+::state\+\_\+machine@{boost\+::statechart\+::state\+\_\+machine}!clear\+\_\+shallow\+\_\+history@{clear\+\_\+shallow\+\_\+history}}
+\index{clear\+\_\+shallow\+\_\+history@{clear\+\_\+shallow\+\_\+history}!boost\+::statechart\+::state\+\_\+machine@{boost\+::statechart\+::state\+\_\+machine}}
+\subsubsection{\texorpdfstring{clear\+\_\+shallow\+\_\+history()}{clear\_shallow\_history()}}
+{\footnotesize\ttfamily template$<$class Most\+Derived, class Initial\+State, class Allocator = std\+::allocator$<$ void $>$, class Exception\+Translator = null\+\_\+exception\+\_\+translator$>$ \\
+template$<$class History\+Context , detail\+::orthogonal\+\_\+position\+\_\+type orthogonal\+Position$>$ \\
+void \mbox{\hyperlink{classboost_1_1statechart_1_1state__machine}{boost\+::statechart\+::state\+\_\+machine}}$<$ Most\+Derived, Initial\+State, Allocator, Exception\+Translator $>$\+::clear\+\_\+shallow\+\_\+history (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=261pt]{classboost_1_1statechart_1_1state__machine_a03faf369327ddc16441c8e69db08e861_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{classboost_1_1statechart_1_1state__machine_a56fbbcb60de6f8a423b3b79ddb06ba34}\label{classboost_1_1statechart_1_1state__machine_a56fbbcb60de6f8a423b3b79ddb06ba34}} 
+\index{boost\+::statechart\+::state\+\_\+machine@{boost\+::statechart\+::state\+\_\+machine}!construct\+\_\+with\+\_\+deep\+\_\+history@{construct\+\_\+with\+\_\+deep\+\_\+history}}
+\index{construct\+\_\+with\+\_\+deep\+\_\+history@{construct\+\_\+with\+\_\+deep\+\_\+history}!boost\+::statechart\+::state\+\_\+machine@{boost\+::statechart\+::state\+\_\+machine}}
+\subsubsection{\texorpdfstring{construct\+\_\+with\+\_\+deep\+\_\+history()}{construct\_with\_deep\_history()}}
+{\footnotesize\ttfamily template$<$class Most\+Derived, class Initial\+State, class Allocator = std\+::allocator$<$ void $>$, class Exception\+Translator = null\+\_\+exception\+\_\+translator$>$ \\
+template$<$class Default\+State $>$ \\
+void \mbox{\hyperlink{classboost_1_1statechart_1_1state__machine}{boost\+::statechart\+::state\+\_\+machine}}$<$ Most\+Derived, Initial\+State, Allocator, Exception\+Translator $>$\+::construct\+\_\+with\+\_\+deep\+\_\+history (\begin{DoxyParamCaption}\item[{const typename Default\+State\+::context\+\_\+ptr\+\_\+type \&}]{p\+Context }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+\mbox{\Hypertarget{classboost_1_1statechart_1_1state__machine_aeb9f786953e992c8a4725404f011395b}\label{classboost_1_1statechart_1_1state__machine_aeb9f786953e992c8a4725404f011395b}} 
+\index{boost\+::statechart\+::state\+\_\+machine@{boost\+::statechart\+::state\+\_\+machine}!construct\+\_\+with\+\_\+history\+\_\+impl@{construct\+\_\+with\+\_\+history\+\_\+impl}}
+\index{construct\+\_\+with\+\_\+history\+\_\+impl@{construct\+\_\+with\+\_\+history\+\_\+impl}!boost\+::statechart\+::state\+\_\+machine@{boost\+::statechart\+::state\+\_\+machine}}
+\subsubsection{\texorpdfstring{construct\+\_\+with\+\_\+history\+\_\+impl()}{construct\_with\_history\_impl()}}
+{\footnotesize\ttfamily template$<$class Most\+Derived, class Initial\+State, class Allocator = std\+::allocator$<$ void $>$, class Exception\+Translator = null\+\_\+exception\+\_\+translator$>$ \\
+template$<$class Default\+State $>$ \\
+void \mbox{\hyperlink{classboost_1_1statechart_1_1state__machine}{boost\+::statechart\+::state\+\_\+machine}}$<$ Most\+Derived, Initial\+State, Allocator, Exception\+Translator $>$\+::construct\+\_\+with\+\_\+history\+\_\+impl (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{classboost_1_1statechart_1_1state__machine_a9b8fdd7b5af3b0c9143f9d6fb4036ff7}{history\+\_\+map\+\_\+type}} \&}]{history\+Map,  }\item[{const typename Default\+State\+::context\+\_\+ptr\+\_\+type \&}]{p\+Context }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [private]}}
+
+\mbox{\Hypertarget{classboost_1_1statechart_1_1state__machine_ab1ea201332087d93ce5483a413fc1e7f}\label{classboost_1_1statechart_1_1state__machine_ab1ea201332087d93ce5483a413fc1e7f}} 
+\index{boost\+::statechart\+::state\+\_\+machine@{boost\+::statechart\+::state\+\_\+machine}!construct\+\_\+with\+\_\+shallow\+\_\+history@{construct\+\_\+with\+\_\+shallow\+\_\+history}}
+\index{construct\+\_\+with\+\_\+shallow\+\_\+history@{construct\+\_\+with\+\_\+shallow\+\_\+history}!boost\+::statechart\+::state\+\_\+machine@{boost\+::statechart\+::state\+\_\+machine}}
+\subsubsection{\texorpdfstring{construct\+\_\+with\+\_\+shallow\+\_\+history()}{construct\_with\_shallow\_history()}}
+{\footnotesize\ttfamily template$<$class Most\+Derived, class Initial\+State, class Allocator = std\+::allocator$<$ void $>$, class Exception\+Translator = null\+\_\+exception\+\_\+translator$>$ \\
+template$<$class Default\+State $>$ \\
+void \mbox{\hyperlink{classboost_1_1statechart_1_1state__machine}{boost\+::statechart\+::state\+\_\+machine}}$<$ Most\+Derived, Initial\+State, Allocator, Exception\+Translator $>$\+::construct\+\_\+with\+\_\+shallow\+\_\+history (\begin{DoxyParamCaption}\item[{const typename Default\+State\+::context\+\_\+ptr\+\_\+type \&}]{p\+Context }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+\mbox{\Hypertarget{classboost_1_1statechart_1_1state__machine_a05dc556eca3931ddd2afb6bec54973ae}\label{classboost_1_1statechart_1_1state__machine_a05dc556eca3931ddd2afb6bec54973ae}} 
+\index{boost\+::statechart\+::state\+\_\+machine@{boost\+::statechart\+::state\+\_\+machine}!context@{context}}
+\index{context@{context}!boost\+::statechart\+::state\+\_\+machine@{boost\+::statechart\+::state\+\_\+machine}}
+\subsubsection{\texorpdfstring{context()}{context()}\hspace{0.1cm}{\footnotesize\ttfamily [1/2]}}
+{\footnotesize\ttfamily template$<$class Most\+Derived, class Initial\+State, class Allocator = std\+::allocator$<$ void $>$, class Exception\+Translator = null\+\_\+exception\+\_\+translator$>$ \\
+template$<$class Context $>$ \\
+Context\& \mbox{\hyperlink{classboost_1_1statechart_1_1state__machine}{boost\+::statechart\+::state\+\_\+machine}}$<$ Most\+Derived, Initial\+State, Allocator, Exception\+Translator $>$\+::context (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+\mbox{\Hypertarget{classboost_1_1statechart_1_1state__machine_a0f5270e37c35f915c724b702044b8902}\label{classboost_1_1statechart_1_1state__machine_a0f5270e37c35f915c724b702044b8902}} 
+\index{boost\+::statechart\+::state\+\_\+machine@{boost\+::statechart\+::state\+\_\+machine}!context@{context}}
+\index{context@{context}!boost\+::statechart\+::state\+\_\+machine@{boost\+::statechart\+::state\+\_\+machine}}
+\subsubsection{\texorpdfstring{context()}{context()}\hspace{0.1cm}{\footnotesize\ttfamily [2/2]}}
+{\footnotesize\ttfamily template$<$class Most\+Derived, class Initial\+State, class Allocator = std\+::allocator$<$ void $>$, class Exception\+Translator = null\+\_\+exception\+\_\+translator$>$ \\
+template$<$class Context $>$ \\
+const Context\& \mbox{\hyperlink{classboost_1_1statechart_1_1state__machine}{boost\+::statechart\+::state\+\_\+machine}}$<$ Most\+Derived, Initial\+State, Allocator, Exception\+Translator $>$\+::context (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const\hspace{0.3cm}{\ttfamily [inline]}}
+
+\mbox{\Hypertarget{classboost_1_1statechart_1_1state__machine_a9486745c6ec90b852dc30c3bbcade535}\label{classboost_1_1statechart_1_1state__machine_a9486745c6ec90b852dc30c3bbcade535}} 
+\index{boost\+::statechart\+::state\+\_\+machine@{boost\+::statechart\+::state\+\_\+machine}!exit\+\_\+impl@{exit\+\_\+impl}}
+\index{exit\+\_\+impl@{exit\+\_\+impl}!boost\+::statechart\+::state\+\_\+machine@{boost\+::statechart\+::state\+\_\+machine}}
+\subsubsection{\texorpdfstring{exit\+\_\+impl()}{exit\_impl()}}
+{\footnotesize\ttfamily template$<$class Most\+Derived, class Initial\+State, class Allocator = std\+::allocator$<$ void $>$, class Exception\+Translator = null\+\_\+exception\+\_\+translator$>$ \\
+void \mbox{\hyperlink{classboost_1_1statechart_1_1state__machine}{boost\+::statechart\+::state\+\_\+machine}}$<$ Most\+Derived, Initial\+State, Allocator, Exception\+Translator $>$\+::exit\+\_\+impl (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{classboost_1_1statechart_1_1state__machine_a9943ccf227161502104d8843521b6131}{inner\+\_\+context\+\_\+ptr\+\_\+type}} \&}]{,  }\item[{typename \mbox{\hyperlink{classboost_1_1statechart_1_1detail_1_1state__base_a8e3dd0f80bf95d7df21417a50f1dbaa1}{state\+\_\+base\+\_\+type\+::node\+\_\+state\+\_\+base\+\_\+ptr\+\_\+type}} \&}]{,  }\item[{bool}]{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+\mbox{\Hypertarget{classboost_1_1statechart_1_1state__machine_a870e55352a7a01e7224ae0f06f89b0e9}\label{classboost_1_1statechart_1_1state__machine_a870e55352a7a01e7224ae0f06f89b0e9}} 
+\index{boost\+::statechart\+::state\+\_\+machine@{boost\+::statechart\+::state\+\_\+machine}!handle\+\_\+exception\+\_\+event@{handle\+\_\+exception\+\_\+event}}
+\index{handle\+\_\+exception\+\_\+event@{handle\+\_\+exception\+\_\+event}!boost\+::statechart\+::state\+\_\+machine@{boost\+::statechart\+::state\+\_\+machine}}
+\subsubsection{\texorpdfstring{handle\+\_\+exception\+\_\+event()}{handle\_exception\_event()}}
+{\footnotesize\ttfamily template$<$class Most\+Derived, class Initial\+State, class Allocator = std\+::allocator$<$ void $>$, class Exception\+Translator = null\+\_\+exception\+\_\+translator$>$ \\
+template$<$class Exception\+Event $>$ \\
+\mbox{\hyperlink{namespaceboost_1_1statechart_1_1detail_ab091bbb4c29327fb46ee479ea1b7255b}{detail\+::reaction\+\_\+result}} \mbox{\hyperlink{classboost_1_1statechart_1_1state__machine}{boost\+::statechart\+::state\+\_\+machine}}$<$ Most\+Derived, Initial\+State, Allocator, Exception\+Translator $>$\+::handle\+\_\+exception\+\_\+event (\begin{DoxyParamCaption}\item[{const Exception\+Event \&}]{exception\+Event,  }\item[{\mbox{\hyperlink{classboost_1_1statechart_1_1state__machine_a69cc258c29fcabec25c5dc8bedb7d530}{state\+\_\+base\+\_\+type}} $\ast$}]{p\+Current\+State }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [private]}}
+
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classboost_1_1statechart_1_1state__machine_a870e55352a7a01e7224ae0f06f89b0e9_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{classboost_1_1statechart_1_1state__machine_a858feecd60fbbb1484cc8e01c1e1b5b0}\label{classboost_1_1statechart_1_1state__machine_a858feecd60fbbb1484cc8e01c1e1b5b0}} 
+\index{boost\+::statechart\+::state\+\_\+machine@{boost\+::statechart\+::state\+\_\+machine}!initial\+\_\+construct@{initial\+\_\+construct}}
+\index{initial\+\_\+construct@{initial\+\_\+construct}!boost\+::statechart\+::state\+\_\+machine@{boost\+::statechart\+::state\+\_\+machine}}
+\subsubsection{\texorpdfstring{initial\+\_\+construct()}{initial\_construct()}}
+{\footnotesize\ttfamily template$<$class Most\+Derived, class Initial\+State, class Allocator = std\+::allocator$<$ void $>$, class Exception\+Translator = null\+\_\+exception\+\_\+translator$>$ \\
+void \mbox{\hyperlink{classboost_1_1statechart_1_1state__machine}{boost\+::statechart\+::state\+\_\+machine}}$<$ Most\+Derived, Initial\+State, Allocator, Exception\+Translator $>$\+::initial\+\_\+construct (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [private]}}
+
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classboost_1_1statechart_1_1state__machine_a858feecd60fbbb1484cc8e01c1e1b5b0_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{classboost_1_1statechart_1_1state__machine_a7165ce3d1120b98dde6e8d669e35aba9}\label{classboost_1_1statechart_1_1state__machine_a7165ce3d1120b98dde6e8d669e35aba9}} 
+\index{boost\+::statechart\+::state\+\_\+machine@{boost\+::statechart\+::state\+\_\+machine}!initiate@{initiate}}
+\index{initiate@{initiate}!boost\+::statechart\+::state\+\_\+machine@{boost\+::statechart\+::state\+\_\+machine}}
+\subsubsection{\texorpdfstring{initiate()}{initiate()}}
+{\footnotesize\ttfamily template$<$class Most\+Derived, class Initial\+State, class Allocator = std\+::allocator$<$ void $>$, class Exception\+Translator = null\+\_\+exception\+\_\+translator$>$ \\
+void \mbox{\hyperlink{classboost_1_1statechart_1_1state__machine}{boost\+::statechart\+::state\+\_\+machine}}$<$ Most\+Derived, Initial\+State, Allocator, Exception\+Translator $>$\+::initiate (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classboost_1_1statechart_1_1state__machine_a7165ce3d1120b98dde6e8d669e35aba9_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{classboost_1_1statechart_1_1state__machine_ad61cc29a03b3adfe91a1ae83864c5229}\label{classboost_1_1statechart_1_1state__machine_ad61cc29a03b3adfe91a1ae83864c5229}} 
+\index{boost\+::statechart\+::state\+\_\+machine@{boost\+::statechart\+::state\+\_\+machine}!is\+\_\+in\+\_\+highest\+\_\+orthogonal\+\_\+region@{is\+\_\+in\+\_\+highest\+\_\+orthogonal\+\_\+region}}
+\index{is\+\_\+in\+\_\+highest\+\_\+orthogonal\+\_\+region@{is\+\_\+in\+\_\+highest\+\_\+orthogonal\+\_\+region}!boost\+::statechart\+::state\+\_\+machine@{boost\+::statechart\+::state\+\_\+machine}}
+\subsubsection{\texorpdfstring{is\+\_\+in\+\_\+highest\+\_\+orthogonal\+\_\+region()}{is\_in\_highest\_orthogonal\_region()}}
+{\footnotesize\ttfamily template$<$class Most\+Derived, class Initial\+State, class Allocator = std\+::allocator$<$ void $>$, class Exception\+Translator = null\+\_\+exception\+\_\+translator$>$ \\
+template$<$class State $>$ \\
+static bool \mbox{\hyperlink{classboost_1_1statechart_1_1state__machine}{boost\+::statechart\+::state\+\_\+machine}}$<$ Most\+Derived, Initial\+State, Allocator, Exception\+Translator $>$\+::is\+\_\+in\+\_\+highest\+\_\+orthogonal\+\_\+region (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [static]}, {\ttfamily [private]}}
+
+\mbox{\Hypertarget{classboost_1_1statechart_1_1state__machine_a937f603c12a217efe19ce49f536b254d}\label{classboost_1_1statechart_1_1state__machine_a937f603c12a217efe19ce49f536b254d}} 
+\index{boost\+::statechart\+::state\+\_\+machine@{boost\+::statechart\+::state\+\_\+machine}!outermost\+\_\+context@{outermost\+\_\+context}}
+\index{outermost\+\_\+context@{outermost\+\_\+context}!boost\+::statechart\+::state\+\_\+machine@{boost\+::statechart\+::state\+\_\+machine}}
+\subsubsection{\texorpdfstring{outermost\+\_\+context()}{outermost\_context()}\hspace{0.1cm}{\footnotesize\ttfamily [1/2]}}
+{\footnotesize\ttfamily template$<$class Most\+Derived, class Initial\+State, class Allocator = std\+::allocator$<$ void $>$, class Exception\+Translator = null\+\_\+exception\+\_\+translator$>$ \\
+\mbox{\hyperlink{classboost_1_1statechart_1_1state__machine_a3c047829e797a9501c7d69151d17e368}{outermost\+\_\+context\+\_\+type}}\& \mbox{\hyperlink{classboost_1_1statechart_1_1state__machine}{boost\+::statechart\+::state\+\_\+machine}}$<$ Most\+Derived, Initial\+State, Allocator, Exception\+Translator $>$\+::outermost\+\_\+context (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+\mbox{\Hypertarget{classboost_1_1statechart_1_1state__machine_a882a09cb2b9013e63780ac7bf12b9e2a}\label{classboost_1_1statechart_1_1state__machine_a882a09cb2b9013e63780ac7bf12b9e2a}} 
+\index{boost\+::statechart\+::state\+\_\+machine@{boost\+::statechart\+::state\+\_\+machine}!outermost\+\_\+context@{outermost\+\_\+context}}
+\index{outermost\+\_\+context@{outermost\+\_\+context}!boost\+::statechart\+::state\+\_\+machine@{boost\+::statechart\+::state\+\_\+machine}}
+\subsubsection{\texorpdfstring{outermost\+\_\+context()}{outermost\_context()}\hspace{0.1cm}{\footnotesize\ttfamily [2/2]}}
+{\footnotesize\ttfamily template$<$class Most\+Derived, class Initial\+State, class Allocator = std\+::allocator$<$ void $>$, class Exception\+Translator = null\+\_\+exception\+\_\+translator$>$ \\
+const \mbox{\hyperlink{classboost_1_1statechart_1_1state__machine_a3c047829e797a9501c7d69151d17e368}{outermost\+\_\+context\+\_\+type}}\& \mbox{\hyperlink{classboost_1_1statechart_1_1state__machine}{boost\+::statechart\+::state\+\_\+machine}}$<$ Most\+Derived, Initial\+State, Allocator, Exception\+Translator $>$\+::outermost\+\_\+context (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const\hspace{0.3cm}{\ttfamily [inline]}}
+
+\mbox{\Hypertarget{classboost_1_1statechart_1_1state__machine_a799d85b75a1d8f6eb4bc637427aab641}\label{classboost_1_1statechart_1_1state__machine_a799d85b75a1d8f6eb4bc637427aab641}} 
+\index{boost\+::statechart\+::state\+\_\+machine@{boost\+::statechart\+::state\+\_\+machine}!outermost\+\_\+context\+\_\+base@{outermost\+\_\+context\+\_\+base}}
+\index{outermost\+\_\+context\+\_\+base@{outermost\+\_\+context\+\_\+base}!boost\+::statechart\+::state\+\_\+machine@{boost\+::statechart\+::state\+\_\+machine}}
+\subsubsection{\texorpdfstring{outermost\+\_\+context\+\_\+base()}{outermost\_context\_base()}\hspace{0.1cm}{\footnotesize\ttfamily [1/2]}}
+{\footnotesize\ttfamily template$<$class Most\+Derived, class Initial\+State, class Allocator = std\+::allocator$<$ void $>$, class Exception\+Translator = null\+\_\+exception\+\_\+translator$>$ \\
+\mbox{\hyperlink{classboost_1_1statechart_1_1state__machine_a05b007af532fafe2f186a18351beaa5e}{outermost\+\_\+context\+\_\+base\+\_\+type}}\& \mbox{\hyperlink{classboost_1_1statechart_1_1state__machine}{boost\+::statechart\+::state\+\_\+machine}}$<$ Most\+Derived, Initial\+State, Allocator, Exception\+Translator $>$\+::outermost\+\_\+context\+\_\+base (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+\mbox{\Hypertarget{classboost_1_1statechart_1_1state__machine_a29f6efc956b6277593d2cd4dcd963e12}\label{classboost_1_1statechart_1_1state__machine_a29f6efc956b6277593d2cd4dcd963e12}} 
+\index{boost\+::statechart\+::state\+\_\+machine@{boost\+::statechart\+::state\+\_\+machine}!outermost\+\_\+context\+\_\+base@{outermost\+\_\+context\+\_\+base}}
+\index{outermost\+\_\+context\+\_\+base@{outermost\+\_\+context\+\_\+base}!boost\+::statechart\+::state\+\_\+machine@{boost\+::statechart\+::state\+\_\+machine}}
+\subsubsection{\texorpdfstring{outermost\+\_\+context\+\_\+base()}{outermost\_context\_base()}\hspace{0.1cm}{\footnotesize\ttfamily [2/2]}}
+{\footnotesize\ttfamily template$<$class Most\+Derived, class Initial\+State, class Allocator = std\+::allocator$<$ void $>$, class Exception\+Translator = null\+\_\+exception\+\_\+translator$>$ \\
+const \mbox{\hyperlink{classboost_1_1statechart_1_1state__machine_a05b007af532fafe2f186a18351beaa5e}{outermost\+\_\+context\+\_\+base\+\_\+type}}\& \mbox{\hyperlink{classboost_1_1statechart_1_1state__machine}{boost\+::statechart\+::state\+\_\+machine}}$<$ Most\+Derived, Initial\+State, Allocator, Exception\+Translator $>$\+::outermost\+\_\+context\+\_\+base (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const\hspace{0.3cm}{\ttfamily [inline]}}
+
+\mbox{\Hypertarget{classboost_1_1statechart_1_1state__machine_ab0b16e3139d505968f463861913850ed}\label{classboost_1_1statechart_1_1state__machine_ab0b16e3139d505968f463861913850ed}} 
+\index{boost\+::statechart\+::state\+\_\+machine@{boost\+::statechart\+::state\+\_\+machine}!post\+\_\+event@{post\+\_\+event}}
+\index{post\+\_\+event@{post\+\_\+event}!boost\+::statechart\+::state\+\_\+machine@{boost\+::statechart\+::state\+\_\+machine}}
+\subsubsection{\texorpdfstring{post\+\_\+event()}{post\_event()}\hspace{0.1cm}{\footnotesize\ttfamily [1/2]}}
+{\footnotesize\ttfamily template$<$class Most\+Derived, class Initial\+State, class Allocator = std\+::allocator$<$ void $>$, class Exception\+Translator = null\+\_\+exception\+\_\+translator$>$ \\
+void \mbox{\hyperlink{classboost_1_1statechart_1_1state__machine}{boost\+::statechart\+::state\+\_\+machine}}$<$ Most\+Derived, Initial\+State, Allocator, Exception\+Translator $>$\+::post\+\_\+event (\begin{DoxyParamCaption}\item[{const \mbox{\hyperlink{classboost_1_1statechart_1_1state__machine_aa2f1c567e2d1a66786d28769312dfa08}{event\+\_\+base\+\_\+ptr\+\_\+type}} \&}]{p\+Event }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [protected]}}
+
+\mbox{\Hypertarget{classboost_1_1statechart_1_1state__machine_affa0211ad348886e2f01e8ec1cc55654}\label{classboost_1_1statechart_1_1state__machine_affa0211ad348886e2f01e8ec1cc55654}} 
+\index{boost\+::statechart\+::state\+\_\+machine@{boost\+::statechart\+::state\+\_\+machine}!post\+\_\+event@{post\+\_\+event}}
+\index{post\+\_\+event@{post\+\_\+event}!boost\+::statechart\+::state\+\_\+machine@{boost\+::statechart\+::state\+\_\+machine}}
+\subsubsection{\texorpdfstring{post\+\_\+event()}{post\_event()}\hspace{0.1cm}{\footnotesize\ttfamily [2/2]}}
+{\footnotesize\ttfamily template$<$class Most\+Derived, class Initial\+State, class Allocator = std\+::allocator$<$ void $>$, class Exception\+Translator = null\+\_\+exception\+\_\+translator$>$ \\
+void \mbox{\hyperlink{classboost_1_1statechart_1_1state__machine}{boost\+::statechart\+::state\+\_\+machine}}$<$ Most\+Derived, Initial\+State, Allocator, Exception\+Translator $>$\+::post\+\_\+event (\begin{DoxyParamCaption}\item[{const \mbox{\hyperlink{classboost_1_1statechart_1_1event__base}{event\+\_\+base}} \&}]{evt }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [protected]}}
+
+\mbox{\Hypertarget{classboost_1_1statechart_1_1state__machine_ac2e9c9c0d773811364289ae11d21f0fc}\label{classboost_1_1statechart_1_1state__machine_ac2e9c9c0d773811364289ae11d21f0fc}} 
+\index{boost\+::statechart\+::state\+\_\+machine@{boost\+::statechart\+::state\+\_\+machine}!post\+\_\+event\+\_\+impl@{post\+\_\+event\+\_\+impl}}
+\index{post\+\_\+event\+\_\+impl@{post\+\_\+event\+\_\+impl}!boost\+::statechart\+::state\+\_\+machine@{boost\+::statechart\+::state\+\_\+machine}}
+\subsubsection{\texorpdfstring{post\+\_\+event\+\_\+impl()}{post\_event\_impl()}\hspace{0.1cm}{\footnotesize\ttfamily [1/2]}}
+{\footnotesize\ttfamily template$<$class Most\+Derived, class Initial\+State, class Allocator = std\+::allocator$<$ void $>$, class Exception\+Translator = null\+\_\+exception\+\_\+translator$>$ \\
+void \mbox{\hyperlink{classboost_1_1statechart_1_1state__machine}{boost\+::statechart\+::state\+\_\+machine}}$<$ Most\+Derived, Initial\+State, Allocator, Exception\+Translator $>$\+::post\+\_\+event\+\_\+impl (\begin{DoxyParamCaption}\item[{const \mbox{\hyperlink{classboost_1_1statechart_1_1state__machine_aa2f1c567e2d1a66786d28769312dfa08}{event\+\_\+base\+\_\+ptr\+\_\+type}} \&}]{p\+Event }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classboost_1_1statechart_1_1state__machine_ac2e9c9c0d773811364289ae11d21f0fc_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{classboost_1_1statechart_1_1state__machine_a1c2de8cd216efdafba64c256ed2c958c}\label{classboost_1_1statechart_1_1state__machine_a1c2de8cd216efdafba64c256ed2c958c}} 
+\index{boost\+::statechart\+::state\+\_\+machine@{boost\+::statechart\+::state\+\_\+machine}!post\+\_\+event\+\_\+impl@{post\+\_\+event\+\_\+impl}}
+\index{post\+\_\+event\+\_\+impl@{post\+\_\+event\+\_\+impl}!boost\+::statechart\+::state\+\_\+machine@{boost\+::statechart\+::state\+\_\+machine}}
+\subsubsection{\texorpdfstring{post\+\_\+event\+\_\+impl()}{post\_event\_impl()}\hspace{0.1cm}{\footnotesize\ttfamily [2/2]}}
+{\footnotesize\ttfamily template$<$class Most\+Derived, class Initial\+State, class Allocator = std\+::allocator$<$ void $>$, class Exception\+Translator = null\+\_\+exception\+\_\+translator$>$ \\
+void \mbox{\hyperlink{classboost_1_1statechart_1_1state__machine}{boost\+::statechart\+::state\+\_\+machine}}$<$ Most\+Derived, Initial\+State, Allocator, Exception\+Translator $>$\+::post\+\_\+event\+\_\+impl (\begin{DoxyParamCaption}\item[{const \mbox{\hyperlink{classboost_1_1statechart_1_1event__base}{event\+\_\+base}} \&}]{evt }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+\mbox{\Hypertarget{classboost_1_1statechart_1_1state__machine_a78598d4982f6b85e83358652eb1c3d6e}\label{classboost_1_1statechart_1_1state__machine_a78598d4982f6b85e83358652eb1c3d6e}} 
+\index{boost\+::statechart\+::state\+\_\+machine@{boost\+::statechart\+::state\+\_\+machine}!process\+\_\+event@{process\+\_\+event}}
+\index{process\+\_\+event@{process\+\_\+event}!boost\+::statechart\+::state\+\_\+machine@{boost\+::statechart\+::state\+\_\+machine}}
+\subsubsection{\texorpdfstring{process\+\_\+event()}{process\_event()}}
+{\footnotesize\ttfamily template$<$class Most\+Derived, class Initial\+State, class Allocator = std\+::allocator$<$ void $>$, class Exception\+Translator = null\+\_\+exception\+\_\+translator$>$ \\
+void \mbox{\hyperlink{classboost_1_1statechart_1_1state__machine}{boost\+::statechart\+::state\+\_\+machine}}$<$ Most\+Derived, Initial\+State, Allocator, Exception\+Translator $>$\+::process\+\_\+event (\begin{DoxyParamCaption}\item[{const \mbox{\hyperlink{classboost_1_1statechart_1_1state__machine_adb0e98d6d780a0977209fa7389b20bcd}{event\+\_\+base\+\_\+type}} \&}]{evt }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classboost_1_1statechart_1_1state__machine_a78598d4982f6b85e83358652eb1c3d6e_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{classboost_1_1statechart_1_1state__machine_af158f951f31691cdec6c00b48612124c}\label{classboost_1_1statechart_1_1state__machine_af158f951f31691cdec6c00b48612124c}} 
+\index{boost\+::statechart\+::state\+\_\+machine@{boost\+::statechart\+::state\+\_\+machine}!process\+\_\+queued\+\_\+events@{process\+\_\+queued\+\_\+events}}
+\index{process\+\_\+queued\+\_\+events@{process\+\_\+queued\+\_\+events}!boost\+::statechart\+::state\+\_\+machine@{boost\+::statechart\+::state\+\_\+machine}}
+\subsubsection{\texorpdfstring{process\+\_\+queued\+\_\+events()}{process\_queued\_events()}}
+{\footnotesize\ttfamily template$<$class Most\+Derived, class Initial\+State, class Allocator = std\+::allocator$<$ void $>$, class Exception\+Translator = null\+\_\+exception\+\_\+translator$>$ \\
+void \mbox{\hyperlink{classboost_1_1statechart_1_1state__machine}{boost\+::statechart\+::state\+\_\+machine}}$<$ Most\+Derived, Initial\+State, Allocator, Exception\+Translator $>$\+::process\+\_\+queued\+\_\+events (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [private]}}
+
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classboost_1_1statechart_1_1state__machine_af158f951f31691cdec6c00b48612124c_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{classboost_1_1statechart_1_1state__machine_ade128c9521e56191502b711f15b438cd}\label{classboost_1_1statechart_1_1state__machine_ade128c9521e56191502b711f15b438cd}} 
+\index{boost\+::statechart\+::state\+\_\+machine@{boost\+::statechart\+::state\+\_\+machine}!react\+\_\+impl@{react\+\_\+impl}}
+\index{react\+\_\+impl@{react\+\_\+impl}!boost\+::statechart\+::state\+\_\+machine@{boost\+::statechart\+::state\+\_\+machine}}
+\subsubsection{\texorpdfstring{react\+\_\+impl()}{react\_impl()}}
+{\footnotesize\ttfamily template$<$class Most\+Derived, class Initial\+State, class Allocator = std\+::allocator$<$ void $>$, class Exception\+Translator = null\+\_\+exception\+\_\+translator$>$ \\
+\mbox{\hyperlink{namespaceboost_1_1statechart_1_1detail_ab091bbb4c29327fb46ee479ea1b7255b}{detail\+::reaction\+\_\+result}} \mbox{\hyperlink{classboost_1_1statechart_1_1state__machine}{boost\+::statechart\+::state\+\_\+machine}}$<$ Most\+Derived, Initial\+State, Allocator, Exception\+Translator $>$\+::react\+\_\+impl (\begin{DoxyParamCaption}\item[{const \mbox{\hyperlink{classboost_1_1statechart_1_1state__machine_adb0e98d6d780a0977209fa7389b20bcd}{event\+\_\+base\+\_\+type}} \&}]{,  }\item[{typename \mbox{\hyperlink{structboost_1_1statechart_1_1detail_1_1rtti__policy_a57d56a3531686fb2b92d733b5da620c2}{rtti\+\_\+policy\+\_\+type\+::id\+\_\+type}}}]{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+\mbox{\Hypertarget{classboost_1_1statechart_1_1state__machine_ac1526a82bacd6c9e9b3d6bb5001809a9}\label{classboost_1_1statechart_1_1state__machine_ac1526a82bacd6c9e9b3d6bb5001809a9}} 
+\index{boost\+::statechart\+::state\+\_\+machine@{boost\+::statechart\+::state\+\_\+machine}!release\+\_\+events@{release\+\_\+events}}
+\index{release\+\_\+events@{release\+\_\+events}!boost\+::statechart\+::state\+\_\+machine@{boost\+::statechart\+::state\+\_\+machine}}
+\subsubsection{\texorpdfstring{release\+\_\+events()}{release\_events()}}
+{\footnotesize\ttfamily template$<$class Most\+Derived, class Initial\+State, class Allocator = std\+::allocator$<$ void $>$, class Exception\+Translator = null\+\_\+exception\+\_\+translator$>$ \\
+void \mbox{\hyperlink{classboost_1_1statechart_1_1state__machine}{boost\+::statechart\+::state\+\_\+machine}}$<$ Most\+Derived, Initial\+State, Allocator, Exception\+Translator $>$\+::release\+\_\+events (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+\mbox{\Hypertarget{classboost_1_1statechart_1_1state__machine_a3d848420d633249edb93d984e2bd8bb4}\label{classboost_1_1statechart_1_1state__machine_a3d848420d633249edb93d984e2bd8bb4}} 
+\index{boost\+::statechart\+::state\+\_\+machine@{boost\+::statechart\+::state\+\_\+machine}!remove\+\_\+inner\+\_\+state@{remove\+\_\+inner\+\_\+state}}
+\index{remove\+\_\+inner\+\_\+state@{remove\+\_\+inner\+\_\+state}!boost\+::statechart\+::state\+\_\+machine@{boost\+::statechart\+::state\+\_\+machine}}
+\subsubsection{\texorpdfstring{remove\+\_\+inner\+\_\+state()}{remove\_inner\_state()}}
+{\footnotesize\ttfamily template$<$class Most\+Derived, class Initial\+State, class Allocator = std\+::allocator$<$ void $>$, class Exception\+Translator = null\+\_\+exception\+\_\+translator$>$ \\
+void \mbox{\hyperlink{classboost_1_1statechart_1_1state__machine}{boost\+::statechart\+::state\+\_\+machine}}$<$ Most\+Derived, Initial\+State, Allocator, Exception\+Translator $>$\+::remove\+\_\+inner\+\_\+state (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{namespaceboost_1_1statechart_1_1detail_a3bedea0b807a16fa222733417183d2c9}{detail\+::orthogonal\+\_\+position\+\_\+type}}}]{position }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+\mbox{\Hypertarget{classboost_1_1statechart_1_1state__machine_ae429789fa4f90eecdce95f56fd72f985}\label{classboost_1_1statechart_1_1state__machine_ae429789fa4f90eecdce95f56fd72f985}} 
+\index{boost\+::statechart\+::state\+\_\+machine@{boost\+::statechart\+::state\+\_\+machine}!send\+\_\+event@{send\+\_\+event}}
+\index{send\+\_\+event@{send\+\_\+event}!boost\+::statechart\+::state\+\_\+machine@{boost\+::statechart\+::state\+\_\+machine}}
+\subsubsection{\texorpdfstring{send\+\_\+event()}{send\_event()}}
+{\footnotesize\ttfamily template$<$class Most\+Derived, class Initial\+State, class Allocator = std\+::allocator$<$ void $>$, class Exception\+Translator = null\+\_\+exception\+\_\+translator$>$ \\
+\mbox{\hyperlink{namespaceboost_1_1statechart_1_1detail_ab091bbb4c29327fb46ee479ea1b7255b}{detail\+::reaction\+\_\+result}} \mbox{\hyperlink{classboost_1_1statechart_1_1state__machine}{boost\+::statechart\+::state\+\_\+machine}}$<$ Most\+Derived, Initial\+State, Allocator, Exception\+Translator $>$\+::send\+\_\+event (\begin{DoxyParamCaption}\item[{const \mbox{\hyperlink{classboost_1_1statechart_1_1state__machine_adb0e98d6d780a0977209fa7389b20bcd}{event\+\_\+base\+\_\+type}} \&}]{evt }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [private]}}
+
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classboost_1_1statechart_1_1state__machine_ae429789fa4f90eecdce95f56fd72f985_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{classboost_1_1statechart_1_1state__machine_a986877a10c5bbba4fabdd398893f8bda}\label{classboost_1_1statechart_1_1state__machine_a986877a10c5bbba4fabdd398893f8bda}} 
+\index{boost\+::statechart\+::state\+\_\+machine@{boost\+::statechart\+::state\+\_\+machine}!set\+\_\+outermost\+\_\+unstable\+\_\+state@{set\+\_\+outermost\+\_\+unstable\+\_\+state}}
+\index{set\+\_\+outermost\+\_\+unstable\+\_\+state@{set\+\_\+outermost\+\_\+unstable\+\_\+state}!boost\+::statechart\+::state\+\_\+machine@{boost\+::statechart\+::state\+\_\+machine}}
+\subsubsection{\texorpdfstring{set\+\_\+outermost\+\_\+unstable\+\_\+state()}{set\_outermost\_unstable\_state()}}
+{\footnotesize\ttfamily template$<$class Most\+Derived, class Initial\+State, class Allocator = std\+::allocator$<$ void $>$, class Exception\+Translator = null\+\_\+exception\+\_\+translator$>$ \\
+void \mbox{\hyperlink{classboost_1_1statechart_1_1state__machine}{boost\+::statechart\+::state\+\_\+machine}}$<$ Most\+Derived, Initial\+State, Allocator, Exception\+Translator $>$\+::set\+\_\+outermost\+\_\+unstable\+\_\+state (\begin{DoxyParamCaption}\item[{typename \mbox{\hyperlink{classboost_1_1statechart_1_1detail_1_1state__base_a8e3dd0f80bf95d7df21417a50f1dbaa1}{state\+\_\+base\+\_\+type\+::node\+\_\+state\+\_\+base\+\_\+ptr\+\_\+type}} \&}]{p\+Outermost\+Unstable\+State }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+\mbox{\Hypertarget{classboost_1_1statechart_1_1state__machine_a270c21248c558be7daf8139c032b1f0c}\label{classboost_1_1statechart_1_1state__machine_a270c21248c558be7daf8139c032b1f0c}} 
+\index{boost\+::statechart\+::state\+\_\+machine@{boost\+::statechart\+::state\+\_\+machine}!state\+\_\+begin@{state\+\_\+begin}}
+\index{state\+\_\+begin@{state\+\_\+begin}!boost\+::statechart\+::state\+\_\+machine@{boost\+::statechart\+::state\+\_\+machine}}
+\subsubsection{\texorpdfstring{state\+\_\+begin()}{state\_begin()}}
+{\footnotesize\ttfamily template$<$class Most\+Derived, class Initial\+State, class Allocator = std\+::allocator$<$ void $>$, class Exception\+Translator = null\+\_\+exception\+\_\+translator$>$ \\
+\mbox{\hyperlink{classboost_1_1statechart_1_1state__machine_1_1state__iterator}{state\+\_\+iterator}} \mbox{\hyperlink{classboost_1_1statechart_1_1state__machine}{boost\+::statechart\+::state\+\_\+machine}}$<$ Most\+Derived, Initial\+State, Allocator, Exception\+Translator $>$\+::state\+\_\+begin (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const\hspace{0.3cm}{\ttfamily [inline]}}
+
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classboost_1_1statechart_1_1state__machine_a270c21248c558be7daf8139c032b1f0c_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{classboost_1_1statechart_1_1state__machine_aabd07005b47036311b5e80e05c1746c2}\label{classboost_1_1statechart_1_1state__machine_aabd07005b47036311b5e80e05c1746c2}} 
+\index{boost\+::statechart\+::state\+\_\+machine@{boost\+::statechart\+::state\+\_\+machine}!state\+\_\+cast@{state\+\_\+cast}}
+\index{state\+\_\+cast@{state\+\_\+cast}!boost\+::statechart\+::state\+\_\+machine@{boost\+::statechart\+::state\+\_\+machine}}
+\subsubsection{\texorpdfstring{state\+\_\+cast()}{state\_cast()}}
+{\footnotesize\ttfamily template$<$class Most\+Derived, class Initial\+State, class Allocator = std\+::allocator$<$ void $>$, class Exception\+Translator = null\+\_\+exception\+\_\+translator$>$ \\
+template$<$class Target $>$ \\
+Target \mbox{\hyperlink{classboost_1_1statechart_1_1state__machine}{boost\+::statechart\+::state\+\_\+machine}}$<$ Most\+Derived, Initial\+State, Allocator, Exception\+Translator $>$\+::state\+\_\+cast (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const\hspace{0.3cm}{\ttfamily [inline]}}
+
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classboost_1_1statechart_1_1state__machine_aabd07005b47036311b5e80e05c1746c2_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{classboost_1_1statechart_1_1state__machine_a8054170cced8b908272d9d8ba9e5deb9}\label{classboost_1_1statechart_1_1state__machine_a8054170cced8b908272d9d8ba9e5deb9}} 
+\index{boost\+::statechart\+::state\+\_\+machine@{boost\+::statechart\+::state\+\_\+machine}!state\+\_\+downcast@{state\+\_\+downcast}}
+\index{state\+\_\+downcast@{state\+\_\+downcast}!boost\+::statechart\+::state\+\_\+machine@{boost\+::statechart\+::state\+\_\+machine}}
+\subsubsection{\texorpdfstring{state\+\_\+downcast()}{state\_downcast()}}
+{\footnotesize\ttfamily template$<$class Most\+Derived, class Initial\+State, class Allocator = std\+::allocator$<$ void $>$, class Exception\+Translator = null\+\_\+exception\+\_\+translator$>$ \\
+template$<$class Target $>$ \\
+Target \mbox{\hyperlink{classboost_1_1statechart_1_1state__machine}{boost\+::statechart\+::state\+\_\+machine}}$<$ Most\+Derived, Initial\+State, Allocator, Exception\+Translator $>$\+::state\+\_\+downcast (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const\hspace{0.3cm}{\ttfamily [inline]}}
+
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classboost_1_1statechart_1_1state__machine_a8054170cced8b908272d9d8ba9e5deb9_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{classboost_1_1statechart_1_1state__machine_aab9cfe96af77fbfb10098f9c6ba209a5}\label{classboost_1_1statechart_1_1state__machine_aab9cfe96af77fbfb10098f9c6ba209a5}} 
+\index{boost\+::statechart\+::state\+\_\+machine@{boost\+::statechart\+::state\+\_\+machine}!state\+\_\+end@{state\+\_\+end}}
+\index{state\+\_\+end@{state\+\_\+end}!boost\+::statechart\+::state\+\_\+machine@{boost\+::statechart\+::state\+\_\+machine}}
+\subsubsection{\texorpdfstring{state\+\_\+end()}{state\_end()}}
+{\footnotesize\ttfamily template$<$class Most\+Derived, class Initial\+State, class Allocator = std\+::allocator$<$ void $>$, class Exception\+Translator = null\+\_\+exception\+\_\+translator$>$ \\
+\mbox{\hyperlink{classboost_1_1statechart_1_1state__machine_1_1state__iterator}{state\+\_\+iterator}} \mbox{\hyperlink{classboost_1_1statechart_1_1state__machine}{boost\+::statechart\+::state\+\_\+machine}}$<$ Most\+Derived, Initial\+State, Allocator, Exception\+Translator $>$\+::state\+\_\+end (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const\hspace{0.3cm}{\ttfamily [inline]}}
+
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classboost_1_1statechart_1_1state__machine_aab9cfe96af77fbfb10098f9c6ba209a5_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{classboost_1_1statechart_1_1state__machine_a26b501c3b813c446d450aad3981dbfe3}\label{classboost_1_1statechart_1_1state__machine_a26b501c3b813c446d450aad3981dbfe3}} 
+\index{boost\+::statechart\+::state\+\_\+machine@{boost\+::statechart\+::state\+\_\+machine}!store\+\_\+deep\+\_\+history@{store\+\_\+deep\+\_\+history}}
+\index{store\+\_\+deep\+\_\+history@{store\+\_\+deep\+\_\+history}!boost\+::statechart\+::state\+\_\+machine@{boost\+::statechart\+::state\+\_\+machine}}
+\subsubsection{\texorpdfstring{store\+\_\+deep\+\_\+history()}{store\_deep\_history()}}
+{\footnotesize\ttfamily template$<$class Most\+Derived, class Initial\+State, class Allocator = std\+::allocator$<$ void $>$, class Exception\+Translator = null\+\_\+exception\+\_\+translator$>$ \\
+template$<$class Historized\+State , class Leaf\+State $>$ \\
+void \mbox{\hyperlink{classboost_1_1statechart_1_1state__machine}{boost\+::statechart\+::state\+\_\+machine}}$<$ Most\+Derived, Initial\+State, Allocator, Exception\+Translator $>$\+::store\+\_\+deep\+\_\+history (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+\mbox{\Hypertarget{classboost_1_1statechart_1_1state__machine_abb755807d8a21c92ec5484d747b05d14}\label{classboost_1_1statechart_1_1state__machine_abb755807d8a21c92ec5484d747b05d14}} 
+\index{boost\+::statechart\+::state\+\_\+machine@{boost\+::statechart\+::state\+\_\+machine}!store\+\_\+history\+\_\+impl@{store\+\_\+history\+\_\+impl}}
+\index{store\+\_\+history\+\_\+impl@{store\+\_\+history\+\_\+impl}!boost\+::statechart\+::state\+\_\+machine@{boost\+::statechart\+::state\+\_\+machine}}
+\subsubsection{\texorpdfstring{store\+\_\+history\+\_\+impl()}{store\_history\_impl()}}
+{\footnotesize\ttfamily template$<$class Most\+Derived, class Initial\+State, class Allocator = std\+::allocator$<$ void $>$, class Exception\+Translator = null\+\_\+exception\+\_\+translator$>$ \\
+void \mbox{\hyperlink{classboost_1_1statechart_1_1state__machine}{boost\+::statechart\+::state\+\_\+machine}}$<$ Most\+Derived, Initial\+State, Allocator, Exception\+Translator $>$\+::store\+\_\+history\+\_\+impl (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{classboost_1_1statechart_1_1state__machine_a9b8fdd7b5af3b0c9143f9d6fb4036ff7}{history\+\_\+map\+\_\+type}} \&}]{history\+Map,  }\item[{const \mbox{\hyperlink{classboost_1_1statechart_1_1state__machine_a4f8e1e85e0ba11488c57318b61950e32}{history\+\_\+key\+\_\+type}} \&}]{history\+Id,  }\item[{void($\ast$)()}]{p\+Construct\+Function }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [private]}}
+
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classboost_1_1statechart_1_1state__machine_abb755807d8a21c92ec5484d747b05d14_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{classboost_1_1statechart_1_1state__machine_a3af3b88318ab1711324e1c4b37fa055c}\label{classboost_1_1statechart_1_1state__machine_a3af3b88318ab1711324e1c4b37fa055c}} 
+\index{boost\+::statechart\+::state\+\_\+machine@{boost\+::statechart\+::state\+\_\+machine}!store\+\_\+shallow\+\_\+history@{store\+\_\+shallow\+\_\+history}}
+\index{store\+\_\+shallow\+\_\+history@{store\+\_\+shallow\+\_\+history}!boost\+::statechart\+::state\+\_\+machine@{boost\+::statechart\+::state\+\_\+machine}}
+\subsubsection{\texorpdfstring{store\+\_\+shallow\+\_\+history()}{store\_shallow\_history()}}
+{\footnotesize\ttfamily template$<$class Most\+Derived, class Initial\+State, class Allocator = std\+::allocator$<$ void $>$, class Exception\+Translator = null\+\_\+exception\+\_\+translator$>$ \\
+template$<$class Historized\+State $>$ \\
+void \mbox{\hyperlink{classboost_1_1statechart_1_1state__machine}{boost\+::statechart\+::state\+\_\+machine}}$<$ Most\+Derived, Initial\+State, Allocator, Exception\+Translator $>$\+::store\+\_\+shallow\+\_\+history (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+\mbox{\Hypertarget{classboost_1_1statechart_1_1state__machine_a6abd7c38c09f87fa662c5aa5e8f6f3ff}\label{classboost_1_1statechart_1_1state__machine_a6abd7c38c09f87fa662c5aa5e8f6f3ff}} 
+\index{boost\+::statechart\+::state\+\_\+machine@{boost\+::statechart\+::state\+\_\+machine}!terminate@{terminate}}
+\index{terminate@{terminate}!boost\+::statechart\+::state\+\_\+machine@{boost\+::statechart\+::state\+\_\+machine}}
+\subsubsection{\texorpdfstring{terminate()}{terminate()}}
+{\footnotesize\ttfamily template$<$class Most\+Derived, class Initial\+State, class Allocator = std\+::allocator$<$ void $>$, class Exception\+Translator = null\+\_\+exception\+\_\+translator$>$ \\
+void \mbox{\hyperlink{classboost_1_1statechart_1_1state__machine}{boost\+::statechart\+::state\+\_\+machine}}$<$ Most\+Derived, Initial\+State, Allocator, Exception\+Translator $>$\+::terminate (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classboost_1_1statechart_1_1state__machine_a6abd7c38c09f87fa662c5aa5e8f6f3ff_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{classboost_1_1statechart_1_1state__machine_ad67f22f0ca7a18cada1420b9d851530c}\label{classboost_1_1statechart_1_1state__machine_ad67f22f0ca7a18cada1420b9d851530c}} 
+\index{boost\+::statechart\+::state\+\_\+machine@{boost\+::statechart\+::state\+\_\+machine}!terminate\+\_\+as\+\_\+part\+\_\+of\+\_\+transit@{terminate\+\_\+as\+\_\+part\+\_\+of\+\_\+transit}}
+\index{terminate\+\_\+as\+\_\+part\+\_\+of\+\_\+transit@{terminate\+\_\+as\+\_\+part\+\_\+of\+\_\+transit}!boost\+::statechart\+::state\+\_\+machine@{boost\+::statechart\+::state\+\_\+machine}}
+\subsubsection{\texorpdfstring{terminate\+\_\+as\+\_\+part\+\_\+of\+\_\+transit()}{terminate\_as\_part\_of\_transit()}\hspace{0.1cm}{\footnotesize\ttfamily [1/2]}}
+{\footnotesize\ttfamily template$<$class Most\+Derived, class Initial\+State, class Allocator = std\+::allocator$<$ void $>$, class Exception\+Translator = null\+\_\+exception\+\_\+translator$>$ \\
+void \mbox{\hyperlink{classboost_1_1statechart_1_1state__machine}{boost\+::statechart\+::state\+\_\+machine}}$<$ Most\+Derived, Initial\+State, Allocator, Exception\+Translator $>$\+::terminate\+\_\+as\+\_\+part\+\_\+of\+\_\+transit (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{classboost_1_1statechart_1_1state__machine_a69cc258c29fcabec25c5dc8bedb7d530}{state\+\_\+base\+\_\+type}} \&}]{the\+State }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+\mbox{\Hypertarget{classboost_1_1statechart_1_1state__machine_a91a89a86d256b7ba4dd3ae50d7087c3f}\label{classboost_1_1statechart_1_1state__machine_a91a89a86d256b7ba4dd3ae50d7087c3f}} 
+\index{boost\+::statechart\+::state\+\_\+machine@{boost\+::statechart\+::state\+\_\+machine}!terminate\+\_\+as\+\_\+part\+\_\+of\+\_\+transit@{terminate\+\_\+as\+\_\+part\+\_\+of\+\_\+transit}}
+\index{terminate\+\_\+as\+\_\+part\+\_\+of\+\_\+transit@{terminate\+\_\+as\+\_\+part\+\_\+of\+\_\+transit}!boost\+::statechart\+::state\+\_\+machine@{boost\+::statechart\+::state\+\_\+machine}}
+\subsubsection{\texorpdfstring{terminate\+\_\+as\+\_\+part\+\_\+of\+\_\+transit()}{terminate\_as\_part\_of\_transit()}\hspace{0.1cm}{\footnotesize\ttfamily [2/2]}}
+{\footnotesize\ttfamily template$<$class Most\+Derived, class Initial\+State, class Allocator = std\+::allocator$<$ void $>$, class Exception\+Translator = null\+\_\+exception\+\_\+translator$>$ \\
+void \mbox{\hyperlink{classboost_1_1statechart_1_1state__machine}{boost\+::statechart\+::state\+\_\+machine}}$<$ Most\+Derived, Initial\+State, Allocator, Exception\+Translator $>$\+::terminate\+\_\+as\+\_\+part\+\_\+of\+\_\+transit (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{classboost_1_1statechart_1_1state__machine}{state\+\_\+machine}}$<$ Most\+Derived, Initial\+State, Allocator, Exception\+Translator $>$ \&}]{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+\mbox{\Hypertarget{classboost_1_1statechart_1_1state__machine_af1b30d30e04a470cc89c3e9e3792e993}\label{classboost_1_1statechart_1_1state__machine_af1b30d30e04a470cc89c3e9e3792e993}} 
+\index{boost\+::statechart\+::state\+\_\+machine@{boost\+::statechart\+::state\+\_\+machine}!terminate\+\_\+as\+\_\+reaction@{terminate\+\_\+as\+\_\+reaction}}
+\index{terminate\+\_\+as\+\_\+reaction@{terminate\+\_\+as\+\_\+reaction}!boost\+::statechart\+::state\+\_\+machine@{boost\+::statechart\+::state\+\_\+machine}}
+\subsubsection{\texorpdfstring{terminate\+\_\+as\+\_\+reaction()}{terminate\_as\_reaction()}}
+{\footnotesize\ttfamily template$<$class Most\+Derived, class Initial\+State, class Allocator = std\+::allocator$<$ void $>$, class Exception\+Translator = null\+\_\+exception\+\_\+translator$>$ \\
+void \mbox{\hyperlink{classboost_1_1statechart_1_1state__machine}{boost\+::statechart\+::state\+\_\+machine}}$<$ Most\+Derived, Initial\+State, Allocator, Exception\+Translator $>$\+::terminate\+\_\+as\+\_\+reaction (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{classboost_1_1statechart_1_1state__machine_a69cc258c29fcabec25c5dc8bedb7d530}{state\+\_\+base\+\_\+type}} \&}]{the\+State }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+\mbox{\Hypertarget{classboost_1_1statechart_1_1state__machine_a74a1650e45e284366802f9709b15cf31}\label{classboost_1_1statechart_1_1state__machine_a74a1650e45e284366802f9709b15cf31}} 
+\index{boost\+::statechart\+::state\+\_\+machine@{boost\+::statechart\+::state\+\_\+machine}!terminate\+\_\+impl@{terminate\+\_\+impl}}
+\index{terminate\+\_\+impl@{terminate\+\_\+impl}!boost\+::statechart\+::state\+\_\+machine@{boost\+::statechart\+::state\+\_\+machine}}
+\subsubsection{\texorpdfstring{terminate\+\_\+impl()}{terminate\_impl()}\hspace{0.1cm}{\footnotesize\ttfamily [1/2]}}
+{\footnotesize\ttfamily template$<$class Most\+Derived, class Initial\+State, class Allocator = std\+::allocator$<$ void $>$, class Exception\+Translator = null\+\_\+exception\+\_\+translator$>$ \\
+void \mbox{\hyperlink{classboost_1_1statechart_1_1state__machine}{boost\+::statechart\+::state\+\_\+machine}}$<$ Most\+Derived, Initial\+State, Allocator, Exception\+Translator $>$\+::terminate\+\_\+impl (\begin{DoxyParamCaption}\item[{bool}]{perform\+Full\+Exit }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [private]}}
+
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classboost_1_1statechart_1_1state__machine_a74a1650e45e284366802f9709b15cf31_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{classboost_1_1statechart_1_1state__machine_a847e2c019fcd29ed9be547a81090c6a5}\label{classboost_1_1statechart_1_1state__machine_a847e2c019fcd29ed9be547a81090c6a5}} 
+\index{boost\+::statechart\+::state\+\_\+machine@{boost\+::statechart\+::state\+\_\+machine}!terminate\+\_\+impl@{terminate\+\_\+impl}}
+\index{terminate\+\_\+impl@{terminate\+\_\+impl}!boost\+::statechart\+::state\+\_\+machine@{boost\+::statechart\+::state\+\_\+machine}}
+\subsubsection{\texorpdfstring{terminate\+\_\+impl()}{terminate\_impl()}\hspace{0.1cm}{\footnotesize\ttfamily [2/2]}}
+{\footnotesize\ttfamily template$<$class Most\+Derived, class Initial\+State, class Allocator = std\+::allocator$<$ void $>$, class Exception\+Translator = null\+\_\+exception\+\_\+translator$>$ \\
+void \mbox{\hyperlink{classboost_1_1statechart_1_1state__machine}{boost\+::statechart\+::state\+\_\+machine}}$<$ Most\+Derived, Initial\+State, Allocator, Exception\+Translator $>$\+::terminate\+\_\+impl (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{classboost_1_1statechart_1_1state__machine_a69cc258c29fcabec25c5dc8bedb7d530}{state\+\_\+base\+\_\+type}} \&}]{the\+State,  }\item[{bool}]{perform\+Full\+Exit }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [private]}}
+
+\mbox{\Hypertarget{classboost_1_1statechart_1_1state__machine_a78fc6d94ce7ba0ac18e0a83e96f3b215}\label{classboost_1_1statechart_1_1state__machine_a78fc6d94ce7ba0ac18e0a83e96f3b215}} 
+\index{boost\+::statechart\+::state\+\_\+machine@{boost\+::statechart\+::state\+\_\+machine}!terminated@{terminated}}
+\index{terminated@{terminated}!boost\+::statechart\+::state\+\_\+machine@{boost\+::statechart\+::state\+\_\+machine}}
+\subsubsection{\texorpdfstring{terminated()}{terminated()}}
+{\footnotesize\ttfamily template$<$class Most\+Derived, class Initial\+State, class Allocator = std\+::allocator$<$ void $>$, class Exception\+Translator = null\+\_\+exception\+\_\+translator$>$ \\
+bool \mbox{\hyperlink{classboost_1_1statechart_1_1state__machine}{boost\+::statechart\+::state\+\_\+machine}}$<$ Most\+Derived, Initial\+State, Allocator, Exception\+Translator $>$\+::terminated (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const\hspace{0.3cm}{\ttfamily [inline]}}
+
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classboost_1_1statechart_1_1state__machine_a78fc6d94ce7ba0ac18e0a83e96f3b215_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{classboost_1_1statechart_1_1state__machine_afe07725d4e0977f598d3747679cf64ca}\label{classboost_1_1statechart_1_1state__machine_afe07725d4e0977f598d3747679cf64ca}} 
+\index{boost\+::statechart\+::state\+\_\+machine@{boost\+::statechart\+::state\+\_\+machine}!triggering\+\_\+event@{triggering\+\_\+event}}
+\index{triggering\+\_\+event@{triggering\+\_\+event}!boost\+::statechart\+::state\+\_\+machine@{boost\+::statechart\+::state\+\_\+machine}}
+\subsubsection{\texorpdfstring{triggering\+\_\+event()}{triggering\_event()}}
+{\footnotesize\ttfamily template$<$class Most\+Derived, class Initial\+State, class Allocator = std\+::allocator$<$ void $>$, class Exception\+Translator = null\+\_\+exception\+\_\+translator$>$ \\
+const \mbox{\hyperlink{classboost_1_1statechart_1_1state__machine_adb0e98d6d780a0977209fa7389b20bcd}{event\+\_\+base\+\_\+type}}$\ast$ \mbox{\hyperlink{classboost_1_1statechart_1_1state__machine}{boost\+::statechart\+::state\+\_\+machine}}$<$ Most\+Derived, Initial\+State, Allocator, Exception\+Translator $>$\+::triggering\+\_\+event (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const\hspace{0.3cm}{\ttfamily [inline]}}
+
+\mbox{\Hypertarget{classboost_1_1statechart_1_1state__machine_ac9ec2b1cfa39a11852cf1b90e4a2aa12}\label{classboost_1_1statechart_1_1state__machine_ac9ec2b1cfa39a11852cf1b90e4a2aa12}} 
+\index{boost\+::statechart\+::state\+\_\+machine@{boost\+::statechart\+::state\+\_\+machine}!unconsumed\+\_\+event@{unconsumed\+\_\+event}}
+\index{unconsumed\+\_\+event@{unconsumed\+\_\+event}!boost\+::statechart\+::state\+\_\+machine@{boost\+::statechart\+::state\+\_\+machine}}
+\subsubsection{\texorpdfstring{unconsumed\+\_\+event()}{unconsumed\_event()}}
+{\footnotesize\ttfamily template$<$class Most\+Derived, class Initial\+State, class Allocator = std\+::allocator$<$ void $>$, class Exception\+Translator = null\+\_\+exception\+\_\+translator$>$ \\
+void \mbox{\hyperlink{classboost_1_1statechart_1_1state__machine}{boost\+::statechart\+::state\+\_\+machine}}$<$ Most\+Derived, Initial\+State, Allocator, Exception\+Translator $>$\+::unconsumed\+\_\+event (\begin{DoxyParamCaption}\item[{const \mbox{\hyperlink{classboost_1_1statechart_1_1event__base}{event\+\_\+base}} \&}]{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classboost_1_1statechart_1_1state__machine_ac9ec2b1cfa39a11852cf1b90e4a2aa12_icgraph}
+\end{center}
+\end{figure}
+
+
+\subsection{Friends And Related Function Documentation}
+\mbox{\Hypertarget{classboost_1_1statechart_1_1state__machine_a6cdb9334070fa619595ce2aaa7102994}\label{classboost_1_1statechart_1_1state__machine_a6cdb9334070fa619595ce2aaa7102994}} 
+\index{boost\+::statechart\+::state\+\_\+machine@{boost\+::statechart\+::state\+\_\+machine}!exception\+\_\+event\+\_\+handler@{exception\+\_\+event\+\_\+handler}}
+\index{exception\+\_\+event\+\_\+handler@{exception\+\_\+event\+\_\+handler}!boost\+::statechart\+::state\+\_\+machine@{boost\+::statechart\+::state\+\_\+machine}}
+\subsubsection{\texorpdfstring{exception\+\_\+event\+\_\+handler}{exception\_event\_handler}}
+{\footnotesize\ttfamily template$<$class Most\+Derived, class Initial\+State, class Allocator = std\+::allocator$<$ void $>$, class Exception\+Translator = null\+\_\+exception\+\_\+translator$>$ \\
+friend class \mbox{\hyperlink{classboost_1_1statechart_1_1state__machine_1_1exception__event__handler}{exception\+\_\+event\+\_\+handler}}\hspace{0.3cm}{\ttfamily [friend]}}
+
+\mbox{\Hypertarget{classboost_1_1statechart_1_1state__machine_afba0b3c3c9e9a6365a84f4ab210e2c74}\label{classboost_1_1statechart_1_1state__machine_afba0b3c3c9e9a6365a84f4ab210e2c74}} 
+\index{boost\+::statechart\+::state\+\_\+machine@{boost\+::statechart\+::state\+\_\+machine}!initial\+\_\+construct\+\_\+function@{initial\+\_\+construct\+\_\+function}}
+\index{initial\+\_\+construct\+\_\+function@{initial\+\_\+construct\+\_\+function}!boost\+::statechart\+::state\+\_\+machine@{boost\+::statechart\+::state\+\_\+machine}}
+\subsubsection{\texorpdfstring{initial\+\_\+construct\+\_\+function}{initial\_construct\_function}}
+{\footnotesize\ttfamily template$<$class Most\+Derived, class Initial\+State, class Allocator = std\+::allocator$<$ void $>$, class Exception\+Translator = null\+\_\+exception\+\_\+translator$>$ \\
+friend class \mbox{\hyperlink{classboost_1_1statechart_1_1state__machine_1_1initial__construct__function}{initial\+\_\+construct\+\_\+function}}\hspace{0.3cm}{\ttfamily [friend]}}
+
+\mbox{\Hypertarget{classboost_1_1statechart_1_1state__machine_aa71ed4085290df278ffb602ea5329faf}\label{classboost_1_1statechart_1_1state__machine_aa71ed4085290df278ffb602ea5329faf}} 
+\index{boost\+::statechart\+::state\+\_\+machine@{boost\+::statechart\+::state\+\_\+machine}!terminate\+\_\+function@{terminate\+\_\+function}}
+\index{terminate\+\_\+function@{terminate\+\_\+function}!boost\+::statechart\+::state\+\_\+machine@{boost\+::statechart\+::state\+\_\+machine}}
+\subsubsection{\texorpdfstring{terminate\+\_\+function}{terminate\_function}}
+{\footnotesize\ttfamily template$<$class Most\+Derived, class Initial\+State, class Allocator = std\+::allocator$<$ void $>$, class Exception\+Translator = null\+\_\+exception\+\_\+translator$>$ \\
+friend class \mbox{\hyperlink{classboost_1_1statechart_1_1state__machine_1_1terminate__function}{terminate\+\_\+function}}\hspace{0.3cm}{\ttfamily [friend]}}
+
+\mbox{\Hypertarget{classboost_1_1statechart_1_1state__machine_a8dde3c257059e43db0e48de79ffb385b}\label{classboost_1_1statechart_1_1state__machine_a8dde3c257059e43db0e48de79ffb385b}} 
+\index{boost\+::statechart\+::state\+\_\+machine@{boost\+::statechart\+::state\+\_\+machine}!terminator@{terminator}}
+\index{terminator@{terminator}!boost\+::statechart\+::state\+\_\+machine@{boost\+::statechart\+::state\+\_\+machine}}
+\subsubsection{\texorpdfstring{terminator}{terminator}}
+{\footnotesize\ttfamily template$<$class Most\+Derived, class Initial\+State, class Allocator = std\+::allocator$<$ void $>$, class Exception\+Translator = null\+\_\+exception\+\_\+translator$>$ \\
+friend class \mbox{\hyperlink{classboost_1_1statechart_1_1state__machine_1_1terminator}{terminator}}\hspace{0.3cm}{\ttfamily [friend]}}
+
+
+
+\subsection{Member Data Documentation}
+\mbox{\Hypertarget{classboost_1_1statechart_1_1state__machine_a9deab0444eeb25aeb8451bd6a62ec645}\label{classboost_1_1statechart_1_1state__machine_a9deab0444eeb25aeb8451bd6a62ec645}} 
+\index{boost\+::statechart\+::state\+\_\+machine@{boost\+::statechart\+::state\+\_\+machine}!current\+States\+\_\+@{current\+States\+\_\+}}
+\index{current\+States\+\_\+@{current\+States\+\_\+}!boost\+::statechart\+::state\+\_\+machine@{boost\+::statechart\+::state\+\_\+machine}}
+\subsubsection{\texorpdfstring{current\+States\+\_\+}{currentStates\_}}
+{\footnotesize\ttfamily template$<$class Most\+Derived, class Initial\+State, class Allocator = std\+::allocator$<$ void $>$, class Exception\+Translator = null\+\_\+exception\+\_\+translator$>$ \\
+\mbox{\hyperlink{classboost_1_1statechart_1_1state__machine_afe501a67ddcd1da38728f6c672b57198}{state\+\_\+list\+\_\+type}} \mbox{\hyperlink{classboost_1_1statechart_1_1state__machine}{boost\+::statechart\+::state\+\_\+machine}}$<$ Most\+Derived, Initial\+State, Allocator, Exception\+Translator $>$\+::current\+States\+\_\+\hspace{0.3cm}{\ttfamily [private]}}
+
+\mbox{\Hypertarget{classboost_1_1statechart_1_1state__machine_af4f0ac6b55e17e5f88e6bd7177ee6175}\label{classboost_1_1statechart_1_1state__machine_af4f0ac6b55e17e5f88e6bd7177ee6175}} 
+\index{boost\+::statechart\+::state\+\_\+machine@{boost\+::statechart\+::state\+\_\+machine}!current\+States\+End\+\_\+@{current\+States\+End\+\_\+}}
+\index{current\+States\+End\+\_\+@{current\+States\+End\+\_\+}!boost\+::statechart\+::state\+\_\+machine@{boost\+::statechart\+::state\+\_\+machine}}
+\subsubsection{\texorpdfstring{current\+States\+End\+\_\+}{currentStatesEnd\_}}
+{\footnotesize\ttfamily template$<$class Most\+Derived, class Initial\+State, class Allocator = std\+::allocator$<$ void $>$, class Exception\+Translator = null\+\_\+exception\+\_\+translator$>$ \\
+state\+\_\+list\+\_\+type\+::iterator \mbox{\hyperlink{classboost_1_1statechart_1_1state__machine}{boost\+::statechart\+::state\+\_\+machine}}$<$ Most\+Derived, Initial\+State, Allocator, Exception\+Translator $>$\+::current\+States\+End\+\_\+\hspace{0.3cm}{\ttfamily [private]}}
+
+\mbox{\Hypertarget{classboost_1_1statechart_1_1state__machine_aeb7e89e544766bf849f78a0b0d2927b6}\label{classboost_1_1statechart_1_1state__machine_aeb7e89e544766bf849f78a0b0d2927b6}} 
+\index{boost\+::statechart\+::state\+\_\+machine@{boost\+::statechart\+::state\+\_\+machine}!deep\+History\+Map\+\_\+@{deep\+History\+Map\+\_\+}}
+\index{deep\+History\+Map\+\_\+@{deep\+History\+Map\+\_\+}!boost\+::statechart\+::state\+\_\+machine@{boost\+::statechart\+::state\+\_\+machine}}
+\subsubsection{\texorpdfstring{deep\+History\+Map\+\_\+}{deepHistoryMap\_}}
+{\footnotesize\ttfamily template$<$class Most\+Derived, class Initial\+State, class Allocator = std\+::allocator$<$ void $>$, class Exception\+Translator = null\+\_\+exception\+\_\+translator$>$ \\
+\mbox{\hyperlink{classboost_1_1statechart_1_1state__machine_a9b8fdd7b5af3b0c9143f9d6fb4036ff7}{history\+\_\+map\+\_\+type}} \mbox{\hyperlink{classboost_1_1statechart_1_1state__machine}{boost\+::statechart\+::state\+\_\+machine}}$<$ Most\+Derived, Initial\+State, Allocator, Exception\+Translator $>$\+::deep\+History\+Map\+\_\+\hspace{0.3cm}{\ttfamily [private]}}
+
+\mbox{\Hypertarget{classboost_1_1statechart_1_1state__machine_a86145bf7f1229a0f481348a61a3bc3c4}\label{classboost_1_1statechart_1_1state__machine_a86145bf7f1229a0f481348a61a3bc3c4}} 
+\index{boost\+::statechart\+::state\+\_\+machine@{boost\+::statechart\+::state\+\_\+machine}!deferred\+Event\+Queue\+\_\+@{deferred\+Event\+Queue\+\_\+}}
+\index{deferred\+Event\+Queue\+\_\+@{deferred\+Event\+Queue\+\_\+}!boost\+::statechart\+::state\+\_\+machine@{boost\+::statechart\+::state\+\_\+machine}}
+\subsubsection{\texorpdfstring{deferred\+Event\+Queue\+\_\+}{deferredEventQueue\_}}
+{\footnotesize\ttfamily template$<$class Most\+Derived, class Initial\+State, class Allocator = std\+::allocator$<$ void $>$, class Exception\+Translator = null\+\_\+exception\+\_\+translator$>$ \\
+\mbox{\hyperlink{classboost_1_1statechart_1_1state__machine_a308a12082f9cd10b95118871f01e94da}{event\+\_\+queue\+\_\+type}} \mbox{\hyperlink{classboost_1_1statechart_1_1state__machine}{boost\+::statechart\+::state\+\_\+machine}}$<$ Most\+Derived, Initial\+State, Allocator, Exception\+Translator $>$\+::deferred\+Event\+Queue\+\_\+\hspace{0.3cm}{\ttfamily [private]}}
+
+\mbox{\Hypertarget{classboost_1_1statechart_1_1state__machine_a54523308f4c5c8aae7fb68cf684e9ba4}\label{classboost_1_1statechart_1_1state__machine_a54523308f4c5c8aae7fb68cf684e9ba4}} 
+\index{boost\+::statechart\+::state\+\_\+machine@{boost\+::statechart\+::state\+\_\+machine}!event\+Queue\+\_\+@{event\+Queue\+\_\+}}
+\index{event\+Queue\+\_\+@{event\+Queue\+\_\+}!boost\+::statechart\+::state\+\_\+machine@{boost\+::statechart\+::state\+\_\+machine}}
+\subsubsection{\texorpdfstring{event\+Queue\+\_\+}{eventQueue\_}}
+{\footnotesize\ttfamily template$<$class Most\+Derived, class Initial\+State, class Allocator = std\+::allocator$<$ void $>$, class Exception\+Translator = null\+\_\+exception\+\_\+translator$>$ \\
+\mbox{\hyperlink{classboost_1_1statechart_1_1state__machine_a308a12082f9cd10b95118871f01e94da}{event\+\_\+queue\+\_\+type}} \mbox{\hyperlink{classboost_1_1statechart_1_1state__machine}{boost\+::statechart\+::state\+\_\+machine}}$<$ Most\+Derived, Initial\+State, Allocator, Exception\+Translator $>$\+::event\+Queue\+\_\+\hspace{0.3cm}{\ttfamily [private]}}
+
+\mbox{\Hypertarget{classboost_1_1statechart_1_1state__machine_a36642a513713885561837d85a0f7085f}\label{classboost_1_1statechart_1_1state__machine_a36642a513713885561837d85a0f7085f}} 
+\index{boost\+::statechart\+::state\+\_\+machine@{boost\+::statechart\+::state\+\_\+machine}!is\+Innermost\+Common\+Outer\+\_\+@{is\+Innermost\+Common\+Outer\+\_\+}}
+\index{is\+Innermost\+Common\+Outer\+\_\+@{is\+Innermost\+Common\+Outer\+\_\+}!boost\+::statechart\+::state\+\_\+machine@{boost\+::statechart\+::state\+\_\+machine}}
+\subsubsection{\texorpdfstring{is\+Innermost\+Common\+Outer\+\_\+}{isInnermostCommonOuter\_}}
+{\footnotesize\ttfamily template$<$class Most\+Derived, class Initial\+State, class Allocator = std\+::allocator$<$ void $>$, class Exception\+Translator = null\+\_\+exception\+\_\+translator$>$ \\
+bool \mbox{\hyperlink{classboost_1_1statechart_1_1state__machine}{boost\+::statechart\+::state\+\_\+machine}}$<$ Most\+Derived, Initial\+State, Allocator, Exception\+Translator $>$\+::is\+Innermost\+Common\+Outer\+\_\+\hspace{0.3cm}{\ttfamily [private]}}
+
+\mbox{\Hypertarget{classboost_1_1statechart_1_1state__machine_a9ae64cb7ef7369c8a29cf86fb8a6daf9}\label{classboost_1_1statechart_1_1state__machine_a9ae64cb7ef7369c8a29cf86fb8a6daf9}} 
+\index{boost\+::statechart\+::state\+\_\+machine@{boost\+::statechart\+::state\+\_\+machine}!perform\+Full\+Exit\+\_\+@{perform\+Full\+Exit\+\_\+}}
+\index{perform\+Full\+Exit\+\_\+@{perform\+Full\+Exit\+\_\+}!boost\+::statechart\+::state\+\_\+machine@{boost\+::statechart\+::state\+\_\+machine}}
+\subsubsection{\texorpdfstring{perform\+Full\+Exit\+\_\+}{performFullExit\_}}
+{\footnotesize\ttfamily template$<$class Most\+Derived, class Initial\+State, class Allocator = std\+::allocator$<$ void $>$, class Exception\+Translator = null\+\_\+exception\+\_\+translator$>$ \\
+bool \mbox{\hyperlink{classboost_1_1statechart_1_1state__machine}{boost\+::statechart\+::state\+\_\+machine}}$<$ Most\+Derived, Initial\+State, Allocator, Exception\+Translator $>$\+::perform\+Full\+Exit\+\_\+\hspace{0.3cm}{\ttfamily [private]}}
+
+\mbox{\Hypertarget{classboost_1_1statechart_1_1state__machine_a00e489e60fee093aea3de451e0f32358}\label{classboost_1_1statechart_1_1state__machine_a00e489e60fee093aea3de451e0f32358}} 
+\index{boost\+::statechart\+::state\+\_\+machine@{boost\+::statechart\+::state\+\_\+machine}!p\+Outermost\+State\+\_\+@{p\+Outermost\+State\+\_\+}}
+\index{p\+Outermost\+State\+\_\+@{p\+Outermost\+State\+\_\+}!boost\+::statechart\+::state\+\_\+machine@{boost\+::statechart\+::state\+\_\+machine}}
+\subsubsection{\texorpdfstring{p\+Outermost\+State\+\_\+}{pOutermostState\_}}
+{\footnotesize\ttfamily template$<$class Most\+Derived, class Initial\+State, class Allocator = std\+::allocator$<$ void $>$, class Exception\+Translator = null\+\_\+exception\+\_\+translator$>$ \\
+\mbox{\hyperlink{classboost_1_1statechart_1_1state__machine_a69cc258c29fcabec25c5dc8bedb7d530}{state\+\_\+base\+\_\+type}}$\ast$ \mbox{\hyperlink{classboost_1_1statechart_1_1state__machine}{boost\+::statechart\+::state\+\_\+machine}}$<$ Most\+Derived, Initial\+State, Allocator, Exception\+Translator $>$\+::p\+Outermost\+State\+\_\+\hspace{0.3cm}{\ttfamily [private]}}
+
+\mbox{\Hypertarget{classboost_1_1statechart_1_1state__machine_a4337bcc933d4af38b1a33424eef94e76}\label{classboost_1_1statechart_1_1state__machine_a4337bcc933d4af38b1a33424eef94e76}} 
+\index{boost\+::statechart\+::state\+\_\+machine@{boost\+::statechart\+::state\+\_\+machine}!p\+Outermost\+Unstable\+State\+\_\+@{p\+Outermost\+Unstable\+State\+\_\+}}
+\index{p\+Outermost\+Unstable\+State\+\_\+@{p\+Outermost\+Unstable\+State\+\_\+}!boost\+::statechart\+::state\+\_\+machine@{boost\+::statechart\+::state\+\_\+machine}}
+\subsubsection{\texorpdfstring{p\+Outermost\+Unstable\+State\+\_\+}{pOutermostUnstableState\_}}
+{\footnotesize\ttfamily template$<$class Most\+Derived, class Initial\+State, class Allocator = std\+::allocator$<$ void $>$, class Exception\+Translator = null\+\_\+exception\+\_\+translator$>$ \\
+\mbox{\hyperlink{classboost_1_1statechart_1_1state__machine_a5d90f1176309ec8307979aa79dd6f4a3}{node\+\_\+state\+\_\+base\+\_\+ptr\+\_\+type}} \mbox{\hyperlink{classboost_1_1statechart_1_1state__machine}{boost\+::statechart\+::state\+\_\+machine}}$<$ Most\+Derived, Initial\+State, Allocator, Exception\+Translator $>$\+::p\+Outermost\+Unstable\+State\+\_\+\hspace{0.3cm}{\ttfamily [private]}}
+
+\mbox{\Hypertarget{classboost_1_1statechart_1_1state__machine_a9c2659b211e590134bdfa98105e71db3}\label{classboost_1_1statechart_1_1state__machine_a9c2659b211e590134bdfa98105e71db3}} 
+\index{boost\+::statechart\+::state\+\_\+machine@{boost\+::statechart\+::state\+\_\+machine}!p\+Triggering\+Event\+\_\+@{p\+Triggering\+Event\+\_\+}}
+\index{p\+Triggering\+Event\+\_\+@{p\+Triggering\+Event\+\_\+}!boost\+::statechart\+::state\+\_\+machine@{boost\+::statechart\+::state\+\_\+machine}}
+\subsubsection{\texorpdfstring{p\+Triggering\+Event\+\_\+}{pTriggeringEvent\_}}
+{\footnotesize\ttfamily template$<$class Most\+Derived, class Initial\+State, class Allocator = std\+::allocator$<$ void $>$, class Exception\+Translator = null\+\_\+exception\+\_\+translator$>$ \\
+const \mbox{\hyperlink{classboost_1_1statechart_1_1state__machine_adb0e98d6d780a0977209fa7389b20bcd}{event\+\_\+base\+\_\+type}}$\ast$ \mbox{\hyperlink{classboost_1_1statechart_1_1state__machine}{boost\+::statechart\+::state\+\_\+machine}}$<$ Most\+Derived, Initial\+State, Allocator, Exception\+Translator $>$\+::p\+Triggering\+Event\+\_\+\hspace{0.3cm}{\ttfamily [private]}}
+
+\mbox{\Hypertarget{classboost_1_1statechart_1_1state__machine_a799d498bd7ae723b79188f0316c38bbf}\label{classboost_1_1statechart_1_1state__machine_a799d498bd7ae723b79188f0316c38bbf}} 
+\index{boost\+::statechart\+::state\+\_\+machine@{boost\+::statechart\+::state\+\_\+machine}!shallow\+History\+Map\+\_\+@{shallow\+History\+Map\+\_\+}}
+\index{shallow\+History\+Map\+\_\+@{shallow\+History\+Map\+\_\+}!boost\+::statechart\+::state\+\_\+machine@{boost\+::statechart\+::state\+\_\+machine}}
+\subsubsection{\texorpdfstring{shallow\+History\+Map\+\_\+}{shallowHistoryMap\_}}
+{\footnotesize\ttfamily template$<$class Most\+Derived, class Initial\+State, class Allocator = std\+::allocator$<$ void $>$, class Exception\+Translator = null\+\_\+exception\+\_\+translator$>$ \\
+\mbox{\hyperlink{classboost_1_1statechart_1_1state__machine_a9b8fdd7b5af3b0c9143f9d6fb4036ff7}{history\+\_\+map\+\_\+type}} \mbox{\hyperlink{classboost_1_1statechart_1_1state__machine}{boost\+::statechart\+::state\+\_\+machine}}$<$ Most\+Derived, Initial\+State, Allocator, Exception\+Translator $>$\+::shallow\+History\+Map\+\_\+\hspace{0.3cm}{\ttfamily [private]}}
+
+\mbox{\Hypertarget{classboost_1_1statechart_1_1state__machine_adbb6619d6e1365b97f08a0558f3e0821}\label{classboost_1_1statechart_1_1state__machine_adbb6619d6e1365b97f08a0558f3e0821}} 
+\index{boost\+::statechart\+::state\+\_\+machine@{boost\+::statechart\+::state\+\_\+machine}!translator\+\_\+@{translator\+\_\+}}
+\index{translator\+\_\+@{translator\+\_\+}!boost\+::statechart\+::state\+\_\+machine@{boost\+::statechart\+::state\+\_\+machine}}
+\subsubsection{\texorpdfstring{translator\+\_\+}{translator\_}}
+{\footnotesize\ttfamily template$<$class Most\+Derived, class Initial\+State, class Allocator = std\+::allocator$<$ void $>$, class Exception\+Translator = null\+\_\+exception\+\_\+translator$>$ \\
+Exception\+Translator \mbox{\hyperlink{classboost_1_1statechart_1_1state__machine}{boost\+::statechart\+::state\+\_\+machine}}$<$ Most\+Derived, Initial\+State, Allocator, Exception\+Translator $>$\+::translator\+\_\+\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+include/boost/statechart/\mbox{\hyperlink{state__machine_8hpp}{state\+\_\+machine.\+hpp}}\end{DoxyCompactItemize}

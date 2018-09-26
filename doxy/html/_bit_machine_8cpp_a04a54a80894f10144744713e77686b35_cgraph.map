@@ -1,0 +1,6 @@
+<map id="VisitAllStates" name="VisitAllStates">
+<area shape="rect" id="node2" href="$struct_bit_machine.html#ae77e5375e470002e98bde6307793b102" title="BitMachine::process\l_event" alt="" coords="157,5,299,47"/>
+<area shape="rect" id="node4" href="$_bit_machine_8cpp.html#ab820fc091549344b178f0242549330e0" title="DisplayMachineState" alt="" coords="155,71,301,98"/>
+<area shape="rect" id="node3" href="$classevent__base.html#aa145c3849ff0fa69e656cb88a5de80a7" title="event_base::send" alt="" coords="375,13,500,39"/>
+<area shape="rect" id="node5" href="$classboost_1_1statechart_1_1state__machine.html#aabd07005b47036311b5e80e05c1746c2" title="boost::statechart::\lstate_machine::state_cast" alt="" coords="349,64,525,105"/>
+</map>

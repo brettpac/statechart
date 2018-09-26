@@ -1,0 +1,6 @@
+<map id="TerminationTest::AssertInState" name="TerminationTest::AssertInState">
+<area shape="rect" id="node2" href="$classboost_1_1statechart_1_1state__machine.html#a270c21248c558be7daf8139c032b1f0c" title="boost::statechart::\lstate_machine\&lt; Termination\lTest, A \&gt;::state_begin" alt="" coords="227,5,413,61"/>
+<area shape="rect" id="node3" href="$classboost_1_1statechart_1_1state__machine.html#aab9cfe96af77fbfb10098f9c6ba209a5" title="boost::statechart::\lstate_machine\&lt; Termination\lTest, A \&gt;::state_end" alt="" coords="227,85,413,141"/>
+<area shape="rect" id="node4" href="$struct_termination_test.html#adbc9e083971e138c6ce231d4b1287a80" title="TerminationTest::AddName" alt="" coords="229,165,411,192"/>
+<area shape="rect" id="node5" href="$classboost_1_1statechart_1_1detail_1_1state__base.html#a03d51c261c052af1db3bb08b31891731" title="boost::statechart::\ldetail::state_base::\louter_state_ptr" alt="" coords="253,216,387,272"/>
+</map>

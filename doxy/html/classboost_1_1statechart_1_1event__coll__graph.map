@@ -1,0 +1,5 @@
+<map id="boost::statechart::event&lt; MostDerived, Allocator &gt;" name="boost::statechart::event&lt; MostDerived, Allocator &gt;">
+<area shape="rect" id="node2" href="$classboost_1_1statechart_1_1detail_1_1rtti__policy_1_1rtti__derived__type.html" title="{boost::statechart::\ldetail::rtti_policy\l::rtti_derived_type\&lt;\l MostDerived, event_base \&gt;\n||+ static_type()\l+ custom_static_type_ptr()\l+ custom_static_type_ptr()\l# ~rtti_derived_type()\l# rtti_derived_type()\l}" alt="" coords="9,403,196,583"/>
+<area shape="rect" id="node3" href="$classboost_1_1statechart_1_1event__base.html" title="{boost::statechart::\levent_base\n||+ intrusive_from_this()\l# event_base()\l# ~event_base()\l&#45; clone()\l}" alt="" coords="27,219,179,355"/>
+<area shape="rect" id="node4" href="$classboost_1_1statechart_1_1detail_1_1rtti__policy_1_1rtti__base__type.html" title="{boost::statechart::\ldetail::rtti_policy\l::rtti_base_type\&lt; detail\l::counted_base\&lt;\&gt; \&gt;\n||+ dynamic_type()\l+ custom_dynamic_type_ptr()\l# rtti_base_type()\l# ~rtti_base_type()\l}" alt="" coords="5,5,200,171"/>
+</map>

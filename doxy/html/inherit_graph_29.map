@@ -1,0 +1,4 @@
+<map id="Graphical Class Hierarchy" name="Graphical Class Hierarchy">
+<area shape="rect" id="node2" href="$classboost_1_1statechart_1_1detail_1_1rtti__policy_1_1rtti__base__type.html" title="boost::statechart::\ldetail::rtti_policy\l::rtti_base_type\&lt; Base \&gt;" alt="" coords="105,5,272,61"/>
+<area shape="rect" id="node3" href="$classboost_1_1statechart_1_1detail_1_1rtti__policy_1_1rtti__derived__type.html" title="boost::statechart::\ldetail::rtti_policy\l::rtti_derived_type\&lt;\l MostDerived, Base \&gt;" alt="" coords="113,86,264,157"/>
+</map>

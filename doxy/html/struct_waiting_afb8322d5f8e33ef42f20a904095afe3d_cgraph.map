@@ -1,0 +1,5 @@
+<map id="Waiting::react" name="Waiting::react">
+<area shape="rect" id="node2" href="$struct_waiting.html#a130dc49639541e8bc0bc04b8b81fc90f" title="Waiting::DestroyMyself" alt="" coords="156,87,315,113"/>
+<area shape="rect" id="node3" href="$classboost_1_1statechart_1_1simple__state.html#a5a2e9abf29040c3dd91ac9d98a17f564" title="boost::statechart::\lsimple_state\&lt; Waiting,\l Player, mpl::list\&lt;\&gt;,\l has_no_history \&gt;::outermost\l_context" alt="" coords="363,5,555,91"/>
+<area shape="rect" id="node4" href="$classboost_1_1statechart_1_1simple__state.html#af1b306e54db708323280093a4452da13" title="boost::statechart::\lsimple_state\&lt; Waiting,\l Player, mpl::list\&lt;\&gt;,\l has_no_history \&gt;::terminate" alt="" coords="365,115,553,186"/>
+</map>

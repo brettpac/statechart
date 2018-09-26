@@ -1,0 +1,5 @@
+<map id="PerformanceTester::Test" name="PerformanceTester::Test">
+<area shape="rect" id="node2" href="$classboost_1_1statechart_1_1state__machine.html#a7165ce3d1120b98dde6e8d669e35aba9" title="boost::statechart::\lstate_machine\&lt; BitMachine\l\&lt; NoOfBits, FirstTransitionBit\l \&gt;, BitState\&lt; uint0, NoOfBits,\l FirstTransitionBit \&gt; \&gt;::initiate" alt="" coords="228,5,423,91"/>
+<area shape="rect" id="node3" href="$struct_bit_machine.html#a7e488a02bcdc1984dd078aff1db33ce1" title="BitMachine::GetNoOfInState\lReactions" alt="" coords="231,115,420,157"/>
+<area shape="rect" id="node4" href="$struct_bit_machine.html#a1e02c163421c8981a86405ed8c83c9c0" title="BitMachine::GetNoOfTransitions" alt="" coords="220,181,431,208"/>
+</map>

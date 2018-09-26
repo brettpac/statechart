@@ -1,0 +1,190 @@
+\hypertarget{struct_running}{}\section{Running Struct Reference}
+\label{struct_running}\index{Running@{Running}}
+
+
+Inheritance diagram for Running\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=550pt]{struct_running__inherit__graph}
+\end{center}
+\end{figure}
+
+
+Collaboration diagram for Running\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=550pt]{struct_running__coll__graph}
+\end{center}
+\end{figure}
+\subsection*{Public Types}
+\begin{DoxyCompactItemize}
+\item 
+typedef \mbox{\hyperlink{classboost_1_1statechart_1_1transition}{sc\+::transition}}$<$ \mbox{\hyperlink{struct_ev_start_stop}{Ev\+Start\+Stop}}, \mbox{\hyperlink{struct_stopped}{Stopped}} $>$ \mbox{\hyperlink{struct_running_a9c7d824351006514acf617bd07f2d222}{reactions}}
+\item 
+typedef mpl\+::list$<$ \mbox{\hyperlink{classboost_1_1statechart_1_1custom__reaction}{sc\+::custom\+\_\+reaction}}$<$ \mbox{\hyperlink{struct_ev_get_elapsed_time}{Ev\+Get\+Elapsed\+Time}} $>$, \mbox{\hyperlink{classboost_1_1statechart_1_1transition}{sc\+::transition}}$<$ \mbox{\hyperlink{struct_ev_start_stop}{Ev\+Start\+Stop}}, \mbox{\hyperlink{struct_stopped}{Stopped}} $>$ $>$ \mbox{\hyperlink{struct_running_a5966603a0d610f1db7878871d96d7737}{reactions}}
+\item 
+typedef \mbox{\hyperlink{classboost_1_1statechart_1_1transition}{sc\+::transition}}$<$ \mbox{\hyperlink{struct_ev_switch}{Ev\+Switch}}, \mbox{\hyperlink{struct_idle}{Idle}} $>$ \mbox{\hyperlink{struct_running_af4d01d2d6379e26b9397780725578356}{reactions}}
+\end{DoxyCompactItemize}
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{struct_running_a4f9dd4f9c1b1ce72f2b65b13d9b4e65a}{Running}} ()
+\item 
+\mbox{\hyperlink{struct_running_a642965fca4984b52e6a65696380035ac}{$\sim$\+Running}} ()
+\item 
+virtual double \mbox{\hyperlink{struct_running_ac9d1d116f030428827757e3a5289d94a}{Elapsed\+Time}} () const
+\item 
+\mbox{\hyperlink{struct_running_a4f9dd4f9c1b1ce72f2b65b13d9b4e65a}{Running}} ()
+\item 
+\mbox{\hyperlink{struct_running_a642965fca4984b52e6a65696380035ac}{$\sim$\+Running}} ()
+\item 
+\mbox{\hyperlink{namespaceboost_1_1statechart_abe807f6598b614d6d87bb951ecd92331}{sc\+::result}} \mbox{\hyperlink{struct_running_ac2b99d336186c859e4425556619567fa}{react}} (const \mbox{\hyperlink{struct_ev_get_elapsed_time}{Ev\+Get\+Elapsed\+Time}} \&evt)
+\end{DoxyCompactItemize}
+\subsection*{Private Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+double \mbox{\hyperlink{struct_running_a5320a8463f61e5ab96008bc218bb9f68}{Elapsed\+Time}} () const
+\end{DoxyCompactItemize}
+\subsection*{Private Attributes}
+\begin{DoxyCompactItemize}
+\item 
+std\+::time\+\_\+t \mbox{\hyperlink{struct_running_ae8dcc437642cde76fb5f317657e59222}{start\+Time\+\_\+}}
+\end{DoxyCompactItemize}
+\subsection*{Additional Inherited Members}
+
+
+\subsection{Member Typedef Documentation}
+\mbox{\Hypertarget{struct_running_af4d01d2d6379e26b9397780725578356}\label{struct_running_af4d01d2d6379e26b9397780725578356}} 
+\index{Running@{Running}!reactions@{reactions}}
+\index{reactions@{reactions}!Running@{Running}}
+\subsubsection{\texorpdfstring{reactions}{reactions}\hspace{0.1cm}{\footnotesize\ttfamily [1/3]}}
+{\footnotesize\ttfamily typedef \mbox{\hyperlink{classboost_1_1statechart_1_1transition}{sc\+::transition}}$<$ \mbox{\hyperlink{struct_ev_switch}{Ev\+Switch}}, \mbox{\hyperlink{struct_idle}{Idle}} $>$ \mbox{\hyperlink{struct_running_a9c7d824351006514acf617bd07f2d222}{Running\+::reactions}}}
+
+\mbox{\Hypertarget{struct_running_a9c7d824351006514acf617bd07f2d222}\label{struct_running_a9c7d824351006514acf617bd07f2d222}} 
+\index{Running@{Running}!reactions@{reactions}}
+\index{reactions@{reactions}!Running@{Running}}
+\subsubsection{\texorpdfstring{reactions}{reactions}\hspace{0.1cm}{\footnotesize\ttfamily [2/3]}}
+{\footnotesize\ttfamily typedef \mbox{\hyperlink{classboost_1_1statechart_1_1transition}{sc\+::transition}}$<$ \mbox{\hyperlink{struct_ev_start_stop}{Ev\+Start\+Stop}}, \mbox{\hyperlink{struct_stopped}{Stopped}} $>$ \mbox{\hyperlink{struct_running_a9c7d824351006514acf617bd07f2d222}{Running\+::reactions}}}
+
+\mbox{\Hypertarget{struct_running_a5966603a0d610f1db7878871d96d7737}\label{struct_running_a5966603a0d610f1db7878871d96d7737}} 
+\index{Running@{Running}!reactions@{reactions}}
+\index{reactions@{reactions}!Running@{Running}}
+\subsubsection{\texorpdfstring{reactions}{reactions}\hspace{0.1cm}{\footnotesize\ttfamily [3/3]}}
+{\footnotesize\ttfamily typedef mpl\+::list$<$ \mbox{\hyperlink{classboost_1_1statechart_1_1custom__reaction}{sc\+::custom\+\_\+reaction}}$<$ \mbox{\hyperlink{struct_ev_get_elapsed_time}{Ev\+Get\+Elapsed\+Time}} $>$, \mbox{\hyperlink{classboost_1_1statechart_1_1transition}{sc\+::transition}}$<$ \mbox{\hyperlink{struct_ev_start_stop}{Ev\+Start\+Stop}}, \mbox{\hyperlink{struct_stopped}{Stopped}} $>$ $>$ \mbox{\hyperlink{struct_running_a9c7d824351006514acf617bd07f2d222}{Running\+::reactions}}}
+
+
+
+\subsection{Constructor \& Destructor Documentation}
+\mbox{\Hypertarget{struct_running_a4f9dd4f9c1b1ce72f2b65b13d9b4e65a}\label{struct_running_a4f9dd4f9c1b1ce72f2b65b13d9b4e65a}} 
+\index{Running@{Running}!Running@{Running}}
+\index{Running@{Running}!Running@{Running}}
+\subsubsection{\texorpdfstring{Running()}{Running()}\hspace{0.1cm}{\footnotesize\ttfamily [1/2]}}
+{\footnotesize\ttfamily Running\+::\+Running (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+\mbox{\Hypertarget{struct_running_a642965fca4984b52e6a65696380035ac}\label{struct_running_a642965fca4984b52e6a65696380035ac}} 
+\index{Running@{Running}!````~Running@{$\sim$\+Running}}
+\index{````~Running@{$\sim$\+Running}!Running@{Running}}
+\subsubsection{\texorpdfstring{$\sim$\+Running()}{~Running()}\hspace{0.1cm}{\footnotesize\ttfamily [1/2]}}
+{\footnotesize\ttfamily Running\+::$\sim$\+Running (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=333pt]{struct_running_a642965fca4984b52e6a65696380035ac_cgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{struct_running_a4f9dd4f9c1b1ce72f2b65b13d9b4e65a}\label{struct_running_a4f9dd4f9c1b1ce72f2b65b13d9b4e65a}} 
+\index{Running@{Running}!Running@{Running}}
+\index{Running@{Running}!Running@{Running}}
+\subsubsection{\texorpdfstring{Running()}{Running()}\hspace{0.1cm}{\footnotesize\ttfamily [2/2]}}
+{\footnotesize\ttfamily Running\+::\+Running (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+\mbox{\Hypertarget{struct_running_a642965fca4984b52e6a65696380035ac}\label{struct_running_a642965fca4984b52e6a65696380035ac}} 
+\index{Running@{Running}!````~Running@{$\sim$\+Running}}
+\index{````~Running@{$\sim$\+Running}!Running@{Running}}
+\subsubsection{\texorpdfstring{$\sim$\+Running()}{~Running()}\hspace{0.1cm}{\footnotesize\ttfamily [2/2]}}
+{\footnotesize\ttfamily Running\+::$\sim$\+Running (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=333pt]{struct_running_a642965fca4984b52e6a65696380035ac_cgraph}
+\end{center}
+\end{figure}
+
+
+\subsection{Member Function Documentation}
+\mbox{\Hypertarget{struct_running_ac9d1d116f030428827757e3a5289d94a}\label{struct_running_ac9d1d116f030428827757e3a5289d94a}} 
+\index{Running@{Running}!Elapsed\+Time@{Elapsed\+Time}}
+\index{Elapsed\+Time@{Elapsed\+Time}!Running@{Running}}
+\subsubsection{\texorpdfstring{Elapsed\+Time()}{ElapsedTime()}\hspace{0.1cm}{\footnotesize\ttfamily [1/2]}}
+{\footnotesize\ttfamily virtual double Running\+::\+Elapsed\+Time (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [virtual]}}
+
+
+
+Implements \mbox{\hyperlink{struct_i_elapsed_time_a11995710009caacf4343d6d0f79da4ce}{I\+Elapsed\+Time}}.
+
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=348pt]{struct_running_ac9d1d116f030428827757e3a5289d94a_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{struct_running_a5320a8463f61e5ab96008bc218bb9f68}\label{struct_running_a5320a8463f61e5ab96008bc218bb9f68}} 
+\index{Running@{Running}!Elapsed\+Time@{Elapsed\+Time}}
+\index{Elapsed\+Time@{Elapsed\+Time}!Running@{Running}}
+\subsubsection{\texorpdfstring{Elapsed\+Time()}{ElapsedTime()}\hspace{0.1cm}{\footnotesize\ttfamily [2/2]}}
+{\footnotesize\ttfamily double Running\+::\+Elapsed\+Time (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [private]}, {\ttfamily [virtual]}}
+
+
+
+Implements \mbox{\hyperlink{struct_i_elapsed_time_a11995710009caacf4343d6d0f79da4ce}{I\+Elapsed\+Time}}.
+
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=348pt]{struct_running_a5320a8463f61e5ab96008bc218bb9f68_cgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{struct_running_ac2b99d336186c859e4425556619567fa}\label{struct_running_ac2b99d336186c859e4425556619567fa}} 
+\index{Running@{Running}!react@{react}}
+\index{react@{react}!Running@{Running}}
+\subsubsection{\texorpdfstring{react()}{react()}}
+{\footnotesize\ttfamily \mbox{\hyperlink{namespaceboost_1_1statechart_abe807f6598b614d6d87bb951ecd92331}{sc\+::result}} Running\+::react (\begin{DoxyParamCaption}\item[{const \mbox{\hyperlink{struct_ev_get_elapsed_time}{Ev\+Get\+Elapsed\+Time}} \&}]{evt }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=333pt]{struct_running_ac2b99d336186c859e4425556619567fa_cgraph}
+\end{center}
+\end{figure}
+
+
+\subsection{Member Data Documentation}
+\mbox{\Hypertarget{struct_running_ae8dcc437642cde76fb5f317657e59222}\label{struct_running_ae8dcc437642cde76fb5f317657e59222}} 
+\index{Running@{Running}!start\+Time\+\_\+@{start\+Time\+\_\+}}
+\index{start\+Time\+\_\+@{start\+Time\+\_\+}!Running@{Running}}
+\subsubsection{\texorpdfstring{start\+Time\+\_\+}{startTime\_}}
+{\footnotesize\ttfamily std\+::time\+\_\+t Running\+::start\+Time\+\_\+\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+The documentation for this struct was generated from the following files\+:\begin{DoxyCompactItemize}
+\item 
+example/\+Stop\+Watch/\mbox{\hyperlink{_stop_watch_8cpp}{Stop\+Watch.\+cpp}}\item 
+example/\+Stop\+Watch/\mbox{\hyperlink{_stop_watch2_8cpp}{Stop\+Watch2.\+cpp}}\item 
+test/\mbox{\hyperlink{_deferral_test_8cpp}{Deferral\+Test.\+cpp}}\end{DoxyCompactItemize}

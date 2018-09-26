@@ -1,0 +1,899 @@
+\hypertarget{classboost_1_1statechart_1_1simple__state}{}\section{boost\+:\+:statechart\+:\+:simple\+\_\+state$<$ Most\+Derived, Context, Inner\+Initial, history\+Mode $>$ Class Template Reference}
+\label{classboost_1_1statechart_1_1simple__state}\index{boost\+::statechart\+::simple\+\_\+state$<$ Most\+Derived, Context, Inner\+Initial, history\+Mode $>$@{boost\+::statechart\+::simple\+\_\+state$<$ Most\+Derived, Context, Inner\+Initial, history\+Mode $>$}}
+
+
+{\ttfamily \#include $<$simple\+\_\+state.\+hpp$>$}
+
+
+
+Inheritance diagram for boost\+:\+:statechart\+:\+:simple\+\_\+state$<$ Most\+Derived, Context, Inner\+Initial, history\+Mode $>$\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=550pt]{classboost_1_1statechart_1_1simple__state__inherit__graph}
+\end{center}
+\end{figure}
+
+
+Collaboration diagram for boost\+:\+:statechart\+:\+:simple\+\_\+state$<$ Most\+Derived, Context, Inner\+Initial, history\+Mode $>$\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=550pt]{classboost_1_1statechart_1_1simple__state__coll__graph}
+\end{center}
+\end{figure}
+\subsection*{Classes}
+\begin{DoxyCompactItemize}
+\item 
+struct \mbox{\hyperlink{structboost_1_1statechart_1_1simple__state_1_1check__store__deep__history__impl__no}{check\+\_\+store\+\_\+deep\+\_\+history\+\_\+impl\+\_\+no}}
+\item 
+struct \mbox{\hyperlink{structboost_1_1statechart_1_1simple__state_1_1check__store__deep__history__impl__yes}{check\+\_\+store\+\_\+deep\+\_\+history\+\_\+impl\+\_\+yes}}
+\item 
+struct \mbox{\hyperlink{structboost_1_1statechart_1_1simple__state_1_1check__store__shallow__history__impl__no}{check\+\_\+store\+\_\+shallow\+\_\+history\+\_\+impl\+\_\+no}}
+\item 
+struct \mbox{\hyperlink{structboost_1_1statechart_1_1simple__state_1_1check__store__shallow__history__impl__yes}{check\+\_\+store\+\_\+shallow\+\_\+history\+\_\+impl\+\_\+yes}}
+\item 
+struct \mbox{\hyperlink{structboost_1_1statechart_1_1simple__state_1_1context__impl__other__context}{context\+\_\+impl\+\_\+other\+\_\+context}}
+\item 
+struct \mbox{\hyperlink{structboost_1_1statechart_1_1simple__state_1_1context__impl__this__context}{context\+\_\+impl\+\_\+this\+\_\+context}}
+\item 
+struct \mbox{\hyperlink{structboost_1_1statechart_1_1simple__state_1_1context__ptr__impl__my__context}{context\+\_\+ptr\+\_\+impl\+\_\+my\+\_\+context}}
+\item 
+struct \mbox{\hyperlink{structboost_1_1statechart_1_1simple__state_1_1context__ptr__impl__other__context}{context\+\_\+ptr\+\_\+impl\+\_\+other\+\_\+context}}
+\item 
+struct \mbox{\hyperlink{structboost_1_1statechart_1_1simple__state_1_1deep__construct__inner__impl__empty}{deep\+\_\+construct\+\_\+inner\+\_\+impl\+\_\+empty}}
+\item 
+struct \mbox{\hyperlink{structboost_1_1statechart_1_1simple__state_1_1deep__construct__inner__impl__non__empty}{deep\+\_\+construct\+\_\+inner\+\_\+impl\+\_\+non\+\_\+empty}}
+\item 
+struct \mbox{\hyperlink{structboost_1_1statechart_1_1simple__state_1_1local__react__impl__empty}{local\+\_\+react\+\_\+impl\+\_\+empty}}
+\item 
+struct \mbox{\hyperlink{structboost_1_1statechart_1_1simple__state_1_1local__react__impl__non__empty}{local\+\_\+react\+\_\+impl\+\_\+non\+\_\+empty}}
+\item 
+struct \mbox{\hyperlink{structboost_1_1statechart_1_1simple__state_1_1orthogonal}{orthogonal}}
+\item 
+struct \mbox{\hyperlink{structboost_1_1statechart_1_1simple__state_1_1outer__state__ptr__impl__non__outermost}{outer\+\_\+state\+\_\+ptr\+\_\+impl\+\_\+non\+\_\+outermost}}
+\item 
+struct \mbox{\hyperlink{structboost_1_1statechart_1_1simple__state_1_1outer__state__ptr__impl__outermost}{outer\+\_\+state\+\_\+ptr\+\_\+impl\+\_\+outermost}}
+\end{DoxyCompactItemize}
+\subsection*{Public Types}
+\begin{DoxyCompactItemize}
+\item 
+typedef mpl\+::list \mbox{\hyperlink{classboost_1_1statechart_1_1simple__state_ad6e7750fede08000c7cf827dba68a85d}{reactions}}
+\item 
+typedef Context\+::inner\+\_\+context\+\_\+type \mbox{\hyperlink{classboost_1_1statechart_1_1simple__state_ac053eaa9e1b0e3ccbf2231786cd651c4}{context\+\_\+type}}
+\item 
+typedef context\+\_\+type\+::outermost\+\_\+context\+\_\+type \mbox{\hyperlink{classboost_1_1statechart_1_1simple__state_a25f32527ab9e99c9ae75c723e4be9cb6}{outermost\+\_\+context\+\_\+type}}
+\item 
+typedef context\+\_\+type\+::state\+\_\+base\+\_\+type \mbox{\hyperlink{classboost_1_1statechart_1_1simple__state_ae4af81f8eae996cc418efa3387af0ef6}{state\+\_\+base\+\_\+type}}
+\item 
+typedef context\+\_\+type\+::state\+\_\+iterator \mbox{\hyperlink{classboost_1_1statechart_1_1simple__state_a32d30bbceb41ad02b70016d8530722a1}{state\+\_\+iterator}}
+\item 
+typedef context\+\_\+type\+::event\+\_\+base\+\_\+ptr\+\_\+type \mbox{\hyperlink{classboost_1_1statechart_1_1simple__state_aeea28c41a57acb4507e30ca5adb6016f}{event\+\_\+base\+\_\+ptr\+\_\+type}}
+\item 
+typedef Context\+::inner\+\_\+orthogonal\+\_\+position \mbox{\hyperlink{classboost_1_1statechart_1_1simple__state_af97b00e4ff6f12a1045beb57687cf9bc}{orthogonal\+\_\+position}}
+\item 
+typedef Most\+Derived \mbox{\hyperlink{classboost_1_1statechart_1_1simple__state_a2474f5eb168d48615fa1db224653457a}{inner\+\_\+context\+\_\+type}}
+\item 
+typedef mpl\+::integral\+\_\+c$<$ \mbox{\hyperlink{namespaceboost_1_1statechart_1_1detail_a3bedea0b807a16fa222733417183d2c9}{detail\+::orthogonal\+\_\+position\+\_\+type}}, 0 $>$ \mbox{\hyperlink{classboost_1_1statechart_1_1simple__state_a8b829f6ba90355ad7ea32d9dcc7e09ad}{inner\+\_\+orthogonal\+\_\+position}}
+\item 
+typedef context\+\_\+type\+::event\+\_\+base\+\_\+type \mbox{\hyperlink{classboost_1_1statechart_1_1simple__state_a153e115715f5d828021a273ce282ba9b}{event\+\_\+base\+\_\+type}}
+\item 
+typedef context\+\_\+type\+::rtti\+\_\+policy\+\_\+type \mbox{\hyperlink{classboost_1_1statechart_1_1simple__state_a13264629f55d891a2f7e5ca247264216}{rtti\+\_\+policy\+\_\+type}}
+\item 
+typedef context\+\_\+type\+::outermost\+\_\+context\+\_\+base\+\_\+type \mbox{\hyperlink{classboost_1_1statechart_1_1simple__state_a50f21d7a7d6632eb34430e74cbad3197}{outermost\+\_\+context\+\_\+base\+\_\+type}}
+\item 
+typedef context\+\_\+type\+::inner\+\_\+context\+\_\+ptr\+\_\+type \mbox{\hyperlink{classboost_1_1statechart_1_1simple__state_ac7e361322d53b3f57976ff23056b59e7}{context\+\_\+ptr\+\_\+type}}
+\item 
+typedef context\+\_\+type\+::state\+\_\+list\+\_\+type \mbox{\hyperlink{classboost_1_1statechart_1_1simple__state_a20858144ca2f7a2ce2965badb92ebdc3}{state\+\_\+list\+\_\+type}}
+\item 
+typedef intrusive\+\_\+ptr$<$ \mbox{\hyperlink{classboost_1_1statechart_1_1simple__state_a2474f5eb168d48615fa1db224653457a}{inner\+\_\+context\+\_\+type}} $>$ \mbox{\hyperlink{classboost_1_1statechart_1_1simple__state_ad6d3233a11a23e91b4cc9edcae799379}{inner\+\_\+context\+\_\+ptr\+\_\+type}}
+\item 
+typedef \mbox{\hyperlink{structboost_1_1statechart_1_1detail_1_1make__list}{detail\+::make\+\_\+list}}$<$ Inner\+Initial $>$\+::type \mbox{\hyperlink{classboost_1_1statechart_1_1simple__state_ae86cab19f07d10cd8e46937fd243d4ba}{inner\+\_\+initial\+\_\+list}}
+\item 
+typedef mpl\+::size$<$ \mbox{\hyperlink{classboost_1_1statechart_1_1simple__state_ae86cab19f07d10cd8e46937fd243d4ba}{inner\+\_\+initial\+\_\+list}} $>$\+::type \mbox{\hyperlink{classboost_1_1statechart_1_1simple__state_ad853d83a11c3ad24de964badf9ba95cb}{inner\+\_\+initial\+\_\+list\+\_\+size}}
+\item 
+typedef mpl\+::integral\+\_\+c$<$ \mbox{\hyperlink{namespaceboost_1_1statechart_1_1detail_a3bedea0b807a16fa222733417183d2c9}{detail\+::orthogonal\+\_\+position\+\_\+type}}, inner\+\_\+initial\+\_\+list\+\_\+size\+::value $>$ \mbox{\hyperlink{classboost_1_1statechart_1_1simple__state_abee09a2cb17ed7db5457d3f09bb75f9c}{no\+\_\+of\+\_\+orthogonal\+\_\+regions}}
+\item 
+typedef mpl\+::push\+\_\+front$<$ typename context\+\_\+type\+::context\+\_\+type\+\_\+list, \mbox{\hyperlink{classboost_1_1statechart_1_1simple__state_ac053eaa9e1b0e3ccbf2231786cd651c4}{context\+\_\+type}} $>$\+::type \mbox{\hyperlink{classboost_1_1statechart_1_1simple__state_acb5e762119ffe2d44516c0f812d6cb65}{context\+\_\+type\+\_\+list}}
+\item 
+typedef mpl\+::bool\+\_\+$<$(history\+Mode \&\mbox{\hyperlink{namespaceboost_1_1statechart_a9c4ec64d7a0422b8b9c97b489f731372a91f197dd8c8935ec1a9328dfc5f90b43}{has\+\_\+shallow\+\_\+history}}) !=0 $>$ \mbox{\hyperlink{classboost_1_1statechart_1_1simple__state_a7bd6892fa9ec93f9d1384e00c468353d}{shallow\+\_\+history}}
+\item 
+typedef context\+\_\+type\+::shallow\+\_\+history \mbox{\hyperlink{classboost_1_1statechart_1_1simple__state_a0e837dc75eff343ab64337979fc7eca4}{stores\+\_\+shallow\+\_\+history}}
+\item 
+typedef mpl\+::bool\+\_\+$<$(history\+Mode \&\mbox{\hyperlink{namespaceboost_1_1statechart_a9c4ec64d7a0422b8b9c97b489f731372aac03603fa90405ad5de45cc858477c7d}{has\+\_\+deep\+\_\+history}}) !=0 $>$ \mbox{\hyperlink{classboost_1_1statechart_1_1simple__state_a2e6aa9f4912c70a9dbef800845044bc7}{deep\+\_\+history}}
+\item 
+typedef mpl\+::or\+\_\+$<$ \mbox{\hyperlink{classboost_1_1statechart_1_1simple__state_a2e6aa9f4912c70a9dbef800845044bc7}{deep\+\_\+history}}, typename context\+\_\+type\+::inherited\+\_\+deep\+\_\+history $>$\+::type \mbox{\hyperlink{classboost_1_1statechart_1_1simple__state_a0a3f8d8bb00bdd1769113111b2e2fae7}{inherited\+\_\+deep\+\_\+history}}
+\item 
+typedef mpl\+::and\+\_\+$<$ \mbox{\hyperlink{classboost_1_1statechart_1_1simple__state_a0a3f8d8bb00bdd1769113111b2e2fae7}{inherited\+\_\+deep\+\_\+history}}, mpl\+::empty$<$ \mbox{\hyperlink{classboost_1_1statechart_1_1simple__state_ae86cab19f07d10cd8e46937fd243d4ba}{inner\+\_\+initial\+\_\+list}} $>$ $>$\+::type \mbox{\hyperlink{classboost_1_1statechart_1_1simple__state_ab912b321d44a14521b3c80e11fb919e1}{stores\+\_\+deep\+\_\+history}}
+\end{DoxyCompactItemize}
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{classboost_1_1statechart_1_1simple__state_a25f32527ab9e99c9ae75c723e4be9cb6}{outermost\+\_\+context\+\_\+type}} \& \mbox{\hyperlink{classboost_1_1statechart_1_1simple__state_a5a2e9abf29040c3dd91ac9d98a17f564}{outermost\+\_\+context}} ()
+\item 
+const \mbox{\hyperlink{classboost_1_1statechart_1_1simple__state_a25f32527ab9e99c9ae75c723e4be9cb6}{outermost\+\_\+context\+\_\+type}} \& \mbox{\hyperlink{classboost_1_1statechart_1_1simple__state_aea19005dfbeaca465dea79c74799544c}{outermost\+\_\+context}} () const
+\item 
+{\footnotesize template$<$class Other\+Context $>$ }\\Other\+Context \& \mbox{\hyperlink{classboost_1_1statechart_1_1simple__state_ad03964fab8bcfc34742edcf0f5570d92}{context}} ()
+\item 
+{\footnotesize template$<$class Other\+Context $>$ }\\const Other\+Context \& \mbox{\hyperlink{classboost_1_1statechart_1_1simple__state_ac055c1f205e10fe2d665b68b5038be2a}{context}} () const
+\item 
+{\footnotesize template$<$class Target $>$ }\\Target \mbox{\hyperlink{classboost_1_1statechart_1_1simple__state_aa94dea47fe6c47cdd5a3585be5db75a0}{state\+\_\+cast}} () const
+\item 
+{\footnotesize template$<$class Target $>$ }\\Target \mbox{\hyperlink{classboost_1_1statechart_1_1simple__state_aa7af8e560ba3ad0f9d158b9c1188109f}{state\+\_\+downcast}} () const
+\item 
+\mbox{\hyperlink{classboost_1_1statechart_1_1simple__state_a32d30bbceb41ad02b70016d8530722a1}{state\+\_\+iterator}} \mbox{\hyperlink{classboost_1_1statechart_1_1simple__state_a2884dbeb0cbc4465e5ce1955f1a655e7}{state\+\_\+begin}} () const
+\item 
+\mbox{\hyperlink{classboost_1_1statechart_1_1simple__state_a32d30bbceb41ad02b70016d8530722a1}{state\+\_\+iterator}} \mbox{\hyperlink{classboost_1_1statechart_1_1simple__state_a831e44d8bb7aa3f0f9a46df96de9099b}{state\+\_\+end}} () const
+\item 
+void \mbox{\hyperlink{classboost_1_1statechart_1_1simple__state_a67205f8400d43e13a51cfb4a4a382ce5}{post\+\_\+event}} (const \mbox{\hyperlink{classboost_1_1statechart_1_1simple__state_aeea28c41a57acb4507e30ca5adb6016f}{event\+\_\+base\+\_\+ptr\+\_\+type}} \&p\+Event)
+\item 
+void \mbox{\hyperlink{classboost_1_1statechart_1_1simple__state_aeea3396289a32b467dd094d2c7965f23}{post\+\_\+event}} (const \mbox{\hyperlink{classboost_1_1statechart_1_1event__base}{event\+\_\+base}} \&evt)
+\item 
+\mbox{\hyperlink{namespaceboost_1_1statechart_abe807f6598b614d6d87bb951ecd92331}{result}} \mbox{\hyperlink{classboost_1_1statechart_1_1simple__state_aba633726b29a7bd07d69429bab4a3a1b}{discard\+\_\+event}} ()
+\item 
+\mbox{\hyperlink{namespaceboost_1_1statechart_abe807f6598b614d6d87bb951ecd92331}{result}} \mbox{\hyperlink{classboost_1_1statechart_1_1simple__state_a9892a580bc7f9b502e5c01970bff17cf}{forward\+\_\+event}} ()
+\item 
+\mbox{\hyperlink{namespaceboost_1_1statechart_abe807f6598b614d6d87bb951ecd92331}{result}} \mbox{\hyperlink{classboost_1_1statechart_1_1simple__state_aa2d6f620620d43f7db68baa9ed638b80}{defer\+\_\+event}} ()
+\item 
+{\footnotesize template$<$class Destination\+State $>$ }\\\mbox{\hyperlink{namespaceboost_1_1statechart_abe807f6598b614d6d87bb951ecd92331}{result}} \mbox{\hyperlink{classboost_1_1statechart_1_1simple__state_aa0865d4f3f3763e77dfd86f70aa558af}{transit}} ()
+\item 
+{\footnotesize template$<$class Destination\+State , class Transition\+Context , class Event $>$ }\\\mbox{\hyperlink{namespaceboost_1_1statechart_abe807f6598b614d6d87bb951ecd92331}{result}} \mbox{\hyperlink{classboost_1_1statechart_1_1simple__state_a8afd3e06eb91829a43bc82031c848fb1}{transit}} (void(Transition\+Context\+::$\ast$p\+Transition\+Action)(const Event \&), const Event \&evt)
+\item 
+\mbox{\hyperlink{namespaceboost_1_1statechart_abe807f6598b614d6d87bb951ecd92331}{result}} \mbox{\hyperlink{classboost_1_1statechart_1_1simple__state_af1b306e54db708323280093a4452da13}{terminate}} ()
+\item 
+{\footnotesize template$<$class History\+Context , detail\+::orthogonal\+\_\+position\+\_\+type orthogonal\+Position$>$ }\\void \mbox{\hyperlink{classboost_1_1statechart_1_1simple__state_a6a338130243f1ad8fa655e4dd3e57ca2}{clear\+\_\+shallow\+\_\+history}} ()
+\item 
+{\footnotesize template$<$class History\+Context , detail\+::orthogonal\+\_\+position\+\_\+type orthogonal\+Position$>$ }\\void \mbox{\hyperlink{classboost_1_1statechart_1_1simple__state_a23ca1de9d37765cf77884222e0491a5e}{clear\+\_\+deep\+\_\+history}} ()
+\item 
+const \mbox{\hyperlink{classboost_1_1statechart_1_1event__base}{event\+\_\+base}} $\ast$ \mbox{\hyperlink{classboost_1_1statechart_1_1simple__state_aa8d3e7109aec6dd3b6b43e21159e2119}{triggering\+\_\+event}} () const
+\item 
+\mbox{\hyperlink{classboost_1_1statechart_1_1simple__state_a19a11b763b74902e6895452ee41384d7}{B\+O\+O\+S\+T\+\_\+\+S\+T\+A\+T\+I\+C\+\_\+\+A\+S\+S\+E\+RT}} ((mpl\+::less$<$ \mbox{\hyperlink{classboost_1_1statechart_1_1simple__state_af97b00e4ff6f12a1045beb57687cf9bc}{orthogonal\+\_\+position}}, typename context\+\_\+type\+::no\+\_\+of\+\_\+orthogonal\+\_\+regions $>$\+::value))
+\item 
+\mbox{\hyperlink{classboost_1_1statechart_1_1simple__state_a0218fcd7d5fa8cf04dd00f9f72bd6a4e}{B\+O\+O\+S\+T\+\_\+\+S\+T\+A\+T\+I\+C\+\_\+\+A\+S\+S\+E\+RT}} ((mpl\+::or\+\_\+$<$ mpl\+::less$<$ \mbox{\hyperlink{classboost_1_1statechart_1_1simple__state_abee09a2cb17ed7db5457d3f09bb75f9c}{no\+\_\+of\+\_\+orthogonal\+\_\+regions}}, mpl\+::integral\+\_\+c$<$ \mbox{\hyperlink{namespaceboost_1_1statechart_1_1detail_a3bedea0b807a16fa222733417183d2c9}{detail\+::orthogonal\+\_\+position\+\_\+type}}, 2 $>$ $>$, mpl\+::not\+\_\+$<$ typename context\+\_\+type\+::inherited\+\_\+deep\+\_\+history $>$ $>$\+::value))
+\item 
+void $\ast$ \mbox{\hyperlink{classboost_1_1statechart_1_1simple__state_a4fbec8248bbcd17578b6746a684e3c9e}{operator new}} (std\+::size\+\_\+t size)
+\item 
+void \mbox{\hyperlink{classboost_1_1statechart_1_1simple__state_a87840a601ed9b0ff517f3d452e6b13f6}{operator delete}} (void $\ast$p\+State)
+\item 
+\mbox{\hyperlink{classboost_1_1statechart_1_1simple__state_a50f21d7a7d6632eb34430e74cbad3197}{outermost\+\_\+context\+\_\+base\+\_\+type}} \& \mbox{\hyperlink{classboost_1_1statechart_1_1simple__state_ac542d3d3b03bf646e4f5726259d1a2b0}{outermost\+\_\+context\+\_\+base}} ()
+\item 
+const \mbox{\hyperlink{classboost_1_1statechart_1_1simple__state_a50f21d7a7d6632eb34430e74cbad3197}{outermost\+\_\+context\+\_\+base\+\_\+type}} \& \mbox{\hyperlink{classboost_1_1statechart_1_1simple__state_ae2d7831022f22363d393f87971507e7c}{outermost\+\_\+context\+\_\+base}} () const
+\item 
+virtual const \mbox{\hyperlink{classboost_1_1statechart_1_1simple__state_ae4af81f8eae996cc418efa3387af0ef6}{state\+\_\+base\+\_\+type}} $\ast$ \mbox{\hyperlink{classboost_1_1statechart_1_1simple__state_a538172d521f6d6d75e513cd79af79334}{outer\+\_\+state\+\_\+ptr}} () const
+\item 
+virtual \mbox{\hyperlink{namespaceboost_1_1statechart_1_1detail_ab091bbb4c29327fb46ee479ea1b7255b}{detail\+::reaction\+\_\+result}} \mbox{\hyperlink{classboost_1_1statechart_1_1simple__state_aea845e975828260436775198e4c4e599}{react\+\_\+impl}} (const \mbox{\hyperlink{classboost_1_1statechart_1_1simple__state_a153e115715f5d828021a273ce282ba9b}{event\+\_\+base\+\_\+type}} \&evt, typename rtti\+\_\+policy\+\_\+type\+::id\+\_\+type event\+Type)
+\item 
+virtual void \mbox{\hyperlink{classboost_1_1statechart_1_1simple__state_a82e8a0fa7183343e0513e97eb704fdee}{exit\+\_\+impl}} (typename base\+\_\+type\+::direct\+\_\+state\+\_\+base\+\_\+ptr\+\_\+type \&p\+Self, typename state\+\_\+base\+\_\+type\+::node\+\_\+state\+\_\+base\+\_\+ptr\+\_\+type \&p\+Outermost\+Unstable\+State, bool perform\+Full\+Exit)
+\item 
+void \mbox{\hyperlink{classboost_1_1statechart_1_1simple__state_a480ae5f0e110cb8208bed7b25891dc17}{exit\+\_\+impl}} (\mbox{\hyperlink{classboost_1_1statechart_1_1simple__state_ad6d3233a11a23e91b4cc9edcae799379}{inner\+\_\+context\+\_\+ptr\+\_\+type}} \&p\+Self, typename state\+\_\+base\+\_\+type\+::node\+\_\+state\+\_\+base\+\_\+ptr\+\_\+type \&p\+Outermost\+Unstable\+State, bool perform\+Full\+Exit)
+\item 
+void \mbox{\hyperlink{classboost_1_1statechart_1_1simple__state_a371f219e75f23182309e4f2ecc71d399}{set\+\_\+outermost\+\_\+unstable\+\_\+state}} (typename state\+\_\+base\+\_\+type\+::node\+\_\+state\+\_\+base\+\_\+ptr\+\_\+type \&p\+Outermost\+Unstable\+State)
+\item 
+{\footnotesize template$<$class Other\+Context $>$ }\\const Other\+Context\+::inner\+\_\+context\+\_\+ptr\+\_\+type \& \mbox{\hyperlink{classboost_1_1statechart_1_1simple__state_aa873e22b50b0925f6a663583d6c5b216}{context\+\_\+ptr}} () const
+\item 
+void \mbox{\hyperlink{classboost_1_1statechart_1_1simple__state_a542332ad88c14626cd34459cea2ce11c}{set\+\_\+context}} (const \mbox{\hyperlink{classboost_1_1statechart_1_1simple__state_ac7e361322d53b3f57976ff23056b59e7}{context\+\_\+ptr\+\_\+type}} \&p\+Context)
+\item 
+{\footnotesize template$<$class Leaf\+State $>$ }\\void \mbox{\hyperlink{classboost_1_1statechart_1_1simple__state_a5d962dfc41522b59250e71ae5f01c30a}{store\+\_\+deep\+\_\+history\+\_\+impl}} ()
+\end{DoxyCompactItemize}
+\subsection*{Static Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+static void \mbox{\hyperlink{classboost_1_1statechart_1_1simple__state_a082eb6f318470e080ca90502d32fde98}{initial\+\_\+deep\+\_\+construct}} (\mbox{\hyperlink{classboost_1_1statechart_1_1simple__state_a50f21d7a7d6632eb34430e74cbad3197}{outermost\+\_\+context\+\_\+base\+\_\+type}} \&outermost\+Context\+Base)
+\item 
+static void \mbox{\hyperlink{classboost_1_1statechart_1_1simple__state_a0676228f11200b54ab55883626eac8cd}{deep\+\_\+construct}} (const \mbox{\hyperlink{classboost_1_1statechart_1_1simple__state_ac7e361322d53b3f57976ff23056b59e7}{context\+\_\+ptr\+\_\+type}} \&p\+Context, \mbox{\hyperlink{classboost_1_1statechart_1_1simple__state_a50f21d7a7d6632eb34430e74cbad3197}{outermost\+\_\+context\+\_\+base\+\_\+type}} \&outermost\+Context\+Base)
+\item 
+static \mbox{\hyperlink{classboost_1_1statechart_1_1simple__state_ad6d3233a11a23e91b4cc9edcae799379}{inner\+\_\+context\+\_\+ptr\+\_\+type}} \mbox{\hyperlink{classboost_1_1statechart_1_1simple__state_a598d677d3cf6b90001e19ef3566eca5e}{shallow\+\_\+construct}} (const \mbox{\hyperlink{classboost_1_1statechart_1_1simple__state_ac7e361322d53b3f57976ff23056b59e7}{context\+\_\+ptr\+\_\+type}} \&p\+Context, \mbox{\hyperlink{classboost_1_1statechart_1_1simple__state_a50f21d7a7d6632eb34430e74cbad3197}{outermost\+\_\+context\+\_\+base\+\_\+type}} \&outermost\+Context\+Base)
+\item 
+{\footnotesize template$<$class Inner\+List $>$ }\\static void \mbox{\hyperlink{classboost_1_1statechart_1_1simple__state_afd4eafb6cad34c3618530d763f308f4c}{deep\+\_\+construct\+\_\+inner}} (const \mbox{\hyperlink{classboost_1_1statechart_1_1simple__state_ad6d3233a11a23e91b4cc9edcae799379}{inner\+\_\+context\+\_\+ptr\+\_\+type}} \&p\+Inner\+Context, \mbox{\hyperlink{classboost_1_1statechart_1_1simple__state_a50f21d7a7d6632eb34430e74cbad3197}{outermost\+\_\+context\+\_\+base\+\_\+type}} \&outermost\+Context\+Base)
+\end{DoxyCompactItemize}
+\subsection*{Protected Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{classboost_1_1statechart_1_1simple__state_a362ee00744c845c6ee6c96a131a5f8af}{simple\+\_\+state}} ()
+\item 
+\mbox{\hyperlink{classboost_1_1statechart_1_1simple__state_a312e609b9fbe59276689c9af33c3b3c9}{$\sim$simple\+\_\+state}} ()
+\end{DoxyCompactItemize}
+\subsection*{Private Types}
+\begin{DoxyCompactItemize}
+\item 
+typedef \mbox{\hyperlink{structboost_1_1statechart_1_1detail_1_1simple__state__base__type}{detail\+::simple\+\_\+state\+\_\+base\+\_\+type}}$<$ Most\+Derived, typename Context\+::inner\+\_\+context\+\_\+type, Inner\+Initial $>$\+::type \mbox{\hyperlink{classboost_1_1statechart_1_1simple__state_a0a4e135c0eb6d114bd2e3e6e61ea3d5f}{base\+\_\+type}}
+\end{DoxyCompactItemize}
+\subsection*{Private Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+{\footnotesize template$<$class Destination\+State , class Transition\+Context , class Transition\+Action $>$ }\\\mbox{\hyperlink{namespaceboost_1_1statechart_abe807f6598b614d6d87bb951ecd92331}{result}} \mbox{\hyperlink{classboost_1_1statechart_1_1simple__state_aa5c1618d959d881a51de119d12f6fc80}{transit\+\_\+impl}} (const Transition\+Action \&transition\+Action)
+\item 
+{\footnotesize template$<$class Reaction\+List $>$ }\\\mbox{\hyperlink{namespaceboost_1_1statechart_1_1detail_ab091bbb4c29327fb46ee479ea1b7255b}{detail\+::reaction\+\_\+result}} \mbox{\hyperlink{classboost_1_1statechart_1_1simple__state_ac523a4a47f87c4e327d603286bb91b96}{local\+\_\+react}} (const \mbox{\hyperlink{classboost_1_1statechart_1_1simple__state_a153e115715f5d828021a273ce282ba9b}{event\+\_\+base\+\_\+type}} \&evt, typename rtti\+\_\+policy\+\_\+type\+::id\+\_\+type event\+Type)
+\item 
+{\footnotesize template$<$class Store\+Shallow\+History $>$ }\\void \mbox{\hyperlink{classboost_1_1statechart_1_1simple__state_a526c05c663958e216ab04dbdbf7ba6c5}{check\+\_\+store\+\_\+shallow\+\_\+history}} ()
+\item 
+{\footnotesize template$<$class Store\+Deep\+History $>$ }\\void \mbox{\hyperlink{classboost_1_1statechart_1_1simple__state_a5f704c34f439bc3cb3c7f547405da725}{check\+\_\+store\+\_\+deep\+\_\+history}} ()
+\end{DoxyCompactItemize}
+\subsection*{Private Attributes}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{classboost_1_1statechart_1_1simple__state_ac7e361322d53b3f57976ff23056b59e7}{context\+\_\+ptr\+\_\+type}} \mbox{\hyperlink{classboost_1_1statechart_1_1simple__state_ab0a0e8b8a6d851acec12c3f1a8515ca7}{p\+Context\+\_\+}}
+\end{DoxyCompactItemize}
+\subsection*{Friends}
+\begin{DoxyCompactItemize}
+\item 
+struct \mbox{\hyperlink{classboost_1_1statechart_1_1simple__state_aec4b9ea7baa3f4fbfd4d31b299e27b6d}{context\+\_\+ptr\+\_\+impl\+\_\+other\+\_\+context}}
+\item 
+struct \mbox{\hyperlink{classboost_1_1statechart_1_1simple__state_a580f2b717109d522d6a39b7b2752b4a7}{context\+\_\+ptr\+\_\+impl\+\_\+my\+\_\+context}}
+\item 
+struct \mbox{\hyperlink{classboost_1_1statechart_1_1simple__state_a68d6ffdef25e37430a9e8ad34085a7a2}{context\+\_\+impl\+\_\+other\+\_\+context}}
+\item 
+struct \mbox{\hyperlink{classboost_1_1statechart_1_1simple__state_a0a3bf11a5ad2ed5b7695492424733c3e}{context\+\_\+impl\+\_\+this\+\_\+context}}
+\item 
+struct \mbox{\hyperlink{classboost_1_1statechart_1_1simple__state_a1fc1bf56babd5032f5f0a01e2431cca5}{local\+\_\+react\+\_\+impl\+\_\+non\+\_\+empty}}
+\item 
+struct \mbox{\hyperlink{classboost_1_1statechart_1_1simple__state_a8bf4a8a4136a41ed8b67c3a4c809d4c9}{outer\+\_\+state\+\_\+ptr\+\_\+impl\+\_\+non\+\_\+outermost}}
+\item 
+struct \mbox{\hyperlink{classboost_1_1statechart_1_1simple__state_a871eee27caa9713c636df492328cfd1a}{check\+\_\+store\+\_\+shallow\+\_\+history\+\_\+impl\+\_\+yes}}
+\item 
+struct \mbox{\hyperlink{classboost_1_1statechart_1_1simple__state_af4fe78048d6db7f6a1699d9eb26f1ef7}{check\+\_\+store\+\_\+deep\+\_\+history\+\_\+impl\+\_\+yes}}
+\end{DoxyCompactItemize}
+
+
+\subsection{Member Typedef Documentation}
+\mbox{\Hypertarget{classboost_1_1statechart_1_1simple__state_a0a4e135c0eb6d114bd2e3e6e61ea3d5f}\label{classboost_1_1statechart_1_1simple__state_a0a4e135c0eb6d114bd2e3e6e61ea3d5f}} 
+\index{boost\+::statechart\+::simple\+\_\+state@{boost\+::statechart\+::simple\+\_\+state}!base\+\_\+type@{base\+\_\+type}}
+\index{base\+\_\+type@{base\+\_\+type}!boost\+::statechart\+::simple\+\_\+state@{boost\+::statechart\+::simple\+\_\+state}}
+\subsubsection{\texorpdfstring{base\+\_\+type}{base\_type}}
+{\footnotesize\ttfamily template$<$class Most\+Derived, class Context, class Inner\+Initial = mpl\+::list$<$$>$, history\+\_\+mode history\+Mode = has\+\_\+no\+\_\+history$>$ \\
+typedef \mbox{\hyperlink{structboost_1_1statechart_1_1detail_1_1simple__state__base__type}{detail\+::simple\+\_\+state\+\_\+base\+\_\+type}}$<$ Most\+Derived, typename Context\+::inner\+\_\+context\+\_\+type, Inner\+Initial $>$\+::type \mbox{\hyperlink{classboost_1_1statechart_1_1simple__state}{boost\+::statechart\+::simple\+\_\+state}}$<$ Most\+Derived, Context, Inner\+Initial, history\+Mode $>$\+::\mbox{\hyperlink{classboost_1_1statechart_1_1simple__state_a0a4e135c0eb6d114bd2e3e6e61ea3d5f}{base\+\_\+type}}\hspace{0.3cm}{\ttfamily [private]}}
+
+\mbox{\Hypertarget{classboost_1_1statechart_1_1simple__state_ac7e361322d53b3f57976ff23056b59e7}\label{classboost_1_1statechart_1_1simple__state_ac7e361322d53b3f57976ff23056b59e7}} 
+\index{boost\+::statechart\+::simple\+\_\+state@{boost\+::statechart\+::simple\+\_\+state}!context\+\_\+ptr\+\_\+type@{context\+\_\+ptr\+\_\+type}}
+\index{context\+\_\+ptr\+\_\+type@{context\+\_\+ptr\+\_\+type}!boost\+::statechart\+::simple\+\_\+state@{boost\+::statechart\+::simple\+\_\+state}}
+\subsubsection{\texorpdfstring{context\+\_\+ptr\+\_\+type}{context\_ptr\_type}}
+{\footnotesize\ttfamily template$<$class Most\+Derived, class Context, class Inner\+Initial = mpl\+::list$<$$>$, history\+\_\+mode history\+Mode = has\+\_\+no\+\_\+history$>$ \\
+typedef context\+\_\+type\+::inner\+\_\+context\+\_\+ptr\+\_\+type \mbox{\hyperlink{classboost_1_1statechart_1_1simple__state}{boost\+::statechart\+::simple\+\_\+state}}$<$ Most\+Derived, Context, Inner\+Initial, history\+Mode $>$\+::\mbox{\hyperlink{classboost_1_1statechart_1_1simple__state_ac7e361322d53b3f57976ff23056b59e7}{context\+\_\+ptr\+\_\+type}}}
+
+\mbox{\Hypertarget{classboost_1_1statechart_1_1simple__state_ac053eaa9e1b0e3ccbf2231786cd651c4}\label{classboost_1_1statechart_1_1simple__state_ac053eaa9e1b0e3ccbf2231786cd651c4}} 
+\index{boost\+::statechart\+::simple\+\_\+state@{boost\+::statechart\+::simple\+\_\+state}!context\+\_\+type@{context\+\_\+type}}
+\index{context\+\_\+type@{context\+\_\+type}!boost\+::statechart\+::simple\+\_\+state@{boost\+::statechart\+::simple\+\_\+state}}
+\subsubsection{\texorpdfstring{context\+\_\+type}{context\_type}}
+{\footnotesize\ttfamily template$<$class Most\+Derived, class Context, class Inner\+Initial = mpl\+::list$<$$>$, history\+\_\+mode history\+Mode = has\+\_\+no\+\_\+history$>$ \\
+typedef Context\+::inner\+\_\+context\+\_\+type \mbox{\hyperlink{classboost_1_1statechart_1_1simple__state}{boost\+::statechart\+::simple\+\_\+state}}$<$ Most\+Derived, Context, Inner\+Initial, history\+Mode $>$\+::\mbox{\hyperlink{classboost_1_1statechart_1_1simple__state_ac053eaa9e1b0e3ccbf2231786cd651c4}{context\+\_\+type}}}
+
+\mbox{\Hypertarget{classboost_1_1statechart_1_1simple__state_acb5e762119ffe2d44516c0f812d6cb65}\label{classboost_1_1statechart_1_1simple__state_acb5e762119ffe2d44516c0f812d6cb65}} 
+\index{boost\+::statechart\+::simple\+\_\+state@{boost\+::statechart\+::simple\+\_\+state}!context\+\_\+type\+\_\+list@{context\+\_\+type\+\_\+list}}
+\index{context\+\_\+type\+\_\+list@{context\+\_\+type\+\_\+list}!boost\+::statechart\+::simple\+\_\+state@{boost\+::statechart\+::simple\+\_\+state}}
+\subsubsection{\texorpdfstring{context\+\_\+type\+\_\+list}{context\_type\_list}}
+{\footnotesize\ttfamily template$<$class Most\+Derived, class Context, class Inner\+Initial = mpl\+::list$<$$>$, history\+\_\+mode history\+Mode = has\+\_\+no\+\_\+history$>$ \\
+typedef mpl\+::push\+\_\+front$<$ typename context\+\_\+type\+::context\+\_\+type\+\_\+list, \mbox{\hyperlink{classboost_1_1statechart_1_1simple__state_ac053eaa9e1b0e3ccbf2231786cd651c4}{context\+\_\+type}} $>$\+::type \mbox{\hyperlink{classboost_1_1statechart_1_1simple__state}{boost\+::statechart\+::simple\+\_\+state}}$<$ Most\+Derived, Context, Inner\+Initial, history\+Mode $>$\+::\mbox{\hyperlink{classboost_1_1statechart_1_1simple__state_acb5e762119ffe2d44516c0f812d6cb65}{context\+\_\+type\+\_\+list}}}
+
+\mbox{\Hypertarget{classboost_1_1statechart_1_1simple__state_a2e6aa9f4912c70a9dbef800845044bc7}\label{classboost_1_1statechart_1_1simple__state_a2e6aa9f4912c70a9dbef800845044bc7}} 
+\index{boost\+::statechart\+::simple\+\_\+state@{boost\+::statechart\+::simple\+\_\+state}!deep\+\_\+history@{deep\+\_\+history}}
+\index{deep\+\_\+history@{deep\+\_\+history}!boost\+::statechart\+::simple\+\_\+state@{boost\+::statechart\+::simple\+\_\+state}}
+\subsubsection{\texorpdfstring{deep\+\_\+history}{deep\_history}}
+{\footnotesize\ttfamily template$<$class Most\+Derived, class Context, class Inner\+Initial = mpl\+::list$<$$>$, history\+\_\+mode history\+Mode = has\+\_\+no\+\_\+history$>$ \\
+typedef mpl\+::bool\+\_\+$<$ ( history\+Mode \& \mbox{\hyperlink{namespaceboost_1_1statechart_a9c4ec64d7a0422b8b9c97b489f731372aac03603fa90405ad5de45cc858477c7d}{has\+\_\+deep\+\_\+history}} ) != 0 $>$ \mbox{\hyperlink{classboost_1_1statechart_1_1simple__state}{boost\+::statechart\+::simple\+\_\+state}}$<$ Most\+Derived, Context, Inner\+Initial, history\+Mode $>$\+::\mbox{\hyperlink{classboost_1_1statechart_1_1simple__state_a2e6aa9f4912c70a9dbef800845044bc7}{deep\+\_\+history}}}
+
+\mbox{\Hypertarget{classboost_1_1statechart_1_1simple__state_aeea28c41a57acb4507e30ca5adb6016f}\label{classboost_1_1statechart_1_1simple__state_aeea28c41a57acb4507e30ca5adb6016f}} 
+\index{boost\+::statechart\+::simple\+\_\+state@{boost\+::statechart\+::simple\+\_\+state}!event\+\_\+base\+\_\+ptr\+\_\+type@{event\+\_\+base\+\_\+ptr\+\_\+type}}
+\index{event\+\_\+base\+\_\+ptr\+\_\+type@{event\+\_\+base\+\_\+ptr\+\_\+type}!boost\+::statechart\+::simple\+\_\+state@{boost\+::statechart\+::simple\+\_\+state}}
+\subsubsection{\texorpdfstring{event\+\_\+base\+\_\+ptr\+\_\+type}{event\_base\_ptr\_type}}
+{\footnotesize\ttfamily template$<$class Most\+Derived, class Context, class Inner\+Initial = mpl\+::list$<$$>$, history\+\_\+mode history\+Mode = has\+\_\+no\+\_\+history$>$ \\
+typedef context\+\_\+type\+::event\+\_\+base\+\_\+ptr\+\_\+type \mbox{\hyperlink{classboost_1_1statechart_1_1simple__state}{boost\+::statechart\+::simple\+\_\+state}}$<$ Most\+Derived, Context, Inner\+Initial, history\+Mode $>$\+::\mbox{\hyperlink{classboost_1_1statechart_1_1simple__state_aeea28c41a57acb4507e30ca5adb6016f}{event\+\_\+base\+\_\+ptr\+\_\+type}}}
+
+\mbox{\Hypertarget{classboost_1_1statechart_1_1simple__state_a153e115715f5d828021a273ce282ba9b}\label{classboost_1_1statechart_1_1simple__state_a153e115715f5d828021a273ce282ba9b}} 
+\index{boost\+::statechart\+::simple\+\_\+state@{boost\+::statechart\+::simple\+\_\+state}!event\+\_\+base\+\_\+type@{event\+\_\+base\+\_\+type}}
+\index{event\+\_\+base\+\_\+type@{event\+\_\+base\+\_\+type}!boost\+::statechart\+::simple\+\_\+state@{boost\+::statechart\+::simple\+\_\+state}}
+\subsubsection{\texorpdfstring{event\+\_\+base\+\_\+type}{event\_base\_type}}
+{\footnotesize\ttfamily template$<$class Most\+Derived, class Context, class Inner\+Initial = mpl\+::list$<$$>$, history\+\_\+mode history\+Mode = has\+\_\+no\+\_\+history$>$ \\
+typedef context\+\_\+type\+::event\+\_\+base\+\_\+type \mbox{\hyperlink{classboost_1_1statechart_1_1simple__state}{boost\+::statechart\+::simple\+\_\+state}}$<$ Most\+Derived, Context, Inner\+Initial, history\+Mode $>$\+::\mbox{\hyperlink{classboost_1_1statechart_1_1simple__state_a153e115715f5d828021a273ce282ba9b}{event\+\_\+base\+\_\+type}}}
+
+\mbox{\Hypertarget{classboost_1_1statechart_1_1simple__state_a0a3f8d8bb00bdd1769113111b2e2fae7}\label{classboost_1_1statechart_1_1simple__state_a0a3f8d8bb00bdd1769113111b2e2fae7}} 
+\index{boost\+::statechart\+::simple\+\_\+state@{boost\+::statechart\+::simple\+\_\+state}!inherited\+\_\+deep\+\_\+history@{inherited\+\_\+deep\+\_\+history}}
+\index{inherited\+\_\+deep\+\_\+history@{inherited\+\_\+deep\+\_\+history}!boost\+::statechart\+::simple\+\_\+state@{boost\+::statechart\+::simple\+\_\+state}}
+\subsubsection{\texorpdfstring{inherited\+\_\+deep\+\_\+history}{inherited\_deep\_history}}
+{\footnotesize\ttfamily template$<$class Most\+Derived, class Context, class Inner\+Initial = mpl\+::list$<$$>$, history\+\_\+mode history\+Mode = has\+\_\+no\+\_\+history$>$ \\
+typedef mpl\+::or\+\_\+$<$ \mbox{\hyperlink{classboost_1_1statechart_1_1simple__state_a2e6aa9f4912c70a9dbef800845044bc7}{deep\+\_\+history}}, typename context\+\_\+type\+::inherited\+\_\+deep\+\_\+history $>$\+::type \mbox{\hyperlink{classboost_1_1statechart_1_1simple__state}{boost\+::statechart\+::simple\+\_\+state}}$<$ Most\+Derived, Context, Inner\+Initial, history\+Mode $>$\+::\mbox{\hyperlink{classboost_1_1statechart_1_1simple__state_a0a3f8d8bb00bdd1769113111b2e2fae7}{inherited\+\_\+deep\+\_\+history}}}
+
+\mbox{\Hypertarget{classboost_1_1statechart_1_1simple__state_ad6d3233a11a23e91b4cc9edcae799379}\label{classboost_1_1statechart_1_1simple__state_ad6d3233a11a23e91b4cc9edcae799379}} 
+\index{boost\+::statechart\+::simple\+\_\+state@{boost\+::statechart\+::simple\+\_\+state}!inner\+\_\+context\+\_\+ptr\+\_\+type@{inner\+\_\+context\+\_\+ptr\+\_\+type}}
+\index{inner\+\_\+context\+\_\+ptr\+\_\+type@{inner\+\_\+context\+\_\+ptr\+\_\+type}!boost\+::statechart\+::simple\+\_\+state@{boost\+::statechart\+::simple\+\_\+state}}
+\subsubsection{\texorpdfstring{inner\+\_\+context\+\_\+ptr\+\_\+type}{inner\_context\_ptr\_type}}
+{\footnotesize\ttfamily template$<$class Most\+Derived, class Context, class Inner\+Initial = mpl\+::list$<$$>$, history\+\_\+mode history\+Mode = has\+\_\+no\+\_\+history$>$ \\
+typedef intrusive\+\_\+ptr$<$ \mbox{\hyperlink{classboost_1_1statechart_1_1simple__state_a2474f5eb168d48615fa1db224653457a}{inner\+\_\+context\+\_\+type}} $>$ \mbox{\hyperlink{classboost_1_1statechart_1_1simple__state}{boost\+::statechart\+::simple\+\_\+state}}$<$ Most\+Derived, Context, Inner\+Initial, history\+Mode $>$\+::\mbox{\hyperlink{classboost_1_1statechart_1_1simple__state_ad6d3233a11a23e91b4cc9edcae799379}{inner\+\_\+context\+\_\+ptr\+\_\+type}}}
+
+\mbox{\Hypertarget{classboost_1_1statechart_1_1simple__state_a2474f5eb168d48615fa1db224653457a}\label{classboost_1_1statechart_1_1simple__state_a2474f5eb168d48615fa1db224653457a}} 
+\index{boost\+::statechart\+::simple\+\_\+state@{boost\+::statechart\+::simple\+\_\+state}!inner\+\_\+context\+\_\+type@{inner\+\_\+context\+\_\+type}}
+\index{inner\+\_\+context\+\_\+type@{inner\+\_\+context\+\_\+type}!boost\+::statechart\+::simple\+\_\+state@{boost\+::statechart\+::simple\+\_\+state}}
+\subsubsection{\texorpdfstring{inner\+\_\+context\+\_\+type}{inner\_context\_type}}
+{\footnotesize\ttfamily template$<$class Most\+Derived, class Context, class Inner\+Initial = mpl\+::list$<$$>$, history\+\_\+mode history\+Mode = has\+\_\+no\+\_\+history$>$ \\
+typedef Most\+Derived \mbox{\hyperlink{classboost_1_1statechart_1_1simple__state}{boost\+::statechart\+::simple\+\_\+state}}$<$ Most\+Derived, Context, Inner\+Initial, history\+Mode $>$\+::\mbox{\hyperlink{classboost_1_1statechart_1_1simple__state_a2474f5eb168d48615fa1db224653457a}{inner\+\_\+context\+\_\+type}}}
+
+\mbox{\Hypertarget{classboost_1_1statechart_1_1simple__state_ae86cab19f07d10cd8e46937fd243d4ba}\label{classboost_1_1statechart_1_1simple__state_ae86cab19f07d10cd8e46937fd243d4ba}} 
+\index{boost\+::statechart\+::simple\+\_\+state@{boost\+::statechart\+::simple\+\_\+state}!inner\+\_\+initial\+\_\+list@{inner\+\_\+initial\+\_\+list}}
+\index{inner\+\_\+initial\+\_\+list@{inner\+\_\+initial\+\_\+list}!boost\+::statechart\+::simple\+\_\+state@{boost\+::statechart\+::simple\+\_\+state}}
+\subsubsection{\texorpdfstring{inner\+\_\+initial\+\_\+list}{inner\_initial\_list}}
+{\footnotesize\ttfamily template$<$class Most\+Derived, class Context, class Inner\+Initial = mpl\+::list$<$$>$, history\+\_\+mode history\+Mode = has\+\_\+no\+\_\+history$>$ \\
+typedef \mbox{\hyperlink{structboost_1_1statechart_1_1detail_1_1make__list}{detail\+::make\+\_\+list}}$<$ Inner\+Initial $>$\+::type \mbox{\hyperlink{classboost_1_1statechart_1_1simple__state}{boost\+::statechart\+::simple\+\_\+state}}$<$ Most\+Derived, Context, Inner\+Initial, history\+Mode $>$\+::\mbox{\hyperlink{classboost_1_1statechart_1_1simple__state_ae86cab19f07d10cd8e46937fd243d4ba}{inner\+\_\+initial\+\_\+list}}}
+
+\mbox{\Hypertarget{classboost_1_1statechart_1_1simple__state_ad853d83a11c3ad24de964badf9ba95cb}\label{classboost_1_1statechart_1_1simple__state_ad853d83a11c3ad24de964badf9ba95cb}} 
+\index{boost\+::statechart\+::simple\+\_\+state@{boost\+::statechart\+::simple\+\_\+state}!inner\+\_\+initial\+\_\+list\+\_\+size@{inner\+\_\+initial\+\_\+list\+\_\+size}}
+\index{inner\+\_\+initial\+\_\+list\+\_\+size@{inner\+\_\+initial\+\_\+list\+\_\+size}!boost\+::statechart\+::simple\+\_\+state@{boost\+::statechart\+::simple\+\_\+state}}
+\subsubsection{\texorpdfstring{inner\+\_\+initial\+\_\+list\+\_\+size}{inner\_initial\_list\_size}}
+{\footnotesize\ttfamily template$<$class Most\+Derived, class Context, class Inner\+Initial = mpl\+::list$<$$>$, history\+\_\+mode history\+Mode = has\+\_\+no\+\_\+history$>$ \\
+typedef mpl\+::size$<$ \mbox{\hyperlink{classboost_1_1statechart_1_1simple__state_ae86cab19f07d10cd8e46937fd243d4ba}{inner\+\_\+initial\+\_\+list}} $>$\+::type \mbox{\hyperlink{classboost_1_1statechart_1_1simple__state}{boost\+::statechart\+::simple\+\_\+state}}$<$ Most\+Derived, Context, Inner\+Initial, history\+Mode $>$\+::\mbox{\hyperlink{classboost_1_1statechart_1_1simple__state_ad853d83a11c3ad24de964badf9ba95cb}{inner\+\_\+initial\+\_\+list\+\_\+size}}}
+
+\mbox{\Hypertarget{classboost_1_1statechart_1_1simple__state_a8b829f6ba90355ad7ea32d9dcc7e09ad}\label{classboost_1_1statechart_1_1simple__state_a8b829f6ba90355ad7ea32d9dcc7e09ad}} 
+\index{boost\+::statechart\+::simple\+\_\+state@{boost\+::statechart\+::simple\+\_\+state}!inner\+\_\+orthogonal\+\_\+position@{inner\+\_\+orthogonal\+\_\+position}}
+\index{inner\+\_\+orthogonal\+\_\+position@{inner\+\_\+orthogonal\+\_\+position}!boost\+::statechart\+::simple\+\_\+state@{boost\+::statechart\+::simple\+\_\+state}}
+\subsubsection{\texorpdfstring{inner\+\_\+orthogonal\+\_\+position}{inner\_orthogonal\_position}}
+{\footnotesize\ttfamily template$<$class Most\+Derived, class Context, class Inner\+Initial = mpl\+::list$<$$>$, history\+\_\+mode history\+Mode = has\+\_\+no\+\_\+history$>$ \\
+typedef mpl\+::integral\+\_\+c$<$ \mbox{\hyperlink{namespaceboost_1_1statechart_1_1detail_a3bedea0b807a16fa222733417183d2c9}{detail\+::orthogonal\+\_\+position\+\_\+type}}, 0 $>$ \mbox{\hyperlink{classboost_1_1statechart_1_1simple__state}{boost\+::statechart\+::simple\+\_\+state}}$<$ Most\+Derived, Context, Inner\+Initial, history\+Mode $>$\+::\mbox{\hyperlink{classboost_1_1statechart_1_1simple__state_a8b829f6ba90355ad7ea32d9dcc7e09ad}{inner\+\_\+orthogonal\+\_\+position}}}
+
+\mbox{\Hypertarget{classboost_1_1statechart_1_1simple__state_abee09a2cb17ed7db5457d3f09bb75f9c}\label{classboost_1_1statechart_1_1simple__state_abee09a2cb17ed7db5457d3f09bb75f9c}} 
+\index{boost\+::statechart\+::simple\+\_\+state@{boost\+::statechart\+::simple\+\_\+state}!no\+\_\+of\+\_\+orthogonal\+\_\+regions@{no\+\_\+of\+\_\+orthogonal\+\_\+regions}}
+\index{no\+\_\+of\+\_\+orthogonal\+\_\+regions@{no\+\_\+of\+\_\+orthogonal\+\_\+regions}!boost\+::statechart\+::simple\+\_\+state@{boost\+::statechart\+::simple\+\_\+state}}
+\subsubsection{\texorpdfstring{no\+\_\+of\+\_\+orthogonal\+\_\+regions}{no\_of\_orthogonal\_regions}}
+{\footnotesize\ttfamily template$<$class Most\+Derived, class Context, class Inner\+Initial = mpl\+::list$<$$>$, history\+\_\+mode history\+Mode = has\+\_\+no\+\_\+history$>$ \\
+typedef mpl\+::integral\+\_\+c$<$ \mbox{\hyperlink{namespaceboost_1_1statechart_1_1detail_a3bedea0b807a16fa222733417183d2c9}{detail\+::orthogonal\+\_\+position\+\_\+type}}, inner\+\_\+initial\+\_\+list\+\_\+size\+::value $>$ \mbox{\hyperlink{classboost_1_1statechart_1_1simple__state}{boost\+::statechart\+::simple\+\_\+state}}$<$ Most\+Derived, Context, Inner\+Initial, history\+Mode $>$\+::\mbox{\hyperlink{classboost_1_1statechart_1_1simple__state_abee09a2cb17ed7db5457d3f09bb75f9c}{no\+\_\+of\+\_\+orthogonal\+\_\+regions}}}
+
+\mbox{\Hypertarget{classboost_1_1statechart_1_1simple__state_af97b00e4ff6f12a1045beb57687cf9bc}\label{classboost_1_1statechart_1_1simple__state_af97b00e4ff6f12a1045beb57687cf9bc}} 
+\index{boost\+::statechart\+::simple\+\_\+state@{boost\+::statechart\+::simple\+\_\+state}!orthogonal\+\_\+position@{orthogonal\+\_\+position}}
+\index{orthogonal\+\_\+position@{orthogonal\+\_\+position}!boost\+::statechart\+::simple\+\_\+state@{boost\+::statechart\+::simple\+\_\+state}}
+\subsubsection{\texorpdfstring{orthogonal\+\_\+position}{orthogonal\_position}}
+{\footnotesize\ttfamily template$<$class Most\+Derived, class Context, class Inner\+Initial = mpl\+::list$<$$>$, history\+\_\+mode history\+Mode = has\+\_\+no\+\_\+history$>$ \\
+typedef Context\+::inner\+\_\+orthogonal\+\_\+position \mbox{\hyperlink{classboost_1_1statechart_1_1simple__state}{boost\+::statechart\+::simple\+\_\+state}}$<$ Most\+Derived, Context, Inner\+Initial, history\+Mode $>$\+::\mbox{\hyperlink{classboost_1_1statechart_1_1simple__state_af97b00e4ff6f12a1045beb57687cf9bc}{orthogonal\+\_\+position}}}
+
+\mbox{\Hypertarget{classboost_1_1statechart_1_1simple__state_a50f21d7a7d6632eb34430e74cbad3197}\label{classboost_1_1statechart_1_1simple__state_a50f21d7a7d6632eb34430e74cbad3197}} 
+\index{boost\+::statechart\+::simple\+\_\+state@{boost\+::statechart\+::simple\+\_\+state}!outermost\+\_\+context\+\_\+base\+\_\+type@{outermost\+\_\+context\+\_\+base\+\_\+type}}
+\index{outermost\+\_\+context\+\_\+base\+\_\+type@{outermost\+\_\+context\+\_\+base\+\_\+type}!boost\+::statechart\+::simple\+\_\+state@{boost\+::statechart\+::simple\+\_\+state}}
+\subsubsection{\texorpdfstring{outermost\+\_\+context\+\_\+base\+\_\+type}{outermost\_context\_base\_type}}
+{\footnotesize\ttfamily template$<$class Most\+Derived, class Context, class Inner\+Initial = mpl\+::list$<$$>$, history\+\_\+mode history\+Mode = has\+\_\+no\+\_\+history$>$ \\
+typedef context\+\_\+type\+::outermost\+\_\+context\+\_\+base\+\_\+type \mbox{\hyperlink{classboost_1_1statechart_1_1simple__state}{boost\+::statechart\+::simple\+\_\+state}}$<$ Most\+Derived, Context, Inner\+Initial, history\+Mode $>$\+::\mbox{\hyperlink{classboost_1_1statechart_1_1simple__state_a50f21d7a7d6632eb34430e74cbad3197}{outermost\+\_\+context\+\_\+base\+\_\+type}}}
+
+\mbox{\Hypertarget{classboost_1_1statechart_1_1simple__state_a25f32527ab9e99c9ae75c723e4be9cb6}\label{classboost_1_1statechart_1_1simple__state_a25f32527ab9e99c9ae75c723e4be9cb6}} 
+\index{boost\+::statechart\+::simple\+\_\+state@{boost\+::statechart\+::simple\+\_\+state}!outermost\+\_\+context\+\_\+type@{outermost\+\_\+context\+\_\+type}}
+\index{outermost\+\_\+context\+\_\+type@{outermost\+\_\+context\+\_\+type}!boost\+::statechart\+::simple\+\_\+state@{boost\+::statechart\+::simple\+\_\+state}}
+\subsubsection{\texorpdfstring{outermost\+\_\+context\+\_\+type}{outermost\_context\_type}}
+{\footnotesize\ttfamily template$<$class Most\+Derived, class Context, class Inner\+Initial = mpl\+::list$<$$>$, history\+\_\+mode history\+Mode = has\+\_\+no\+\_\+history$>$ \\
+typedef context\+\_\+type\+::outermost\+\_\+context\+\_\+type \mbox{\hyperlink{classboost_1_1statechart_1_1simple__state}{boost\+::statechart\+::simple\+\_\+state}}$<$ Most\+Derived, Context, Inner\+Initial, history\+Mode $>$\+::\mbox{\hyperlink{classboost_1_1statechart_1_1simple__state_a25f32527ab9e99c9ae75c723e4be9cb6}{outermost\+\_\+context\+\_\+type}}}
+
+\mbox{\Hypertarget{classboost_1_1statechart_1_1simple__state_ad6e7750fede08000c7cf827dba68a85d}\label{classboost_1_1statechart_1_1simple__state_ad6e7750fede08000c7cf827dba68a85d}} 
+\index{boost\+::statechart\+::simple\+\_\+state@{boost\+::statechart\+::simple\+\_\+state}!reactions@{reactions}}
+\index{reactions@{reactions}!boost\+::statechart\+::simple\+\_\+state@{boost\+::statechart\+::simple\+\_\+state}}
+\subsubsection{\texorpdfstring{reactions}{reactions}}
+{\footnotesize\ttfamily template$<$class Most\+Derived, class Context, class Inner\+Initial = mpl\+::list$<$$>$, history\+\_\+mode history\+Mode = has\+\_\+no\+\_\+history$>$ \\
+typedef mpl\+::list \mbox{\hyperlink{classboost_1_1statechart_1_1simple__state}{boost\+::statechart\+::simple\+\_\+state}}$<$ Most\+Derived, Context, Inner\+Initial, history\+Mode $>$\+::\mbox{\hyperlink{classboost_1_1statechart_1_1simple__state_ad6e7750fede08000c7cf827dba68a85d}{reactions}}}
+
+\mbox{\Hypertarget{classboost_1_1statechart_1_1simple__state_a13264629f55d891a2f7e5ca247264216}\label{classboost_1_1statechart_1_1simple__state_a13264629f55d891a2f7e5ca247264216}} 
+\index{boost\+::statechart\+::simple\+\_\+state@{boost\+::statechart\+::simple\+\_\+state}!rtti\+\_\+policy\+\_\+type@{rtti\+\_\+policy\+\_\+type}}
+\index{rtti\+\_\+policy\+\_\+type@{rtti\+\_\+policy\+\_\+type}!boost\+::statechart\+::simple\+\_\+state@{boost\+::statechart\+::simple\+\_\+state}}
+\subsubsection{\texorpdfstring{rtti\+\_\+policy\+\_\+type}{rtti\_policy\_type}}
+{\footnotesize\ttfamily template$<$class Most\+Derived, class Context, class Inner\+Initial = mpl\+::list$<$$>$, history\+\_\+mode history\+Mode = has\+\_\+no\+\_\+history$>$ \\
+typedef context\+\_\+type\+::rtti\+\_\+policy\+\_\+type \mbox{\hyperlink{classboost_1_1statechart_1_1simple__state}{boost\+::statechart\+::simple\+\_\+state}}$<$ Most\+Derived, Context, Inner\+Initial, history\+Mode $>$\+::\mbox{\hyperlink{classboost_1_1statechart_1_1simple__state_a13264629f55d891a2f7e5ca247264216}{rtti\+\_\+policy\+\_\+type}}}
+
+\mbox{\Hypertarget{classboost_1_1statechart_1_1simple__state_a7bd6892fa9ec93f9d1384e00c468353d}\label{classboost_1_1statechart_1_1simple__state_a7bd6892fa9ec93f9d1384e00c468353d}} 
+\index{boost\+::statechart\+::simple\+\_\+state@{boost\+::statechart\+::simple\+\_\+state}!shallow\+\_\+history@{shallow\+\_\+history}}
+\index{shallow\+\_\+history@{shallow\+\_\+history}!boost\+::statechart\+::simple\+\_\+state@{boost\+::statechart\+::simple\+\_\+state}}
+\subsubsection{\texorpdfstring{shallow\+\_\+history}{shallow\_history}}
+{\footnotesize\ttfamily template$<$class Most\+Derived, class Context, class Inner\+Initial = mpl\+::list$<$$>$, history\+\_\+mode history\+Mode = has\+\_\+no\+\_\+history$>$ \\
+typedef mpl\+::bool\+\_\+$<$ ( history\+Mode \& \mbox{\hyperlink{namespaceboost_1_1statechart_a9c4ec64d7a0422b8b9c97b489f731372a91f197dd8c8935ec1a9328dfc5f90b43}{has\+\_\+shallow\+\_\+history}} ) != 0 $>$ \mbox{\hyperlink{classboost_1_1statechart_1_1simple__state}{boost\+::statechart\+::simple\+\_\+state}}$<$ Most\+Derived, Context, Inner\+Initial, history\+Mode $>$\+::\mbox{\hyperlink{classboost_1_1statechart_1_1simple__state_a7bd6892fa9ec93f9d1384e00c468353d}{shallow\+\_\+history}}}
+
+\mbox{\Hypertarget{classboost_1_1statechart_1_1simple__state_ae4af81f8eae996cc418efa3387af0ef6}\label{classboost_1_1statechart_1_1simple__state_ae4af81f8eae996cc418efa3387af0ef6}} 
+\index{boost\+::statechart\+::simple\+\_\+state@{boost\+::statechart\+::simple\+\_\+state}!state\+\_\+base\+\_\+type@{state\+\_\+base\+\_\+type}}
+\index{state\+\_\+base\+\_\+type@{state\+\_\+base\+\_\+type}!boost\+::statechart\+::simple\+\_\+state@{boost\+::statechart\+::simple\+\_\+state}}
+\subsubsection{\texorpdfstring{state\+\_\+base\+\_\+type}{state\_base\_type}}
+{\footnotesize\ttfamily template$<$class Most\+Derived, class Context, class Inner\+Initial = mpl\+::list$<$$>$, history\+\_\+mode history\+Mode = has\+\_\+no\+\_\+history$>$ \\
+typedef context\+\_\+type\+::state\+\_\+base\+\_\+type \mbox{\hyperlink{classboost_1_1statechart_1_1simple__state}{boost\+::statechart\+::simple\+\_\+state}}$<$ Most\+Derived, Context, Inner\+Initial, history\+Mode $>$\+::\mbox{\hyperlink{classboost_1_1statechart_1_1simple__state_ae4af81f8eae996cc418efa3387af0ef6}{state\+\_\+base\+\_\+type}}}
+
+\mbox{\Hypertarget{classboost_1_1statechart_1_1simple__state_a32d30bbceb41ad02b70016d8530722a1}\label{classboost_1_1statechart_1_1simple__state_a32d30bbceb41ad02b70016d8530722a1}} 
+\index{boost\+::statechart\+::simple\+\_\+state@{boost\+::statechart\+::simple\+\_\+state}!state\+\_\+iterator@{state\+\_\+iterator}}
+\index{state\+\_\+iterator@{state\+\_\+iterator}!boost\+::statechart\+::simple\+\_\+state@{boost\+::statechart\+::simple\+\_\+state}}
+\subsubsection{\texorpdfstring{state\+\_\+iterator}{state\_iterator}}
+{\footnotesize\ttfamily template$<$class Most\+Derived, class Context, class Inner\+Initial = mpl\+::list$<$$>$, history\+\_\+mode history\+Mode = has\+\_\+no\+\_\+history$>$ \\
+typedef context\+\_\+type\+::state\+\_\+iterator \mbox{\hyperlink{classboost_1_1statechart_1_1simple__state}{boost\+::statechart\+::simple\+\_\+state}}$<$ Most\+Derived, Context, Inner\+Initial, history\+Mode $>$\+::\mbox{\hyperlink{classboost_1_1statechart_1_1simple__state_a32d30bbceb41ad02b70016d8530722a1}{state\+\_\+iterator}}}
+
+\mbox{\Hypertarget{classboost_1_1statechart_1_1simple__state_a20858144ca2f7a2ce2965badb92ebdc3}\label{classboost_1_1statechart_1_1simple__state_a20858144ca2f7a2ce2965badb92ebdc3}} 
+\index{boost\+::statechart\+::simple\+\_\+state@{boost\+::statechart\+::simple\+\_\+state}!state\+\_\+list\+\_\+type@{state\+\_\+list\+\_\+type}}
+\index{state\+\_\+list\+\_\+type@{state\+\_\+list\+\_\+type}!boost\+::statechart\+::simple\+\_\+state@{boost\+::statechart\+::simple\+\_\+state}}
+\subsubsection{\texorpdfstring{state\+\_\+list\+\_\+type}{state\_list\_type}}
+{\footnotesize\ttfamily template$<$class Most\+Derived, class Context, class Inner\+Initial = mpl\+::list$<$$>$, history\+\_\+mode history\+Mode = has\+\_\+no\+\_\+history$>$ \\
+typedef context\+\_\+type\+::state\+\_\+list\+\_\+type \mbox{\hyperlink{classboost_1_1statechart_1_1simple__state}{boost\+::statechart\+::simple\+\_\+state}}$<$ Most\+Derived, Context, Inner\+Initial, history\+Mode $>$\+::\mbox{\hyperlink{classboost_1_1statechart_1_1simple__state_a20858144ca2f7a2ce2965badb92ebdc3}{state\+\_\+list\+\_\+type}}}
+
+\mbox{\Hypertarget{classboost_1_1statechart_1_1simple__state_ab912b321d44a14521b3c80e11fb919e1}\label{classboost_1_1statechart_1_1simple__state_ab912b321d44a14521b3c80e11fb919e1}} 
+\index{boost\+::statechart\+::simple\+\_\+state@{boost\+::statechart\+::simple\+\_\+state}!stores\+\_\+deep\+\_\+history@{stores\+\_\+deep\+\_\+history}}
+\index{stores\+\_\+deep\+\_\+history@{stores\+\_\+deep\+\_\+history}!boost\+::statechart\+::simple\+\_\+state@{boost\+::statechart\+::simple\+\_\+state}}
+\subsubsection{\texorpdfstring{stores\+\_\+deep\+\_\+history}{stores\_deep\_history}}
+{\footnotesize\ttfamily template$<$class Most\+Derived, class Context, class Inner\+Initial = mpl\+::list$<$$>$, history\+\_\+mode history\+Mode = has\+\_\+no\+\_\+history$>$ \\
+typedef mpl\+::and\+\_\+$<$ \mbox{\hyperlink{classboost_1_1statechart_1_1simple__state_a0a3f8d8bb00bdd1769113111b2e2fae7}{inherited\+\_\+deep\+\_\+history}}, mpl\+::empty$<$ \mbox{\hyperlink{classboost_1_1statechart_1_1simple__state_ae86cab19f07d10cd8e46937fd243d4ba}{inner\+\_\+initial\+\_\+list}} $>$ $>$\+::type \mbox{\hyperlink{classboost_1_1statechart_1_1simple__state}{boost\+::statechart\+::simple\+\_\+state}}$<$ Most\+Derived, Context, Inner\+Initial, history\+Mode $>$\+::\mbox{\hyperlink{classboost_1_1statechart_1_1simple__state_ab912b321d44a14521b3c80e11fb919e1}{stores\+\_\+deep\+\_\+history}}}
+
+\mbox{\Hypertarget{classboost_1_1statechart_1_1simple__state_a0e837dc75eff343ab64337979fc7eca4}\label{classboost_1_1statechart_1_1simple__state_a0e837dc75eff343ab64337979fc7eca4}} 
+\index{boost\+::statechart\+::simple\+\_\+state@{boost\+::statechart\+::simple\+\_\+state}!stores\+\_\+shallow\+\_\+history@{stores\+\_\+shallow\+\_\+history}}
+\index{stores\+\_\+shallow\+\_\+history@{stores\+\_\+shallow\+\_\+history}!boost\+::statechart\+::simple\+\_\+state@{boost\+::statechart\+::simple\+\_\+state}}
+\subsubsection{\texorpdfstring{stores\+\_\+shallow\+\_\+history}{stores\_shallow\_history}}
+{\footnotesize\ttfamily template$<$class Most\+Derived, class Context, class Inner\+Initial = mpl\+::list$<$$>$, history\+\_\+mode history\+Mode = has\+\_\+no\+\_\+history$>$ \\
+typedef context\+\_\+type\+::shallow\+\_\+history \mbox{\hyperlink{classboost_1_1statechart_1_1simple__state}{boost\+::statechart\+::simple\+\_\+state}}$<$ Most\+Derived, Context, Inner\+Initial, history\+Mode $>$\+::\mbox{\hyperlink{classboost_1_1statechart_1_1simple__state_a0e837dc75eff343ab64337979fc7eca4}{stores\+\_\+shallow\+\_\+history}}}
+
+
+
+\subsection{Constructor \& Destructor Documentation}
+\mbox{\Hypertarget{classboost_1_1statechart_1_1simple__state_a362ee00744c845c6ee6c96a131a5f8af}\label{classboost_1_1statechart_1_1simple__state_a362ee00744c845c6ee6c96a131a5f8af}} 
+\index{boost\+::statechart\+::simple\+\_\+state@{boost\+::statechart\+::simple\+\_\+state}!simple\+\_\+state@{simple\+\_\+state}}
+\index{simple\+\_\+state@{simple\+\_\+state}!boost\+::statechart\+::simple\+\_\+state@{boost\+::statechart\+::simple\+\_\+state}}
+\subsubsection{\texorpdfstring{simple\+\_\+state()}{simple\_state()}}
+{\footnotesize\ttfamily template$<$class Most\+Derived, class Context, class Inner\+Initial = mpl\+::list$<$$>$, history\+\_\+mode history\+Mode = has\+\_\+no\+\_\+history$>$ \\
+\mbox{\hyperlink{classboost_1_1statechart_1_1simple__state}{boost\+::statechart\+::simple\+\_\+state}}$<$ Most\+Derived, Context, Inner\+Initial, history\+Mode $>$\+::\mbox{\hyperlink{classboost_1_1statechart_1_1simple__state}{simple\+\_\+state}} (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [protected]}}
+
+\mbox{\Hypertarget{classboost_1_1statechart_1_1simple__state_a312e609b9fbe59276689c9af33c3b3c9}\label{classboost_1_1statechart_1_1simple__state_a312e609b9fbe59276689c9af33c3b3c9}} 
+\index{boost\+::statechart\+::simple\+\_\+state@{boost\+::statechart\+::simple\+\_\+state}!````~simple\+\_\+state@{$\sim$simple\+\_\+state}}
+\index{````~simple\+\_\+state@{$\sim$simple\+\_\+state}!boost\+::statechart\+::simple\+\_\+state@{boost\+::statechart\+::simple\+\_\+state}}
+\subsubsection{\texorpdfstring{$\sim$simple\+\_\+state()}{~simple\_state()}}
+{\footnotesize\ttfamily template$<$class Most\+Derived, class Context, class Inner\+Initial = mpl\+::list$<$$>$, history\+\_\+mode history\+Mode = has\+\_\+no\+\_\+history$>$ \\
+\mbox{\hyperlink{classboost_1_1statechart_1_1simple__state}{boost\+::statechart\+::simple\+\_\+state}}$<$ Most\+Derived, Context, Inner\+Initial, history\+Mode $>$\+::$\sim$\mbox{\hyperlink{classboost_1_1statechart_1_1simple__state}{simple\+\_\+state}} (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [protected]}}
+
+
+
+\subsection{Member Function Documentation}
+\mbox{\Hypertarget{classboost_1_1statechart_1_1simple__state_a19a11b763b74902e6895452ee41384d7}\label{classboost_1_1statechart_1_1simple__state_a19a11b763b74902e6895452ee41384d7}} 
+\index{boost\+::statechart\+::simple\+\_\+state@{boost\+::statechart\+::simple\+\_\+state}!B\+O\+O\+S\+T\+\_\+\+S\+T\+A\+T\+I\+C\+\_\+\+A\+S\+S\+E\+RT@{B\+O\+O\+S\+T\+\_\+\+S\+T\+A\+T\+I\+C\+\_\+\+A\+S\+S\+E\+RT}}
+\index{B\+O\+O\+S\+T\+\_\+\+S\+T\+A\+T\+I\+C\+\_\+\+A\+S\+S\+E\+RT@{B\+O\+O\+S\+T\+\_\+\+S\+T\+A\+T\+I\+C\+\_\+\+A\+S\+S\+E\+RT}!boost\+::statechart\+::simple\+\_\+state@{boost\+::statechart\+::simple\+\_\+state}}
+\subsubsection{\texorpdfstring{B\+O\+O\+S\+T\+\_\+\+S\+T\+A\+T\+I\+C\+\_\+\+A\+S\+S\+E\+R\+T()}{BOOST\_STATIC\_ASSERT()}\hspace{0.1cm}{\footnotesize\ttfamily [1/2]}}
+{\footnotesize\ttfamily template$<$class Most\+Derived, class Context, class Inner\+Initial = mpl\+::list$<$$>$, history\+\_\+mode history\+Mode = has\+\_\+no\+\_\+history$>$ \\
+\mbox{\hyperlink{classboost_1_1statechart_1_1simple__state}{boost\+::statechart\+::simple\+\_\+state}}$<$ Most\+Derived, Context, Inner\+Initial, history\+Mode $>$\+::B\+O\+O\+S\+T\+\_\+\+S\+T\+A\+T\+I\+C\+\_\+\+A\+S\+S\+E\+RT (\begin{DoxyParamCaption}\item[{(mpl\+::less$<$ \mbox{\hyperlink{classboost_1_1statechart_1_1simple__state_af97b00e4ff6f12a1045beb57687cf9bc}{orthogonal\+\_\+position}}, typename context\+\_\+type\+::no\+\_\+of\+\_\+orthogonal\+\_\+regions $>$\+::value)}]{ }\end{DoxyParamCaption})}
+
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classboost_1_1statechart_1_1simple__state_a19a11b763b74902e6895452ee41384d7_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{classboost_1_1statechart_1_1simple__state_a0218fcd7d5fa8cf04dd00f9f72bd6a4e}\label{classboost_1_1statechart_1_1simple__state_a0218fcd7d5fa8cf04dd00f9f72bd6a4e}} 
+\index{boost\+::statechart\+::simple\+\_\+state@{boost\+::statechart\+::simple\+\_\+state}!B\+O\+O\+S\+T\+\_\+\+S\+T\+A\+T\+I\+C\+\_\+\+A\+S\+S\+E\+RT@{B\+O\+O\+S\+T\+\_\+\+S\+T\+A\+T\+I\+C\+\_\+\+A\+S\+S\+E\+RT}}
+\index{B\+O\+O\+S\+T\+\_\+\+S\+T\+A\+T\+I\+C\+\_\+\+A\+S\+S\+E\+RT@{B\+O\+O\+S\+T\+\_\+\+S\+T\+A\+T\+I\+C\+\_\+\+A\+S\+S\+E\+RT}!boost\+::statechart\+::simple\+\_\+state@{boost\+::statechart\+::simple\+\_\+state}}
+\subsubsection{\texorpdfstring{B\+O\+O\+S\+T\+\_\+\+S\+T\+A\+T\+I\+C\+\_\+\+A\+S\+S\+E\+R\+T()}{BOOST\_STATIC\_ASSERT()}\hspace{0.1cm}{\footnotesize\ttfamily [2/2]}}
+{\footnotesize\ttfamily template$<$class Most\+Derived, class Context, class Inner\+Initial = mpl\+::list$<$$>$, history\+\_\+mode history\+Mode = has\+\_\+no\+\_\+history$>$ \\
+\mbox{\hyperlink{classboost_1_1statechart_1_1simple__state}{boost\+::statechart\+::simple\+\_\+state}}$<$ Most\+Derived, Context, Inner\+Initial, history\+Mode $>$\+::B\+O\+O\+S\+T\+\_\+\+S\+T\+A\+T\+I\+C\+\_\+\+A\+S\+S\+E\+RT (\begin{DoxyParamCaption}\item[{(mpl\+::or\+\_\+$<$ mpl\+::less$<$ \mbox{\hyperlink{classboost_1_1statechart_1_1simple__state_abee09a2cb17ed7db5457d3f09bb75f9c}{no\+\_\+of\+\_\+orthogonal\+\_\+regions}}, mpl\+::integral\+\_\+c$<$ \mbox{\hyperlink{namespaceboost_1_1statechart_1_1detail_a3bedea0b807a16fa222733417183d2c9}{detail\+::orthogonal\+\_\+position\+\_\+type}}, 2 $>$ $>$, mpl\+::not\+\_\+$<$ typename context\+\_\+type\+::inherited\+\_\+deep\+\_\+history $>$ $>$\+::value)}]{ }\end{DoxyParamCaption})}
+
+\mbox{\Hypertarget{classboost_1_1statechart_1_1simple__state_a5f704c34f439bc3cb3c7f547405da725}\label{classboost_1_1statechart_1_1simple__state_a5f704c34f439bc3cb3c7f547405da725}} 
+\index{boost\+::statechart\+::simple\+\_\+state@{boost\+::statechart\+::simple\+\_\+state}!check\+\_\+store\+\_\+deep\+\_\+history@{check\+\_\+store\+\_\+deep\+\_\+history}}
+\index{check\+\_\+store\+\_\+deep\+\_\+history@{check\+\_\+store\+\_\+deep\+\_\+history}!boost\+::statechart\+::simple\+\_\+state@{boost\+::statechart\+::simple\+\_\+state}}
+\subsubsection{\texorpdfstring{check\+\_\+store\+\_\+deep\+\_\+history()}{check\_store\_deep\_history()}}
+{\footnotesize\ttfamily template$<$class Most\+Derived, class Context, class Inner\+Initial = mpl\+::list$<$$>$, history\+\_\+mode history\+Mode = has\+\_\+no\+\_\+history$>$ \\
+template$<$class Store\+Deep\+History $>$ \\
+void \mbox{\hyperlink{classboost_1_1statechart_1_1simple__state}{boost\+::statechart\+::simple\+\_\+state}}$<$ Most\+Derived, Context, Inner\+Initial, history\+Mode $>$\+::check\+\_\+store\+\_\+deep\+\_\+history (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [private]}}
+
+\mbox{\Hypertarget{classboost_1_1statechart_1_1simple__state_a526c05c663958e216ab04dbdbf7ba6c5}\label{classboost_1_1statechart_1_1simple__state_a526c05c663958e216ab04dbdbf7ba6c5}} 
+\index{boost\+::statechart\+::simple\+\_\+state@{boost\+::statechart\+::simple\+\_\+state}!check\+\_\+store\+\_\+shallow\+\_\+history@{check\+\_\+store\+\_\+shallow\+\_\+history}}
+\index{check\+\_\+store\+\_\+shallow\+\_\+history@{check\+\_\+store\+\_\+shallow\+\_\+history}!boost\+::statechart\+::simple\+\_\+state@{boost\+::statechart\+::simple\+\_\+state}}
+\subsubsection{\texorpdfstring{check\+\_\+store\+\_\+shallow\+\_\+history()}{check\_store\_shallow\_history()}}
+{\footnotesize\ttfamily template$<$class Most\+Derived, class Context, class Inner\+Initial = mpl\+::list$<$$>$, history\+\_\+mode history\+Mode = has\+\_\+no\+\_\+history$>$ \\
+template$<$class Store\+Shallow\+History $>$ \\
+void \mbox{\hyperlink{classboost_1_1statechart_1_1simple__state}{boost\+::statechart\+::simple\+\_\+state}}$<$ Most\+Derived, Context, Inner\+Initial, history\+Mode $>$\+::check\+\_\+store\+\_\+shallow\+\_\+history (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [private]}}
+
+\mbox{\Hypertarget{classboost_1_1statechart_1_1simple__state_a23ca1de9d37765cf77884222e0491a5e}\label{classboost_1_1statechart_1_1simple__state_a23ca1de9d37765cf77884222e0491a5e}} 
+\index{boost\+::statechart\+::simple\+\_\+state@{boost\+::statechart\+::simple\+\_\+state}!clear\+\_\+deep\+\_\+history@{clear\+\_\+deep\+\_\+history}}
+\index{clear\+\_\+deep\+\_\+history@{clear\+\_\+deep\+\_\+history}!boost\+::statechart\+::simple\+\_\+state@{boost\+::statechart\+::simple\+\_\+state}}
+\subsubsection{\texorpdfstring{clear\+\_\+deep\+\_\+history()}{clear\_deep\_history()}}
+{\footnotesize\ttfamily template$<$class Most\+Derived, class Context, class Inner\+Initial = mpl\+::list$<$$>$, history\+\_\+mode history\+Mode = has\+\_\+no\+\_\+history$>$ \\
+template$<$class History\+Context , detail\+::orthogonal\+\_\+position\+\_\+type orthogonal\+Position$>$ \\
+void \mbox{\hyperlink{classboost_1_1statechart_1_1simple__state}{boost\+::statechart\+::simple\+\_\+state}}$<$ Most\+Derived, Context, Inner\+Initial, history\+Mode $>$\+::clear\+\_\+deep\+\_\+history (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=179pt]{classboost_1_1statechart_1_1simple__state_a23ca1de9d37765cf77884222e0491a5e_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{classboost_1_1statechart_1_1simple__state_a6a338130243f1ad8fa655e4dd3e57ca2}\label{classboost_1_1statechart_1_1simple__state_a6a338130243f1ad8fa655e4dd3e57ca2}} 
+\index{boost\+::statechart\+::simple\+\_\+state@{boost\+::statechart\+::simple\+\_\+state}!clear\+\_\+shallow\+\_\+history@{clear\+\_\+shallow\+\_\+history}}
+\index{clear\+\_\+shallow\+\_\+history@{clear\+\_\+shallow\+\_\+history}!boost\+::statechart\+::simple\+\_\+state@{boost\+::statechart\+::simple\+\_\+state}}
+\subsubsection{\texorpdfstring{clear\+\_\+shallow\+\_\+history()}{clear\_shallow\_history()}}
+{\footnotesize\ttfamily template$<$class Most\+Derived, class Context, class Inner\+Initial = mpl\+::list$<$$>$, history\+\_\+mode history\+Mode = has\+\_\+no\+\_\+history$>$ \\
+template$<$class History\+Context , detail\+::orthogonal\+\_\+position\+\_\+type orthogonal\+Position$>$ \\
+void \mbox{\hyperlink{classboost_1_1statechart_1_1simple__state}{boost\+::statechart\+::simple\+\_\+state}}$<$ Most\+Derived, Context, Inner\+Initial, history\+Mode $>$\+::clear\+\_\+shallow\+\_\+history (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=179pt]{classboost_1_1statechart_1_1simple__state_a6a338130243f1ad8fa655e4dd3e57ca2_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{classboost_1_1statechart_1_1simple__state_ad03964fab8bcfc34742edcf0f5570d92}\label{classboost_1_1statechart_1_1simple__state_ad03964fab8bcfc34742edcf0f5570d92}} 
+\index{boost\+::statechart\+::simple\+\_\+state@{boost\+::statechart\+::simple\+\_\+state}!context@{context}}
+\index{context@{context}!boost\+::statechart\+::simple\+\_\+state@{boost\+::statechart\+::simple\+\_\+state}}
+\subsubsection{\texorpdfstring{context()}{context()}\hspace{0.1cm}{\footnotesize\ttfamily [1/2]}}
+{\footnotesize\ttfamily template$<$class Most\+Derived, class Context, class Inner\+Initial = mpl\+::list$<$$>$, history\+\_\+mode history\+Mode = has\+\_\+no\+\_\+history$>$ \\
+template$<$class Other\+Context $>$ \\
+Other\+Context\& \mbox{\hyperlink{classboost_1_1statechart_1_1simple__state}{boost\+::statechart\+::simple\+\_\+state}}$<$ Most\+Derived, Context, Inner\+Initial, history\+Mode $>$\+::context (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+\mbox{\Hypertarget{classboost_1_1statechart_1_1simple__state_ac055c1f205e10fe2d665b68b5038be2a}\label{classboost_1_1statechart_1_1simple__state_ac055c1f205e10fe2d665b68b5038be2a}} 
+\index{boost\+::statechart\+::simple\+\_\+state@{boost\+::statechart\+::simple\+\_\+state}!context@{context}}
+\index{context@{context}!boost\+::statechart\+::simple\+\_\+state@{boost\+::statechart\+::simple\+\_\+state}}
+\subsubsection{\texorpdfstring{context()}{context()}\hspace{0.1cm}{\footnotesize\ttfamily [2/2]}}
+{\footnotesize\ttfamily template$<$class Most\+Derived, class Context, class Inner\+Initial = mpl\+::list$<$$>$, history\+\_\+mode history\+Mode = has\+\_\+no\+\_\+history$>$ \\
+template$<$class Other\+Context $>$ \\
+const Other\+Context\& \mbox{\hyperlink{classboost_1_1statechart_1_1simple__state}{boost\+::statechart\+::simple\+\_\+state}}$<$ Most\+Derived, Context, Inner\+Initial, history\+Mode $>$\+::context (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const\hspace{0.3cm}{\ttfamily [inline]}}
+
+\mbox{\Hypertarget{classboost_1_1statechart_1_1simple__state_aa873e22b50b0925f6a663583d6c5b216}\label{classboost_1_1statechart_1_1simple__state_aa873e22b50b0925f6a663583d6c5b216}} 
+\index{boost\+::statechart\+::simple\+\_\+state@{boost\+::statechart\+::simple\+\_\+state}!context\+\_\+ptr@{context\+\_\+ptr}}
+\index{context\+\_\+ptr@{context\+\_\+ptr}!boost\+::statechart\+::simple\+\_\+state@{boost\+::statechart\+::simple\+\_\+state}}
+\subsubsection{\texorpdfstring{context\+\_\+ptr()}{context\_ptr()}}
+{\footnotesize\ttfamily template$<$class Most\+Derived, class Context, class Inner\+Initial = mpl\+::list$<$$>$, history\+\_\+mode history\+Mode = has\+\_\+no\+\_\+history$>$ \\
+template$<$class Other\+Context $>$ \\
+const Other\+Context\+::inner\+\_\+context\+\_\+ptr\+\_\+type\& \mbox{\hyperlink{classboost_1_1statechart_1_1simple__state}{boost\+::statechart\+::simple\+\_\+state}}$<$ Most\+Derived, Context, Inner\+Initial, history\+Mode $>$\+::context\+\_\+ptr (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const\hspace{0.3cm}{\ttfamily [inline]}}
+
+\mbox{\Hypertarget{classboost_1_1statechart_1_1simple__state_a0676228f11200b54ab55883626eac8cd}\label{classboost_1_1statechart_1_1simple__state_a0676228f11200b54ab55883626eac8cd}} 
+\index{boost\+::statechart\+::simple\+\_\+state@{boost\+::statechart\+::simple\+\_\+state}!deep\+\_\+construct@{deep\+\_\+construct}}
+\index{deep\+\_\+construct@{deep\+\_\+construct}!boost\+::statechart\+::simple\+\_\+state@{boost\+::statechart\+::simple\+\_\+state}}
+\subsubsection{\texorpdfstring{deep\+\_\+construct()}{deep\_construct()}}
+{\footnotesize\ttfamily template$<$class Most\+Derived, class Context, class Inner\+Initial = mpl\+::list$<$$>$, history\+\_\+mode history\+Mode = has\+\_\+no\+\_\+history$>$ \\
+static void \mbox{\hyperlink{classboost_1_1statechart_1_1simple__state}{boost\+::statechart\+::simple\+\_\+state}}$<$ Most\+Derived, Context, Inner\+Initial, history\+Mode $>$\+::deep\+\_\+construct (\begin{DoxyParamCaption}\item[{const \mbox{\hyperlink{classboost_1_1statechart_1_1simple__state_ac7e361322d53b3f57976ff23056b59e7}{context\+\_\+ptr\+\_\+type}} \&}]{p\+Context,  }\item[{\mbox{\hyperlink{classboost_1_1statechart_1_1simple__state_a50f21d7a7d6632eb34430e74cbad3197}{outermost\+\_\+context\+\_\+base\+\_\+type}} \&}]{outermost\+Context\+Base }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [static]}}
+
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classboost_1_1statechart_1_1simple__state_a0676228f11200b54ab55883626eac8cd_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{classboost_1_1statechart_1_1simple__state_afd4eafb6cad34c3618530d763f308f4c}\label{classboost_1_1statechart_1_1simple__state_afd4eafb6cad34c3618530d763f308f4c}} 
+\index{boost\+::statechart\+::simple\+\_\+state@{boost\+::statechart\+::simple\+\_\+state}!deep\+\_\+construct\+\_\+inner@{deep\+\_\+construct\+\_\+inner}}
+\index{deep\+\_\+construct\+\_\+inner@{deep\+\_\+construct\+\_\+inner}!boost\+::statechart\+::simple\+\_\+state@{boost\+::statechart\+::simple\+\_\+state}}
+\subsubsection{\texorpdfstring{deep\+\_\+construct\+\_\+inner()}{deep\_construct\_inner()}}
+{\footnotesize\ttfamily template$<$class Most\+Derived, class Context, class Inner\+Initial = mpl\+::list$<$$>$, history\+\_\+mode history\+Mode = has\+\_\+no\+\_\+history$>$ \\
+template$<$class Inner\+List $>$ \\
+static void \mbox{\hyperlink{classboost_1_1statechart_1_1simple__state}{boost\+::statechart\+::simple\+\_\+state}}$<$ Most\+Derived, Context, Inner\+Initial, history\+Mode $>$\+::deep\+\_\+construct\+\_\+inner (\begin{DoxyParamCaption}\item[{const \mbox{\hyperlink{classboost_1_1statechart_1_1simple__state_ad6d3233a11a23e91b4cc9edcae799379}{inner\+\_\+context\+\_\+ptr\+\_\+type}} \&}]{p\+Inner\+Context,  }\item[{\mbox{\hyperlink{classboost_1_1statechart_1_1simple__state_a50f21d7a7d6632eb34430e74cbad3197}{outermost\+\_\+context\+\_\+base\+\_\+type}} \&}]{outermost\+Context\+Base }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [static]}}
+
+\mbox{\Hypertarget{classboost_1_1statechart_1_1simple__state_aa2d6f620620d43f7db68baa9ed638b80}\label{classboost_1_1statechart_1_1simple__state_aa2d6f620620d43f7db68baa9ed638b80}} 
+\index{boost\+::statechart\+::simple\+\_\+state@{boost\+::statechart\+::simple\+\_\+state}!defer\+\_\+event@{defer\+\_\+event}}
+\index{defer\+\_\+event@{defer\+\_\+event}!boost\+::statechart\+::simple\+\_\+state@{boost\+::statechart\+::simple\+\_\+state}}
+\subsubsection{\texorpdfstring{defer\+\_\+event()}{defer\_event()}}
+{\footnotesize\ttfamily template$<$class Most\+Derived, class Context, class Inner\+Initial = mpl\+::list$<$$>$, history\+\_\+mode history\+Mode = has\+\_\+no\+\_\+history$>$ \\
+\mbox{\hyperlink{namespaceboost_1_1statechart_abe807f6598b614d6d87bb951ecd92331}{result}} \mbox{\hyperlink{classboost_1_1statechart_1_1simple__state}{boost\+::statechart\+::simple\+\_\+state}}$<$ Most\+Derived, Context, Inner\+Initial, history\+Mode $>$\+::defer\+\_\+event (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+\mbox{\Hypertarget{classboost_1_1statechart_1_1simple__state_aba633726b29a7bd07d69429bab4a3a1b}\label{classboost_1_1statechart_1_1simple__state_aba633726b29a7bd07d69429bab4a3a1b}} 
+\index{boost\+::statechart\+::simple\+\_\+state@{boost\+::statechart\+::simple\+\_\+state}!discard\+\_\+event@{discard\+\_\+event}}
+\index{discard\+\_\+event@{discard\+\_\+event}!boost\+::statechart\+::simple\+\_\+state@{boost\+::statechart\+::simple\+\_\+state}}
+\subsubsection{\texorpdfstring{discard\+\_\+event()}{discard\_event()}}
+{\footnotesize\ttfamily template$<$class Most\+Derived, class Context, class Inner\+Initial = mpl\+::list$<$$>$, history\+\_\+mode history\+Mode = has\+\_\+no\+\_\+history$>$ \\
+\mbox{\hyperlink{namespaceboost_1_1statechart_abe807f6598b614d6d87bb951ecd92331}{result}} \mbox{\hyperlink{classboost_1_1statechart_1_1simple__state}{boost\+::statechart\+::simple\+\_\+state}}$<$ Most\+Derived, Context, Inner\+Initial, history\+Mode $>$\+::discard\+\_\+event (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+\mbox{\Hypertarget{classboost_1_1statechart_1_1simple__state_a82e8a0fa7183343e0513e97eb704fdee}\label{classboost_1_1statechart_1_1simple__state_a82e8a0fa7183343e0513e97eb704fdee}} 
+\index{boost\+::statechart\+::simple\+\_\+state@{boost\+::statechart\+::simple\+\_\+state}!exit\+\_\+impl@{exit\+\_\+impl}}
+\index{exit\+\_\+impl@{exit\+\_\+impl}!boost\+::statechart\+::simple\+\_\+state@{boost\+::statechart\+::simple\+\_\+state}}
+\subsubsection{\texorpdfstring{exit\+\_\+impl()}{exit\_impl()}\hspace{0.1cm}{\footnotesize\ttfamily [1/2]}}
+{\footnotesize\ttfamily template$<$class Most\+Derived, class Context, class Inner\+Initial = mpl\+::list$<$$>$, history\+\_\+mode history\+Mode = has\+\_\+no\+\_\+history$>$ \\
+virtual void \mbox{\hyperlink{classboost_1_1statechart_1_1simple__state}{boost\+::statechart\+::simple\+\_\+state}}$<$ Most\+Derived, Context, Inner\+Initial, history\+Mode $>$\+::exit\+\_\+impl (\begin{DoxyParamCaption}\item[{typename base\+\_\+type\+::direct\+\_\+state\+\_\+base\+\_\+ptr\+\_\+type \&}]{p\+Self,  }\item[{typename state\+\_\+base\+\_\+type\+::node\+\_\+state\+\_\+base\+\_\+ptr\+\_\+type \&}]{p\+Outermost\+Unstable\+State,  }\item[{bool}]{perform\+Full\+Exit }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [virtual]}}
+
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=197pt]{classboost_1_1statechart_1_1simple__state_a82e8a0fa7183343e0513e97eb704fdee_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{classboost_1_1statechart_1_1simple__state_a480ae5f0e110cb8208bed7b25891dc17}\label{classboost_1_1statechart_1_1simple__state_a480ae5f0e110cb8208bed7b25891dc17}} 
+\index{boost\+::statechart\+::simple\+\_\+state@{boost\+::statechart\+::simple\+\_\+state}!exit\+\_\+impl@{exit\+\_\+impl}}
+\index{exit\+\_\+impl@{exit\+\_\+impl}!boost\+::statechart\+::simple\+\_\+state@{boost\+::statechart\+::simple\+\_\+state}}
+\subsubsection{\texorpdfstring{exit\+\_\+impl()}{exit\_impl()}\hspace{0.1cm}{\footnotesize\ttfamily [2/2]}}
+{\footnotesize\ttfamily template$<$class Most\+Derived, class Context, class Inner\+Initial = mpl\+::list$<$$>$, history\+\_\+mode history\+Mode = has\+\_\+no\+\_\+history$>$ \\
+void \mbox{\hyperlink{classboost_1_1statechart_1_1simple__state}{boost\+::statechart\+::simple\+\_\+state}}$<$ Most\+Derived, Context, Inner\+Initial, history\+Mode $>$\+::exit\+\_\+impl (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{classboost_1_1statechart_1_1simple__state_ad6d3233a11a23e91b4cc9edcae799379}{inner\+\_\+context\+\_\+ptr\+\_\+type}} \&}]{p\+Self,  }\item[{typename state\+\_\+base\+\_\+type\+::node\+\_\+state\+\_\+base\+\_\+ptr\+\_\+type \&}]{p\+Outermost\+Unstable\+State,  }\item[{bool}]{perform\+Full\+Exit }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+\mbox{\Hypertarget{classboost_1_1statechart_1_1simple__state_a9892a580bc7f9b502e5c01970bff17cf}\label{classboost_1_1statechart_1_1simple__state_a9892a580bc7f9b502e5c01970bff17cf}} 
+\index{boost\+::statechart\+::simple\+\_\+state@{boost\+::statechart\+::simple\+\_\+state}!forward\+\_\+event@{forward\+\_\+event}}
+\index{forward\+\_\+event@{forward\+\_\+event}!boost\+::statechart\+::simple\+\_\+state@{boost\+::statechart\+::simple\+\_\+state}}
+\subsubsection{\texorpdfstring{forward\+\_\+event()}{forward\_event()}}
+{\footnotesize\ttfamily template$<$class Most\+Derived, class Context, class Inner\+Initial = mpl\+::list$<$$>$, history\+\_\+mode history\+Mode = has\+\_\+no\+\_\+history$>$ \\
+\mbox{\hyperlink{namespaceboost_1_1statechart_abe807f6598b614d6d87bb951ecd92331}{result}} \mbox{\hyperlink{classboost_1_1statechart_1_1simple__state}{boost\+::statechart\+::simple\+\_\+state}}$<$ Most\+Derived, Context, Inner\+Initial, history\+Mode $>$\+::forward\+\_\+event (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+\mbox{\Hypertarget{classboost_1_1statechart_1_1simple__state_a082eb6f318470e080ca90502d32fde98}\label{classboost_1_1statechart_1_1simple__state_a082eb6f318470e080ca90502d32fde98}} 
+\index{boost\+::statechart\+::simple\+\_\+state@{boost\+::statechart\+::simple\+\_\+state}!initial\+\_\+deep\+\_\+construct@{initial\+\_\+deep\+\_\+construct}}
+\index{initial\+\_\+deep\+\_\+construct@{initial\+\_\+deep\+\_\+construct}!boost\+::statechart\+::simple\+\_\+state@{boost\+::statechart\+::simple\+\_\+state}}
+\subsubsection{\texorpdfstring{initial\+\_\+deep\+\_\+construct()}{initial\_deep\_construct()}}
+{\footnotesize\ttfamily template$<$class Most\+Derived, class Context, class Inner\+Initial = mpl\+::list$<$$>$, history\+\_\+mode history\+Mode = has\+\_\+no\+\_\+history$>$ \\
+static void \mbox{\hyperlink{classboost_1_1statechart_1_1simple__state}{boost\+::statechart\+::simple\+\_\+state}}$<$ Most\+Derived, Context, Inner\+Initial, history\+Mode $>$\+::initial\+\_\+deep\+\_\+construct (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{classboost_1_1statechart_1_1simple__state_a50f21d7a7d6632eb34430e74cbad3197}{outermost\+\_\+context\+\_\+base\+\_\+type}} \&}]{outermost\+Context\+Base }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [static]}}
+
+\mbox{\Hypertarget{classboost_1_1statechart_1_1simple__state_ac523a4a47f87c4e327d603286bb91b96}\label{classboost_1_1statechart_1_1simple__state_ac523a4a47f87c4e327d603286bb91b96}} 
+\index{boost\+::statechart\+::simple\+\_\+state@{boost\+::statechart\+::simple\+\_\+state}!local\+\_\+react@{local\+\_\+react}}
+\index{local\+\_\+react@{local\+\_\+react}!boost\+::statechart\+::simple\+\_\+state@{boost\+::statechart\+::simple\+\_\+state}}
+\subsubsection{\texorpdfstring{local\+\_\+react()}{local\_react()}}
+{\footnotesize\ttfamily template$<$class Most\+Derived, class Context, class Inner\+Initial = mpl\+::list$<$$>$, history\+\_\+mode history\+Mode = has\+\_\+no\+\_\+history$>$ \\
+template$<$class Reaction\+List $>$ \\
+\mbox{\hyperlink{namespaceboost_1_1statechart_1_1detail_ab091bbb4c29327fb46ee479ea1b7255b}{detail\+::reaction\+\_\+result}} \mbox{\hyperlink{classboost_1_1statechart_1_1simple__state}{boost\+::statechart\+::simple\+\_\+state}}$<$ Most\+Derived, Context, Inner\+Initial, history\+Mode $>$\+::local\+\_\+react (\begin{DoxyParamCaption}\item[{const \mbox{\hyperlink{classboost_1_1statechart_1_1simple__state_a153e115715f5d828021a273ce282ba9b}{event\+\_\+base\+\_\+type}} \&}]{evt,  }\item[{typename rtti\+\_\+policy\+\_\+type\+::id\+\_\+type}]{event\+Type }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [private]}}
+
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classboost_1_1statechart_1_1simple__state_ac523a4a47f87c4e327d603286bb91b96_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{classboost_1_1statechart_1_1simple__state_a87840a601ed9b0ff517f3d452e6b13f6}\label{classboost_1_1statechart_1_1simple__state_a87840a601ed9b0ff517f3d452e6b13f6}} 
+\index{boost\+::statechart\+::simple\+\_\+state@{boost\+::statechart\+::simple\+\_\+state}!operator delete@{operator delete}}
+\index{operator delete@{operator delete}!boost\+::statechart\+::simple\+\_\+state@{boost\+::statechart\+::simple\+\_\+state}}
+\subsubsection{\texorpdfstring{operator delete()}{operator delete()}}
+{\footnotesize\ttfamily template$<$class Most\+Derived, class Context, class Inner\+Initial = mpl\+::list$<$$>$, history\+\_\+mode history\+Mode = has\+\_\+no\+\_\+history$>$ \\
+void \mbox{\hyperlink{classboost_1_1statechart_1_1simple__state}{boost\+::statechart\+::simple\+\_\+state}}$<$ Most\+Derived, Context, Inner\+Initial, history\+Mode $>$\+::operator delete (\begin{DoxyParamCaption}\item[{void $\ast$}]{p\+State }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+\mbox{\Hypertarget{classboost_1_1statechart_1_1simple__state_a4fbec8248bbcd17578b6746a684e3c9e}\label{classboost_1_1statechart_1_1simple__state_a4fbec8248bbcd17578b6746a684e3c9e}} 
+\index{boost\+::statechart\+::simple\+\_\+state@{boost\+::statechart\+::simple\+\_\+state}!operator new@{operator new}}
+\index{operator new@{operator new}!boost\+::statechart\+::simple\+\_\+state@{boost\+::statechart\+::simple\+\_\+state}}
+\subsubsection{\texorpdfstring{operator new()}{operator new()}}
+{\footnotesize\ttfamily template$<$class Most\+Derived, class Context, class Inner\+Initial = mpl\+::list$<$$>$, history\+\_\+mode history\+Mode = has\+\_\+no\+\_\+history$>$ \\
+void$\ast$ \mbox{\hyperlink{classboost_1_1statechart_1_1simple__state}{boost\+::statechart\+::simple\+\_\+state}}$<$ Most\+Derived, Context, Inner\+Initial, history\+Mode $>$\+::operator new (\begin{DoxyParamCaption}\item[{std\+::size\+\_\+t}]{size }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+\mbox{\Hypertarget{classboost_1_1statechart_1_1simple__state_a538172d521f6d6d75e513cd79af79334}\label{classboost_1_1statechart_1_1simple__state_a538172d521f6d6d75e513cd79af79334}} 
+\index{boost\+::statechart\+::simple\+\_\+state@{boost\+::statechart\+::simple\+\_\+state}!outer\+\_\+state\+\_\+ptr@{outer\+\_\+state\+\_\+ptr}}
+\index{outer\+\_\+state\+\_\+ptr@{outer\+\_\+state\+\_\+ptr}!boost\+::statechart\+::simple\+\_\+state@{boost\+::statechart\+::simple\+\_\+state}}
+\subsubsection{\texorpdfstring{outer\+\_\+state\+\_\+ptr()}{outer\_state\_ptr()}}
+{\footnotesize\ttfamily template$<$class Most\+Derived, class Context, class Inner\+Initial = mpl\+::list$<$$>$, history\+\_\+mode history\+Mode = has\+\_\+no\+\_\+history$>$ \\
+virtual const \mbox{\hyperlink{classboost_1_1statechart_1_1simple__state_ae4af81f8eae996cc418efa3387af0ef6}{state\+\_\+base\+\_\+type}}$\ast$ \mbox{\hyperlink{classboost_1_1statechart_1_1simple__state}{boost\+::statechart\+::simple\+\_\+state}}$<$ Most\+Derived, Context, Inner\+Initial, history\+Mode $>$\+::outer\+\_\+state\+\_\+ptr (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [virtual]}}
+
+\mbox{\Hypertarget{classboost_1_1statechart_1_1simple__state_a5a2e9abf29040c3dd91ac9d98a17f564}\label{classboost_1_1statechart_1_1simple__state_a5a2e9abf29040c3dd91ac9d98a17f564}} 
+\index{boost\+::statechart\+::simple\+\_\+state@{boost\+::statechart\+::simple\+\_\+state}!outermost\+\_\+context@{outermost\+\_\+context}}
+\index{outermost\+\_\+context@{outermost\+\_\+context}!boost\+::statechart\+::simple\+\_\+state@{boost\+::statechart\+::simple\+\_\+state}}
+\subsubsection{\texorpdfstring{outermost\+\_\+context()}{outermost\_context()}\hspace{0.1cm}{\footnotesize\ttfamily [1/2]}}
+{\footnotesize\ttfamily template$<$class Most\+Derived, class Context, class Inner\+Initial = mpl\+::list$<$$>$, history\+\_\+mode history\+Mode = has\+\_\+no\+\_\+history$>$ \\
+\mbox{\hyperlink{classboost_1_1statechart_1_1simple__state_a25f32527ab9e99c9ae75c723e4be9cb6}{outermost\+\_\+context\+\_\+type}}\& \mbox{\hyperlink{classboost_1_1statechart_1_1simple__state}{boost\+::statechart\+::simple\+\_\+state}}$<$ Most\+Derived, Context, Inner\+Initial, history\+Mode $>$\+::outermost\+\_\+context (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+\mbox{\Hypertarget{classboost_1_1statechart_1_1simple__state_aea19005dfbeaca465dea79c74799544c}\label{classboost_1_1statechart_1_1simple__state_aea19005dfbeaca465dea79c74799544c}} 
+\index{boost\+::statechart\+::simple\+\_\+state@{boost\+::statechart\+::simple\+\_\+state}!outermost\+\_\+context@{outermost\+\_\+context}}
+\index{outermost\+\_\+context@{outermost\+\_\+context}!boost\+::statechart\+::simple\+\_\+state@{boost\+::statechart\+::simple\+\_\+state}}
+\subsubsection{\texorpdfstring{outermost\+\_\+context()}{outermost\_context()}\hspace{0.1cm}{\footnotesize\ttfamily [2/2]}}
+{\footnotesize\ttfamily template$<$class Most\+Derived, class Context, class Inner\+Initial = mpl\+::list$<$$>$, history\+\_\+mode history\+Mode = has\+\_\+no\+\_\+history$>$ \\
+const \mbox{\hyperlink{classboost_1_1statechart_1_1simple__state_a25f32527ab9e99c9ae75c723e4be9cb6}{outermost\+\_\+context\+\_\+type}}\& \mbox{\hyperlink{classboost_1_1statechart_1_1simple__state}{boost\+::statechart\+::simple\+\_\+state}}$<$ Most\+Derived, Context, Inner\+Initial, history\+Mode $>$\+::outermost\+\_\+context (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const\hspace{0.3cm}{\ttfamily [inline]}}
+
+\mbox{\Hypertarget{classboost_1_1statechart_1_1simple__state_ac542d3d3b03bf646e4f5726259d1a2b0}\label{classboost_1_1statechart_1_1simple__state_ac542d3d3b03bf646e4f5726259d1a2b0}} 
+\index{boost\+::statechart\+::simple\+\_\+state@{boost\+::statechart\+::simple\+\_\+state}!outermost\+\_\+context\+\_\+base@{outermost\+\_\+context\+\_\+base}}
+\index{outermost\+\_\+context\+\_\+base@{outermost\+\_\+context\+\_\+base}!boost\+::statechart\+::simple\+\_\+state@{boost\+::statechart\+::simple\+\_\+state}}
+\subsubsection{\texorpdfstring{outermost\+\_\+context\+\_\+base()}{outermost\_context\_base()}\hspace{0.1cm}{\footnotesize\ttfamily [1/2]}}
+{\footnotesize\ttfamily template$<$class Most\+Derived, class Context, class Inner\+Initial = mpl\+::list$<$$>$, history\+\_\+mode history\+Mode = has\+\_\+no\+\_\+history$>$ \\
+\mbox{\hyperlink{classboost_1_1statechart_1_1simple__state_a50f21d7a7d6632eb34430e74cbad3197}{outermost\+\_\+context\+\_\+base\+\_\+type}}\& \mbox{\hyperlink{classboost_1_1statechart_1_1simple__state}{boost\+::statechart\+::simple\+\_\+state}}$<$ Most\+Derived, Context, Inner\+Initial, history\+Mode $>$\+::outermost\+\_\+context\+\_\+base (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=550pt]{classboost_1_1statechart_1_1simple__state_ac542d3d3b03bf646e4f5726259d1a2b0_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{classboost_1_1statechart_1_1simple__state_ae2d7831022f22363d393f87971507e7c}\label{classboost_1_1statechart_1_1simple__state_ae2d7831022f22363d393f87971507e7c}} 
+\index{boost\+::statechart\+::simple\+\_\+state@{boost\+::statechart\+::simple\+\_\+state}!outermost\+\_\+context\+\_\+base@{outermost\+\_\+context\+\_\+base}}
+\index{outermost\+\_\+context\+\_\+base@{outermost\+\_\+context\+\_\+base}!boost\+::statechart\+::simple\+\_\+state@{boost\+::statechart\+::simple\+\_\+state}}
+\subsubsection{\texorpdfstring{outermost\+\_\+context\+\_\+base()}{outermost\_context\_base()}\hspace{0.1cm}{\footnotesize\ttfamily [2/2]}}
+{\footnotesize\ttfamily template$<$class Most\+Derived, class Context, class Inner\+Initial = mpl\+::list$<$$>$, history\+\_\+mode history\+Mode = has\+\_\+no\+\_\+history$>$ \\
+const \mbox{\hyperlink{classboost_1_1statechart_1_1simple__state_a50f21d7a7d6632eb34430e74cbad3197}{outermost\+\_\+context\+\_\+base\+\_\+type}}\& \mbox{\hyperlink{classboost_1_1statechart_1_1simple__state}{boost\+::statechart\+::simple\+\_\+state}}$<$ Most\+Derived, Context, Inner\+Initial, history\+Mode $>$\+::outermost\+\_\+context\+\_\+base (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const\hspace{0.3cm}{\ttfamily [inline]}}
+
+\mbox{\Hypertarget{classboost_1_1statechart_1_1simple__state_a67205f8400d43e13a51cfb4a4a382ce5}\label{classboost_1_1statechart_1_1simple__state_a67205f8400d43e13a51cfb4a4a382ce5}} 
+\index{boost\+::statechart\+::simple\+\_\+state@{boost\+::statechart\+::simple\+\_\+state}!post\+\_\+event@{post\+\_\+event}}
+\index{post\+\_\+event@{post\+\_\+event}!boost\+::statechart\+::simple\+\_\+state@{boost\+::statechart\+::simple\+\_\+state}}
+\subsubsection{\texorpdfstring{post\+\_\+event()}{post\_event()}\hspace{0.1cm}{\footnotesize\ttfamily [1/2]}}
+{\footnotesize\ttfamily template$<$class Most\+Derived, class Context, class Inner\+Initial = mpl\+::list$<$$>$, history\+\_\+mode history\+Mode = has\+\_\+no\+\_\+history$>$ \\
+void \mbox{\hyperlink{classboost_1_1statechart_1_1simple__state}{boost\+::statechart\+::simple\+\_\+state}}$<$ Most\+Derived, Context, Inner\+Initial, history\+Mode $>$\+::post\+\_\+event (\begin{DoxyParamCaption}\item[{const \mbox{\hyperlink{classboost_1_1statechart_1_1simple__state_aeea28c41a57acb4507e30ca5adb6016f}{event\+\_\+base\+\_\+ptr\+\_\+type}} \&}]{p\+Event }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+\mbox{\Hypertarget{classboost_1_1statechart_1_1simple__state_aeea3396289a32b467dd094d2c7965f23}\label{classboost_1_1statechart_1_1simple__state_aeea3396289a32b467dd094d2c7965f23}} 
+\index{boost\+::statechart\+::simple\+\_\+state@{boost\+::statechart\+::simple\+\_\+state}!post\+\_\+event@{post\+\_\+event}}
+\index{post\+\_\+event@{post\+\_\+event}!boost\+::statechart\+::simple\+\_\+state@{boost\+::statechart\+::simple\+\_\+state}}
+\subsubsection{\texorpdfstring{post\+\_\+event()}{post\_event()}\hspace{0.1cm}{\footnotesize\ttfamily [2/2]}}
+{\footnotesize\ttfamily template$<$class Most\+Derived, class Context, class Inner\+Initial = mpl\+::list$<$$>$, history\+\_\+mode history\+Mode = has\+\_\+no\+\_\+history$>$ \\
+void \mbox{\hyperlink{classboost_1_1statechart_1_1simple__state}{boost\+::statechart\+::simple\+\_\+state}}$<$ Most\+Derived, Context, Inner\+Initial, history\+Mode $>$\+::post\+\_\+event (\begin{DoxyParamCaption}\item[{const \mbox{\hyperlink{classboost_1_1statechart_1_1event__base}{event\+\_\+base}} \&}]{evt }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+\mbox{\Hypertarget{classboost_1_1statechart_1_1simple__state_aea845e975828260436775198e4c4e599}\label{classboost_1_1statechart_1_1simple__state_aea845e975828260436775198e4c4e599}} 
+\index{boost\+::statechart\+::simple\+\_\+state@{boost\+::statechart\+::simple\+\_\+state}!react\+\_\+impl@{react\+\_\+impl}}
+\index{react\+\_\+impl@{react\+\_\+impl}!boost\+::statechart\+::simple\+\_\+state@{boost\+::statechart\+::simple\+\_\+state}}
+\subsubsection{\texorpdfstring{react\+\_\+impl()}{react\_impl()}}
+{\footnotesize\ttfamily template$<$class Most\+Derived, class Context, class Inner\+Initial = mpl\+::list$<$$>$, history\+\_\+mode history\+Mode = has\+\_\+no\+\_\+history$>$ \\
+virtual \mbox{\hyperlink{namespaceboost_1_1statechart_1_1detail_ab091bbb4c29327fb46ee479ea1b7255b}{detail\+::reaction\+\_\+result}} \mbox{\hyperlink{classboost_1_1statechart_1_1simple__state}{boost\+::statechart\+::simple\+\_\+state}}$<$ Most\+Derived, Context, Inner\+Initial, history\+Mode $>$\+::react\+\_\+impl (\begin{DoxyParamCaption}\item[{const \mbox{\hyperlink{classboost_1_1statechart_1_1simple__state_a153e115715f5d828021a273ce282ba9b}{event\+\_\+base\+\_\+type}} \&}]{evt,  }\item[{typename rtti\+\_\+policy\+\_\+type\+::id\+\_\+type}]{event\+Type }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [virtual]}}
+
+\mbox{\Hypertarget{classboost_1_1statechart_1_1simple__state_a542332ad88c14626cd34459cea2ce11c}\label{classboost_1_1statechart_1_1simple__state_a542332ad88c14626cd34459cea2ce11c}} 
+\index{boost\+::statechart\+::simple\+\_\+state@{boost\+::statechart\+::simple\+\_\+state}!set\+\_\+context@{set\+\_\+context}}
+\index{set\+\_\+context@{set\+\_\+context}!boost\+::statechart\+::simple\+\_\+state@{boost\+::statechart\+::simple\+\_\+state}}
+\subsubsection{\texorpdfstring{set\+\_\+context()}{set\_context()}}
+{\footnotesize\ttfamily template$<$class Most\+Derived, class Context, class Inner\+Initial = mpl\+::list$<$$>$, history\+\_\+mode history\+Mode = has\+\_\+no\+\_\+history$>$ \\
+void \mbox{\hyperlink{classboost_1_1statechart_1_1simple__state}{boost\+::statechart\+::simple\+\_\+state}}$<$ Most\+Derived, Context, Inner\+Initial, history\+Mode $>$\+::set\+\_\+context (\begin{DoxyParamCaption}\item[{const \mbox{\hyperlink{classboost_1_1statechart_1_1simple__state_ac7e361322d53b3f57976ff23056b59e7}{context\+\_\+ptr\+\_\+type}} \&}]{p\+Context }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classboost_1_1statechart_1_1simple__state_a542332ad88c14626cd34459cea2ce11c_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{classboost_1_1statechart_1_1simple__state_a371f219e75f23182309e4f2ecc71d399}\label{classboost_1_1statechart_1_1simple__state_a371f219e75f23182309e4f2ecc71d399}} 
+\index{boost\+::statechart\+::simple\+\_\+state@{boost\+::statechart\+::simple\+\_\+state}!set\+\_\+outermost\+\_\+unstable\+\_\+state@{set\+\_\+outermost\+\_\+unstable\+\_\+state}}
+\index{set\+\_\+outermost\+\_\+unstable\+\_\+state@{set\+\_\+outermost\+\_\+unstable\+\_\+state}!boost\+::statechart\+::simple\+\_\+state@{boost\+::statechart\+::simple\+\_\+state}}
+\subsubsection{\texorpdfstring{set\+\_\+outermost\+\_\+unstable\+\_\+state()}{set\_outermost\_unstable\_state()}}
+{\footnotesize\ttfamily template$<$class Most\+Derived, class Context, class Inner\+Initial = mpl\+::list$<$$>$, history\+\_\+mode history\+Mode = has\+\_\+no\+\_\+history$>$ \\
+void \mbox{\hyperlink{classboost_1_1statechart_1_1simple__state}{boost\+::statechart\+::simple\+\_\+state}}$<$ Most\+Derived, Context, Inner\+Initial, history\+Mode $>$\+::set\+\_\+outermost\+\_\+unstable\+\_\+state (\begin{DoxyParamCaption}\item[{typename state\+\_\+base\+\_\+type\+::node\+\_\+state\+\_\+base\+\_\+ptr\+\_\+type \&}]{p\+Outermost\+Unstable\+State }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+\mbox{\Hypertarget{classboost_1_1statechart_1_1simple__state_a598d677d3cf6b90001e19ef3566eca5e}\label{classboost_1_1statechart_1_1simple__state_a598d677d3cf6b90001e19ef3566eca5e}} 
+\index{boost\+::statechart\+::simple\+\_\+state@{boost\+::statechart\+::simple\+\_\+state}!shallow\+\_\+construct@{shallow\+\_\+construct}}
+\index{shallow\+\_\+construct@{shallow\+\_\+construct}!boost\+::statechart\+::simple\+\_\+state@{boost\+::statechart\+::simple\+\_\+state}}
+\subsubsection{\texorpdfstring{shallow\+\_\+construct()}{shallow\_construct()}}
+{\footnotesize\ttfamily template$<$class Most\+Derived, class Context, class Inner\+Initial = mpl\+::list$<$$>$, history\+\_\+mode history\+Mode = has\+\_\+no\+\_\+history$>$ \\
+static \mbox{\hyperlink{classboost_1_1statechart_1_1simple__state_ad6d3233a11a23e91b4cc9edcae799379}{inner\+\_\+context\+\_\+ptr\+\_\+type}} \mbox{\hyperlink{classboost_1_1statechart_1_1simple__state}{boost\+::statechart\+::simple\+\_\+state}}$<$ Most\+Derived, Context, Inner\+Initial, history\+Mode $>$\+::shallow\+\_\+construct (\begin{DoxyParamCaption}\item[{const \mbox{\hyperlink{classboost_1_1statechart_1_1simple__state_ac7e361322d53b3f57976ff23056b59e7}{context\+\_\+ptr\+\_\+type}} \&}]{p\+Context,  }\item[{\mbox{\hyperlink{classboost_1_1statechart_1_1simple__state_a50f21d7a7d6632eb34430e74cbad3197}{outermost\+\_\+context\+\_\+base\+\_\+type}} \&}]{outermost\+Context\+Base }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [static]}}
+
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classboost_1_1statechart_1_1simple__state_a598d677d3cf6b90001e19ef3566eca5e_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{classboost_1_1statechart_1_1simple__state_a2884dbeb0cbc4465e5ce1955f1a655e7}\label{classboost_1_1statechart_1_1simple__state_a2884dbeb0cbc4465e5ce1955f1a655e7}} 
+\index{boost\+::statechart\+::simple\+\_\+state@{boost\+::statechart\+::simple\+\_\+state}!state\+\_\+begin@{state\+\_\+begin}}
+\index{state\+\_\+begin@{state\+\_\+begin}!boost\+::statechart\+::simple\+\_\+state@{boost\+::statechart\+::simple\+\_\+state}}
+\subsubsection{\texorpdfstring{state\+\_\+begin()}{state\_begin()}}
+{\footnotesize\ttfamily template$<$class Most\+Derived, class Context, class Inner\+Initial = mpl\+::list$<$$>$, history\+\_\+mode history\+Mode = has\+\_\+no\+\_\+history$>$ \\
+\mbox{\hyperlink{classboost_1_1statechart_1_1simple__state_a32d30bbceb41ad02b70016d8530722a1}{state\+\_\+iterator}} \mbox{\hyperlink{classboost_1_1statechart_1_1simple__state}{boost\+::statechart\+::simple\+\_\+state}}$<$ Most\+Derived, Context, Inner\+Initial, history\+Mode $>$\+::state\+\_\+begin (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const\hspace{0.3cm}{\ttfamily [inline]}}
+
+\mbox{\Hypertarget{classboost_1_1statechart_1_1simple__state_aa94dea47fe6c47cdd5a3585be5db75a0}\label{classboost_1_1statechart_1_1simple__state_aa94dea47fe6c47cdd5a3585be5db75a0}} 
+\index{boost\+::statechart\+::simple\+\_\+state@{boost\+::statechart\+::simple\+\_\+state}!state\+\_\+cast@{state\+\_\+cast}}
+\index{state\+\_\+cast@{state\+\_\+cast}!boost\+::statechart\+::simple\+\_\+state@{boost\+::statechart\+::simple\+\_\+state}}
+\subsubsection{\texorpdfstring{state\+\_\+cast()}{state\_cast()}}
+{\footnotesize\ttfamily template$<$class Most\+Derived, class Context, class Inner\+Initial = mpl\+::list$<$$>$, history\+\_\+mode history\+Mode = has\+\_\+no\+\_\+history$>$ \\
+template$<$class Target $>$ \\
+Target \mbox{\hyperlink{classboost_1_1statechart_1_1simple__state}{boost\+::statechart\+::simple\+\_\+state}}$<$ Most\+Derived, Context, Inner\+Initial, history\+Mode $>$\+::state\+\_\+cast (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const\hspace{0.3cm}{\ttfamily [inline]}}
+
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=204pt]{classboost_1_1statechart_1_1simple__state_aa94dea47fe6c47cdd5a3585be5db75a0_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{classboost_1_1statechart_1_1simple__state_aa7af8e560ba3ad0f9d158b9c1188109f}\label{classboost_1_1statechart_1_1simple__state_aa7af8e560ba3ad0f9d158b9c1188109f}} 
+\index{boost\+::statechart\+::simple\+\_\+state@{boost\+::statechart\+::simple\+\_\+state}!state\+\_\+downcast@{state\+\_\+downcast}}
+\index{state\+\_\+downcast@{state\+\_\+downcast}!boost\+::statechart\+::simple\+\_\+state@{boost\+::statechart\+::simple\+\_\+state}}
+\subsubsection{\texorpdfstring{state\+\_\+downcast()}{state\_downcast()}}
+{\footnotesize\ttfamily template$<$class Most\+Derived, class Context, class Inner\+Initial = mpl\+::list$<$$>$, history\+\_\+mode history\+Mode = has\+\_\+no\+\_\+history$>$ \\
+template$<$class Target $>$ \\
+Target \mbox{\hyperlink{classboost_1_1statechart_1_1simple__state}{boost\+::statechart\+::simple\+\_\+state}}$<$ Most\+Derived, Context, Inner\+Initial, history\+Mode $>$\+::state\+\_\+downcast (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const\hspace{0.3cm}{\ttfamily [inline]}}
+
+\mbox{\Hypertarget{classboost_1_1statechart_1_1simple__state_a831e44d8bb7aa3f0f9a46df96de9099b}\label{classboost_1_1statechart_1_1simple__state_a831e44d8bb7aa3f0f9a46df96de9099b}} 
+\index{boost\+::statechart\+::simple\+\_\+state@{boost\+::statechart\+::simple\+\_\+state}!state\+\_\+end@{state\+\_\+end}}
+\index{state\+\_\+end@{state\+\_\+end}!boost\+::statechart\+::simple\+\_\+state@{boost\+::statechart\+::simple\+\_\+state}}
+\subsubsection{\texorpdfstring{state\+\_\+end()}{state\_end()}}
+{\footnotesize\ttfamily template$<$class Most\+Derived, class Context, class Inner\+Initial = mpl\+::list$<$$>$, history\+\_\+mode history\+Mode = has\+\_\+no\+\_\+history$>$ \\
+\mbox{\hyperlink{classboost_1_1statechart_1_1simple__state_a32d30bbceb41ad02b70016d8530722a1}{state\+\_\+iterator}} \mbox{\hyperlink{classboost_1_1statechart_1_1simple__state}{boost\+::statechart\+::simple\+\_\+state}}$<$ Most\+Derived, Context, Inner\+Initial, history\+Mode $>$\+::state\+\_\+end (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const\hspace{0.3cm}{\ttfamily [inline]}}
+
+\mbox{\Hypertarget{classboost_1_1statechart_1_1simple__state_a5d962dfc41522b59250e71ae5f01c30a}\label{classboost_1_1statechart_1_1simple__state_a5d962dfc41522b59250e71ae5f01c30a}} 
+\index{boost\+::statechart\+::simple\+\_\+state@{boost\+::statechart\+::simple\+\_\+state}!store\+\_\+deep\+\_\+history\+\_\+impl@{store\+\_\+deep\+\_\+history\+\_\+impl}}
+\index{store\+\_\+deep\+\_\+history\+\_\+impl@{store\+\_\+deep\+\_\+history\+\_\+impl}!boost\+::statechart\+::simple\+\_\+state@{boost\+::statechart\+::simple\+\_\+state}}
+\subsubsection{\texorpdfstring{store\+\_\+deep\+\_\+history\+\_\+impl()}{store\_deep\_history\_impl()}}
+{\footnotesize\ttfamily template$<$class Most\+Derived, class Context, class Inner\+Initial = mpl\+::list$<$$>$, history\+\_\+mode history\+Mode = has\+\_\+no\+\_\+history$>$ \\
+template$<$class Leaf\+State $>$ \\
+void \mbox{\hyperlink{classboost_1_1statechart_1_1simple__state}{boost\+::statechart\+::simple\+\_\+state}}$<$ Most\+Derived, Context, Inner\+Initial, history\+Mode $>$\+::store\+\_\+deep\+\_\+history\+\_\+impl (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+\mbox{\Hypertarget{classboost_1_1statechart_1_1simple__state_af1b306e54db708323280093a4452da13}\label{classboost_1_1statechart_1_1simple__state_af1b306e54db708323280093a4452da13}} 
+\index{boost\+::statechart\+::simple\+\_\+state@{boost\+::statechart\+::simple\+\_\+state}!terminate@{terminate}}
+\index{terminate@{terminate}!boost\+::statechart\+::simple\+\_\+state@{boost\+::statechart\+::simple\+\_\+state}}
+\subsubsection{\texorpdfstring{terminate()}{terminate()}}
+{\footnotesize\ttfamily template$<$class Most\+Derived, class Context, class Inner\+Initial = mpl\+::list$<$$>$, history\+\_\+mode history\+Mode = has\+\_\+no\+\_\+history$>$ \\
+\mbox{\hyperlink{namespaceboost_1_1statechart_abe807f6598b614d6d87bb951ecd92331}{result}} \mbox{\hyperlink{classboost_1_1statechart_1_1simple__state}{boost\+::statechart\+::simple\+\_\+state}}$<$ Most\+Derived, Context, Inner\+Initial, history\+Mode $>$\+::terminate (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classboost_1_1statechart_1_1simple__state_af1b306e54db708323280093a4452da13_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{classboost_1_1statechart_1_1simple__state_aa0865d4f3f3763e77dfd86f70aa558af}\label{classboost_1_1statechart_1_1simple__state_aa0865d4f3f3763e77dfd86f70aa558af}} 
+\index{boost\+::statechart\+::simple\+\_\+state@{boost\+::statechart\+::simple\+\_\+state}!transit@{transit}}
+\index{transit@{transit}!boost\+::statechart\+::simple\+\_\+state@{boost\+::statechart\+::simple\+\_\+state}}
+\subsubsection{\texorpdfstring{transit()}{transit()}\hspace{0.1cm}{\footnotesize\ttfamily [1/2]}}
+{\footnotesize\ttfamily template$<$class Most\+Derived, class Context, class Inner\+Initial = mpl\+::list$<$$>$, history\+\_\+mode history\+Mode = has\+\_\+no\+\_\+history$>$ \\
+template$<$class Destination\+State $>$ \\
+\mbox{\hyperlink{namespaceboost_1_1statechart_abe807f6598b614d6d87bb951ecd92331}{result}} \mbox{\hyperlink{classboost_1_1statechart_1_1simple__state}{boost\+::statechart\+::simple\+\_\+state}}$<$ Most\+Derived, Context, Inner\+Initial, history\+Mode $>$\+::transit (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+\mbox{\Hypertarget{classboost_1_1statechart_1_1simple__state_a8afd3e06eb91829a43bc82031c848fb1}\label{classboost_1_1statechart_1_1simple__state_a8afd3e06eb91829a43bc82031c848fb1}} 
+\index{boost\+::statechart\+::simple\+\_\+state@{boost\+::statechart\+::simple\+\_\+state}!transit@{transit}}
+\index{transit@{transit}!boost\+::statechart\+::simple\+\_\+state@{boost\+::statechart\+::simple\+\_\+state}}
+\subsubsection{\texorpdfstring{transit()}{transit()}\hspace{0.1cm}{\footnotesize\ttfamily [2/2]}}
+{\footnotesize\ttfamily template$<$class Most\+Derived, class Context, class Inner\+Initial = mpl\+::list$<$$>$, history\+\_\+mode history\+Mode = has\+\_\+no\+\_\+history$>$ \\
+template$<$class Destination\+State , class Transition\+Context , class Event $>$ \\
+\mbox{\hyperlink{namespaceboost_1_1statechart_abe807f6598b614d6d87bb951ecd92331}{result}} \mbox{\hyperlink{classboost_1_1statechart_1_1simple__state}{boost\+::statechart\+::simple\+\_\+state}}$<$ Most\+Derived, Context, Inner\+Initial, history\+Mode $>$\+::transit (\begin{DoxyParamCaption}\item[{void(Transition\+Context\+::$\ast$)(const Event \&)}]{p\+Transition\+Action,  }\item[{const Event \&}]{evt }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+\mbox{\Hypertarget{classboost_1_1statechart_1_1simple__state_aa5c1618d959d881a51de119d12f6fc80}\label{classboost_1_1statechart_1_1simple__state_aa5c1618d959d881a51de119d12f6fc80}} 
+\index{boost\+::statechart\+::simple\+\_\+state@{boost\+::statechart\+::simple\+\_\+state}!transit\+\_\+impl@{transit\+\_\+impl}}
+\index{transit\+\_\+impl@{transit\+\_\+impl}!boost\+::statechart\+::simple\+\_\+state@{boost\+::statechart\+::simple\+\_\+state}}
+\subsubsection{\texorpdfstring{transit\+\_\+impl()}{transit\_impl()}}
+{\footnotesize\ttfamily template$<$class Most\+Derived, class Context, class Inner\+Initial = mpl\+::list$<$$>$, history\+\_\+mode history\+Mode = has\+\_\+no\+\_\+history$>$ \\
+template$<$class Destination\+State , class Transition\+Context , class Transition\+Action $>$ \\
+\mbox{\hyperlink{namespaceboost_1_1statechart_abe807f6598b614d6d87bb951ecd92331}{result}} \mbox{\hyperlink{classboost_1_1statechart_1_1simple__state}{boost\+::statechart\+::simple\+\_\+state}}$<$ Most\+Derived, Context, Inner\+Initial, history\+Mode $>$\+::transit\+\_\+impl (\begin{DoxyParamCaption}\item[{const Transition\+Action \&}]{transition\+Action }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [private]}}
+
+\mbox{\Hypertarget{classboost_1_1statechart_1_1simple__state_aa8d3e7109aec6dd3b6b43e21159e2119}\label{classboost_1_1statechart_1_1simple__state_aa8d3e7109aec6dd3b6b43e21159e2119}} 
+\index{boost\+::statechart\+::simple\+\_\+state@{boost\+::statechart\+::simple\+\_\+state}!triggering\+\_\+event@{triggering\+\_\+event}}
+\index{triggering\+\_\+event@{triggering\+\_\+event}!boost\+::statechart\+::simple\+\_\+state@{boost\+::statechart\+::simple\+\_\+state}}
+\subsubsection{\texorpdfstring{triggering\+\_\+event()}{triggering\_event()}}
+{\footnotesize\ttfamily template$<$class Most\+Derived, class Context, class Inner\+Initial = mpl\+::list$<$$>$, history\+\_\+mode history\+Mode = has\+\_\+no\+\_\+history$>$ \\
+const \mbox{\hyperlink{classboost_1_1statechart_1_1event__base}{event\+\_\+base}}$\ast$ \mbox{\hyperlink{classboost_1_1statechart_1_1simple__state}{boost\+::statechart\+::simple\+\_\+state}}$<$ Most\+Derived, Context, Inner\+Initial, history\+Mode $>$\+::triggering\+\_\+event (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+\subsection{Friends And Related Function Documentation}
+\mbox{\Hypertarget{classboost_1_1statechart_1_1simple__state_af4fe78048d6db7f6a1699d9eb26f1ef7}\label{classboost_1_1statechart_1_1simple__state_af4fe78048d6db7f6a1699d9eb26f1ef7}} 
+\index{boost\+::statechart\+::simple\+\_\+state@{boost\+::statechart\+::simple\+\_\+state}!check\+\_\+store\+\_\+deep\+\_\+history\+\_\+impl\+\_\+yes@{check\+\_\+store\+\_\+deep\+\_\+history\+\_\+impl\+\_\+yes}}
+\index{check\+\_\+store\+\_\+deep\+\_\+history\+\_\+impl\+\_\+yes@{check\+\_\+store\+\_\+deep\+\_\+history\+\_\+impl\+\_\+yes}!boost\+::statechart\+::simple\+\_\+state@{boost\+::statechart\+::simple\+\_\+state}}
+\subsubsection{\texorpdfstring{check\+\_\+store\+\_\+deep\+\_\+history\+\_\+impl\+\_\+yes}{check\_store\_deep\_history\_impl\_yes}}
+{\footnotesize\ttfamily template$<$class Most\+Derived, class Context, class Inner\+Initial = mpl\+::list$<$$>$, history\+\_\+mode history\+Mode = has\+\_\+no\+\_\+history$>$ \\
+friend struct \mbox{\hyperlink{structboost_1_1statechart_1_1simple__state_1_1check__store__deep__history__impl__yes}{check\+\_\+store\+\_\+deep\+\_\+history\+\_\+impl\+\_\+yes}}\hspace{0.3cm}{\ttfamily [friend]}}
+
+\mbox{\Hypertarget{classboost_1_1statechart_1_1simple__state_a871eee27caa9713c636df492328cfd1a}\label{classboost_1_1statechart_1_1simple__state_a871eee27caa9713c636df492328cfd1a}} 
+\index{boost\+::statechart\+::simple\+\_\+state@{boost\+::statechart\+::simple\+\_\+state}!check\+\_\+store\+\_\+shallow\+\_\+history\+\_\+impl\+\_\+yes@{check\+\_\+store\+\_\+shallow\+\_\+history\+\_\+impl\+\_\+yes}}
+\index{check\+\_\+store\+\_\+shallow\+\_\+history\+\_\+impl\+\_\+yes@{check\+\_\+store\+\_\+shallow\+\_\+history\+\_\+impl\+\_\+yes}!boost\+::statechart\+::simple\+\_\+state@{boost\+::statechart\+::simple\+\_\+state}}
+\subsubsection{\texorpdfstring{check\+\_\+store\+\_\+shallow\+\_\+history\+\_\+impl\+\_\+yes}{check\_store\_shallow\_history\_impl\_yes}}
+{\footnotesize\ttfamily template$<$class Most\+Derived, class Context, class Inner\+Initial = mpl\+::list$<$$>$, history\+\_\+mode history\+Mode = has\+\_\+no\+\_\+history$>$ \\
+friend struct \mbox{\hyperlink{structboost_1_1statechart_1_1simple__state_1_1check__store__shallow__history__impl__yes}{check\+\_\+store\+\_\+shallow\+\_\+history\+\_\+impl\+\_\+yes}}\hspace{0.3cm}{\ttfamily [friend]}}
+
+\mbox{\Hypertarget{classboost_1_1statechart_1_1simple__state_a68d6ffdef25e37430a9e8ad34085a7a2}\label{classboost_1_1statechart_1_1simple__state_a68d6ffdef25e37430a9e8ad34085a7a2}} 
+\index{boost\+::statechart\+::simple\+\_\+state@{boost\+::statechart\+::simple\+\_\+state}!context\+\_\+impl\+\_\+other\+\_\+context@{context\+\_\+impl\+\_\+other\+\_\+context}}
+\index{context\+\_\+impl\+\_\+other\+\_\+context@{context\+\_\+impl\+\_\+other\+\_\+context}!boost\+::statechart\+::simple\+\_\+state@{boost\+::statechart\+::simple\+\_\+state}}
+\subsubsection{\texorpdfstring{context\+\_\+impl\+\_\+other\+\_\+context}{context\_impl\_other\_context}}
+{\footnotesize\ttfamily template$<$class Most\+Derived, class Context, class Inner\+Initial = mpl\+::list$<$$>$, history\+\_\+mode history\+Mode = has\+\_\+no\+\_\+history$>$ \\
+friend struct \mbox{\hyperlink{structboost_1_1statechart_1_1simple__state_1_1context__impl__other__context}{context\+\_\+impl\+\_\+other\+\_\+context}}\hspace{0.3cm}{\ttfamily [friend]}}
+
+\mbox{\Hypertarget{classboost_1_1statechart_1_1simple__state_a0a3bf11a5ad2ed5b7695492424733c3e}\label{classboost_1_1statechart_1_1simple__state_a0a3bf11a5ad2ed5b7695492424733c3e}} 
+\index{boost\+::statechart\+::simple\+\_\+state@{boost\+::statechart\+::simple\+\_\+state}!context\+\_\+impl\+\_\+this\+\_\+context@{context\+\_\+impl\+\_\+this\+\_\+context}}
+\index{context\+\_\+impl\+\_\+this\+\_\+context@{context\+\_\+impl\+\_\+this\+\_\+context}!boost\+::statechart\+::simple\+\_\+state@{boost\+::statechart\+::simple\+\_\+state}}
+\subsubsection{\texorpdfstring{context\+\_\+impl\+\_\+this\+\_\+context}{context\_impl\_this\_context}}
+{\footnotesize\ttfamily template$<$class Most\+Derived, class Context, class Inner\+Initial = mpl\+::list$<$$>$, history\+\_\+mode history\+Mode = has\+\_\+no\+\_\+history$>$ \\
+friend struct \mbox{\hyperlink{structboost_1_1statechart_1_1simple__state_1_1context__impl__this__context}{context\+\_\+impl\+\_\+this\+\_\+context}}\hspace{0.3cm}{\ttfamily [friend]}}
+
+\mbox{\Hypertarget{classboost_1_1statechart_1_1simple__state_a580f2b717109d522d6a39b7b2752b4a7}\label{classboost_1_1statechart_1_1simple__state_a580f2b717109d522d6a39b7b2752b4a7}} 
+\index{boost\+::statechart\+::simple\+\_\+state@{boost\+::statechart\+::simple\+\_\+state}!context\+\_\+ptr\+\_\+impl\+\_\+my\+\_\+context@{context\+\_\+ptr\+\_\+impl\+\_\+my\+\_\+context}}
+\index{context\+\_\+ptr\+\_\+impl\+\_\+my\+\_\+context@{context\+\_\+ptr\+\_\+impl\+\_\+my\+\_\+context}!boost\+::statechart\+::simple\+\_\+state@{boost\+::statechart\+::simple\+\_\+state}}
+\subsubsection{\texorpdfstring{context\+\_\+ptr\+\_\+impl\+\_\+my\+\_\+context}{context\_ptr\_impl\_my\_context}}
+{\footnotesize\ttfamily template$<$class Most\+Derived, class Context, class Inner\+Initial = mpl\+::list$<$$>$, history\+\_\+mode history\+Mode = has\+\_\+no\+\_\+history$>$ \\
+friend struct \mbox{\hyperlink{structboost_1_1statechart_1_1simple__state_1_1context__ptr__impl__my__context}{context\+\_\+ptr\+\_\+impl\+\_\+my\+\_\+context}}\hspace{0.3cm}{\ttfamily [friend]}}
+
+\mbox{\Hypertarget{classboost_1_1statechart_1_1simple__state_aec4b9ea7baa3f4fbfd4d31b299e27b6d}\label{classboost_1_1statechart_1_1simple__state_aec4b9ea7baa3f4fbfd4d31b299e27b6d}} 
+\index{boost\+::statechart\+::simple\+\_\+state@{boost\+::statechart\+::simple\+\_\+state}!context\+\_\+ptr\+\_\+impl\+\_\+other\+\_\+context@{context\+\_\+ptr\+\_\+impl\+\_\+other\+\_\+context}}
+\index{context\+\_\+ptr\+\_\+impl\+\_\+other\+\_\+context@{context\+\_\+ptr\+\_\+impl\+\_\+other\+\_\+context}!boost\+::statechart\+::simple\+\_\+state@{boost\+::statechart\+::simple\+\_\+state}}
+\subsubsection{\texorpdfstring{context\+\_\+ptr\+\_\+impl\+\_\+other\+\_\+context}{context\_ptr\_impl\_other\_context}}
+{\footnotesize\ttfamily template$<$class Most\+Derived, class Context, class Inner\+Initial = mpl\+::list$<$$>$, history\+\_\+mode history\+Mode = has\+\_\+no\+\_\+history$>$ \\
+friend struct \mbox{\hyperlink{structboost_1_1statechart_1_1simple__state_1_1context__ptr__impl__other__context}{context\+\_\+ptr\+\_\+impl\+\_\+other\+\_\+context}}\hspace{0.3cm}{\ttfamily [friend]}}
+
+\mbox{\Hypertarget{classboost_1_1statechart_1_1simple__state_a1fc1bf56babd5032f5f0a01e2431cca5}\label{classboost_1_1statechart_1_1simple__state_a1fc1bf56babd5032f5f0a01e2431cca5}} 
+\index{boost\+::statechart\+::simple\+\_\+state@{boost\+::statechart\+::simple\+\_\+state}!local\+\_\+react\+\_\+impl\+\_\+non\+\_\+empty@{local\+\_\+react\+\_\+impl\+\_\+non\+\_\+empty}}
+\index{local\+\_\+react\+\_\+impl\+\_\+non\+\_\+empty@{local\+\_\+react\+\_\+impl\+\_\+non\+\_\+empty}!boost\+::statechart\+::simple\+\_\+state@{boost\+::statechart\+::simple\+\_\+state}}
+\subsubsection{\texorpdfstring{local\+\_\+react\+\_\+impl\+\_\+non\+\_\+empty}{local\_react\_impl\_non\_empty}}
+{\footnotesize\ttfamily template$<$class Most\+Derived, class Context, class Inner\+Initial = mpl\+::list$<$$>$, history\+\_\+mode history\+Mode = has\+\_\+no\+\_\+history$>$ \\
+friend struct \mbox{\hyperlink{structboost_1_1statechart_1_1simple__state_1_1local__react__impl__non__empty}{local\+\_\+react\+\_\+impl\+\_\+non\+\_\+empty}}\hspace{0.3cm}{\ttfamily [friend]}}
+
+\mbox{\Hypertarget{classboost_1_1statechart_1_1simple__state_a8bf4a8a4136a41ed8b67c3a4c809d4c9}\label{classboost_1_1statechart_1_1simple__state_a8bf4a8a4136a41ed8b67c3a4c809d4c9}} 
+\index{boost\+::statechart\+::simple\+\_\+state@{boost\+::statechart\+::simple\+\_\+state}!outer\+\_\+state\+\_\+ptr\+\_\+impl\+\_\+non\+\_\+outermost@{outer\+\_\+state\+\_\+ptr\+\_\+impl\+\_\+non\+\_\+outermost}}
+\index{outer\+\_\+state\+\_\+ptr\+\_\+impl\+\_\+non\+\_\+outermost@{outer\+\_\+state\+\_\+ptr\+\_\+impl\+\_\+non\+\_\+outermost}!boost\+::statechart\+::simple\+\_\+state@{boost\+::statechart\+::simple\+\_\+state}}
+\subsubsection{\texorpdfstring{outer\+\_\+state\+\_\+ptr\+\_\+impl\+\_\+non\+\_\+outermost}{outer\_state\_ptr\_impl\_non\_outermost}}
+{\footnotesize\ttfamily template$<$class Most\+Derived, class Context, class Inner\+Initial = mpl\+::list$<$$>$, history\+\_\+mode history\+Mode = has\+\_\+no\+\_\+history$>$ \\
+friend struct \mbox{\hyperlink{structboost_1_1statechart_1_1simple__state_1_1outer__state__ptr__impl__non__outermost}{outer\+\_\+state\+\_\+ptr\+\_\+impl\+\_\+non\+\_\+outermost}}\hspace{0.3cm}{\ttfamily [friend]}}
+
+
+
+\subsection{Member Data Documentation}
+\mbox{\Hypertarget{classboost_1_1statechart_1_1simple__state_ab0a0e8b8a6d851acec12c3f1a8515ca7}\label{classboost_1_1statechart_1_1simple__state_ab0a0e8b8a6d851acec12c3f1a8515ca7}} 
+\index{boost\+::statechart\+::simple\+\_\+state@{boost\+::statechart\+::simple\+\_\+state}!p\+Context\+\_\+@{p\+Context\+\_\+}}
+\index{p\+Context\+\_\+@{p\+Context\+\_\+}!boost\+::statechart\+::simple\+\_\+state@{boost\+::statechart\+::simple\+\_\+state}}
+\subsubsection{\texorpdfstring{p\+Context\+\_\+}{pContext\_}}
+{\footnotesize\ttfamily template$<$class Most\+Derived, class Context, class Inner\+Initial = mpl\+::list$<$$>$, history\+\_\+mode history\+Mode = has\+\_\+no\+\_\+history$>$ \\
+\mbox{\hyperlink{classboost_1_1statechart_1_1simple__state_ac7e361322d53b3f57976ff23056b59e7}{context\+\_\+ptr\+\_\+type}} \mbox{\hyperlink{classboost_1_1statechart_1_1simple__state}{boost\+::statechart\+::simple\+\_\+state}}$<$ Most\+Derived, Context, Inner\+Initial, history\+Mode $>$\+::p\+Context\+\_\+\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+include/boost/statechart/\mbox{\hyperlink{simple__state_8hpp}{simple\+\_\+state.\+hpp}}\end{DoxyCompactItemize}

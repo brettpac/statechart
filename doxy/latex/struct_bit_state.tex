@@ -1,0 +1,98 @@
+\hypertarget{struct_bit_state}{}\section{Bit\+State$<$ State\+No, No\+Of\+Bits, First\+Transition\+Bit $>$ Struct Template Reference}
+\label{struct_bit_state}\index{Bit\+State$<$ State\+No, No\+Of\+Bits, First\+Transition\+Bit $>$@{Bit\+State$<$ State\+No, No\+Of\+Bits, First\+Transition\+Bit $>$}}
+
+
+Inheritance diagram for Bit\+State$<$ State\+No, No\+Of\+Bits, First\+Transition\+Bit $>$\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{struct_bit_state__inherit__graph}
+\end{center}
+\end{figure}
+
+
+Collaboration diagram for Bit\+State$<$ State\+No, No\+Of\+Bits, First\+Transition\+Bit $>$\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{struct_bit_state__coll__graph}
+\end{center}
+\end{figure}
+\subsection*{Public Types}
+\begin{DoxyCompactItemize}
+\item 
+typedef mpl\+::copy$<$ typename mpl\+::transform\+\_\+view$<$ mpl\+::range\+\_\+c$<$ unsigned int, 0, \mbox{\hyperlink{_bit_machine_8cpp_ac894b74325002b036bfc596bd5434f89}{N\+O\+\_\+\+O\+F\+\_\+\+B\+I\+TS}} $>$, \mbox{\hyperlink{struct_flip_transition}{Flip\+Transition}}$<$ mpl\+::placeholders\+::\+\_\+, State\+No $>$ $>$\+::type, mpl\+::front\+\_\+inserter$<$ mpl\+::list$<$$>$ $>$ $>$\+::type \mbox{\hyperlink{struct_bit_state_a59bd125c7d205880081926b1a6d7689a}{reactions}}
+\item 
+typedef mpl\+::copy$<$ typename mpl\+::transform\+\_\+view$<$ mpl\+::range\+\_\+c$<$ unsigned int, 0, No\+Of\+Bits\+::value $>$, \mbox{\hyperlink{struct_flip_transition}{Flip\+Transition}}$<$ mpl\+::placeholders\+::\+\_\+, State\+No, No\+Of\+Bits, First\+Transition\+Bit $>$ $>$\+::type, mpl\+::front\+\_\+inserter$<$ mpl\+::list$<$$>$ $>$ $>$\+::type \mbox{\hyperlink{struct_bit_state_a409080fdeaba7f3ec0b63f44bc683d92}{reactions}}
+\end{DoxyCompactItemize}
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+void $\ast$ \mbox{\hyperlink{struct_bit_state_aa7543c5a18aa027866b17e5fe389a413}{operator new}} (std\+::size\+\_\+t size)
+\item 
+void \mbox{\hyperlink{struct_bit_state_ac0109e89bbccfb21a812a92b239ebac2}{operator delete}} (void $\ast$p, std\+::size\+\_\+t size)
+\item 
+virtual void \mbox{\hyperlink{struct_bit_state_a3f26c599cf4a72a263d4fc2c2f7e693d}{Display}} () const
+\end{DoxyCompactItemize}
+\subsection*{Additional Inherited Members}
+
+
+\subsection{Member Typedef Documentation}
+\mbox{\Hypertarget{struct_bit_state_a59bd125c7d205880081926b1a6d7689a}\label{struct_bit_state_a59bd125c7d205880081926b1a6d7689a}} 
+\index{Bit\+State@{Bit\+State}!reactions@{reactions}}
+\index{reactions@{reactions}!Bit\+State@{Bit\+State}}
+\subsubsection{\texorpdfstring{reactions}{reactions}\hspace{0.1cm}{\footnotesize\ttfamily [1/2]}}
+{\footnotesize\ttfamily template$<$class State\+No , class No\+Of\+Bits , class First\+Transition\+Bit $>$ \\
+typedef mpl\+::copy$<$ typename mpl\+::transform\+\_\+view$<$ mpl\+::range\+\_\+c$<$ unsigned int, 0, \mbox{\hyperlink{_bit_machine_8cpp_ac894b74325002b036bfc596bd5434f89}{N\+O\+\_\+\+O\+F\+\_\+\+B\+I\+TS}} $>$, \mbox{\hyperlink{struct_flip_transition}{Flip\+Transition}}$<$ mpl\+::placeholders\+::\+\_\+, State\+No $>$ $>$\+::type, mpl\+::front\+\_\+inserter$<$ mpl\+::list$<$$>$ $>$ $>$\+::type \mbox{\hyperlink{struct_bit_state}{Bit\+State}}$<$ State\+No, No\+Of\+Bits, First\+Transition\+Bit $>$\+::\mbox{\hyperlink{struct_bit_state_a59bd125c7d205880081926b1a6d7689a}{reactions}}}
+
+\mbox{\Hypertarget{struct_bit_state_a409080fdeaba7f3ec0b63f44bc683d92}\label{struct_bit_state_a409080fdeaba7f3ec0b63f44bc683d92}} 
+\index{Bit\+State@{Bit\+State}!reactions@{reactions}}
+\index{reactions@{reactions}!Bit\+State@{Bit\+State}}
+\subsubsection{\texorpdfstring{reactions}{reactions}\hspace{0.1cm}{\footnotesize\ttfamily [2/2]}}
+{\footnotesize\ttfamily template$<$class State\+No , class No\+Of\+Bits , class First\+Transition\+Bit $>$ \\
+typedef mpl\+::copy$<$ typename mpl\+::transform\+\_\+view$<$ mpl\+::range\+\_\+c$<$ unsigned int, 0, No\+Of\+Bits\+::value $>$, \mbox{\hyperlink{struct_flip_transition}{Flip\+Transition}}$<$ mpl\+::placeholders\+::\+\_\+, State\+No, No\+Of\+Bits, First\+Transition\+Bit $>$ $>$\+::type, mpl\+::front\+\_\+inserter$<$ mpl\+::list$<$$>$ $>$ $>$\+::type \mbox{\hyperlink{struct_bit_state}{Bit\+State}}$<$ State\+No, No\+Of\+Bits, First\+Transition\+Bit $>$\+::\mbox{\hyperlink{struct_bit_state_a59bd125c7d205880081926b1a6d7689a}{reactions}}}
+
+
+
+\subsection{Member Function Documentation}
+\mbox{\Hypertarget{struct_bit_state_a3f26c599cf4a72a263d4fc2c2f7e693d}\label{struct_bit_state_a3f26c599cf4a72a263d4fc2c2f7e693d}} 
+\index{Bit\+State@{Bit\+State}!Display@{Display}}
+\index{Display@{Display}!Bit\+State@{Bit\+State}}
+\subsubsection{\texorpdfstring{Display()}{Display()}}
+{\footnotesize\ttfamily template$<$class State\+No , class No\+Of\+Bits , class First\+Transition\+Bit $>$ \\
+virtual void \mbox{\hyperlink{struct_bit_state}{Bit\+State}}$<$ State\+No, No\+Of\+Bits, First\+Transition\+Bit $>$\+::Display (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [virtual]}}
+
+
+
+Implements \mbox{\hyperlink{struct_i_display_a661bdbd2f3b46f7e0d8f8211a212f184}{I\+Display}}.
+
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=274pt]{struct_bit_state_a3f26c599cf4a72a263d4fc2c2f7e693d_cgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{struct_bit_state_ac0109e89bbccfb21a812a92b239ebac2}\label{struct_bit_state_ac0109e89bbccfb21a812a92b239ebac2}} 
+\index{Bit\+State@{Bit\+State}!operator delete@{operator delete}}
+\index{operator delete@{operator delete}!Bit\+State@{Bit\+State}}
+\subsubsection{\texorpdfstring{operator delete()}{operator delete()}}
+{\footnotesize\ttfamily template$<$class State\+No , class No\+Of\+Bits , class First\+Transition\+Bit $>$ \\
+void \mbox{\hyperlink{struct_bit_state}{Bit\+State}}$<$ State\+No, No\+Of\+Bits, First\+Transition\+Bit $>$\+::operator delete (\begin{DoxyParamCaption}\item[{void $\ast$}]{p,  }\item[{std\+::size\+\_\+t}]{size }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+\mbox{\Hypertarget{struct_bit_state_aa7543c5a18aa027866b17e5fe389a413}\label{struct_bit_state_aa7543c5a18aa027866b17e5fe389a413}} 
+\index{Bit\+State@{Bit\+State}!operator new@{operator new}}
+\index{operator new@{operator new}!Bit\+State@{Bit\+State}}
+\subsubsection{\texorpdfstring{operator new()}{operator new()}}
+{\footnotesize\ttfamily template$<$class State\+No , class No\+Of\+Bits , class First\+Transition\+Bit $>$ \\
+void$\ast$ \mbox{\hyperlink{struct_bit_state}{Bit\+State}}$<$ State\+No, No\+Of\+Bits, First\+Transition\+Bit $>$\+::operator new (\begin{DoxyParamCaption}\item[{std\+::size\+\_\+t}]{size }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+The documentation for this struct was generated from the following files\+:\begin{DoxyCompactItemize}
+\item 
+example/\+Bit\+Machine/\mbox{\hyperlink{_bit_machine_8cpp}{Bit\+Machine.\+cpp}}\item 
+example/\+Performance/\mbox{\hyperlink{_performance_8cpp}{Performance.\+cpp}}\end{DoxyCompactItemize}

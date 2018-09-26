@@ -1,0 +1,5 @@
+<map id="event_base" name="event_base">
+<area shape="rect" id="node2" href="$classevent.html" title="{event\&lt; Derived \&gt;\n||# event()\l&#45; send()\l}" alt="" coords="5,160,128,252"/>
+<area shape="rect" id="node3" href="$classevent.html" title="{event\&lt; EvFlipBit \&gt;\n||# event()\l&#45; send()\l}" alt="" coords="152,160,283,252"/>
+<area shape="rect" id="node4" href="$struct_ev_flip_bit.html" title="{EvFlipBit\&lt; BitNo \&gt;\n||+ EvFlipBit()\l}" alt="" coords="151,300,283,377"/>
+</map>

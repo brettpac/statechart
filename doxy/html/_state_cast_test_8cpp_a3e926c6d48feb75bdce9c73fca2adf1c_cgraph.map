@@ -1,0 +1,7 @@
+<map id="test_main" name="test_main">
+<area shape="rect" id="node2" href="$struct_state_cast_test.html#a38608dc3d0e46414340f6333a0d16f5e" title="StateCastTest::AssertNot\lInState" alt="" coords="145,5,319,47"/>
+<area shape="rect" id="node3" href="$classboost_1_1statechart_1_1state__machine.html#a7165ce3d1120b98dde6e8d669e35aba9" title="boost::statechart::\lstate_machine::initiate" alt="" coords="155,71,309,112"/>
+<area shape="rect" id="node4" href="$struct_state_cast_test.html#a0ca69a96b446253bafc300eb491faef8" title="StateCastTest::AssertInState" alt="" coords="135,137,329,163"/>
+<area shape="rect" id="node5" href="$classboost_1_1statechart_1_1state__machine.html#a78598d4982f6b85e83358652eb1c3d6e" title="boost::statechart::\lstate_machine::process_event" alt="" coords="132,188,332,229"/>
+<area shape="rect" id="node6" href="$classboost_1_1statechart_1_1state__machine.html#a6abd7c38c09f87fa662c5aa5e8f6f3ff" title="boost::statechart::\lstate_machine::terminate" alt="" coords="147,253,317,295"/>
+</map>

@@ -1,0 +1,6 @@
+<map id="boost::statechart::state_machine::store_history_impl" name="boost::statechart::state_machine::store_history_impl">
+<area shape="rect" id="node2" href="$classboost_1_1statechart_1_1state__machine.html#a03faf369327ddc16441c8e69db08e861" title="boost::statechart::\lstate_machine\&lt; CustomReaction\lEventBaseTest, X1 \&gt;::clear\l_shallow_history" alt="" coords="197,5,415,76"/>
+<area shape="rect" id="node3" href="$classboost_1_1statechart_1_1state__machine.html#a5b60164ba8ab165421fad2ecbccad4e8" title="boost::statechart::\lstate_machine\&lt; CustomReaction\lEventBaseTest, X1 \&gt;::clear\l_deep_history" alt="" coords="197,100,415,171"/>
+<area shape="rect" id="node4" href="$classboost_1_1statechart_1_1state__machine.html#a3af3b88318ab1711324e1c4b37fa055c" title="boost::statechart::\lstate_machine\&lt; CustomReaction\lEventBaseTest, X1 \&gt;::store\l_shallow_history" alt="" coords="197,195,415,265"/>
+<area shape="rect" id="node5" href="$classboost_1_1statechart_1_1state__machine.html#a26b501c3b813c446d450aad3981dbfe3" title="boost::statechart::\lstate_machine\&lt; CustomReaction\lEventBaseTest, X1 \&gt;::store\l_deep_history" alt="" coords="197,289,415,360"/>
+</map>

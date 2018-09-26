@@ -1,0 +1,203 @@
+\hypertarget{struct_transition_test}{}\section{Transition\+Test$<$ Translator $>$ Struct Template Reference}
+\label{struct_transition_test}\index{Transition\+Test$<$ Translator $>$@{Transition\+Test$<$ Translator $>$}}
+
+
+Inheritance diagram for Transition\+Test$<$ Translator $>$\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=550pt]{struct_transition_test__inherit__graph}
+\end{center}
+\end{figure}
+
+
+Collaboration diagram for Transition\+Test$<$ Translator $>$\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=550pt]{struct_transition_test__coll__graph}
+\end{center}
+\end{figure}
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{struct_transition_test_afb3b0812fffeb0ecf9fd5de9f87e06ef}{Transition\+Test}} ()
+\item 
+\mbox{\hyperlink{struct_transition_test_a96b869f3eb379097b3178b5ed19478cc}{$\sim$\+Transition\+Test}} ()
+\item 
+void \mbox{\hyperlink{struct_transition_test_a7c6870a767b96b98129236a210a5ef46}{Compare\+To\+Expected\+Action\+Sequence}} (\mbox{\hyperlink{_transition_test_8cpp_a1d8ad65b218dadeb669673cad2ace650}{Action\+Array}} \&actions)
+\item 
+void \mbox{\hyperlink{struct_transition_test_a20530f674a63b2337ae22f939f02a5dc}{Clear\+Actual\+Sequence}} ()
+\item 
+void \mbox{\hyperlink{struct_transition_test_a75cec2df43a48dc581d59402eefd7fba}{Throw\+Action}} (\mbox{\hyperlink{_transition_test_8cpp_a15abe0c263cd39ad777035499160b924}{Action\+Ptr}} p\+Throw\+Action)
+\item 
+{\footnotesize template$<$class State $>$ }\\void \mbox{\hyperlink{struct_transition_test_acdaa9bae86b0d04bd600a1f15ddef321}{Actual\+Entry}} ()
+\item 
+{\footnotesize template$<$class State $>$ }\\void \mbox{\hyperlink{struct_transition_test_a274fb4369afe2847f7d1007b5d678382}{Actual\+Exit\+Function}} ()
+\item 
+{\footnotesize template$<$class State $>$ }\\void \mbox{\hyperlink{struct_transition_test_a3088a0f806fabd51691071dd45b00d7c}{Actual\+Destructor}} ()
+\item 
+{\footnotesize template$<$class Context , class Event $>$ }\\void \mbox{\hyperlink{struct_transition_test_a48a6fb92eaa75fcfdb1c4914ad322d03}{Actual\+Transition}} ()
+\item 
+void \mbox{\hyperlink{struct_transition_test_a571199fb1d7484cd8a9e575b9524e92f}{unconsumed\+\_\+event}} (const \mbox{\hyperlink{classboost_1_1statechart_1_1event__base}{sc\+::event\+\_\+base}} \&)
+\item 
+unsigned int \mbox{\hyperlink{struct_transition_test_ab8ad781cbebc6862d9032a11538d1f95}{Get\+Unconsumed\+Event\+Count}} () const
+\end{DoxyCompactItemize}
+\subsection*{Private Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+{\footnotesize template$<$Action\+Ptr p\+Action$>$ }\\void \mbox{\hyperlink{struct_transition_test_a8472d08be7c0daef4353e7d4b3f36a08}{Store\+Actual\+Action}} ()
+\end{DoxyCompactItemize}
+\subsection*{Private Attributes}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{_transition_test_8cpp_a15abe0c263cd39ad777035499160b924}{Action\+Ptr}} \mbox{\hyperlink{struct_transition_test_a6008df970497b77425b4b0f0a45bb2f6}{p\+Throw\+Action\+\_\+}}
+\item 
+\mbox{\hyperlink{_transition_test_8cpp_a3a9d02400db74004cfbb7c1777a1e17a}{Action\+Description\+Sequence}} \mbox{\hyperlink{struct_transition_test_a224815ec84366d59a1265a4dd87f9fbb}{actual\+Sequence\+\_\+}}
+\item 
+\mbox{\hyperlink{_transition_test_8cpp_a3a9d02400db74004cfbb7c1777a1e17a}{Action\+Description\+Sequence}} \mbox{\hyperlink{struct_transition_test_a7f392f4d108f5d692be49186b9d1c6e1}{expected\+Sequence\+\_\+}}
+\item 
+unsigned int \mbox{\hyperlink{struct_transition_test_a69a4adaab96ad9695f9023243cf66ecb}{unconsumed\+Event\+Count\+\_\+}}
+\end{DoxyCompactItemize}
+\subsection*{Additional Inherited Members}
+
+
+\subsection{Constructor \& Destructor Documentation}
+\mbox{\Hypertarget{struct_transition_test_afb3b0812fffeb0ecf9fd5de9f87e06ef}\label{struct_transition_test_afb3b0812fffeb0ecf9fd5de9f87e06ef}} 
+\index{Transition\+Test@{Transition\+Test}!Transition\+Test@{Transition\+Test}}
+\index{Transition\+Test@{Transition\+Test}!Transition\+Test@{Transition\+Test}}
+\subsubsection{\texorpdfstring{Transition\+Test()}{TransitionTest()}}
+{\footnotesize\ttfamily template$<$class Translator$>$ \\
+\mbox{\hyperlink{struct_transition_test}{Transition\+Test}}$<$ Translator $>$\+::\mbox{\hyperlink{struct_transition_test}{Transition\+Test}} (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+\mbox{\Hypertarget{struct_transition_test_a96b869f3eb379097b3178b5ed19478cc}\label{struct_transition_test_a96b869f3eb379097b3178b5ed19478cc}} 
+\index{Transition\+Test@{Transition\+Test}!````~Transition\+Test@{$\sim$\+Transition\+Test}}
+\index{````~Transition\+Test@{$\sim$\+Transition\+Test}!Transition\+Test@{Transition\+Test}}
+\subsubsection{\texorpdfstring{$\sim$\+Transition\+Test()}{~TransitionTest()}}
+{\footnotesize\ttfamily template$<$class Translator$>$ \\
+\mbox{\hyperlink{struct_transition_test}{Transition\+Test}}$<$ Translator $>$\+::$\sim$\mbox{\hyperlink{struct_transition_test}{Transition\+Test}} (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{struct_transition_test_a96b869f3eb379097b3178b5ed19478cc_cgraph}
+\end{center}
+\end{figure}
+
+
+\subsection{Member Function Documentation}
+\mbox{\Hypertarget{struct_transition_test_a3088a0f806fabd51691071dd45b00d7c}\label{struct_transition_test_a3088a0f806fabd51691071dd45b00d7c}} 
+\index{Transition\+Test@{Transition\+Test}!Actual\+Destructor@{Actual\+Destructor}}
+\index{Actual\+Destructor@{Actual\+Destructor}!Transition\+Test@{Transition\+Test}}
+\subsubsection{\texorpdfstring{Actual\+Destructor()}{ActualDestructor()}}
+{\footnotesize\ttfamily template$<$class Translator$>$ \\
+template$<$class State $>$ \\
+void \mbox{\hyperlink{struct_transition_test}{Transition\+Test}}$<$ Translator $>$\+::Actual\+Destructor (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+\mbox{\Hypertarget{struct_transition_test_acdaa9bae86b0d04bd600a1f15ddef321}\label{struct_transition_test_acdaa9bae86b0d04bd600a1f15ddef321}} 
+\index{Transition\+Test@{Transition\+Test}!Actual\+Entry@{Actual\+Entry}}
+\index{Actual\+Entry@{Actual\+Entry}!Transition\+Test@{Transition\+Test}}
+\subsubsection{\texorpdfstring{Actual\+Entry()}{ActualEntry()}}
+{\footnotesize\ttfamily template$<$class Translator$>$ \\
+template$<$class State $>$ \\
+void \mbox{\hyperlink{struct_transition_test}{Transition\+Test}}$<$ Translator $>$\+::Actual\+Entry (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+\mbox{\Hypertarget{struct_transition_test_a274fb4369afe2847f7d1007b5d678382}\label{struct_transition_test_a274fb4369afe2847f7d1007b5d678382}} 
+\index{Transition\+Test@{Transition\+Test}!Actual\+Exit\+Function@{Actual\+Exit\+Function}}
+\index{Actual\+Exit\+Function@{Actual\+Exit\+Function}!Transition\+Test@{Transition\+Test}}
+\subsubsection{\texorpdfstring{Actual\+Exit\+Function()}{ActualExitFunction()}}
+{\footnotesize\ttfamily template$<$class Translator$>$ \\
+template$<$class State $>$ \\
+void \mbox{\hyperlink{struct_transition_test}{Transition\+Test}}$<$ Translator $>$\+::Actual\+Exit\+Function (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+\mbox{\Hypertarget{struct_transition_test_a48a6fb92eaa75fcfdb1c4914ad322d03}\label{struct_transition_test_a48a6fb92eaa75fcfdb1c4914ad322d03}} 
+\index{Transition\+Test@{Transition\+Test}!Actual\+Transition@{Actual\+Transition}}
+\index{Actual\+Transition@{Actual\+Transition}!Transition\+Test@{Transition\+Test}}
+\subsubsection{\texorpdfstring{Actual\+Transition()}{ActualTransition()}}
+{\footnotesize\ttfamily template$<$class Translator$>$ \\
+template$<$class Context , class Event $>$ \\
+void \mbox{\hyperlink{struct_transition_test}{Transition\+Test}}$<$ Translator $>$\+::Actual\+Transition (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+\mbox{\Hypertarget{struct_transition_test_a20530f674a63b2337ae22f939f02a5dc}\label{struct_transition_test_a20530f674a63b2337ae22f939f02a5dc}} 
+\index{Transition\+Test@{Transition\+Test}!Clear\+Actual\+Sequence@{Clear\+Actual\+Sequence}}
+\index{Clear\+Actual\+Sequence@{Clear\+Actual\+Sequence}!Transition\+Test@{Transition\+Test}}
+\subsubsection{\texorpdfstring{Clear\+Actual\+Sequence()}{ClearActualSequence()}}
+{\footnotesize\ttfamily template$<$class Translator$>$ \\
+void \mbox{\hyperlink{struct_transition_test}{Transition\+Test}}$<$ Translator $>$\+::Clear\+Actual\+Sequence (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+\mbox{\Hypertarget{struct_transition_test_a7c6870a767b96b98129236a210a5ef46}\label{struct_transition_test_a7c6870a767b96b98129236a210a5ef46}} 
+\index{Transition\+Test@{Transition\+Test}!Compare\+To\+Expected\+Action\+Sequence@{Compare\+To\+Expected\+Action\+Sequence}}
+\index{Compare\+To\+Expected\+Action\+Sequence@{Compare\+To\+Expected\+Action\+Sequence}!Transition\+Test@{Transition\+Test}}
+\subsubsection{\texorpdfstring{Compare\+To\+Expected\+Action\+Sequence()}{CompareToExpectedActionSequence()}}
+{\footnotesize\ttfamily template$<$class Translator$>$ \\
+void \mbox{\hyperlink{struct_transition_test}{Transition\+Test}}$<$ Translator $>$\+::Compare\+To\+Expected\+Action\+Sequence (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{_transition_test_8cpp_a1d8ad65b218dadeb669673cad2ace650}{Action\+Array}} \&}]{actions }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+\mbox{\Hypertarget{struct_transition_test_ab8ad781cbebc6862d9032a11538d1f95}\label{struct_transition_test_ab8ad781cbebc6862d9032a11538d1f95}} 
+\index{Transition\+Test@{Transition\+Test}!Get\+Unconsumed\+Event\+Count@{Get\+Unconsumed\+Event\+Count}}
+\index{Get\+Unconsumed\+Event\+Count@{Get\+Unconsumed\+Event\+Count}!Transition\+Test@{Transition\+Test}}
+\subsubsection{\texorpdfstring{Get\+Unconsumed\+Event\+Count()}{GetUnconsumedEventCount()}}
+{\footnotesize\ttfamily template$<$class Translator$>$ \\
+unsigned int \mbox{\hyperlink{struct_transition_test}{Transition\+Test}}$<$ Translator $>$\+::Get\+Unconsumed\+Event\+Count (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const\hspace{0.3cm}{\ttfamily [inline]}}
+
+\mbox{\Hypertarget{struct_transition_test_a8472d08be7c0daef4353e7d4b3f36a08}\label{struct_transition_test_a8472d08be7c0daef4353e7d4b3f36a08}} 
+\index{Transition\+Test@{Transition\+Test}!Store\+Actual\+Action@{Store\+Actual\+Action}}
+\index{Store\+Actual\+Action@{Store\+Actual\+Action}!Transition\+Test@{Transition\+Test}}
+\subsubsection{\texorpdfstring{Store\+Actual\+Action()}{StoreActualAction()}}
+{\footnotesize\ttfamily template$<$class Translator$>$ \\
+template$<$Action\+Ptr p\+Action$>$ \\
+void \mbox{\hyperlink{struct_transition_test}{Transition\+Test}}$<$ Translator $>$\+::Store\+Actual\+Action (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [private]}}
+
+\mbox{\Hypertarget{struct_transition_test_a75cec2df43a48dc581d59402eefd7fba}\label{struct_transition_test_a75cec2df43a48dc581d59402eefd7fba}} 
+\index{Transition\+Test@{Transition\+Test}!Throw\+Action@{Throw\+Action}}
+\index{Throw\+Action@{Throw\+Action}!Transition\+Test@{Transition\+Test}}
+\subsubsection{\texorpdfstring{Throw\+Action()}{ThrowAction()}}
+{\footnotesize\ttfamily template$<$class Translator$>$ \\
+void \mbox{\hyperlink{struct_transition_test}{Transition\+Test}}$<$ Translator $>$\+::Throw\+Action (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{_transition_test_8cpp_a15abe0c263cd39ad777035499160b924}{Action\+Ptr}}}]{p\+Throw\+Action }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+\mbox{\Hypertarget{struct_transition_test_a571199fb1d7484cd8a9e575b9524e92f}\label{struct_transition_test_a571199fb1d7484cd8a9e575b9524e92f}} 
+\index{Transition\+Test@{Transition\+Test}!unconsumed\+\_\+event@{unconsumed\+\_\+event}}
+\index{unconsumed\+\_\+event@{unconsumed\+\_\+event}!Transition\+Test@{Transition\+Test}}
+\subsubsection{\texorpdfstring{unconsumed\+\_\+event()}{unconsumed\_event()}}
+{\footnotesize\ttfamily template$<$class Translator$>$ \\
+void \mbox{\hyperlink{struct_transition_test}{Transition\+Test}}$<$ Translator $>$\+::unconsumed\+\_\+event (\begin{DoxyParamCaption}\item[{const \mbox{\hyperlink{classboost_1_1statechart_1_1event__base}{sc\+::event\+\_\+base}} \&}]{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+\subsection{Member Data Documentation}
+\mbox{\Hypertarget{struct_transition_test_a224815ec84366d59a1265a4dd87f9fbb}\label{struct_transition_test_a224815ec84366d59a1265a4dd87f9fbb}} 
+\index{Transition\+Test@{Transition\+Test}!actual\+Sequence\+\_\+@{actual\+Sequence\+\_\+}}
+\index{actual\+Sequence\+\_\+@{actual\+Sequence\+\_\+}!Transition\+Test@{Transition\+Test}}
+\subsubsection{\texorpdfstring{actual\+Sequence\+\_\+}{actualSequence\_}}
+{\footnotesize\ttfamily template$<$class Translator$>$ \\
+\mbox{\hyperlink{_transition_test_8cpp_a3a9d02400db74004cfbb7c1777a1e17a}{Action\+Description\+Sequence}} \mbox{\hyperlink{struct_transition_test}{Transition\+Test}}$<$ Translator $>$\+::actual\+Sequence\+\_\+\hspace{0.3cm}{\ttfamily [private]}}
+
+\mbox{\Hypertarget{struct_transition_test_a7f392f4d108f5d692be49186b9d1c6e1}\label{struct_transition_test_a7f392f4d108f5d692be49186b9d1c6e1}} 
+\index{Transition\+Test@{Transition\+Test}!expected\+Sequence\+\_\+@{expected\+Sequence\+\_\+}}
+\index{expected\+Sequence\+\_\+@{expected\+Sequence\+\_\+}!Transition\+Test@{Transition\+Test}}
+\subsubsection{\texorpdfstring{expected\+Sequence\+\_\+}{expectedSequence\_}}
+{\footnotesize\ttfamily template$<$class Translator$>$ \\
+\mbox{\hyperlink{_transition_test_8cpp_a3a9d02400db74004cfbb7c1777a1e17a}{Action\+Description\+Sequence}} \mbox{\hyperlink{struct_transition_test}{Transition\+Test}}$<$ Translator $>$\+::expected\+Sequence\+\_\+\hspace{0.3cm}{\ttfamily [private]}}
+
+\mbox{\Hypertarget{struct_transition_test_a6008df970497b77425b4b0f0a45bb2f6}\label{struct_transition_test_a6008df970497b77425b4b0f0a45bb2f6}} 
+\index{Transition\+Test@{Transition\+Test}!p\+Throw\+Action\+\_\+@{p\+Throw\+Action\+\_\+}}
+\index{p\+Throw\+Action\+\_\+@{p\+Throw\+Action\+\_\+}!Transition\+Test@{Transition\+Test}}
+\subsubsection{\texorpdfstring{p\+Throw\+Action\+\_\+}{pThrowAction\_}}
+{\footnotesize\ttfamily template$<$class Translator$>$ \\
+\mbox{\hyperlink{_transition_test_8cpp_a15abe0c263cd39ad777035499160b924}{Action\+Ptr}} \mbox{\hyperlink{struct_transition_test}{Transition\+Test}}$<$ Translator $>$\+::p\+Throw\+Action\+\_\+\hspace{0.3cm}{\ttfamily [private]}}
+
+\mbox{\Hypertarget{struct_transition_test_a69a4adaab96ad9695f9023243cf66ecb}\label{struct_transition_test_a69a4adaab96ad9695f9023243cf66ecb}} 
+\index{Transition\+Test@{Transition\+Test}!unconsumed\+Event\+Count\+\_\+@{unconsumed\+Event\+Count\+\_\+}}
+\index{unconsumed\+Event\+Count\+\_\+@{unconsumed\+Event\+Count\+\_\+}!Transition\+Test@{Transition\+Test}}
+\subsubsection{\texorpdfstring{unconsumed\+Event\+Count\+\_\+}{unconsumedEventCount\_}}
+{\footnotesize\ttfamily template$<$class Translator$>$ \\
+unsigned int \mbox{\hyperlink{struct_transition_test}{Transition\+Test}}$<$ Translator $>$\+::unconsumed\+Event\+Count\+\_\+\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+The documentation for this struct was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+test/\mbox{\hyperlink{_transition_test_8cpp}{Transition\+Test.\+cpp}}\end{DoxyCompactItemize}

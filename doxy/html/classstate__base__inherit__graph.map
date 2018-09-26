@@ -1,0 +1,7 @@
+<map id="state_base" name="state_base">
+<area shape="rect" id="node2" href="$classstate.html" title="{state\&lt; Derived \&gt;\n|&#45; instance_\l|+ state()\l+ instance()\l}" alt="" coords="5,160,125,252"/>
+<area shape="rect" id="node3" href="$classstate.html" title="{state\&lt; Off \&gt;\n|&#45; instance_\l|+ state()\l+ instance()\l}" alt="" coords="149,160,243,252"/>
+<area shape="rect" id="node5" href="$classstate.html" title="{state\&lt; On \&gt;\n|&#45; instance_\l|+ state()\l+ instance()\l}" alt="" coords="302,160,394,252"/>
+<area shape="rect" id="node4" href="$struct_bit_machine_1_1_off.html" title="{BitMachine\&lt; NoOfBits,\l FirstTransitionBit \&gt;::Off\n||+ Off()\l+ react()\l}" alt="" coords="97,300,260,407"/>
+<area shape="rect" id="node6" href="$struct_bit_machine_1_1_on.html" title="{BitMachine\&lt; NoOfBits,\l FirstTransitionBit \&gt;::On\n||+ On()\l+ react()\l}" alt="" coords="284,300,447,407"/>
+</map>

@@ -1,0 +1,130 @@
+\hypertarget{simple__state_8hpp}{}\section{include/boost/statechart/simple\+\_\+state.hpp File Reference}
+\label{simple__state_8hpp}\index{include/boost/statechart/simple\+\_\+state.\+hpp@{include/boost/statechart/simple\+\_\+state.\+hpp}}
+{\ttfamily \#include $<$boost/statechart/event.\+hpp$>$}\newline
+{\ttfamily \#include $<$boost/statechart/detail/leaf\+\_\+state.\+hpp$>$}\newline
+{\ttfamily \#include $<$boost/statechart/detail/node\+\_\+state.\+hpp$>$}\newline
+{\ttfamily \#include $<$boost/statechart/detail/constructor.\+hpp$>$}\newline
+{\ttfamily \#include $<$boost/statechart/detail/memory.\+hpp$>$}\newline
+{\ttfamily \#include $<$boost/mpl/eval\+\_\+if.\+hpp$>$}\newline
+{\ttfamily \#include $<$boost/mpl/if.\+hpp$>$}\newline
+{\ttfamily \#include $<$boost/mpl/identity.\+hpp$>$}\newline
+{\ttfamily \#include $<$boost/mpl/is\+\_\+sequence.\+hpp$>$}\newline
+{\ttfamily \#include $<$boost/mpl/list.\+hpp$>$}\newline
+{\ttfamily \#include $<$boost/mpl/empty.\+hpp$>$}\newline
+{\ttfamily \#include $<$boost/mpl/size.\+hpp$>$}\newline
+{\ttfamily \#include $<$boost/mpl/front.\+hpp$>$}\newline
+{\ttfamily \#include $<$boost/mpl/at.\+hpp$>$}\newline
+{\ttfamily \#include $<$boost/mpl/find.\+hpp$>$}\newline
+{\ttfamily \#include $<$boost/mpl/find\+\_\+if.\+hpp$>$}\newline
+{\ttfamily \#include $<$boost/mpl/contains.\+hpp$>$}\newline
+{\ttfamily \#include $<$boost/mpl/distance.\+hpp$>$}\newline
+{\ttfamily \#include $<$boost/mpl/deref.\+hpp$>$}\newline
+{\ttfamily \#include $<$boost/mpl/pop\+\_\+front.\+hpp$>$}\newline
+{\ttfamily \#include $<$boost/mpl/push\+\_\+front.\+hpp$>$}\newline
+{\ttfamily \#include $<$boost/mpl/clear.\+hpp$>$}\newline
+{\ttfamily \#include $<$boost/mpl/placeholders.\+hpp$>$}\newline
+{\ttfamily \#include $<$boost/mpl/bool.\+hpp$>$}\newline
+{\ttfamily \#include $<$boost/mpl/integral\+\_\+c.\+hpp$>$}\newline
+{\ttfamily \#include $<$boost/mpl/less.\+hpp$>$}\newline
+{\ttfamily \#include $<$boost/mpl/equal\+\_\+to.\+hpp$>$}\newline
+{\ttfamily \#include $<$boost/mpl/not.\+hpp$>$}\newline
+{\ttfamily \#include $<$boost/mpl/or.\+hpp$>$}\newline
+{\ttfamily \#include $<$boost/mpl/plus.\+hpp$>$}\newline
+{\ttfamily \#include $<$boost/mpl/max\+\_\+element.\+hpp$>$}\newline
+{\ttfamily \#include $<$boost/mpl/greater.\+hpp$>$}\newline
+{\ttfamily \#include $<$boost/get\+\_\+pointer.\+hpp$>$}\newline
+{\ttfamily \#include $<$boost/intrusive\+\_\+ptr.\+hpp$>$}\newline
+{\ttfamily \#include $<$boost/assert.\+hpp$>$}\newline
+{\ttfamily \#include $<$boost/type\+\_\+traits/is\+\_\+base\+\_\+of.\+hpp$>$}\newline
+{\ttfamily \#include $<$boost/type\+\_\+traits/is\+\_\+same.\+hpp$>$}\newline
+{\ttfamily \#include $<$boost/static\+\_\+assert.\+hpp$>$}\newline
+{\ttfamily \#include $<$boost/polymorphic\+\_\+cast.\+hpp$>$}\newline
+{\ttfamily \#include $<$cstddef$>$}\newline
+Include dependency graph for simple\+\_\+state.\+hpp\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{simple__state_8hpp__incl}
+\end{center}
+\end{figure}
+This graph shows which files directly or indirectly include this file\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{simple__state_8hpp__dep__incl}
+\end{center}
+\end{figure}
+\subsection*{Classes}
+\begin{DoxyCompactItemize}
+\item 
+struct \mbox{\hyperlink{structboost_1_1statechart_1_1detail_1_1make__list}{boost\+::statechart\+::detail\+::make\+\_\+list$<$ T $>$}}
+\item 
+struct \mbox{\hyperlink{structboost_1_1statechart_1_1detail_1_1simple__state__base__type}{boost\+::statechart\+::detail\+::simple\+\_\+state\+\_\+base\+\_\+type$<$ Most\+Derived, Context, Inner\+Initial $>$}}
+\item 
+struct \mbox{\hyperlink{structboost_1_1statechart_1_1detail_1_1no__transition__function}{boost\+::statechart\+::detail\+::no\+\_\+transition\+\_\+function}}
+\item 
+class \mbox{\hyperlink{classboost_1_1statechart_1_1detail_1_1transition__function}{boost\+::statechart\+::detail\+::transition\+\_\+function$<$ Transition\+Context, Event $>$}}
+\item 
+struct \mbox{\hyperlink{structboost_1_1statechart_1_1detail_1_1deep__history__storer}{boost\+::statechart\+::detail\+::deep\+\_\+history\+\_\+storer$<$ context\+Has\+Inherited\+Deep\+History, context\+Has\+Deep\+History $>$}}
+\item 
+struct \mbox{\hyperlink{structboost_1_1statechart_1_1detail_1_1deep__history__storer_3_01true_00_01false_01_4}{boost\+::statechart\+::detail\+::deep\+\_\+history\+\_\+storer$<$ true, false $>$}}
+\item 
+struct \mbox{\hyperlink{structboost_1_1statechart_1_1detail_1_1deep__history__storer_3_01true_00_01true_01_4}{boost\+::statechart\+::detail\+::deep\+\_\+history\+\_\+storer$<$ true, true $>$}}
+\item 
+class \mbox{\hyperlink{classboost_1_1statechart_1_1simple__state}{boost\+::statechart\+::simple\+\_\+state$<$ Most\+Derived, Context, Inner\+Initial, history\+Mode $>$}}
+\item 
+struct \mbox{\hyperlink{structboost_1_1statechart_1_1simple__state_1_1orthogonal}{boost\+::statechart\+::simple\+\_\+state$<$ Most\+Derived, Context, Inner\+Initial, history\+Mode $>$\+::orthogonal$<$ inner\+Orthogonal\+Position $>$}}
+\item 
+struct \mbox{\hyperlink{structboost_1_1statechart_1_1simple__state_1_1context__ptr__impl__other__context}{boost\+::statechart\+::simple\+\_\+state$<$ Most\+Derived, Context, Inner\+Initial, history\+Mode $>$\+::context\+\_\+ptr\+\_\+impl\+\_\+other\+\_\+context}}
+\item 
+struct \mbox{\hyperlink{structboost_1_1statechart_1_1simple__state_1_1context__ptr__impl__my__context}{boost\+::statechart\+::simple\+\_\+state$<$ Most\+Derived, Context, Inner\+Initial, history\+Mode $>$\+::context\+\_\+ptr\+\_\+impl\+\_\+my\+\_\+context}}
+\item 
+struct \mbox{\hyperlink{structboost_1_1statechart_1_1simple__state_1_1context__impl__other__context}{boost\+::statechart\+::simple\+\_\+state$<$ Most\+Derived, Context, Inner\+Initial, history\+Mode $>$\+::context\+\_\+impl\+\_\+other\+\_\+context}}
+\item 
+struct \mbox{\hyperlink{structboost_1_1statechart_1_1simple__state_1_1context__impl__this__context}{boost\+::statechart\+::simple\+\_\+state$<$ Most\+Derived, Context, Inner\+Initial, history\+Mode $>$\+::context\+\_\+impl\+\_\+this\+\_\+context}}
+\item 
+struct \mbox{\hyperlink{structboost_1_1statechart_1_1simple__state_1_1local__react__impl__non__empty}{boost\+::statechart\+::simple\+\_\+state$<$ Most\+Derived, Context, Inner\+Initial, history\+Mode $>$\+::local\+\_\+react\+\_\+impl\+\_\+non\+\_\+empty}}
+\item 
+struct \mbox{\hyperlink{structboost_1_1statechart_1_1simple__state_1_1local__react__impl__empty}{boost\+::statechart\+::simple\+\_\+state$<$ Most\+Derived, Context, Inner\+Initial, history\+Mode $>$\+::local\+\_\+react\+\_\+impl\+\_\+empty}}
+\item 
+struct \mbox{\hyperlink{structboost_1_1statechart_1_1simple__state_1_1outer__state__ptr__impl__non__outermost}{boost\+::statechart\+::simple\+\_\+state$<$ Most\+Derived, Context, Inner\+Initial, history\+Mode $>$\+::outer\+\_\+state\+\_\+ptr\+\_\+impl\+\_\+non\+\_\+outermost}}
+\item 
+struct \mbox{\hyperlink{structboost_1_1statechart_1_1simple__state_1_1outer__state__ptr__impl__outermost}{boost\+::statechart\+::simple\+\_\+state$<$ Most\+Derived, Context, Inner\+Initial, history\+Mode $>$\+::outer\+\_\+state\+\_\+ptr\+\_\+impl\+\_\+outermost}}
+\item 
+struct \mbox{\hyperlink{structboost_1_1statechart_1_1simple__state_1_1deep__construct__inner__impl__non__empty}{boost\+::statechart\+::simple\+\_\+state$<$ Most\+Derived, Context, Inner\+Initial, history\+Mode $>$\+::deep\+\_\+construct\+\_\+inner\+\_\+impl\+\_\+non\+\_\+empty}}
+\item 
+struct \mbox{\hyperlink{structboost_1_1statechart_1_1simple__state_1_1deep__construct__inner__impl__empty}{boost\+::statechart\+::simple\+\_\+state$<$ Most\+Derived, Context, Inner\+Initial, history\+Mode $>$\+::deep\+\_\+construct\+\_\+inner\+\_\+impl\+\_\+empty}}
+\item 
+struct \mbox{\hyperlink{structboost_1_1statechart_1_1simple__state_1_1check__store__shallow__history__impl__no}{boost\+::statechart\+::simple\+\_\+state$<$ Most\+Derived, Context, Inner\+Initial, history\+Mode $>$\+::check\+\_\+store\+\_\+shallow\+\_\+history\+\_\+impl\+\_\+no}}
+\item 
+struct \mbox{\hyperlink{structboost_1_1statechart_1_1simple__state_1_1check__store__shallow__history__impl__yes}{boost\+::statechart\+::simple\+\_\+state$<$ Most\+Derived, Context, Inner\+Initial, history\+Mode $>$\+::check\+\_\+store\+\_\+shallow\+\_\+history\+\_\+impl\+\_\+yes}}
+\item 
+struct \mbox{\hyperlink{structboost_1_1statechart_1_1simple__state_1_1check__store__deep__history__impl__no}{boost\+::statechart\+::simple\+\_\+state$<$ Most\+Derived, Context, Inner\+Initial, history\+Mode $>$\+::check\+\_\+store\+\_\+deep\+\_\+history\+\_\+impl\+\_\+no}}
+\item 
+struct \mbox{\hyperlink{structboost_1_1statechart_1_1simple__state_1_1check__store__deep__history__impl__yes}{boost\+::statechart\+::simple\+\_\+state$<$ Most\+Derived, Context, Inner\+Initial, history\+Mode $>$\+::check\+\_\+store\+\_\+deep\+\_\+history\+\_\+impl\+\_\+yes}}
+\end{DoxyCompactItemize}
+\subsection*{Namespaces}
+\begin{DoxyCompactItemize}
+\item 
+ \mbox{\hyperlink{namespaceboost}{boost}}
+\item 
+ \mbox{\hyperlink{namespaceboost_1_1statechart}{boost\+::statechart}}
+\item 
+ \mbox{\hyperlink{namespaceboost_1_1statechart_1_1detail}{boost\+::statechart\+::detail}}
+\end{DoxyCompactItemize}
+\subsection*{Enumerations}
+\begin{DoxyCompactItemize}
+\item 
+enum \mbox{\hyperlink{namespaceboost_1_1statechart_a9c4ec64d7a0422b8b9c97b489f731372}{boost\+::statechart\+::history\+\_\+mode}} \{ \mbox{\hyperlink{namespaceboost_1_1statechart_a9c4ec64d7a0422b8b9c97b489f731372a0a83ee30095cf16e41ec634de52ad636}{boost\+::statechart\+::has\+\_\+no\+\_\+history}}, 
+\mbox{\hyperlink{namespaceboost_1_1statechart_a9c4ec64d7a0422b8b9c97b489f731372a91f197dd8c8935ec1a9328dfc5f90b43}{boost\+::statechart\+::has\+\_\+shallow\+\_\+history}}, 
+\mbox{\hyperlink{namespaceboost_1_1statechart_a9c4ec64d7a0422b8b9c97b489f731372aac03603fa90405ad5de45cc858477c7d}{boost\+::statechart\+::has\+\_\+deep\+\_\+history}}, 
+\mbox{\hyperlink{namespaceboost_1_1statechart_a9c4ec64d7a0422b8b9c97b489f731372ab8908e987c54cf2d9ef42a5c7298d159}{boost\+::statechart\+::has\+\_\+full\+\_\+history}}
+ \}
+\end{DoxyCompactItemize}
+\subsection*{Functions}
+\begin{DoxyCompactItemize}
+\item 
+{\footnotesize template$<$class Most\+Derived , class Context , class Inner\+Initial , history\+\_\+mode history\+Mode$>$ }\\void \mbox{\hyperlink{namespaceboost_1_1statechart_a16a84edc3e19176233fbdf977c1aa7ec}{boost\+::statechart\+::intrusive\+\_\+ptr\+\_\+release}} (const \+::\mbox{\hyperlink{classboost_1_1statechart_1_1simple__state}{boost\+::statechart\+::simple\+\_\+state}}$<$ Most\+Derived, Context, Inner\+Initial, history\+Mode $>$ $\ast$p\+Base)
+\end{DoxyCompactItemize}

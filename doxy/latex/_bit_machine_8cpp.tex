@@ -1,0 +1,194 @@
+\hypertarget{_bit_machine_8cpp}{}\section{example/\+Bit\+Machine/\+Bit\+Machine.cpp File Reference}
+\label{_bit_machine_8cpp}\index{example/\+Bit\+Machine/\+Bit\+Machine.\+cpp@{example/\+Bit\+Machine/\+Bit\+Machine.\+cpp}}
+{\ttfamily \#include \char`\"{}Unique\+Object.\+hpp\char`\"{}}\newline
+{\ttfamily \#include $<$boost/statechart/event.\+hpp$>$}\newline
+{\ttfamily \#include $<$boost/statechart/simple\+\_\+state.\+hpp$>$}\newline
+{\ttfamily \#include $<$boost/statechart/state\+\_\+machine.\+hpp$>$}\newline
+{\ttfamily \#include $<$boost/statechart/transition.\+hpp$>$}\newline
+{\ttfamily \#include $<$boost/mpl/list.\+hpp$>$}\newline
+{\ttfamily \#include $<$boost/mpl/front\+\_\+inserter.\+hpp$>$}\newline
+{\ttfamily \#include $<$boost/mpl/transform\+\_\+view.\+hpp$>$}\newline
+{\ttfamily \#include $<$boost/mpl/copy.\+hpp$>$}\newline
+{\ttfamily \#include $<$boost/mpl/range\+\_\+c.\+hpp$>$}\newline
+{\ttfamily \#include $<$boost/mpl/integral\+\_\+c.\+hpp$>$}\newline
+{\ttfamily \#include $<$boost/mpl/shift\+\_\+left.\+hpp$>$}\newline
+{\ttfamily \#include $<$boost/mpl/bitxor.\+hpp$>$}\newline
+{\ttfamily \#include $<$boost/mpl/for\+\_\+each.\+hpp$>$}\newline
+{\ttfamily \#include $<$boost/mpl/placeholders.\+hpp$>$}\newline
+{\ttfamily \#include $<$boost/mpl/aux\+\_\+/lambda\+\_\+support.\+hpp$>$}\newline
+{\ttfamily \#include $<$boost/config.\+hpp$>$}\newline
+{\ttfamily \#include $<$boost/intrusive\+\_\+ptr.\+hpp$>$}\newline
+{\ttfamily \#include $<$iostream$>$}\newline
+{\ttfamily \#include $<$iomanip$>$}\newline
+{\ttfamily \#include $<$cstddef$>$}\newline
+Include dependency graph for Bit\+Machine.\+cpp\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{_bit_machine_8cpp__incl}
+\end{center}
+\end{figure}
+\subsection*{Classes}
+\begin{DoxyCompactItemize}
+\item 
+struct \mbox{\hyperlink{struct_i_display}{I\+Display}}
+\item 
+struct \mbox{\hyperlink{struct_ev_flip_bit}{Ev\+Flip\+Bit$<$ Bit\+No $>$}}
+\item 
+struct \mbox{\hyperlink{struct_bit_state}{Bit\+State$<$ State\+No, No\+Of\+Bits, First\+Transition\+Bit $>$}}
+\item 
+struct \mbox{\hyperlink{struct_bit_machine}{Bit\+Machine$<$ No\+Of\+Bits, First\+Transition\+Bit $>$}}
+\item 
+struct \mbox{\hyperlink{struct_flip_transition}{Flip\+Transition$<$ Bit\+No, State\+No $>$}}
+\item 
+struct \mbox{\hyperlink{struct_bit_state}{Bit\+State$<$ State\+No, No\+Of\+Bits, First\+Transition\+Bit $>$}}
+\item 
+struct \mbox{\hyperlink{struct_event_inserter}{Event\+Inserter}}
+\end{DoxyCompactItemize}
+\subsection*{Macros}
+\begin{DoxyCompactItemize}
+\item 
+\#define \mbox{\hyperlink{_bit_machine_8cpp_ac894b74325002b036bfc596bd5434f89}{N\+O\+\_\+\+O\+F\+\_\+\+B\+I\+TS}}~3
+\end{DoxyCompactItemize}
+\subsection*{Functions}
+\begin{DoxyCompactItemize}
+\item 
+void \mbox{\hyperlink{_bit_machine_8cpp_adc3e9ab1b98959f4dd1a7e5b9fb0bdfc}{Display\+Bits}} (unsigned int number)
+\item 
+void \mbox{\hyperlink{_bit_machine_8cpp_ab820fc091549344b178f0242549330e0}{Display\+Machine\+State}} (const \mbox{\hyperlink{struct_bit_machine}{Bit\+Machine}} \&bit\+Machine)
+\item 
+void \mbox{\hyperlink{_bit_machine_8cpp_a606e40495a451ed9006a4d14258a4188}{Fill\+Event\+Array}} ()
+\item 
+void \mbox{\hyperlink{_bit_machine_8cpp_a04a54a80894f10144744713e77686b35}{Visit\+All\+States}} (\mbox{\hyperlink{struct_bit_machine}{Bit\+Machine}} \&bit\+Machine, unsigned int msb)
+\item 
+char \mbox{\hyperlink{_bit_machine_8cpp_a2d42937c3f3d49c8958ce119e6b745fd}{Get\+Key}} ()
+\item 
+int \mbox{\hyperlink{_bit_machine_8cpp_ae66f6b31b5ad750f1fe042a706a4e3d4}{main}} ()
+\end{DoxyCompactItemize}
+\subsection*{Variables}
+\begin{DoxyCompactItemize}
+\item 
+boost\+::intrusive\+\_\+ptr$<$ const \mbox{\hyperlink{classboost_1_1statechart_1_1event__base}{sc\+::event\+\_\+base}} $>$ \mbox{\hyperlink{_bit_machine_8cpp_a39f8e876d4ea9f7116eae136eaadd943}{p\+Flip\+Bit\+Events}} \mbox{[}\mbox{\hyperlink{_bit_machine_8cpp_ac894b74325002b036bfc596bd5434f89}{N\+O\+\_\+\+O\+F\+\_\+\+B\+I\+TS}}\mbox{]}
+\end{DoxyCompactItemize}
+
+
+\subsection{Macro Definition Documentation}
+\mbox{\Hypertarget{_bit_machine_8cpp_ac894b74325002b036bfc596bd5434f89}\label{_bit_machine_8cpp_ac894b74325002b036bfc596bd5434f89}} 
+\index{Bit\+Machine.\+cpp@{Bit\+Machine.\+cpp}!N\+O\+\_\+\+O\+F\+\_\+\+B\+I\+TS@{N\+O\+\_\+\+O\+F\+\_\+\+B\+I\+TS}}
+\index{N\+O\+\_\+\+O\+F\+\_\+\+B\+I\+TS@{N\+O\+\_\+\+O\+F\+\_\+\+B\+I\+TS}!Bit\+Machine.\+cpp@{Bit\+Machine.\+cpp}}
+\subsubsection{\texorpdfstring{N\+O\+\_\+\+O\+F\+\_\+\+B\+I\+TS}{NO\_OF\_BITS}}
+{\footnotesize\ttfamily \#define N\+O\+\_\+\+O\+F\+\_\+\+B\+I\+TS~3}
+
+
+
+\subsection{Function Documentation}
+\mbox{\Hypertarget{_bit_machine_8cpp_adc3e9ab1b98959f4dd1a7e5b9fb0bdfc}\label{_bit_machine_8cpp_adc3e9ab1b98959f4dd1a7e5b9fb0bdfc}} 
+\index{Bit\+Machine.\+cpp@{Bit\+Machine.\+cpp}!Display\+Bits@{Display\+Bits}}
+\index{Display\+Bits@{Display\+Bits}!Bit\+Machine.\+cpp@{Bit\+Machine.\+cpp}}
+\subsubsection{\texorpdfstring{Display\+Bits()}{DisplayBits()}}
+{\footnotesize\ttfamily void Display\+Bits (\begin{DoxyParamCaption}\item[{unsigned int}]{number }\end{DoxyParamCaption})}
+
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=274pt]{_bit_machine_8cpp_adc3e9ab1b98959f4dd1a7e5b9fb0bdfc_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{_bit_machine_8cpp_ab820fc091549344b178f0242549330e0}\label{_bit_machine_8cpp_ab820fc091549344b178f0242549330e0}} 
+\index{Bit\+Machine.\+cpp@{Bit\+Machine.\+cpp}!Display\+Machine\+State@{Display\+Machine\+State}}
+\index{Display\+Machine\+State@{Display\+Machine\+State}!Bit\+Machine.\+cpp@{Bit\+Machine.\+cpp}}
+\subsubsection{\texorpdfstring{Display\+Machine\+State()}{DisplayMachineState()}}
+{\footnotesize\ttfamily void Display\+Machine\+State (\begin{DoxyParamCaption}\item[{const \mbox{\hyperlink{struct_bit_machine}{Bit\+Machine}} \&}]{bit\+Machine }\end{DoxyParamCaption})}
+
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{_bit_machine_8cpp_ab820fc091549344b178f0242549330e0_cgraph}
+\end{center}
+\end{figure}
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{_bit_machine_8cpp_ab820fc091549344b178f0242549330e0_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{_bit_machine_8cpp_a606e40495a451ed9006a4d14258a4188}\label{_bit_machine_8cpp_a606e40495a451ed9006a4d14258a4188}} 
+\index{Bit\+Machine.\+cpp@{Bit\+Machine.\+cpp}!Fill\+Event\+Array@{Fill\+Event\+Array}}
+\index{Fill\+Event\+Array@{Fill\+Event\+Array}!Bit\+Machine.\+cpp@{Bit\+Machine.\+cpp}}
+\subsubsection{\texorpdfstring{Fill\+Event\+Array()}{FillEventArray()}}
+{\footnotesize\ttfamily void Fill\+Event\+Array (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=232pt]{_bit_machine_8cpp_a606e40495a451ed9006a4d14258a4188_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{_bit_machine_8cpp_a2d42937c3f3d49c8958ce119e6b745fd}\label{_bit_machine_8cpp_a2d42937c3f3d49c8958ce119e6b745fd}} 
+\index{Bit\+Machine.\+cpp@{Bit\+Machine.\+cpp}!Get\+Key@{Get\+Key}}
+\index{Get\+Key@{Get\+Key}!Bit\+Machine.\+cpp@{Bit\+Machine.\+cpp}}
+\subsubsection{\texorpdfstring{Get\+Key()}{GetKey()}}
+{\footnotesize\ttfamily char Get\+Key (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=204pt]{_bit_machine_8cpp_a2d42937c3f3d49c8958ce119e6b745fd_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{_bit_machine_8cpp_ae66f6b31b5ad750f1fe042a706a4e3d4}\label{_bit_machine_8cpp_ae66f6b31b5ad750f1fe042a706a4e3d4}} 
+\index{Bit\+Machine.\+cpp@{Bit\+Machine.\+cpp}!main@{main}}
+\index{main@{main}!Bit\+Machine.\+cpp@{Bit\+Machine.\+cpp}}
+\subsubsection{\texorpdfstring{main()}{main()}}
+{\footnotesize\ttfamily int main (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{_bit_machine_8cpp_ae66f6b31b5ad750f1fe042a706a4e3d4_cgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{_bit_machine_8cpp_a04a54a80894f10144744713e77686b35}\label{_bit_machine_8cpp_a04a54a80894f10144744713e77686b35}} 
+\index{Bit\+Machine.\+cpp@{Bit\+Machine.\+cpp}!Visit\+All\+States@{Visit\+All\+States}}
+\index{Visit\+All\+States@{Visit\+All\+States}!Bit\+Machine.\+cpp@{Bit\+Machine.\+cpp}}
+\subsubsection{\texorpdfstring{Visit\+All\+States()}{VisitAllStates()}}
+{\footnotesize\ttfamily void Visit\+All\+States (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{struct_bit_machine}{Bit\+Machine}} \&}]{bit\+Machine,  }\item[{unsigned int}]{msb }\end{DoxyParamCaption})}
+
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{_bit_machine_8cpp_a04a54a80894f10144744713e77686b35_cgraph}
+\end{center}
+\end{figure}
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=230pt]{_bit_machine_8cpp_a04a54a80894f10144744713e77686b35_icgraph}
+\end{center}
+\end{figure}
+
+
+\subsection{Variable Documentation}
+\mbox{\Hypertarget{_bit_machine_8cpp_a39f8e876d4ea9f7116eae136eaadd943}\label{_bit_machine_8cpp_a39f8e876d4ea9f7116eae136eaadd943}} 
+\index{Bit\+Machine.\+cpp@{Bit\+Machine.\+cpp}!p\+Flip\+Bit\+Events@{p\+Flip\+Bit\+Events}}
+\index{p\+Flip\+Bit\+Events@{p\+Flip\+Bit\+Events}!Bit\+Machine.\+cpp@{Bit\+Machine.\+cpp}}
+\subsubsection{\texorpdfstring{p\+Flip\+Bit\+Events}{pFlipBitEvents}}
+{\footnotesize\ttfamily boost\+::intrusive\+\_\+ptr$<$ const \mbox{\hyperlink{classboost_1_1statechart_1_1event__base}{sc\+::event\+\_\+base}} $>$ p\+Flip\+Bit\+Events\mbox{[}\mbox{\hyperlink{_bit_machine_8cpp_ac894b74325002b036bfc596bd5434f89}{N\+O\+\_\+\+O\+F\+\_\+\+B\+I\+TS}}\mbox{]}}
+

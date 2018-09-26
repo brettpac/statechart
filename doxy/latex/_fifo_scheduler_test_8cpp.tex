@@ -1,0 +1,184 @@
+\hypertarget{_fifo_scheduler_test_8cpp}{}\section{test/\+Fifo\+Scheduler\+Test.cpp File Reference}
+\label{_fifo_scheduler_test_8cpp}\index{test/\+Fifo\+Scheduler\+Test.\+cpp@{test/\+Fifo\+Scheduler\+Test.\+cpp}}
+{\ttfamily \#include $<$boost/test/test\+\_\+tools.\+hpp$>$}\newline
+{\ttfamily \#include $<$boost/statechart/asynchronous\+\_\+state\+\_\+machine.\+hpp$>$}\newline
+{\ttfamily \#include $<$boost/statechart/fifo\+\_\+scheduler.\+hpp$>$}\newline
+{\ttfamily \#include $<$boost/statechart/event.\+hpp$>$}\newline
+{\ttfamily \#include $<$boost/statechart/simple\+\_\+state.\+hpp$>$}\newline
+{\ttfamily \#include $<$boost/statechart/termination.\+hpp$>$}\newline
+{\ttfamily \#include $<$boost/statechart/custom\+\_\+reaction.\+hpp$>$}\newline
+{\ttfamily \#include $<$boost/mpl/list.\+hpp$>$}\newline
+{\ttfamily \#include $<$boost/bind.\+hpp$>$}\newline
+{\ttfamily \#include $<$boost/ref.\+hpp$>$}\newline
+{\ttfamily \#include $<$stdexcept$>$}\newline
+Include dependency graph for Fifo\+Scheduler\+Test.\+cpp\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{_fifo_scheduler_test_8cpp__incl}
+\end{center}
+\end{figure}
+\subsection*{Classes}
+\begin{DoxyCompactItemize}
+\item 
+struct \mbox{\hyperlink{struct_ev_check_ctor_args}{Ev\+Check\+Ctor\+Args}}
+\item 
+struct \mbox{\hyperlink{struct_ev_terminate}{Ev\+Terminate}}
+\item 
+struct \mbox{\hyperlink{struct_ev_fail}{Ev\+Fail}}
+\item 
+struct \mbox{\hyperlink{struct_fifo_scheduler_test}{Fifo\+Scheduler\+Test}}
+\item 
+struct \mbox{\hyperlink{struct_initial}{Initial}}
+\item 
+struct \mbox{\hyperlink{struct_unexpected_event_count}{Unexpected\+Event\+Count}}
+\end{DoxyCompactItemize}
+\subsection*{Functions}
+\begin{DoxyCompactItemize}
+\item 
+boost\+::intrusive\+\_\+ptr$<$ const \mbox{\hyperlink{classboost_1_1statechart_1_1event__base}{sc\+::event\+\_\+base}} $>$ \mbox{\hyperlink{_fifo_scheduler_test_8cpp_adb89d0d23b23b4ed859d3a9b40ff312d}{Make\+Event}} (const \mbox{\hyperlink{classboost_1_1statechart_1_1event__base}{sc\+::event\+\_\+base}} $\ast$p\+Event)
+\item 
+void \mbox{\hyperlink{_fifo_scheduler_test_8cpp_ae0276e4634267ce365d2600ecbf3120a}{Run\+Scheduler}} (\mbox{\hyperlink{classboost_1_1statechart_1_1fifo__scheduler}{sc\+::fifo\+\_\+scheduler}}$<$$>$ \&scheduler, unsigned long expected\+Event\+Count)
+\item 
+void \mbox{\hyperlink{_fifo_scheduler_test_8cpp_a3e92f0cc56f5cc1e8b161f80f0494b95}{Check}} (\mbox{\hyperlink{classboost_1_1statechart_1_1fifo__scheduler}{sc\+::fifo\+\_\+scheduler}}$<$$>$ \&scheduler, const \mbox{\hyperlink{classboost_1_1statechart_1_1fifo__scheduler}{sc\+::fifo\+\_\+scheduler}}$<$$>$\+::processor\+\_\+handle \&processor, int ctor\+Args)
+\item 
+void \mbox{\hyperlink{_fifo_scheduler_test_8cpp_a0c7623305ea8cda9d28e1bc449f2d2b9}{Set\+To\+True}} (bool \&value)
+\item 
+int \mbox{\hyperlink{_fifo_scheduler_test_8cpp_a3e926c6d48feb75bdce9c73fca2adf1c}{test\+\_\+main}} (int, char $\ast$\mbox{[}$\,$\mbox{]})
+\end{DoxyCompactItemize}
+\subsection*{Variables}
+\begin{DoxyCompactItemize}
+\item 
+static int \mbox{\hyperlink{_fifo_scheduler_test_8cpp_a9bb159600b864cf96f549cbc886b73ea}{ref\+Arg1}}
+\item 
+static int \mbox{\hyperlink{_fifo_scheduler_test_8cpp_ac689f79a45390af33497699138587e48}{ref\+Arg2}}
+\item 
+static int \mbox{\hyperlink{_fifo_scheduler_test_8cpp_a25c6abcc735a6d70cb36f26b5bb1d849}{ref\+Arg3}}
+\item 
+static int \mbox{\hyperlink{_fifo_scheduler_test_8cpp_a8acb73052e3bc74ac310ea6cb8d8c682}{ref\+Arg4}}
+\item 
+static int \mbox{\hyperlink{_fifo_scheduler_test_8cpp_af452dcc71df3cfe1c754ec2c67c3d00d}{ref\+Arg5}}
+\item 
+static int \mbox{\hyperlink{_fifo_scheduler_test_8cpp_a92d483e452212421b8b9efc144356250}{ref\+Arg6}}
+\end{DoxyCompactItemize}
+
+
+\subsection{Function Documentation}
+\mbox{\Hypertarget{_fifo_scheduler_test_8cpp_a3e92f0cc56f5cc1e8b161f80f0494b95}\label{_fifo_scheduler_test_8cpp_a3e92f0cc56f5cc1e8b161f80f0494b95}} 
+\index{Fifo\+Scheduler\+Test.\+cpp@{Fifo\+Scheduler\+Test.\+cpp}!Check@{Check}}
+\index{Check@{Check}!Fifo\+Scheduler\+Test.\+cpp@{Fifo\+Scheduler\+Test.\+cpp}}
+\subsubsection{\texorpdfstring{Check()}{Check()}}
+{\footnotesize\ttfamily void Check (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{classboost_1_1statechart_1_1fifo__scheduler}{sc\+::fifo\+\_\+scheduler}}$<$$>$ \&}]{scheduler,  }\item[{const \mbox{\hyperlink{classboost_1_1statechart_1_1fifo__scheduler}{sc\+::fifo\+\_\+scheduler}}$<$$>$\+::processor\+\_\+handle \&}]{processor,  }\item[{int}]{ctor\+Args }\end{DoxyParamCaption})}
+
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=300pt]{_fifo_scheduler_test_8cpp_a3e92f0cc56f5cc1e8b161f80f0494b95_cgraph}
+\end{center}
+\end{figure}
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=220pt]{_fifo_scheduler_test_8cpp_a3e92f0cc56f5cc1e8b161f80f0494b95_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{_fifo_scheduler_test_8cpp_adb89d0d23b23b4ed859d3a9b40ff312d}\label{_fifo_scheduler_test_8cpp_adb89d0d23b23b4ed859d3a9b40ff312d}} 
+\index{Fifo\+Scheduler\+Test.\+cpp@{Fifo\+Scheduler\+Test.\+cpp}!Make\+Event@{Make\+Event}}
+\index{Make\+Event@{Make\+Event}!Fifo\+Scheduler\+Test.\+cpp@{Fifo\+Scheduler\+Test.\+cpp}}
+\subsubsection{\texorpdfstring{Make\+Event()}{MakeEvent()}}
+{\footnotesize\ttfamily boost\+::intrusive\+\_\+ptr$<$ const \mbox{\hyperlink{classboost_1_1statechart_1_1event__base}{sc\+::event\+\_\+base}} $>$ Make\+Event (\begin{DoxyParamCaption}\item[{const \mbox{\hyperlink{classboost_1_1statechart_1_1event__base}{sc\+::event\+\_\+base}} $\ast$}]{p\+Event }\end{DoxyParamCaption})}
+
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=345pt]{_fifo_scheduler_test_8cpp_adb89d0d23b23b4ed859d3a9b40ff312d_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{_fifo_scheduler_test_8cpp_ae0276e4634267ce365d2600ecbf3120a}\label{_fifo_scheduler_test_8cpp_ae0276e4634267ce365d2600ecbf3120a}} 
+\index{Fifo\+Scheduler\+Test.\+cpp@{Fifo\+Scheduler\+Test.\+cpp}!Run\+Scheduler@{Run\+Scheduler}}
+\index{Run\+Scheduler@{Run\+Scheduler}!Fifo\+Scheduler\+Test.\+cpp@{Fifo\+Scheduler\+Test.\+cpp}}
+\subsubsection{\texorpdfstring{Run\+Scheduler()}{RunScheduler()}}
+{\footnotesize\ttfamily void Run\+Scheduler (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{classboost_1_1statechart_1_1fifo__scheduler}{sc\+::fifo\+\_\+scheduler}}$<$$>$ \&}]{scheduler,  }\item[{unsigned long}]{expected\+Event\+Count }\end{DoxyParamCaption})}
+
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=334pt]{_fifo_scheduler_test_8cpp_ae0276e4634267ce365d2600ecbf3120a_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{_fifo_scheduler_test_8cpp_a0c7623305ea8cda9d28e1bc449f2d2b9}\label{_fifo_scheduler_test_8cpp_a0c7623305ea8cda9d28e1bc449f2d2b9}} 
+\index{Fifo\+Scheduler\+Test.\+cpp@{Fifo\+Scheduler\+Test.\+cpp}!Set\+To\+True@{Set\+To\+True}}
+\index{Set\+To\+True@{Set\+To\+True}!Fifo\+Scheduler\+Test.\+cpp@{Fifo\+Scheduler\+Test.\+cpp}}
+\subsubsection{\texorpdfstring{Set\+To\+True()}{SetToTrue()}}
+{\footnotesize\ttfamily void Set\+To\+True (\begin{DoxyParamCaption}\item[{bool \&}]{value }\end{DoxyParamCaption})}
+
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=237pt]{_fifo_scheduler_test_8cpp_a0c7623305ea8cda9d28e1bc449f2d2b9_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{_fifo_scheduler_test_8cpp_a3e926c6d48feb75bdce9c73fca2adf1c}\label{_fifo_scheduler_test_8cpp_a3e926c6d48feb75bdce9c73fca2adf1c}} 
+\index{Fifo\+Scheduler\+Test.\+cpp@{Fifo\+Scheduler\+Test.\+cpp}!test\+\_\+main@{test\+\_\+main}}
+\index{test\+\_\+main@{test\+\_\+main}!Fifo\+Scheduler\+Test.\+cpp@{Fifo\+Scheduler\+Test.\+cpp}}
+\subsubsection{\texorpdfstring{test\+\_\+main()}{test\_main()}}
+{\footnotesize\ttfamily int test\+\_\+main (\begin{DoxyParamCaption}\item[{int}]{,  }\item[{char $\ast$}]{\mbox{[}$\,$\mbox{]} }\end{DoxyParamCaption})}
+
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{_fifo_scheduler_test_8cpp_a3e926c6d48feb75bdce9c73fca2adf1c_cgraph}
+\end{center}
+\end{figure}
+
+
+\subsection{Variable Documentation}
+\mbox{\Hypertarget{_fifo_scheduler_test_8cpp_a9bb159600b864cf96f549cbc886b73ea}\label{_fifo_scheduler_test_8cpp_a9bb159600b864cf96f549cbc886b73ea}} 
+\index{Fifo\+Scheduler\+Test.\+cpp@{Fifo\+Scheduler\+Test.\+cpp}!ref\+Arg1@{ref\+Arg1}}
+\index{ref\+Arg1@{ref\+Arg1}!Fifo\+Scheduler\+Test.\+cpp@{Fifo\+Scheduler\+Test.\+cpp}}
+\subsubsection{\texorpdfstring{ref\+Arg1}{refArg1}}
+{\footnotesize\ttfamily int ref\+Arg1\hspace{0.3cm}{\ttfamily [static]}}
+
+\mbox{\Hypertarget{_fifo_scheduler_test_8cpp_ac689f79a45390af33497699138587e48}\label{_fifo_scheduler_test_8cpp_ac689f79a45390af33497699138587e48}} 
+\index{Fifo\+Scheduler\+Test.\+cpp@{Fifo\+Scheduler\+Test.\+cpp}!ref\+Arg2@{ref\+Arg2}}
+\index{ref\+Arg2@{ref\+Arg2}!Fifo\+Scheduler\+Test.\+cpp@{Fifo\+Scheduler\+Test.\+cpp}}
+\subsubsection{\texorpdfstring{ref\+Arg2}{refArg2}}
+{\footnotesize\ttfamily int ref\+Arg2\hspace{0.3cm}{\ttfamily [static]}}
+
+\mbox{\Hypertarget{_fifo_scheduler_test_8cpp_a25c6abcc735a6d70cb36f26b5bb1d849}\label{_fifo_scheduler_test_8cpp_a25c6abcc735a6d70cb36f26b5bb1d849}} 
+\index{Fifo\+Scheduler\+Test.\+cpp@{Fifo\+Scheduler\+Test.\+cpp}!ref\+Arg3@{ref\+Arg3}}
+\index{ref\+Arg3@{ref\+Arg3}!Fifo\+Scheduler\+Test.\+cpp@{Fifo\+Scheduler\+Test.\+cpp}}
+\subsubsection{\texorpdfstring{ref\+Arg3}{refArg3}}
+{\footnotesize\ttfamily int ref\+Arg3\hspace{0.3cm}{\ttfamily [static]}}
+
+\mbox{\Hypertarget{_fifo_scheduler_test_8cpp_a8acb73052e3bc74ac310ea6cb8d8c682}\label{_fifo_scheduler_test_8cpp_a8acb73052e3bc74ac310ea6cb8d8c682}} 
+\index{Fifo\+Scheduler\+Test.\+cpp@{Fifo\+Scheduler\+Test.\+cpp}!ref\+Arg4@{ref\+Arg4}}
+\index{ref\+Arg4@{ref\+Arg4}!Fifo\+Scheduler\+Test.\+cpp@{Fifo\+Scheduler\+Test.\+cpp}}
+\subsubsection{\texorpdfstring{ref\+Arg4}{refArg4}}
+{\footnotesize\ttfamily int ref\+Arg4\hspace{0.3cm}{\ttfamily [static]}}
+
+\mbox{\Hypertarget{_fifo_scheduler_test_8cpp_af452dcc71df3cfe1c754ec2c67c3d00d}\label{_fifo_scheduler_test_8cpp_af452dcc71df3cfe1c754ec2c67c3d00d}} 
+\index{Fifo\+Scheduler\+Test.\+cpp@{Fifo\+Scheduler\+Test.\+cpp}!ref\+Arg5@{ref\+Arg5}}
+\index{ref\+Arg5@{ref\+Arg5}!Fifo\+Scheduler\+Test.\+cpp@{Fifo\+Scheduler\+Test.\+cpp}}
+\subsubsection{\texorpdfstring{ref\+Arg5}{refArg5}}
+{\footnotesize\ttfamily int ref\+Arg5\hspace{0.3cm}{\ttfamily [static]}}
+
+\mbox{\Hypertarget{_fifo_scheduler_test_8cpp_a92d483e452212421b8b9efc144356250}\label{_fifo_scheduler_test_8cpp_a92d483e452212421b8b9efc144356250}} 
+\index{Fifo\+Scheduler\+Test.\+cpp@{Fifo\+Scheduler\+Test.\+cpp}!ref\+Arg6@{ref\+Arg6}}
+\index{ref\+Arg6@{ref\+Arg6}!Fifo\+Scheduler\+Test.\+cpp@{Fifo\+Scheduler\+Test.\+cpp}}
+\subsubsection{\texorpdfstring{ref\+Arg6}{refArg6}}
+{\footnotesize\ttfamily int ref\+Arg6\hspace{0.3cm}{\ttfamily [static]}}
+

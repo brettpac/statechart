@@ -1,0 +1,6 @@
+<map id="boost::statechart::event_base" name="boost::statechart::event_base">
+<area shape="rect" id="node2" href="$classboost_1_1statechart_1_1detail_1_1rtti__policy_1_1rtti__base__type.html" title="{boost::statechart::\ldetail::rtti_policy\l::rtti_base_type\&lt; detail\l::counted_base\&lt;\&gt; \&gt;\n||+ dynamic_type()\l+ custom_dynamic_type_ptr()\l# rtti_base_type()\l# ~rtti_base_type()\l}" alt="" coords="115,419,310,584"/>
+<area shape="rect" id="node3" href="$classboost_1_1statechart_1_1detail_1_1counted__base.html" title="{boost::statechart::\ldetail::counted_base\&lt;\&gt;\n||+ ref_counted()\l+ ref_count()\l+ add_ref()\l+ release()\l# counted_base()\l# counted_base()\l# ~counted_base()\l# operator=()\l}" alt="" coords="5,161,164,356"/>
+<area shape="rect" id="node4" href="$structboost_1_1statechart_1_1detail_1_1count__base.html" title="{boost::statechart::\ldetail::count_base\&lt;\l true \&gt;\n|+ count_\l|+ count_base()\l}" alt="" coords="17,5,153,112"/>
+<area shape="rect" id="node5" href="$structboost_1_1statechart_1_1detail_1_1id__provider.html" title="{boost::statechart::\ldetail::id_provider\n|+ pCustomId_\l+ pCustomIdType_\l|}" alt="" coords="188,205,323,312"/>
+</map>

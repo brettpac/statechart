@@ -1,0 +1,464 @@
+\hypertarget{classboost_1_1statechart_1_1processor__container}{}\section{boost\+:\+:statechart\+:\+:processor\+\_\+container$<$ Scheduler, Work\+Item, Allocator $>$ Class Template Reference}
+\label{classboost_1_1statechart_1_1processor__container}\index{boost\+::statechart\+::processor\+\_\+container$<$ Scheduler, Work\+Item, Allocator $>$@{boost\+::statechart\+::processor\+\_\+container$<$ Scheduler, Work\+Item, Allocator $>$}}
+
+
+{\ttfamily \#include $<$processor\+\_\+container.\+hpp$>$}
+
+
+
+Inheritance diagram for boost\+:\+:statechart\+:\+:processor\+\_\+container$<$ Scheduler, Work\+Item, Allocator $>$\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=220pt]{classboost_1_1statechart_1_1processor__container__inherit__graph}
+\end{center}
+\end{figure}
+
+
+Collaboration diagram for boost\+:\+:statechart\+:\+:processor\+\_\+container$<$ Scheduler, Work\+Item, Allocator $>$\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=220pt]{classboost_1_1statechart_1_1processor__container__coll__graph}
+\end{center}
+\end{figure}
+\subsection*{Classes}
+\begin{DoxyCompactItemize}
+\item 
+class \mbox{\hyperlink{classboost_1_1statechart_1_1processor__container_1_1processor__context}{processor\+\_\+context}}
+\end{DoxyCompactItemize}
+\subsection*{Public Types}
+\begin{DoxyCompactItemize}
+\item 
+typedef weak\+\_\+ptr$<$ \mbox{\hyperlink{classboost_1_1statechart_1_1processor__container_a3e774bbec52b2b0b9f0dfcde42f33b49}{processor\+\_\+holder\+\_\+type}} $>$ \mbox{\hyperlink{classboost_1_1statechart_1_1processor__container_a82ebbffaed81d7b99119ae0e892f6411}{processor\+\_\+handle}}
+\item 
+typedef intrusive\+\_\+ptr$<$ const \mbox{\hyperlink{classboost_1_1statechart_1_1event__base}{event\+\_\+base}} $>$ \mbox{\hyperlink{classboost_1_1statechart_1_1processor__container_a0123b4f1061816fce5aa2c2ec4c06934}{event\+\_\+ptr\+\_\+type}}
+\end{DoxyCompactItemize}
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+{\footnotesize template$<$class Processor $>$ }\\Work\+Item \mbox{\hyperlink{classboost_1_1statechart_1_1processor__container_a1c0d4537b1980bfe72d6293e717e2ce1}{create\+\_\+processor}} (\mbox{\hyperlink{classboost_1_1statechart_1_1processor__container_a82ebbffaed81d7b99119ae0e892f6411}{processor\+\_\+handle}} \&handle, Scheduler \&scheduler)
+\item 
+{\footnotesize template$<$class Processor , typename Arg1 $>$ }\\Work\+Item \mbox{\hyperlink{classboost_1_1statechart_1_1processor__container_aaff8f2050ce75a6b39395677d1bca6b7}{create\+\_\+processor}} (\mbox{\hyperlink{classboost_1_1statechart_1_1processor__container_a82ebbffaed81d7b99119ae0e892f6411}{processor\+\_\+handle}} \&handle, Scheduler \&scheduler, Arg1 arg1)
+\item 
+{\footnotesize template$<$class Processor , typename Arg1 , typename Arg2 $>$ }\\Work\+Item \mbox{\hyperlink{classboost_1_1statechart_1_1processor__container_a223cc5302da135270a30d69739efb0dd}{create\+\_\+processor}} (\mbox{\hyperlink{classboost_1_1statechart_1_1processor__container_a82ebbffaed81d7b99119ae0e892f6411}{processor\+\_\+handle}} \&handle, Scheduler \&scheduler, Arg1 arg1, Arg2 arg2)
+\item 
+{\footnotesize template$<$class Processor , typename Arg1 , typename Arg2 , typename Arg3 $>$ }\\Work\+Item \mbox{\hyperlink{classboost_1_1statechart_1_1processor__container_ae6f1aee0d18c8cb6f1558b830d2ab573}{create\+\_\+processor}} (\mbox{\hyperlink{classboost_1_1statechart_1_1processor__container_a82ebbffaed81d7b99119ae0e892f6411}{processor\+\_\+handle}} \&handle, Scheduler \&scheduler, Arg1 arg1, Arg2 arg2, Arg3 arg3)
+\item 
+{\footnotesize template$<$class Processor , typename Arg1 , typename Arg2 , typename Arg3 , typename Arg4 $>$ }\\Work\+Item \mbox{\hyperlink{classboost_1_1statechart_1_1processor__container_a6ee0545652d45cff1d1d04f7d4323144}{create\+\_\+processor}} (\mbox{\hyperlink{classboost_1_1statechart_1_1processor__container_a82ebbffaed81d7b99119ae0e892f6411}{processor\+\_\+handle}} \&handle, Scheduler \&scheduler, Arg1 arg1, Arg2 arg2, Arg3 arg3, Arg4 arg4)
+\item 
+{\footnotesize template$<$class Processor , typename Arg1 , typename Arg2 , typename Arg3 , typename Arg4 , typename Arg5 $>$ }\\Work\+Item \mbox{\hyperlink{classboost_1_1statechart_1_1processor__container_a0a00d34bbc4ec1fecab618ad9150ddea}{create\+\_\+processor}} (\mbox{\hyperlink{classboost_1_1statechart_1_1processor__container_a82ebbffaed81d7b99119ae0e892f6411}{processor\+\_\+handle}} \&handle, Scheduler \&scheduler, Arg1 arg1, Arg2 arg2, Arg3 arg3, Arg4 arg4, Arg5 arg5)
+\item 
+{\footnotesize template$<$class Processor , typename Arg1 , typename Arg2 , typename Arg3 , typename Arg4 , typename Arg5 , typename Arg6 $>$ }\\Work\+Item \mbox{\hyperlink{classboost_1_1statechart_1_1processor__container_afad33654a40929162fb4e10c9a9bc73b}{create\+\_\+processor}} (\mbox{\hyperlink{classboost_1_1statechart_1_1processor__container_a82ebbffaed81d7b99119ae0e892f6411}{processor\+\_\+handle}} \&handle, Scheduler \&scheduler, Arg1 arg1, Arg2 arg2, Arg3 arg3, Arg4 arg4, Arg5 arg5, Arg6 arg6)
+\item 
+Work\+Item \mbox{\hyperlink{classboost_1_1statechart_1_1processor__container_aa6a671334e57fdb6b99946907c292cb6}{destroy\+\_\+processor}} (const \mbox{\hyperlink{classboost_1_1statechart_1_1processor__container_a82ebbffaed81d7b99119ae0e892f6411}{processor\+\_\+handle}} \&processor)
+\item 
+Work\+Item \mbox{\hyperlink{classboost_1_1statechart_1_1processor__container_a605121c8af1bd1ab65cb65531da0cac8}{initiate\+\_\+processor}} (const \mbox{\hyperlink{classboost_1_1statechart_1_1processor__container_a82ebbffaed81d7b99119ae0e892f6411}{processor\+\_\+handle}} \&processor)
+\item 
+Work\+Item \mbox{\hyperlink{classboost_1_1statechart_1_1processor__container_aaf9ad46333b3d8f490769788ced131a2}{terminate\+\_\+processor}} (const \mbox{\hyperlink{classboost_1_1statechart_1_1processor__container_a82ebbffaed81d7b99119ae0e892f6411}{processor\+\_\+handle}} \&processor)
+\item 
+Work\+Item \mbox{\hyperlink{classboost_1_1statechart_1_1processor__container_af734be4c5c3d87830dae2cbb08c9223e}{queue\+\_\+event}} (const \mbox{\hyperlink{classboost_1_1statechart_1_1processor__container_a82ebbffaed81d7b99119ae0e892f6411}{processor\+\_\+handle}} \&processor, const \mbox{\hyperlink{classboost_1_1statechart_1_1processor__container_a0123b4f1061816fce5aa2c2ec4c06934}{event\+\_\+ptr\+\_\+type}} \&p\+Event)
+\end{DoxyCompactItemize}
+\subsection*{Private Types}
+\begin{DoxyCompactItemize}
+\item 
+typedef \mbox{\hyperlink{classboost_1_1statechart_1_1event__processor}{event\+\_\+processor}}$<$ Scheduler $>$ \mbox{\hyperlink{classboost_1_1statechart_1_1processor__container_a9d1537cda77f083b3a65a67d8ffd1f2a}{processor\+\_\+base\+\_\+type}}
+\item 
+typedef std\+::auto\+\_\+ptr$<$ \mbox{\hyperlink{classboost_1_1statechart_1_1processor__container_a9d1537cda77f083b3a65a67d8ffd1f2a}{processor\+\_\+base\+\_\+type}} $>$ \mbox{\hyperlink{classboost_1_1statechart_1_1processor__container_a3e774bbec52b2b0b9f0dfcde42f33b49}{processor\+\_\+holder\+\_\+type}}
+\item 
+typedef shared\+\_\+ptr$<$ \mbox{\hyperlink{classboost_1_1statechart_1_1processor__container_a3e774bbec52b2b0b9f0dfcde42f33b49}{processor\+\_\+holder\+\_\+type}} $>$ \mbox{\hyperlink{classboost_1_1statechart_1_1processor__container_a885e5a42694857bfaa44ec053ed20a57}{processor\+\_\+holder\+\_\+ptr\+\_\+type}}
+\item 
+typedef std\+::set$<$ \mbox{\hyperlink{classboost_1_1statechart_1_1processor__container_a885e5a42694857bfaa44ec053ed20a57}{processor\+\_\+holder\+\_\+ptr\+\_\+type}}, std\+::less$<$ \mbox{\hyperlink{classboost_1_1statechart_1_1processor__container_a885e5a42694857bfaa44ec053ed20a57}{processor\+\_\+holder\+\_\+ptr\+\_\+type}} $>$, typename boost\+::detail\+::allocator\+::rebind\+\_\+to$<$ Allocator, \mbox{\hyperlink{classboost_1_1statechart_1_1processor__container_a885e5a42694857bfaa44ec053ed20a57}{processor\+\_\+holder\+\_\+ptr\+\_\+type}} $>$\+::type $>$ \mbox{\hyperlink{classboost_1_1statechart_1_1processor__container_a34f8c87b6b4f8a8620c0bc6b124d0c77}{event\+\_\+processor\+\_\+set\+\_\+type}}
+\end{DoxyCompactItemize}
+\subsection*{Private Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{classboost_1_1statechart_1_1processor__container_a885e5a42694857bfaa44ec053ed20a57}{processor\+\_\+holder\+\_\+ptr\+\_\+type}} \mbox{\hyperlink{classboost_1_1statechart_1_1processor__container_a04c9968abd3eb95f1a6fcb171166c5f6}{make\+\_\+processor\+\_\+holder}} ()
+\item 
+{\footnotesize template$<$class Processor $>$ }\\void \mbox{\hyperlink{classboost_1_1statechart_1_1processor__container_abd000284faf4ed22dcc8a31214576f3e}{create\+\_\+processor\+\_\+impl0}} (const \mbox{\hyperlink{classboost_1_1statechart_1_1processor__container_a885e5a42694857bfaa44ec053ed20a57}{processor\+\_\+holder\+\_\+ptr\+\_\+type}} \&p\+Processor, const \mbox{\hyperlink{classboost_1_1statechart_1_1processor__container_1_1processor__context}{processor\+\_\+context}} \&context)
+\item 
+{\footnotesize template$<$class Processor , typename Arg1 $>$ }\\void \mbox{\hyperlink{classboost_1_1statechart_1_1processor__container_aa71e924b6ff8927f6227a79fa1b9eaff}{create\+\_\+processor\+\_\+impl1}} (const \mbox{\hyperlink{classboost_1_1statechart_1_1processor__container_a885e5a42694857bfaa44ec053ed20a57}{processor\+\_\+holder\+\_\+ptr\+\_\+type}} \&p\+Processor, const \mbox{\hyperlink{classboost_1_1statechart_1_1processor__container_1_1processor__context}{processor\+\_\+context}} \&context, Arg1 arg1)
+\item 
+{\footnotesize template$<$class Processor , typename Arg1 , typename Arg2 $>$ }\\void \mbox{\hyperlink{classboost_1_1statechart_1_1processor__container_a4374dc658b395822eec1043189b90ab1}{create\+\_\+processor\+\_\+impl2}} (const \mbox{\hyperlink{classboost_1_1statechart_1_1processor__container_a885e5a42694857bfaa44ec053ed20a57}{processor\+\_\+holder\+\_\+ptr\+\_\+type}} \&p\+Processor, const \mbox{\hyperlink{classboost_1_1statechart_1_1processor__container_1_1processor__context}{processor\+\_\+context}} \&context, Arg1 arg1, Arg2 arg2)
+\item 
+{\footnotesize template$<$class Processor , typename Arg1 , typename Arg2 , typename Arg3 $>$ }\\void \mbox{\hyperlink{classboost_1_1statechart_1_1processor__container_a980c59d8fe706a16906373841b911cac}{create\+\_\+processor\+\_\+impl3}} (const \mbox{\hyperlink{classboost_1_1statechart_1_1processor__container_a885e5a42694857bfaa44ec053ed20a57}{processor\+\_\+holder\+\_\+ptr\+\_\+type}} \&p\+Processor, const \mbox{\hyperlink{classboost_1_1statechart_1_1processor__container_1_1processor__context}{processor\+\_\+context}} \&context, Arg1 arg1, Arg2 arg2, Arg3 arg3)
+\item 
+{\footnotesize template$<$class Processor , typename Arg1 , typename Arg2 , typename Arg3 , typename Arg4 $>$ }\\void \mbox{\hyperlink{classboost_1_1statechart_1_1processor__container_a4e8370ed263cc0a9546117e065744fac}{create\+\_\+processor\+\_\+impl4}} (const \mbox{\hyperlink{classboost_1_1statechart_1_1processor__container_a885e5a42694857bfaa44ec053ed20a57}{processor\+\_\+holder\+\_\+ptr\+\_\+type}} \&p\+Processor, const \mbox{\hyperlink{classboost_1_1statechart_1_1processor__container_1_1processor__context}{processor\+\_\+context}} \&context, Arg1 arg1, Arg2 arg2, Arg3 arg3, Arg4 arg4)
+\item 
+{\footnotesize template$<$class Processor , typename Arg1 , typename Arg2 , typename Arg3 , typename Arg4 , typename Arg5 $>$ }\\void \mbox{\hyperlink{classboost_1_1statechart_1_1processor__container_a98a9336053bc06d3486464e98f997b64}{create\+\_\+processor\+\_\+impl5}} (const \mbox{\hyperlink{classboost_1_1statechart_1_1processor__container_a885e5a42694857bfaa44ec053ed20a57}{processor\+\_\+holder\+\_\+ptr\+\_\+type}} \&p\+Processor, const \mbox{\hyperlink{classboost_1_1statechart_1_1processor__container_1_1processor__context}{processor\+\_\+context}} \&context, Arg1 arg1, Arg2 arg2, Arg3 arg3, Arg4 arg4, Arg5 arg5)
+\item 
+{\footnotesize template$<$class Processor , typename Arg1 , typename Arg2 , typename Arg3 , typename Arg4 , typename Arg5 , typename Arg6 $>$ }\\void \mbox{\hyperlink{classboost_1_1statechart_1_1processor__container_a14c516cb9fc15473920d5a5d79ee95db}{create\+\_\+processor\+\_\+impl6}} (const \mbox{\hyperlink{classboost_1_1statechart_1_1processor__container_a885e5a42694857bfaa44ec053ed20a57}{processor\+\_\+holder\+\_\+ptr\+\_\+type}} \&p\+Processor, const \mbox{\hyperlink{classboost_1_1statechart_1_1processor__container_1_1processor__context}{processor\+\_\+context}} \&context, Arg1 arg1, Arg2 arg2, Arg3 arg3, Arg4 arg4, Arg5 arg5, Arg6 arg6)
+\item 
+void \mbox{\hyperlink{classboost_1_1statechart_1_1processor__container_a50b4db6dac9debb3b9e9e50f25af74f3}{destroy\+\_\+processor\+\_\+impl}} (const \mbox{\hyperlink{classboost_1_1statechart_1_1processor__container_a82ebbffaed81d7b99119ae0e892f6411}{processor\+\_\+handle}} \&processor)
+\item 
+void \mbox{\hyperlink{classboost_1_1statechart_1_1processor__container_a990121e1344fde3e2b3735c7364805f9}{initiate\+\_\+processor\+\_\+impl}} (const \mbox{\hyperlink{classboost_1_1statechart_1_1processor__container_a82ebbffaed81d7b99119ae0e892f6411}{processor\+\_\+handle}} \&processor)
+\item 
+void \mbox{\hyperlink{classboost_1_1statechart_1_1processor__container_a883cf537f7ae021aa79c8614f993f442}{terminate\+\_\+processor\+\_\+impl}} (const \mbox{\hyperlink{classboost_1_1statechart_1_1processor__container_a82ebbffaed81d7b99119ae0e892f6411}{processor\+\_\+handle}} \&processor)
+\item 
+void \mbox{\hyperlink{classboost_1_1statechart_1_1processor__container_ad09f73c626dbd09da54efef6e00ca9c5}{queue\+\_\+event\+\_\+impl}} (const \mbox{\hyperlink{classboost_1_1statechart_1_1processor__container_a82ebbffaed81d7b99119ae0e892f6411}{processor\+\_\+handle}} \&processor, const \mbox{\hyperlink{classboost_1_1statechart_1_1processor__container_a0123b4f1061816fce5aa2c2ec4c06934}{event\+\_\+ptr\+\_\+type}} \&p\+Event)
+\end{DoxyCompactItemize}
+\subsection*{Private Attributes}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{classboost_1_1statechart_1_1processor__container_a34f8c87b6b4f8a8620c0bc6b124d0c77}{event\+\_\+processor\+\_\+set\+\_\+type}} \mbox{\hyperlink{classboost_1_1statechart_1_1processor__container_a5d971d1e7d4745e2c5ffd421aa13291a}{processor\+Set\+\_\+}}
+\end{DoxyCompactItemize}
+
+
+\subsection{Member Typedef Documentation}
+\mbox{\Hypertarget{classboost_1_1statechart_1_1processor__container_a34f8c87b6b4f8a8620c0bc6b124d0c77}\label{classboost_1_1statechart_1_1processor__container_a34f8c87b6b4f8a8620c0bc6b124d0c77}} 
+\index{boost\+::statechart\+::processor\+\_\+container@{boost\+::statechart\+::processor\+\_\+container}!event\+\_\+processor\+\_\+set\+\_\+type@{event\+\_\+processor\+\_\+set\+\_\+type}}
+\index{event\+\_\+processor\+\_\+set\+\_\+type@{event\+\_\+processor\+\_\+set\+\_\+type}!boost\+::statechart\+::processor\+\_\+container@{boost\+::statechart\+::processor\+\_\+container}}
+\subsubsection{\texorpdfstring{event\+\_\+processor\+\_\+set\+\_\+type}{event\_processor\_set\_type}}
+{\footnotesize\ttfamily template$<$class Scheduler, class Work\+Item, class Allocator = std\+::allocator$<$ void $>$$>$ \\
+typedef std\+::set$<$ \mbox{\hyperlink{classboost_1_1statechart_1_1processor__container_a885e5a42694857bfaa44ec053ed20a57}{processor\+\_\+holder\+\_\+ptr\+\_\+type}}, std\+::less$<$ \mbox{\hyperlink{classboost_1_1statechart_1_1processor__container_a885e5a42694857bfaa44ec053ed20a57}{processor\+\_\+holder\+\_\+ptr\+\_\+type}} $>$, typename boost\+::detail\+::allocator\+::rebind\+\_\+to$<$ Allocator, \mbox{\hyperlink{classboost_1_1statechart_1_1processor__container_a885e5a42694857bfaa44ec053ed20a57}{processor\+\_\+holder\+\_\+ptr\+\_\+type}} $>$\+::type $>$ \mbox{\hyperlink{classboost_1_1statechart_1_1processor__container}{boost\+::statechart\+::processor\+\_\+container}}$<$ Scheduler, Work\+Item, Allocator $>$\+::\mbox{\hyperlink{classboost_1_1statechart_1_1processor__container_a34f8c87b6b4f8a8620c0bc6b124d0c77}{event\+\_\+processor\+\_\+set\+\_\+type}}\hspace{0.3cm}{\ttfamily [private]}}
+
+\mbox{\Hypertarget{classboost_1_1statechart_1_1processor__container_a0123b4f1061816fce5aa2c2ec4c06934}\label{classboost_1_1statechart_1_1processor__container_a0123b4f1061816fce5aa2c2ec4c06934}} 
+\index{boost\+::statechart\+::processor\+\_\+container@{boost\+::statechart\+::processor\+\_\+container}!event\+\_\+ptr\+\_\+type@{event\+\_\+ptr\+\_\+type}}
+\index{event\+\_\+ptr\+\_\+type@{event\+\_\+ptr\+\_\+type}!boost\+::statechart\+::processor\+\_\+container@{boost\+::statechart\+::processor\+\_\+container}}
+\subsubsection{\texorpdfstring{event\+\_\+ptr\+\_\+type}{event\_ptr\_type}}
+{\footnotesize\ttfamily template$<$class Scheduler, class Work\+Item, class Allocator = std\+::allocator$<$ void $>$$>$ \\
+typedef intrusive\+\_\+ptr$<$ const \mbox{\hyperlink{classboost_1_1statechart_1_1event__base}{event\+\_\+base}} $>$ \mbox{\hyperlink{classboost_1_1statechart_1_1processor__container}{boost\+::statechart\+::processor\+\_\+container}}$<$ Scheduler, Work\+Item, Allocator $>$\+::\mbox{\hyperlink{classboost_1_1statechart_1_1processor__container_a0123b4f1061816fce5aa2c2ec4c06934}{event\+\_\+ptr\+\_\+type}}}
+
+\mbox{\Hypertarget{classboost_1_1statechart_1_1processor__container_a9d1537cda77f083b3a65a67d8ffd1f2a}\label{classboost_1_1statechart_1_1processor__container_a9d1537cda77f083b3a65a67d8ffd1f2a}} 
+\index{boost\+::statechart\+::processor\+\_\+container@{boost\+::statechart\+::processor\+\_\+container}!processor\+\_\+base\+\_\+type@{processor\+\_\+base\+\_\+type}}
+\index{processor\+\_\+base\+\_\+type@{processor\+\_\+base\+\_\+type}!boost\+::statechart\+::processor\+\_\+container@{boost\+::statechart\+::processor\+\_\+container}}
+\subsubsection{\texorpdfstring{processor\+\_\+base\+\_\+type}{processor\_base\_type}}
+{\footnotesize\ttfamily template$<$class Scheduler, class Work\+Item, class Allocator = std\+::allocator$<$ void $>$$>$ \\
+typedef \mbox{\hyperlink{classboost_1_1statechart_1_1event__processor}{event\+\_\+processor}}$<$ Scheduler $>$ \mbox{\hyperlink{classboost_1_1statechart_1_1processor__container}{boost\+::statechart\+::processor\+\_\+container}}$<$ Scheduler, Work\+Item, Allocator $>$\+::\mbox{\hyperlink{classboost_1_1statechart_1_1processor__container_a9d1537cda77f083b3a65a67d8ffd1f2a}{processor\+\_\+base\+\_\+type}}\hspace{0.3cm}{\ttfamily [private]}}
+
+\mbox{\Hypertarget{classboost_1_1statechart_1_1processor__container_a82ebbffaed81d7b99119ae0e892f6411}\label{classboost_1_1statechart_1_1processor__container_a82ebbffaed81d7b99119ae0e892f6411}} 
+\index{boost\+::statechart\+::processor\+\_\+container@{boost\+::statechart\+::processor\+\_\+container}!processor\+\_\+handle@{processor\+\_\+handle}}
+\index{processor\+\_\+handle@{processor\+\_\+handle}!boost\+::statechart\+::processor\+\_\+container@{boost\+::statechart\+::processor\+\_\+container}}
+\subsubsection{\texorpdfstring{processor\+\_\+handle}{processor\_handle}}
+{\footnotesize\ttfamily template$<$class Scheduler, class Work\+Item, class Allocator = std\+::allocator$<$ void $>$$>$ \\
+typedef weak\+\_\+ptr$<$ \mbox{\hyperlink{classboost_1_1statechart_1_1processor__container_a3e774bbec52b2b0b9f0dfcde42f33b49}{processor\+\_\+holder\+\_\+type}} $>$ \mbox{\hyperlink{classboost_1_1statechart_1_1processor__container}{boost\+::statechart\+::processor\+\_\+container}}$<$ Scheduler, Work\+Item, Allocator $>$\+::\mbox{\hyperlink{classboost_1_1statechart_1_1processor__container_a82ebbffaed81d7b99119ae0e892f6411}{processor\+\_\+handle}}}
+
+\mbox{\Hypertarget{classboost_1_1statechart_1_1processor__container_a885e5a42694857bfaa44ec053ed20a57}\label{classboost_1_1statechart_1_1processor__container_a885e5a42694857bfaa44ec053ed20a57}} 
+\index{boost\+::statechart\+::processor\+\_\+container@{boost\+::statechart\+::processor\+\_\+container}!processor\+\_\+holder\+\_\+ptr\+\_\+type@{processor\+\_\+holder\+\_\+ptr\+\_\+type}}
+\index{processor\+\_\+holder\+\_\+ptr\+\_\+type@{processor\+\_\+holder\+\_\+ptr\+\_\+type}!boost\+::statechart\+::processor\+\_\+container@{boost\+::statechart\+::processor\+\_\+container}}
+\subsubsection{\texorpdfstring{processor\+\_\+holder\+\_\+ptr\+\_\+type}{processor\_holder\_ptr\_type}}
+{\footnotesize\ttfamily template$<$class Scheduler, class Work\+Item, class Allocator = std\+::allocator$<$ void $>$$>$ \\
+typedef shared\+\_\+ptr$<$ \mbox{\hyperlink{classboost_1_1statechart_1_1processor__container_a3e774bbec52b2b0b9f0dfcde42f33b49}{processor\+\_\+holder\+\_\+type}} $>$ \mbox{\hyperlink{classboost_1_1statechart_1_1processor__container}{boost\+::statechart\+::processor\+\_\+container}}$<$ Scheduler, Work\+Item, Allocator $>$\+::\mbox{\hyperlink{classboost_1_1statechart_1_1processor__container_a885e5a42694857bfaa44ec053ed20a57}{processor\+\_\+holder\+\_\+ptr\+\_\+type}}\hspace{0.3cm}{\ttfamily [private]}}
+
+\mbox{\Hypertarget{classboost_1_1statechart_1_1processor__container_a3e774bbec52b2b0b9f0dfcde42f33b49}\label{classboost_1_1statechart_1_1processor__container_a3e774bbec52b2b0b9f0dfcde42f33b49}} 
+\index{boost\+::statechart\+::processor\+\_\+container@{boost\+::statechart\+::processor\+\_\+container}!processor\+\_\+holder\+\_\+type@{processor\+\_\+holder\+\_\+type}}
+\index{processor\+\_\+holder\+\_\+type@{processor\+\_\+holder\+\_\+type}!boost\+::statechart\+::processor\+\_\+container@{boost\+::statechart\+::processor\+\_\+container}}
+\subsubsection{\texorpdfstring{processor\+\_\+holder\+\_\+type}{processor\_holder\_type}}
+{\footnotesize\ttfamily template$<$class Scheduler, class Work\+Item, class Allocator = std\+::allocator$<$ void $>$$>$ \\
+typedef std\+::auto\+\_\+ptr$<$ \mbox{\hyperlink{classboost_1_1statechart_1_1processor__container_a9d1537cda77f083b3a65a67d8ffd1f2a}{processor\+\_\+base\+\_\+type}} $>$ \mbox{\hyperlink{classboost_1_1statechart_1_1processor__container}{boost\+::statechart\+::processor\+\_\+container}}$<$ Scheduler, Work\+Item, Allocator $>$\+::\mbox{\hyperlink{classboost_1_1statechart_1_1processor__container_a3e774bbec52b2b0b9f0dfcde42f33b49}{processor\+\_\+holder\+\_\+type}}\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+\subsection{Member Function Documentation}
+\mbox{\Hypertarget{classboost_1_1statechart_1_1processor__container_a1c0d4537b1980bfe72d6293e717e2ce1}\label{classboost_1_1statechart_1_1processor__container_a1c0d4537b1980bfe72d6293e717e2ce1}} 
+\index{boost\+::statechart\+::processor\+\_\+container@{boost\+::statechart\+::processor\+\_\+container}!create\+\_\+processor@{create\+\_\+processor}}
+\index{create\+\_\+processor@{create\+\_\+processor}!boost\+::statechart\+::processor\+\_\+container@{boost\+::statechart\+::processor\+\_\+container}}
+\subsubsection{\texorpdfstring{create\+\_\+processor()}{create\_processor()}\hspace{0.1cm}{\footnotesize\ttfamily [1/7]}}
+{\footnotesize\ttfamily template$<$class Scheduler, class Work\+Item, class Allocator = std\+::allocator$<$ void $>$$>$ \\
+template$<$class Processor $>$ \\
+Work\+Item \mbox{\hyperlink{classboost_1_1statechart_1_1processor__container}{boost\+::statechart\+::processor\+\_\+container}}$<$ Scheduler, Work\+Item, Allocator $>$\+::create\+\_\+processor (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{classboost_1_1statechart_1_1processor__container_a82ebbffaed81d7b99119ae0e892f6411}{processor\+\_\+handle}} \&}]{handle,  }\item[{Scheduler \&}]{scheduler }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+\mbox{\Hypertarget{classboost_1_1statechart_1_1processor__container_aaff8f2050ce75a6b39395677d1bca6b7}\label{classboost_1_1statechart_1_1processor__container_aaff8f2050ce75a6b39395677d1bca6b7}} 
+\index{boost\+::statechart\+::processor\+\_\+container@{boost\+::statechart\+::processor\+\_\+container}!create\+\_\+processor@{create\+\_\+processor}}
+\index{create\+\_\+processor@{create\+\_\+processor}!boost\+::statechart\+::processor\+\_\+container@{boost\+::statechart\+::processor\+\_\+container}}
+\subsubsection{\texorpdfstring{create\+\_\+processor()}{create\_processor()}\hspace{0.1cm}{\footnotesize\ttfamily [2/7]}}
+{\footnotesize\ttfamily template$<$class Scheduler, class Work\+Item, class Allocator = std\+::allocator$<$ void $>$$>$ \\
+template$<$class Processor , typename Arg1 $>$ \\
+Work\+Item \mbox{\hyperlink{classboost_1_1statechart_1_1processor__container}{boost\+::statechart\+::processor\+\_\+container}}$<$ Scheduler, Work\+Item, Allocator $>$\+::create\+\_\+processor (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{classboost_1_1statechart_1_1processor__container_a82ebbffaed81d7b99119ae0e892f6411}{processor\+\_\+handle}} \&}]{handle,  }\item[{Scheduler \&}]{scheduler,  }\item[{Arg1}]{arg1 }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+\mbox{\Hypertarget{classboost_1_1statechart_1_1processor__container_a223cc5302da135270a30d69739efb0dd}\label{classboost_1_1statechart_1_1processor__container_a223cc5302da135270a30d69739efb0dd}} 
+\index{boost\+::statechart\+::processor\+\_\+container@{boost\+::statechart\+::processor\+\_\+container}!create\+\_\+processor@{create\+\_\+processor}}
+\index{create\+\_\+processor@{create\+\_\+processor}!boost\+::statechart\+::processor\+\_\+container@{boost\+::statechart\+::processor\+\_\+container}}
+\subsubsection{\texorpdfstring{create\+\_\+processor()}{create\_processor()}\hspace{0.1cm}{\footnotesize\ttfamily [3/7]}}
+{\footnotesize\ttfamily template$<$class Scheduler, class Work\+Item, class Allocator = std\+::allocator$<$ void $>$$>$ \\
+template$<$class Processor , typename Arg1 , typename Arg2 $>$ \\
+Work\+Item \mbox{\hyperlink{classboost_1_1statechart_1_1processor__container}{boost\+::statechart\+::processor\+\_\+container}}$<$ Scheduler, Work\+Item, Allocator $>$\+::create\+\_\+processor (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{classboost_1_1statechart_1_1processor__container_a82ebbffaed81d7b99119ae0e892f6411}{processor\+\_\+handle}} \&}]{handle,  }\item[{Scheduler \&}]{scheduler,  }\item[{Arg1}]{arg1,  }\item[{Arg2}]{arg2 }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+\mbox{\Hypertarget{classboost_1_1statechart_1_1processor__container_ae6f1aee0d18c8cb6f1558b830d2ab573}\label{classboost_1_1statechart_1_1processor__container_ae6f1aee0d18c8cb6f1558b830d2ab573}} 
+\index{boost\+::statechart\+::processor\+\_\+container@{boost\+::statechart\+::processor\+\_\+container}!create\+\_\+processor@{create\+\_\+processor}}
+\index{create\+\_\+processor@{create\+\_\+processor}!boost\+::statechart\+::processor\+\_\+container@{boost\+::statechart\+::processor\+\_\+container}}
+\subsubsection{\texorpdfstring{create\+\_\+processor()}{create\_processor()}\hspace{0.1cm}{\footnotesize\ttfamily [4/7]}}
+{\footnotesize\ttfamily template$<$class Scheduler, class Work\+Item, class Allocator = std\+::allocator$<$ void $>$$>$ \\
+template$<$class Processor , typename Arg1 , typename Arg2 , typename Arg3 $>$ \\
+Work\+Item \mbox{\hyperlink{classboost_1_1statechart_1_1processor__container}{boost\+::statechart\+::processor\+\_\+container}}$<$ Scheduler, Work\+Item, Allocator $>$\+::create\+\_\+processor (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{classboost_1_1statechart_1_1processor__container_a82ebbffaed81d7b99119ae0e892f6411}{processor\+\_\+handle}} \&}]{handle,  }\item[{Scheduler \&}]{scheduler,  }\item[{Arg1}]{arg1,  }\item[{Arg2}]{arg2,  }\item[{Arg3}]{arg3 }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+\mbox{\Hypertarget{classboost_1_1statechart_1_1processor__container_a6ee0545652d45cff1d1d04f7d4323144}\label{classboost_1_1statechart_1_1processor__container_a6ee0545652d45cff1d1d04f7d4323144}} 
+\index{boost\+::statechart\+::processor\+\_\+container@{boost\+::statechart\+::processor\+\_\+container}!create\+\_\+processor@{create\+\_\+processor}}
+\index{create\+\_\+processor@{create\+\_\+processor}!boost\+::statechart\+::processor\+\_\+container@{boost\+::statechart\+::processor\+\_\+container}}
+\subsubsection{\texorpdfstring{create\+\_\+processor()}{create\_processor()}\hspace{0.1cm}{\footnotesize\ttfamily [5/7]}}
+{\footnotesize\ttfamily template$<$class Scheduler, class Work\+Item, class Allocator = std\+::allocator$<$ void $>$$>$ \\
+template$<$class Processor , typename Arg1 , typename Arg2 , typename Arg3 , typename Arg4 $>$ \\
+Work\+Item \mbox{\hyperlink{classboost_1_1statechart_1_1processor__container}{boost\+::statechart\+::processor\+\_\+container}}$<$ Scheduler, Work\+Item, Allocator $>$\+::create\+\_\+processor (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{classboost_1_1statechart_1_1processor__container_a82ebbffaed81d7b99119ae0e892f6411}{processor\+\_\+handle}} \&}]{handle,  }\item[{Scheduler \&}]{scheduler,  }\item[{Arg1}]{arg1,  }\item[{Arg2}]{arg2,  }\item[{Arg3}]{arg3,  }\item[{Arg4}]{arg4 }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+\mbox{\Hypertarget{classboost_1_1statechart_1_1processor__container_a0a00d34bbc4ec1fecab618ad9150ddea}\label{classboost_1_1statechart_1_1processor__container_a0a00d34bbc4ec1fecab618ad9150ddea}} 
+\index{boost\+::statechart\+::processor\+\_\+container@{boost\+::statechart\+::processor\+\_\+container}!create\+\_\+processor@{create\+\_\+processor}}
+\index{create\+\_\+processor@{create\+\_\+processor}!boost\+::statechart\+::processor\+\_\+container@{boost\+::statechart\+::processor\+\_\+container}}
+\subsubsection{\texorpdfstring{create\+\_\+processor()}{create\_processor()}\hspace{0.1cm}{\footnotesize\ttfamily [6/7]}}
+{\footnotesize\ttfamily template$<$class Scheduler, class Work\+Item, class Allocator = std\+::allocator$<$ void $>$$>$ \\
+template$<$class Processor , typename Arg1 , typename Arg2 , typename Arg3 , typename Arg4 , typename Arg5 $>$ \\
+Work\+Item \mbox{\hyperlink{classboost_1_1statechart_1_1processor__container}{boost\+::statechart\+::processor\+\_\+container}}$<$ Scheduler, Work\+Item, Allocator $>$\+::create\+\_\+processor (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{classboost_1_1statechart_1_1processor__container_a82ebbffaed81d7b99119ae0e892f6411}{processor\+\_\+handle}} \&}]{handle,  }\item[{Scheduler \&}]{scheduler,  }\item[{Arg1}]{arg1,  }\item[{Arg2}]{arg2,  }\item[{Arg3}]{arg3,  }\item[{Arg4}]{arg4,  }\item[{Arg5}]{arg5 }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+\mbox{\Hypertarget{classboost_1_1statechart_1_1processor__container_afad33654a40929162fb4e10c9a9bc73b}\label{classboost_1_1statechart_1_1processor__container_afad33654a40929162fb4e10c9a9bc73b}} 
+\index{boost\+::statechart\+::processor\+\_\+container@{boost\+::statechart\+::processor\+\_\+container}!create\+\_\+processor@{create\+\_\+processor}}
+\index{create\+\_\+processor@{create\+\_\+processor}!boost\+::statechart\+::processor\+\_\+container@{boost\+::statechart\+::processor\+\_\+container}}
+\subsubsection{\texorpdfstring{create\+\_\+processor()}{create\_processor()}\hspace{0.1cm}{\footnotesize\ttfamily [7/7]}}
+{\footnotesize\ttfamily template$<$class Scheduler, class Work\+Item, class Allocator = std\+::allocator$<$ void $>$$>$ \\
+template$<$class Processor , typename Arg1 , typename Arg2 , typename Arg3 , typename Arg4 , typename Arg5 , typename Arg6 $>$ \\
+Work\+Item \mbox{\hyperlink{classboost_1_1statechart_1_1processor__container}{boost\+::statechart\+::processor\+\_\+container}}$<$ Scheduler, Work\+Item, Allocator $>$\+::create\+\_\+processor (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{classboost_1_1statechart_1_1processor__container_a82ebbffaed81d7b99119ae0e892f6411}{processor\+\_\+handle}} \&}]{handle,  }\item[{Scheduler \&}]{scheduler,  }\item[{Arg1}]{arg1,  }\item[{Arg2}]{arg2,  }\item[{Arg3}]{arg3,  }\item[{Arg4}]{arg4,  }\item[{Arg5}]{arg5,  }\item[{Arg6}]{arg6 }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+\mbox{\Hypertarget{classboost_1_1statechart_1_1processor__container_abd000284faf4ed22dcc8a31214576f3e}\label{classboost_1_1statechart_1_1processor__container_abd000284faf4ed22dcc8a31214576f3e}} 
+\index{boost\+::statechart\+::processor\+\_\+container@{boost\+::statechart\+::processor\+\_\+container}!create\+\_\+processor\+\_\+impl0@{create\+\_\+processor\+\_\+impl0}}
+\index{create\+\_\+processor\+\_\+impl0@{create\+\_\+processor\+\_\+impl0}!boost\+::statechart\+::processor\+\_\+container@{boost\+::statechart\+::processor\+\_\+container}}
+\subsubsection{\texorpdfstring{create\+\_\+processor\+\_\+impl0()}{create\_processor\_impl0()}}
+{\footnotesize\ttfamily template$<$class Scheduler, class Work\+Item, class Allocator = std\+::allocator$<$ void $>$$>$ \\
+template$<$class Processor $>$ \\
+void \mbox{\hyperlink{classboost_1_1statechart_1_1processor__container}{boost\+::statechart\+::processor\+\_\+container}}$<$ Scheduler, Work\+Item, Allocator $>$\+::create\+\_\+processor\+\_\+impl0 (\begin{DoxyParamCaption}\item[{const \mbox{\hyperlink{classboost_1_1statechart_1_1processor__container_a885e5a42694857bfaa44ec053ed20a57}{processor\+\_\+holder\+\_\+ptr\+\_\+type}} \&}]{p\+Processor,  }\item[{const \mbox{\hyperlink{classboost_1_1statechart_1_1processor__container_1_1processor__context}{processor\+\_\+context}} \&}]{context }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [private]}}
+
+\mbox{\Hypertarget{classboost_1_1statechart_1_1processor__container_aa71e924b6ff8927f6227a79fa1b9eaff}\label{classboost_1_1statechart_1_1processor__container_aa71e924b6ff8927f6227a79fa1b9eaff}} 
+\index{boost\+::statechart\+::processor\+\_\+container@{boost\+::statechart\+::processor\+\_\+container}!create\+\_\+processor\+\_\+impl1@{create\+\_\+processor\+\_\+impl1}}
+\index{create\+\_\+processor\+\_\+impl1@{create\+\_\+processor\+\_\+impl1}!boost\+::statechart\+::processor\+\_\+container@{boost\+::statechart\+::processor\+\_\+container}}
+\subsubsection{\texorpdfstring{create\+\_\+processor\+\_\+impl1()}{create\_processor\_impl1()}}
+{\footnotesize\ttfamily template$<$class Scheduler, class Work\+Item, class Allocator = std\+::allocator$<$ void $>$$>$ \\
+template$<$class Processor , typename Arg1 $>$ \\
+void \mbox{\hyperlink{classboost_1_1statechart_1_1processor__container}{boost\+::statechart\+::processor\+\_\+container}}$<$ Scheduler, Work\+Item, Allocator $>$\+::create\+\_\+processor\+\_\+impl1 (\begin{DoxyParamCaption}\item[{const \mbox{\hyperlink{classboost_1_1statechart_1_1processor__container_a885e5a42694857bfaa44ec053ed20a57}{processor\+\_\+holder\+\_\+ptr\+\_\+type}} \&}]{p\+Processor,  }\item[{const \mbox{\hyperlink{classboost_1_1statechart_1_1processor__container_1_1processor__context}{processor\+\_\+context}} \&}]{context,  }\item[{Arg1}]{arg1 }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [private]}}
+
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classboost_1_1statechart_1_1processor__container_aa71e924b6ff8927f6227a79fa1b9eaff_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{classboost_1_1statechart_1_1processor__container_a4374dc658b395822eec1043189b90ab1}\label{classboost_1_1statechart_1_1processor__container_a4374dc658b395822eec1043189b90ab1}} 
+\index{boost\+::statechart\+::processor\+\_\+container@{boost\+::statechart\+::processor\+\_\+container}!create\+\_\+processor\+\_\+impl2@{create\+\_\+processor\+\_\+impl2}}
+\index{create\+\_\+processor\+\_\+impl2@{create\+\_\+processor\+\_\+impl2}!boost\+::statechart\+::processor\+\_\+container@{boost\+::statechart\+::processor\+\_\+container}}
+\subsubsection{\texorpdfstring{create\+\_\+processor\+\_\+impl2()}{create\_processor\_impl2()}}
+{\footnotesize\ttfamily template$<$class Scheduler, class Work\+Item, class Allocator = std\+::allocator$<$ void $>$$>$ \\
+template$<$class Processor , typename Arg1 , typename Arg2 $>$ \\
+void \mbox{\hyperlink{classboost_1_1statechart_1_1processor__container}{boost\+::statechart\+::processor\+\_\+container}}$<$ Scheduler, Work\+Item, Allocator $>$\+::create\+\_\+processor\+\_\+impl2 (\begin{DoxyParamCaption}\item[{const \mbox{\hyperlink{classboost_1_1statechart_1_1processor__container_a885e5a42694857bfaa44ec053ed20a57}{processor\+\_\+holder\+\_\+ptr\+\_\+type}} \&}]{p\+Processor,  }\item[{const \mbox{\hyperlink{classboost_1_1statechart_1_1processor__container_1_1processor__context}{processor\+\_\+context}} \&}]{context,  }\item[{Arg1}]{arg1,  }\item[{Arg2}]{arg2 }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [private]}}
+
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classboost_1_1statechart_1_1processor__container_a4374dc658b395822eec1043189b90ab1_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{classboost_1_1statechart_1_1processor__container_a980c59d8fe706a16906373841b911cac}\label{classboost_1_1statechart_1_1processor__container_a980c59d8fe706a16906373841b911cac}} 
+\index{boost\+::statechart\+::processor\+\_\+container@{boost\+::statechart\+::processor\+\_\+container}!create\+\_\+processor\+\_\+impl3@{create\+\_\+processor\+\_\+impl3}}
+\index{create\+\_\+processor\+\_\+impl3@{create\+\_\+processor\+\_\+impl3}!boost\+::statechart\+::processor\+\_\+container@{boost\+::statechart\+::processor\+\_\+container}}
+\subsubsection{\texorpdfstring{create\+\_\+processor\+\_\+impl3()}{create\_processor\_impl3()}}
+{\footnotesize\ttfamily template$<$class Scheduler, class Work\+Item, class Allocator = std\+::allocator$<$ void $>$$>$ \\
+template$<$class Processor , typename Arg1 , typename Arg2 , typename Arg3 $>$ \\
+void \mbox{\hyperlink{classboost_1_1statechart_1_1processor__container}{boost\+::statechart\+::processor\+\_\+container}}$<$ Scheduler, Work\+Item, Allocator $>$\+::create\+\_\+processor\+\_\+impl3 (\begin{DoxyParamCaption}\item[{const \mbox{\hyperlink{classboost_1_1statechart_1_1processor__container_a885e5a42694857bfaa44ec053ed20a57}{processor\+\_\+holder\+\_\+ptr\+\_\+type}} \&}]{p\+Processor,  }\item[{const \mbox{\hyperlink{classboost_1_1statechart_1_1processor__container_1_1processor__context}{processor\+\_\+context}} \&}]{context,  }\item[{Arg1}]{arg1,  }\item[{Arg2}]{arg2,  }\item[{Arg3}]{arg3 }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [private]}}
+
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classboost_1_1statechart_1_1processor__container_a980c59d8fe706a16906373841b911cac_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{classboost_1_1statechart_1_1processor__container_a4e8370ed263cc0a9546117e065744fac}\label{classboost_1_1statechart_1_1processor__container_a4e8370ed263cc0a9546117e065744fac}} 
+\index{boost\+::statechart\+::processor\+\_\+container@{boost\+::statechart\+::processor\+\_\+container}!create\+\_\+processor\+\_\+impl4@{create\+\_\+processor\+\_\+impl4}}
+\index{create\+\_\+processor\+\_\+impl4@{create\+\_\+processor\+\_\+impl4}!boost\+::statechart\+::processor\+\_\+container@{boost\+::statechart\+::processor\+\_\+container}}
+\subsubsection{\texorpdfstring{create\+\_\+processor\+\_\+impl4()}{create\_processor\_impl4()}}
+{\footnotesize\ttfamily template$<$class Scheduler, class Work\+Item, class Allocator = std\+::allocator$<$ void $>$$>$ \\
+template$<$class Processor , typename Arg1 , typename Arg2 , typename Arg3 , typename Arg4 $>$ \\
+void \mbox{\hyperlink{classboost_1_1statechart_1_1processor__container}{boost\+::statechart\+::processor\+\_\+container}}$<$ Scheduler, Work\+Item, Allocator $>$\+::create\+\_\+processor\+\_\+impl4 (\begin{DoxyParamCaption}\item[{const \mbox{\hyperlink{classboost_1_1statechart_1_1processor__container_a885e5a42694857bfaa44ec053ed20a57}{processor\+\_\+holder\+\_\+ptr\+\_\+type}} \&}]{p\+Processor,  }\item[{const \mbox{\hyperlink{classboost_1_1statechart_1_1processor__container_1_1processor__context}{processor\+\_\+context}} \&}]{context,  }\item[{Arg1}]{arg1,  }\item[{Arg2}]{arg2,  }\item[{Arg3}]{arg3,  }\item[{Arg4}]{arg4 }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [private]}}
+
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classboost_1_1statechart_1_1processor__container_a4e8370ed263cc0a9546117e065744fac_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{classboost_1_1statechart_1_1processor__container_a98a9336053bc06d3486464e98f997b64}\label{classboost_1_1statechart_1_1processor__container_a98a9336053bc06d3486464e98f997b64}} 
+\index{boost\+::statechart\+::processor\+\_\+container@{boost\+::statechart\+::processor\+\_\+container}!create\+\_\+processor\+\_\+impl5@{create\+\_\+processor\+\_\+impl5}}
+\index{create\+\_\+processor\+\_\+impl5@{create\+\_\+processor\+\_\+impl5}!boost\+::statechart\+::processor\+\_\+container@{boost\+::statechart\+::processor\+\_\+container}}
+\subsubsection{\texorpdfstring{create\+\_\+processor\+\_\+impl5()}{create\_processor\_impl5()}}
+{\footnotesize\ttfamily template$<$class Scheduler, class Work\+Item, class Allocator = std\+::allocator$<$ void $>$$>$ \\
+template$<$class Processor , typename Arg1 , typename Arg2 , typename Arg3 , typename Arg4 , typename Arg5 $>$ \\
+void \mbox{\hyperlink{classboost_1_1statechart_1_1processor__container}{boost\+::statechart\+::processor\+\_\+container}}$<$ Scheduler, Work\+Item, Allocator $>$\+::create\+\_\+processor\+\_\+impl5 (\begin{DoxyParamCaption}\item[{const \mbox{\hyperlink{classboost_1_1statechart_1_1processor__container_a885e5a42694857bfaa44ec053ed20a57}{processor\+\_\+holder\+\_\+ptr\+\_\+type}} \&}]{p\+Processor,  }\item[{const \mbox{\hyperlink{classboost_1_1statechart_1_1processor__container_1_1processor__context}{processor\+\_\+context}} \&}]{context,  }\item[{Arg1}]{arg1,  }\item[{Arg2}]{arg2,  }\item[{Arg3}]{arg3,  }\item[{Arg4}]{arg4,  }\item[{Arg5}]{arg5 }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [private]}}
+
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classboost_1_1statechart_1_1processor__container_a98a9336053bc06d3486464e98f997b64_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{classboost_1_1statechart_1_1processor__container_a14c516cb9fc15473920d5a5d79ee95db}\label{classboost_1_1statechart_1_1processor__container_a14c516cb9fc15473920d5a5d79ee95db}} 
+\index{boost\+::statechart\+::processor\+\_\+container@{boost\+::statechart\+::processor\+\_\+container}!create\+\_\+processor\+\_\+impl6@{create\+\_\+processor\+\_\+impl6}}
+\index{create\+\_\+processor\+\_\+impl6@{create\+\_\+processor\+\_\+impl6}!boost\+::statechart\+::processor\+\_\+container@{boost\+::statechart\+::processor\+\_\+container}}
+\subsubsection{\texorpdfstring{create\+\_\+processor\+\_\+impl6()}{create\_processor\_impl6()}}
+{\footnotesize\ttfamily template$<$class Scheduler, class Work\+Item, class Allocator = std\+::allocator$<$ void $>$$>$ \\
+template$<$class Processor , typename Arg1 , typename Arg2 , typename Arg3 , typename Arg4 , typename Arg5 , typename Arg6 $>$ \\
+void \mbox{\hyperlink{classboost_1_1statechart_1_1processor__container}{boost\+::statechart\+::processor\+\_\+container}}$<$ Scheduler, Work\+Item, Allocator $>$\+::create\+\_\+processor\+\_\+impl6 (\begin{DoxyParamCaption}\item[{const \mbox{\hyperlink{classboost_1_1statechart_1_1processor__container_a885e5a42694857bfaa44ec053ed20a57}{processor\+\_\+holder\+\_\+ptr\+\_\+type}} \&}]{p\+Processor,  }\item[{const \mbox{\hyperlink{classboost_1_1statechart_1_1processor__container_1_1processor__context}{processor\+\_\+context}} \&}]{context,  }\item[{Arg1}]{arg1,  }\item[{Arg2}]{arg2,  }\item[{Arg3}]{arg3,  }\item[{Arg4}]{arg4,  }\item[{Arg5}]{arg5,  }\item[{Arg6}]{arg6 }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [private]}}
+
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classboost_1_1statechart_1_1processor__container_a14c516cb9fc15473920d5a5d79ee95db_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{classboost_1_1statechart_1_1processor__container_aa6a671334e57fdb6b99946907c292cb6}\label{classboost_1_1statechart_1_1processor__container_aa6a671334e57fdb6b99946907c292cb6}} 
+\index{boost\+::statechart\+::processor\+\_\+container@{boost\+::statechart\+::processor\+\_\+container}!destroy\+\_\+processor@{destroy\+\_\+processor}}
+\index{destroy\+\_\+processor@{destroy\+\_\+processor}!boost\+::statechart\+::processor\+\_\+container@{boost\+::statechart\+::processor\+\_\+container}}
+\subsubsection{\texorpdfstring{destroy\+\_\+processor()}{destroy\_processor()}}
+{\footnotesize\ttfamily template$<$class Scheduler, class Work\+Item, class Allocator = std\+::allocator$<$ void $>$$>$ \\
+Work\+Item \mbox{\hyperlink{classboost_1_1statechart_1_1processor__container}{boost\+::statechart\+::processor\+\_\+container}}$<$ Scheduler, Work\+Item, Allocator $>$\+::destroy\+\_\+processor (\begin{DoxyParamCaption}\item[{const \mbox{\hyperlink{classboost_1_1statechart_1_1processor__container_a82ebbffaed81d7b99119ae0e892f6411}{processor\+\_\+handle}} \&}]{processor }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=348pt]{classboost_1_1statechart_1_1processor__container_aa6a671334e57fdb6b99946907c292cb6_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{classboost_1_1statechart_1_1processor__container_a50b4db6dac9debb3b9e9e50f25af74f3}\label{classboost_1_1statechart_1_1processor__container_a50b4db6dac9debb3b9e9e50f25af74f3}} 
+\index{boost\+::statechart\+::processor\+\_\+container@{boost\+::statechart\+::processor\+\_\+container}!destroy\+\_\+processor\+\_\+impl@{destroy\+\_\+processor\+\_\+impl}}
+\index{destroy\+\_\+processor\+\_\+impl@{destroy\+\_\+processor\+\_\+impl}!boost\+::statechart\+::processor\+\_\+container@{boost\+::statechart\+::processor\+\_\+container}}
+\subsubsection{\texorpdfstring{destroy\+\_\+processor\+\_\+impl()}{destroy\_processor\_impl()}}
+{\footnotesize\ttfamily template$<$class Scheduler, class Work\+Item, class Allocator = std\+::allocator$<$ void $>$$>$ \\
+void \mbox{\hyperlink{classboost_1_1statechart_1_1processor__container}{boost\+::statechart\+::processor\+\_\+container}}$<$ Scheduler, Work\+Item, Allocator $>$\+::destroy\+\_\+processor\+\_\+impl (\begin{DoxyParamCaption}\item[{const \mbox{\hyperlink{classboost_1_1statechart_1_1processor__container_a82ebbffaed81d7b99119ae0e892f6411}{processor\+\_\+handle}} \&}]{processor }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [private]}}
+
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classboost_1_1statechart_1_1processor__container_a50b4db6dac9debb3b9e9e50f25af74f3_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{classboost_1_1statechart_1_1processor__container_a605121c8af1bd1ab65cb65531da0cac8}\label{classboost_1_1statechart_1_1processor__container_a605121c8af1bd1ab65cb65531da0cac8}} 
+\index{boost\+::statechart\+::processor\+\_\+container@{boost\+::statechart\+::processor\+\_\+container}!initiate\+\_\+processor@{initiate\+\_\+processor}}
+\index{initiate\+\_\+processor@{initiate\+\_\+processor}!boost\+::statechart\+::processor\+\_\+container@{boost\+::statechart\+::processor\+\_\+container}}
+\subsubsection{\texorpdfstring{initiate\+\_\+processor()}{initiate\_processor()}}
+{\footnotesize\ttfamily template$<$class Scheduler, class Work\+Item, class Allocator = std\+::allocator$<$ void $>$$>$ \\
+Work\+Item \mbox{\hyperlink{classboost_1_1statechart_1_1processor__container}{boost\+::statechart\+::processor\+\_\+container}}$<$ Scheduler, Work\+Item, Allocator $>$\+::initiate\+\_\+processor (\begin{DoxyParamCaption}\item[{const \mbox{\hyperlink{classboost_1_1statechart_1_1processor__container_a82ebbffaed81d7b99119ae0e892f6411}{processor\+\_\+handle}} \&}]{processor }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=344pt]{classboost_1_1statechart_1_1processor__container_a605121c8af1bd1ab65cb65531da0cac8_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{classboost_1_1statechart_1_1processor__container_a990121e1344fde3e2b3735c7364805f9}\label{classboost_1_1statechart_1_1processor__container_a990121e1344fde3e2b3735c7364805f9}} 
+\index{boost\+::statechart\+::processor\+\_\+container@{boost\+::statechart\+::processor\+\_\+container}!initiate\+\_\+processor\+\_\+impl@{initiate\+\_\+processor\+\_\+impl}}
+\index{initiate\+\_\+processor\+\_\+impl@{initiate\+\_\+processor\+\_\+impl}!boost\+::statechart\+::processor\+\_\+container@{boost\+::statechart\+::processor\+\_\+container}}
+\subsubsection{\texorpdfstring{initiate\+\_\+processor\+\_\+impl()}{initiate\_processor\_impl()}}
+{\footnotesize\ttfamily template$<$class Scheduler, class Work\+Item, class Allocator = std\+::allocator$<$ void $>$$>$ \\
+void \mbox{\hyperlink{classboost_1_1statechart_1_1processor__container}{boost\+::statechart\+::processor\+\_\+container}}$<$ Scheduler, Work\+Item, Allocator $>$\+::initiate\+\_\+processor\+\_\+impl (\begin{DoxyParamCaption}\item[{const \mbox{\hyperlink{classboost_1_1statechart_1_1processor__container_a82ebbffaed81d7b99119ae0e892f6411}{processor\+\_\+handle}} \&}]{processor }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [private]}}
+
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classboost_1_1statechart_1_1processor__container_a990121e1344fde3e2b3735c7364805f9_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{classboost_1_1statechart_1_1processor__container_a04c9968abd3eb95f1a6fcb171166c5f6}\label{classboost_1_1statechart_1_1processor__container_a04c9968abd3eb95f1a6fcb171166c5f6}} 
+\index{boost\+::statechart\+::processor\+\_\+container@{boost\+::statechart\+::processor\+\_\+container}!make\+\_\+processor\+\_\+holder@{make\+\_\+processor\+\_\+holder}}
+\index{make\+\_\+processor\+\_\+holder@{make\+\_\+processor\+\_\+holder}!boost\+::statechart\+::processor\+\_\+container@{boost\+::statechart\+::processor\+\_\+container}}
+\subsubsection{\texorpdfstring{make\+\_\+processor\+\_\+holder()}{make\_processor\_holder()}}
+{\footnotesize\ttfamily template$<$class Scheduler, class Work\+Item, class Allocator = std\+::allocator$<$ void $>$$>$ \\
+\mbox{\hyperlink{classboost_1_1statechart_1_1processor__container_a885e5a42694857bfaa44ec053ed20a57}{processor\+\_\+holder\+\_\+ptr\+\_\+type}} \mbox{\hyperlink{classboost_1_1statechart_1_1processor__container}{boost\+::statechart\+::processor\+\_\+container}}$<$ Scheduler, Work\+Item, Allocator $>$\+::make\+\_\+processor\+\_\+holder (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [private]}}
+
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classboost_1_1statechart_1_1processor__container_a04c9968abd3eb95f1a6fcb171166c5f6_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{classboost_1_1statechart_1_1processor__container_af734be4c5c3d87830dae2cbb08c9223e}\label{classboost_1_1statechart_1_1processor__container_af734be4c5c3d87830dae2cbb08c9223e}} 
+\index{boost\+::statechart\+::processor\+\_\+container@{boost\+::statechart\+::processor\+\_\+container}!queue\+\_\+event@{queue\+\_\+event}}
+\index{queue\+\_\+event@{queue\+\_\+event}!boost\+::statechart\+::processor\+\_\+container@{boost\+::statechart\+::processor\+\_\+container}}
+\subsubsection{\texorpdfstring{queue\+\_\+event()}{queue\_event()}}
+{\footnotesize\ttfamily template$<$class Scheduler, class Work\+Item, class Allocator = std\+::allocator$<$ void $>$$>$ \\
+Work\+Item \mbox{\hyperlink{classboost_1_1statechart_1_1processor__container}{boost\+::statechart\+::processor\+\_\+container}}$<$ Scheduler, Work\+Item, Allocator $>$\+::queue\+\_\+event (\begin{DoxyParamCaption}\item[{const \mbox{\hyperlink{classboost_1_1statechart_1_1processor__container_a82ebbffaed81d7b99119ae0e892f6411}{processor\+\_\+handle}} \&}]{processor,  }\item[{const \mbox{\hyperlink{classboost_1_1statechart_1_1processor__container_a0123b4f1061816fce5aa2c2ec4c06934}{event\+\_\+ptr\+\_\+type}} \&}]{p\+Event }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classboost_1_1statechart_1_1processor__container_af734be4c5c3d87830dae2cbb08c9223e_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{classboost_1_1statechart_1_1processor__container_ad09f73c626dbd09da54efef6e00ca9c5}\label{classboost_1_1statechart_1_1processor__container_ad09f73c626dbd09da54efef6e00ca9c5}} 
+\index{boost\+::statechart\+::processor\+\_\+container@{boost\+::statechart\+::processor\+\_\+container}!queue\+\_\+event\+\_\+impl@{queue\+\_\+event\+\_\+impl}}
+\index{queue\+\_\+event\+\_\+impl@{queue\+\_\+event\+\_\+impl}!boost\+::statechart\+::processor\+\_\+container@{boost\+::statechart\+::processor\+\_\+container}}
+\subsubsection{\texorpdfstring{queue\+\_\+event\+\_\+impl()}{queue\_event\_impl()}}
+{\footnotesize\ttfamily template$<$class Scheduler, class Work\+Item, class Allocator = std\+::allocator$<$ void $>$$>$ \\
+void \mbox{\hyperlink{classboost_1_1statechart_1_1processor__container}{boost\+::statechart\+::processor\+\_\+container}}$<$ Scheduler, Work\+Item, Allocator $>$\+::queue\+\_\+event\+\_\+impl (\begin{DoxyParamCaption}\item[{const \mbox{\hyperlink{classboost_1_1statechart_1_1processor__container_a82ebbffaed81d7b99119ae0e892f6411}{processor\+\_\+handle}} \&}]{processor,  }\item[{const \mbox{\hyperlink{classboost_1_1statechart_1_1processor__container_a0123b4f1061816fce5aa2c2ec4c06934}{event\+\_\+ptr\+\_\+type}} \&}]{p\+Event }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [private]}}
+
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classboost_1_1statechart_1_1processor__container_ad09f73c626dbd09da54efef6e00ca9c5_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{classboost_1_1statechart_1_1processor__container_aaf9ad46333b3d8f490769788ced131a2}\label{classboost_1_1statechart_1_1processor__container_aaf9ad46333b3d8f490769788ced131a2}} 
+\index{boost\+::statechart\+::processor\+\_\+container@{boost\+::statechart\+::processor\+\_\+container}!terminate\+\_\+processor@{terminate\+\_\+processor}}
+\index{terminate\+\_\+processor@{terminate\+\_\+processor}!boost\+::statechart\+::processor\+\_\+container@{boost\+::statechart\+::processor\+\_\+container}}
+\subsubsection{\texorpdfstring{terminate\+\_\+processor()}{terminate\_processor()}}
+{\footnotesize\ttfamily template$<$class Scheduler, class Work\+Item, class Allocator = std\+::allocator$<$ void $>$$>$ \\
+Work\+Item \mbox{\hyperlink{classboost_1_1statechart_1_1processor__container}{boost\+::statechart\+::processor\+\_\+container}}$<$ Scheduler, Work\+Item, Allocator $>$\+::terminate\+\_\+processor (\begin{DoxyParamCaption}\item[{const \mbox{\hyperlink{classboost_1_1statechart_1_1processor__container_a82ebbffaed81d7b99119ae0e892f6411}{processor\+\_\+handle}} \&}]{processor }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classboost_1_1statechart_1_1processor__container_aaf9ad46333b3d8f490769788ced131a2_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{classboost_1_1statechart_1_1processor__container_a883cf537f7ae021aa79c8614f993f442}\label{classboost_1_1statechart_1_1processor__container_a883cf537f7ae021aa79c8614f993f442}} 
+\index{boost\+::statechart\+::processor\+\_\+container@{boost\+::statechart\+::processor\+\_\+container}!terminate\+\_\+processor\+\_\+impl@{terminate\+\_\+processor\+\_\+impl}}
+\index{terminate\+\_\+processor\+\_\+impl@{terminate\+\_\+processor\+\_\+impl}!boost\+::statechart\+::processor\+\_\+container@{boost\+::statechart\+::processor\+\_\+container}}
+\subsubsection{\texorpdfstring{terminate\+\_\+processor\+\_\+impl()}{terminate\_processor\_impl()}}
+{\footnotesize\ttfamily template$<$class Scheduler, class Work\+Item, class Allocator = std\+::allocator$<$ void $>$$>$ \\
+void \mbox{\hyperlink{classboost_1_1statechart_1_1processor__container}{boost\+::statechart\+::processor\+\_\+container}}$<$ Scheduler, Work\+Item, Allocator $>$\+::terminate\+\_\+processor\+\_\+impl (\begin{DoxyParamCaption}\item[{const \mbox{\hyperlink{classboost_1_1statechart_1_1processor__container_a82ebbffaed81d7b99119ae0e892f6411}{processor\+\_\+handle}} \&}]{processor }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [private]}}
+
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classboost_1_1statechart_1_1processor__container_a883cf537f7ae021aa79c8614f993f442_icgraph}
+\end{center}
+\end{figure}
+
+
+\subsection{Member Data Documentation}
+\mbox{\Hypertarget{classboost_1_1statechart_1_1processor__container_a5d971d1e7d4745e2c5ffd421aa13291a}\label{classboost_1_1statechart_1_1processor__container_a5d971d1e7d4745e2c5ffd421aa13291a}} 
+\index{boost\+::statechart\+::processor\+\_\+container@{boost\+::statechart\+::processor\+\_\+container}!processor\+Set\+\_\+@{processor\+Set\+\_\+}}
+\index{processor\+Set\+\_\+@{processor\+Set\+\_\+}!boost\+::statechart\+::processor\+\_\+container@{boost\+::statechart\+::processor\+\_\+container}}
+\subsubsection{\texorpdfstring{processor\+Set\+\_\+}{processorSet\_}}
+{\footnotesize\ttfamily template$<$class Scheduler, class Work\+Item, class Allocator = std\+::allocator$<$ void $>$$>$ \\
+\mbox{\hyperlink{classboost_1_1statechart_1_1processor__container_a34f8c87b6b4f8a8620c0bc6b124d0c77}{event\+\_\+processor\+\_\+set\+\_\+type}} \mbox{\hyperlink{classboost_1_1statechart_1_1processor__container}{boost\+::statechart\+::processor\+\_\+container}}$<$ Scheduler, Work\+Item, Allocator $>$\+::processor\+Set\+\_\+\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+include/boost/statechart/\mbox{\hyperlink{processor__container_8hpp}{processor\+\_\+container.\+hpp}}\end{DoxyCompactItemize}

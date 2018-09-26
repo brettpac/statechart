@@ -1,0 +1,9 @@
+<map id="include/boost/statechart/fifo_worker.hpp" name="include/boost/statechart/fifo_worker.hpp">
+<area shape="rect" id="node2" href="$_ping_pong_8cpp.html" title="example/PingPong/PingPong.cpp" alt="" coords="141,348,357,375"/>
+<area shape="rect" id="node3" href="$fifo__scheduler_8hpp.html" title="include/boost/statechart\l/fifo_scheduler.hpp" alt="" coords="105,95,266,136"/>
+<area shape="rect" id="node4" href="$_player_8hpp.html" title="example/PingPong/Player.hpp" alt="" coords="296,273,493,300"/>
+<area shape="rect" id="node7" href="$asynchronous__state__machine_8hpp.html" title="include/boost/statechart\l/asynchronous_state_machine.hpp" alt="" coords="140,184,364,225"/>
+<area shape="rect" id="node8" href="$_fifo_scheduler_test_8cpp.html" title="test/FifoSchedulerTest.cpp" alt="" coords="40,273,219,300"/>
+<area shape="rect" id="node5" href="$_player_8cpp.html" title="example/PingPong/Player.cpp" alt="" coords="365,423,563,449"/>
+<area shape="rect" id="node6" href="$_waiting_8hpp.html" title="example/PingPong/Waiting.hpp" alt="" coords="433,348,637,375"/>
+</map>

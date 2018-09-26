@@ -1,0 +1,4 @@
+<map id="S11::react" name="S11::react">
+<area shape="rect" id="node2" href="$classboost_1_1statechart_1_1simple__state.html#a5a2e9abf29040c3dd91ac9d98a17f564" title="boost::statechart::\lsimple_state\&lt; S11\&lt; M\l \&gt;, S1\&lt; M \&gt;::template\l orthogonal\&lt; 1 \&gt;, mpl\l::list\&lt;\&gt;, has_no_history\l \&gt;::outermost_context" alt="" coords="136,5,295,105"/>
+<area shape="rect" id="node3" href="$classboost_1_1statechart_1_1simple__state.html#aba633726b29a7bd07d69429bab4a3a1b" title="boost::statechart::\lsimple_state\&lt; S11\&lt; M\l \&gt;, S1\&lt; M \&gt;::template\l orthogonal\&lt; 1 \&gt;, mpl\l::list\&lt;\&gt;, has_no_history\l \&gt;::discard_event" alt="" coords="136,129,295,229"/>
+</map>

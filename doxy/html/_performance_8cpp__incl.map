@@ -1,0 +1,19 @@
+<map id="example/Performance/Performance.cpp" name="example/Performance/Performance.cpp">
+<area shape="rect" id="node2" href="$event_8hpp.html" title="boost/statechart/event.hpp" alt="" coords="6178,363,6355,389"/>
+<area shape="rect" id="node16" href="$simple__state_8hpp.html" title="boost/statechart/simple\l_state.hpp" alt="" coords="3059,95,3218,136"/>
+<area shape="rect" id="node59" href="$state__machine_8hpp.html" title="boost/statechart/state\l_machine.hpp" alt="" coords="5550,95,5700,136"/>
+<area shape="rect" id="node67" href="$transition_8hpp.html" title="boost/statechart/transition.hpp" alt="" coords="210,102,408,129"/>
+<area shape="rect" id="node69" href="$in__state__reaction_8hpp.html" title="boost/statechart/in\l_state_reaction.hpp" alt="" coords="50,95,186,136"/>
+<area shape="rect" id="node3" href="$event__base_8hpp.html" title="boost/statechart/event\l_base.hpp" alt="" coords="6184,437,6336,479"/>
+<area shape="rect" id="node4" href="$rtti__policy_8hpp.html" title="boost/statechart/detail\l/rtti_policy.hpp" alt="" coords="6399,527,6550,568"/>
+<area shape="rect" id="node10" href="$memory_8hpp.html" title="boost/statechart/detail\l/memory.hpp" alt="" coords="5516,437,5667,479"/>
+<area shape="rect" id="node8" href="$counted__base_8hpp.html" title="boost/statechart/detail\l/counted_base.hpp" alt="" coords="6172,527,6323,568"/>
+<area shape="rect" id="node11" href="$avoid__unused__warning_8hpp.html" title="boost/statechart/detail\l/avoid_unused_warning.hpp" alt="" coords="5812,527,5995,568"/>
+<area shape="rect" id="node17" href="$leaf__state_8hpp.html" title="boost/statechart/detail\l/leaf_state.hpp" alt="" coords="5335,184,5486,225"/>
+<area shape="rect" id="node21" href="$node__state_8hpp.html" title="boost/statechart/detail\l/node_state.hpp" alt="" coords="4864,184,5015,225"/>
+<area shape="rect" id="node23" href="$constructor_8hpp.html" title="boost/statechart/detail\l/constructor.hpp" alt="" coords="3843,184,3994,225"/>
+<area shape="rect" id="node18" href="$state__base_8hpp.html" title="boost/statechart/detail\l/state_base.hpp" alt="" coords="5692,273,5843,315"/>
+<area shape="rect" id="node19" href="$result_8hpp.html" title="boost/statechart/result.hpp" alt="" coords="304,363,482,389"/>
+<area shape="rect" id="node60" href="$null__exception__translator_8hpp.html" title="boost/statechart/null\l_exception_translator.hpp" alt="" coords="4758,273,4929,315"/>
+<area shape="rect" id="node68" href="$reaction__dispatcher_8hpp.html" title="boost/statechart/detail\l/reaction_dispatcher.hpp" alt="" coords="198,184,362,225"/>
+</map>

@@ -1,0 +1,12 @@
+<map id="boost::statechart::detail::result_utility::get_result" name="boost::statechart::detail::result_utility::get_result">
+<area shape="rect" id="node2" href="$classboost_1_1statechart_1_1custom__reaction.html#a1de25f5eb09b254a6acf2e7bcfc2289b" title="boost::statechart::\lcustom_reaction::react" alt="" coords="218,5,373,47"/>
+<area shape="rect" id="node3" href="$classboost_1_1statechart_1_1custom__reaction_3_01event__base_01_4.html#a176761fd7d64c28e85d3df80c49f016f" title="boost::statechart::\lcustom_reaction\&lt; event\l_base \&gt;::react" alt="" coords="214,70,377,126"/>
+<area shape="rect" id="node4" href="$classboost_1_1statechart_1_1deferral.html#ab484b1838dac52a4f49a6ce61ef5f0cc" title="boost::statechart::\ldeferral::react" alt="" coords="231,149,359,191"/>
+<area shape="rect" id="node5" href="$classboost_1_1statechart_1_1deferral_3_01event__base_01_4.html#abce5ad466565afb17f0a210b651635bf" title="boost::statechart::\ldeferral\&lt; event_base\l \&gt;::react" alt="" coords="223,214,367,270"/>
+<area shape="rect" id="node6" href="$classboost_1_1statechart_1_1detail_1_1reaction__dispatcher.html#aeded743093739575529fa22b3a63b27f" title="boost::statechart::\ldetail::reaction_dispatcher\l::react" alt="" coords="208,294,383,350"/>
+<area shape="rect" id="node7" href="$classboost_1_1statechart_1_1state__machine.html#a7165ce3d1120b98dde6e8d669e35aba9" title="boost::statechart::\lstate_machine\&lt; CustomReaction\lEventBaseTest, X1 \&gt;::initiate" alt="" coords="187,374,404,430"/>
+<area shape="rect" id="node8" href="$classboost_1_1statechart_1_1state__machine.html#a6abd7c38c09f87fa662c5aa5e8f6f3ff" title="boost::statechart::\lstate_machine\&lt; CustomReaction\lEventBaseTest, X1 \&gt;::terminate" alt="" coords="187,454,404,510"/>
+<area shape="rect" id="node9" href="$classboost_1_1statechart_1_1state__machine.html#ae429789fa4f90eecdce95f56fd72f985" title="boost::statechart::\lstate_machine\&lt; CustomReaction\lEventBaseTest, X1 \&gt;::send_event" alt="" coords="184,534,407,590"/>
+<area shape="rect" id="node10" href="$classboost_1_1statechart_1_1termination.html#a88533f0d39b8fdfa3d83b7217b55f345" title="boost::statechart::\ltermination::react" alt="" coords="231,613,359,655"/>
+<area shape="rect" id="node11" href="$classboost_1_1statechart_1_1termination_3_01event__base_01_4.html#a1d3e0f812c5565e405314ed26cd7300c" title="boost::statechart::\ltermination\&lt; event_base\l \&gt;::react" alt="" coords="213,678,378,734"/>
+</map>

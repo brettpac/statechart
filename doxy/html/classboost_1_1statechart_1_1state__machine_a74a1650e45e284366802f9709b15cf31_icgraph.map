@@ -1,0 +1,7 @@
+<map id="boost::statechart::state_machine::terminate_impl" name="boost::statechart::state_machine::terminate_impl">
+<area shape="rect" id="node2" href="$classboost_1_1statechart_1_1state__machine.html#abd03251def3e351d14451e6b8ffd73b4" title="boost::statechart::\lstate_machine\&lt; CustomReaction\lEventBaseTest, X1 \&gt;::~state\l_machine" alt="" coords="253,5,471,76"/>
+<area shape="rect" id="node3" href="$classboost_1_1statechart_1_1state__machine.html#af1b30d30e04a470cc89c3e9e3792e993" title="boost::statechart::\lstate_machine\&lt; CustomReaction\lEventBaseTest, X1 \&gt;::terminate\l_as_reaction" alt="" coords="253,100,471,171"/>
+<area shape="rect" id="node4" href="$classboost_1_1statechart_1_1state__machine.html#ad67f22f0ca7a18cada1420b9d851530c" title="boost::statechart::\lstate_machine\&lt; CustomReaction\lEventBaseTest, X1 \&gt;::terminate\l_as_part_of_transit" alt="" coords="253,195,471,265"/>
+<area shape="rect" id="node5" href="$classboost_1_1statechart_1_1state__machine_1_1terminate__function.html#acb8264a868bd58d3495d50ac6b363714" title="boost::statechart::\lstate_machine::terminate\l_function::operator()" alt="" coords="277,290,447,346"/>
+<area shape="rect" id="node6" href="$classboost_1_1statechart_1_1state__machine_1_1terminator.html#ab7fb7436ce00c95f86eae04e7680f07f" title="boost::statechart::\lstate_machine::terminator\l::~terminator" alt="" coords="275,370,449,426"/>
+</map>

@@ -1,0 +1,9 @@
+<map id="boost::statechart::detail::state_base::outer_state_ptr" name="boost::statechart::detail::state_base::outer_state_ptr">
+<area shape="rect" id="node2" href="$_keyboard_8cpp.html#a963a74baecef1fe7e990b54822bbe27f" title="DisplayStateConfiguration" alt="" coords="208,5,383,32"/>
+<area shape="rect" id="node4" href="$classboost_1_1statechart_1_1state__machine.html#aabd07005b47036311b5e80e05c1746c2" title="boost::statechart::\lstate_machine\&lt; CustomReaction\lEventBaseTest, X1 \&gt;::state_cast" alt="" coords="187,56,404,112"/>
+<area shape="rect" id="node5" href="$classboost_1_1statechart_1_1state__machine.html#a8054170cced8b908272d9d8ba9e5deb9" title="boost::statechart::\lstate_machine\&lt; CustomReaction\lEventBaseTest, X1 \&gt;::state\l_downcast" alt="" coords="187,137,404,207"/>
+<area shape="rect" id="node6" href="$struct_termination_test.html#aec947c03a7b1bfbc20a93cc0e7434381" title="TerminationTest::AssertIn\lState" alt="" coords="209,231,382,273"/>
+<area shape="rect" id="node8" href="$_type_info_test_8cpp.html#a3e926c6d48feb75bdce9c73fca2adf1c" title="test_main" alt="" coords="256,297,335,324"/>
+<area shape="rect" id="node3" href="$_keyboard_8cpp.html#ae66f6b31b5ad750f1fe042a706a4e3d4" title="main" alt="" coords="466,5,517,32"/>
+<area shape="rect" id="node7" href="$_termination_test_8cpp.html#a3e926c6d48feb75bdce9c73fca2adf1c" title="test_main" alt="" coords="452,239,531,265"/>
+</map>

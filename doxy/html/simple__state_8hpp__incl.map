@@ -1,0 +1,13 @@
+<map id="include/boost/statechart/simple_state.hpp" name="include/boost/statechart/simple_state.hpp">
+<area shape="rect" id="node2" href="$event_8hpp.html" title="boost/statechart/event.hpp" alt="" coords="577,273,755,300"/>
+<area shape="rect" id="node10" href="$memory_8hpp.html" title="boost/statechart/detail\l/memory.hpp" alt="" coords="144,348,295,389"/>
+<area shape="rect" id="node16" href="$leaf__state_8hpp.html" title="boost/statechart/detail\l/leaf_state.hpp" alt="" coords="1113,95,1264,136"/>
+<area shape="rect" id="node21" href="$node__state_8hpp.html" title="boost/statechart/detail\l/node_state.hpp" alt="" coords="1341,95,1492,136"/>
+<area shape="rect" id="node23" href="$constructor_8hpp.html" title="boost/statechart/detail\l/constructor.hpp" alt="" coords="2145,95,2296,136"/>
+<area shape="rect" id="node3" href="$event__base_8hpp.html" title="boost/statechart/event\l_base.hpp" alt="" coords="927,348,1079,389"/>
+<area shape="rect" id="node4" href="$rtti__policy_8hpp.html" title="boost/statechart/detail\l/rtti_policy.hpp" alt="" coords="975,437,1125,479"/>
+<area shape="rect" id="node8" href="$counted__base_8hpp.html" title="boost/statechart/detail\l/counted_base.hpp" alt="" coords="1201,437,1352,479"/>
+<area shape="rect" id="node11" href="$avoid__unused__warning_8hpp.html" title="boost/statechart/detail\l/avoid_unused_warning.hpp" alt="" coords="95,437,277,479"/>
+<area shape="rect" id="node17" href="$state__base_8hpp.html" title="boost/statechart/detail\l/state_base.hpp" alt="" coords="1100,184,1251,225"/>
+<area shape="rect" id="node18" href="$result_8hpp.html" title="boost/statechart/result.hpp" alt="" coords="779,273,956,300"/>
+</map>

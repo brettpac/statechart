@@ -1,0 +1,5 @@
+<map id="test_main" name="test_main">
+<area shape="rect" id="node2" href="$struct_tu_test.html#a9f447a6fee2142e3b1a064c9f6d64c17" title="TuTest::initiate" alt="" coords="177,13,287,39"/>
+<area shape="rect" id="node4" href="$classboost_1_1statechart_1_1state__machine.html#a78598d4982f6b85e83358652eb1c3d6e" title="boost::statechart::\lstate_machine::process_event" alt="" coords="132,64,332,105"/>
+<area shape="rect" id="node3" href="$classboost_1_1statechart_1_1state__machine.html#a7165ce3d1120b98dde6e8d669e35aba9" title="boost::statechart::\lstate_machine::initiate" alt="" coords="380,5,533,47"/>
+</map>

@@ -1,0 +1,106 @@
+\hypertarget{class_unique_object_allocator}{}\section{Unique\+Object\+Allocator$<$ T $>$ Class Template Reference}
+\label{class_unique_object_allocator}\index{Unique\+Object\+Allocator$<$ T $>$@{Unique\+Object\+Allocator$<$ T $>$}}
+
+
+{\ttfamily \#include $<$Unique\+Object\+Allocator.\+hpp$>$}
+
+
+
+Collaboration diagram for Unique\+Object\+Allocator$<$ T $>$\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=218pt]{class_unique_object_allocator__coll__graph}
+\end{center}
+\end{figure}
+\subsection*{Classes}
+\begin{DoxyCompactItemize}
+\item 
+union \mbox{\hyperlink{union_unique_object_allocator_1_1storage}{storage}}
+\end{DoxyCompactItemize}
+\subsection*{Static Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+static void $\ast$ \mbox{\hyperlink{class_unique_object_allocator_a7baf5a708dcd516ce694499687e0cdc2}{allocate}} (std\+::size\+\_\+t size)
+\item 
+static void \mbox{\hyperlink{class_unique_object_allocator_a56c2cd1285c50ab8ed537aba9493b970}{deallocate}} (void $\ast$p, std\+::size\+\_\+t size)
+\end{DoxyCompactItemize}
+\subsection*{Static Private Attributes}
+\begin{DoxyCompactItemize}
+\item 
+static bool \mbox{\hyperlink{class_unique_object_allocator_abc28a41fb39ba4adcb23bc21e4121d63}{constructed\+\_\+}} = false
+\item 
+static \mbox{\hyperlink{union_unique_object_allocator_1_1storage}{storage}} \mbox{\hyperlink{class_unique_object_allocator_ad684f842780e3afc1fdbacabc0d7cd5b}{storage\+\_\+}}
+\end{DoxyCompactItemize}
+
+
+\subsection{Member Function Documentation}
+\mbox{\Hypertarget{class_unique_object_allocator_a7baf5a708dcd516ce694499687e0cdc2}\label{class_unique_object_allocator_a7baf5a708dcd516ce694499687e0cdc2}} 
+\index{Unique\+Object\+Allocator@{Unique\+Object\+Allocator}!allocate@{allocate}}
+\index{allocate@{allocate}!Unique\+Object\+Allocator@{Unique\+Object\+Allocator}}
+\subsubsection{\texorpdfstring{allocate()}{allocate()}}
+{\footnotesize\ttfamily template$<$class T $>$ \\
+static void$\ast$ \mbox{\hyperlink{class_unique_object_allocator}{Unique\+Object\+Allocator}}$<$ T $>$\+::allocate (\begin{DoxyParamCaption}\item[{std\+::size\+\_\+t}]{size }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [static]}}
+
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=336pt]{class_unique_object_allocator_a7baf5a708dcd516ce694499687e0cdc2_cgraph}
+\end{center}
+\end{figure}
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_unique_object_allocator_a7baf5a708dcd516ce694499687e0cdc2_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{class_unique_object_allocator_a56c2cd1285c50ab8ed537aba9493b970}\label{class_unique_object_allocator_a56c2cd1285c50ab8ed537aba9493b970}} 
+\index{Unique\+Object\+Allocator@{Unique\+Object\+Allocator}!deallocate@{deallocate}}
+\index{deallocate@{deallocate}!Unique\+Object\+Allocator@{Unique\+Object\+Allocator}}
+\subsubsection{\texorpdfstring{deallocate()}{deallocate()}}
+{\footnotesize\ttfamily template$<$class T $>$ \\
+static void \mbox{\hyperlink{class_unique_object_allocator}{Unique\+Object\+Allocator}}$<$ T $>$\+::deallocate (\begin{DoxyParamCaption}\item[{void $\ast$}]{p,  }\item[{std\+::size\+\_\+t}]{size }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [static]}}
+
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=336pt]{class_unique_object_allocator_a56c2cd1285c50ab8ed537aba9493b970_cgraph}
+\end{center}
+\end{figure}
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_unique_object_allocator_a56c2cd1285c50ab8ed537aba9493b970_icgraph}
+\end{center}
+\end{figure}
+
+
+\subsection{Member Data Documentation}
+\mbox{\Hypertarget{class_unique_object_allocator_abc28a41fb39ba4adcb23bc21e4121d63}\label{class_unique_object_allocator_abc28a41fb39ba4adcb23bc21e4121d63}} 
+\index{Unique\+Object\+Allocator@{Unique\+Object\+Allocator}!constructed\+\_\+@{constructed\+\_\+}}
+\index{constructed\+\_\+@{constructed\+\_\+}!Unique\+Object\+Allocator@{Unique\+Object\+Allocator}}
+\subsubsection{\texorpdfstring{constructed\+\_\+}{constructed\_}}
+{\footnotesize\ttfamily template$<$class T $>$ \\
+bool \mbox{\hyperlink{class_unique_object_allocator}{Unique\+Object\+Allocator}}$<$ T $>$\+::constructed\+\_\+ = false\hspace{0.3cm}{\ttfamily [static]}, {\ttfamily [private]}}
+
+\mbox{\Hypertarget{class_unique_object_allocator_ad684f842780e3afc1fdbacabc0d7cd5b}\label{class_unique_object_allocator_ad684f842780e3afc1fdbacabc0d7cd5b}} 
+\index{Unique\+Object\+Allocator@{Unique\+Object\+Allocator}!storage\+\_\+@{storage\+\_\+}}
+\index{storage\+\_\+@{storage\+\_\+}!Unique\+Object\+Allocator@{Unique\+Object\+Allocator}}
+\subsubsection{\texorpdfstring{storage\+\_\+}{storage\_}}
+{\footnotesize\ttfamily template$<$class T $>$ \\
+\mbox{\hyperlink{class_unique_object_allocator}{Unique\+Object\+Allocator}}$<$ T $>$\+::\mbox{\hyperlink{union_unique_object_allocator_1_1storage}{storage}} \mbox{\hyperlink{class_unique_object_allocator}{Unique\+Object\+Allocator}}$<$ T $>$\+::storage\+\_\+\hspace{0.3cm}{\ttfamily [static]}, {\ttfamily [private]}}
+
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+example/\+Bit\+Machine/\mbox{\hyperlink{_unique_object_allocator_8hpp}{Unique\+Object\+Allocator.\+hpp}}\end{DoxyCompactItemize}

@@ -1,0 +1,7 @@
+<map id="test_main" name="test_main">
+<area shape="rect" id="node2" href="$classboost_1_1statechart_1_1state__machine.html#a7165ce3d1120b98dde6e8d669e35aba9" title="boost::statechart::\lstate_machine::initiate" alt="" coords="153,5,306,47"/>
+<area shape="rect" id="node3" href="$classboost_1_1statechart_1_1state__machine.html#a270c21248c558be7daf8139c032b1f0c" title="boost::statechart::\lstate_machine::state_begin" alt="" coords="138,71,321,112"/>
+<area shape="rect" id="node4" href="$classboost_1_1statechart_1_1detail_1_1state__base.html#a03d51c261c052af1db3bb08b31891731" title="boost::statechart::\ldetail::state_base::\louter_state_ptr" alt="" coords="163,135,296,191"/>
+<area shape="rect" id="node5" href="$classboost_1_1statechart_1_1detail_1_1rtti__policy_1_1rtti__derived__type.html#a0eddc3217e487ef7080cab0adae5bc80" title="boost::statechart::\ldetail::rtti_policy\l::rtti_derived_type\&lt;\l B, event_base \&gt;::static_type" alt="" coords="132,216,327,287"/>
+<area shape="rect" id="node6" href="$classboost_1_1statechart_1_1detail_1_1rtti__policy_1_1rtti__derived__type.html#aaadb177722b0dd8288bb0c2fad30f1fe" title="boost::statechart::\ldetail::rtti_policy\l::rtti_derived_type\&lt;\l B, event_base \&gt;::custom\l_static_type_ptr" alt="" coords="143,311,316,397"/>
+</map>

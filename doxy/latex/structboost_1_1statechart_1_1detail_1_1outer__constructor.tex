@@ -1,0 +1,123 @@
+\hypertarget{structboost_1_1statechart_1_1detail_1_1outer__constructor}{}\section{boost\+:\+:statechart\+:\+:detail\+:\+:outer\+\_\+constructor$<$ Context\+List, Outermost\+Context\+Base $>$ Struct Template Reference}
+\label{structboost_1_1statechart_1_1detail_1_1outer__constructor}\index{boost\+::statechart\+::detail\+::outer\+\_\+constructor$<$ Context\+List, Outermost\+Context\+Base $>$@{boost\+::statechart\+::detail\+::outer\+\_\+constructor$<$ Context\+List, Outermost\+Context\+Base $>$}}
+
+
+{\ttfamily \#include $<$constructor.\+hpp$>$}
+
+
+
+Collaboration diagram for boost\+:\+:statechart\+:\+:detail\+:\+:outer\+\_\+constructor$<$ Context\+List, Outermost\+Context\+Base $>$\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=242pt]{structboost_1_1statechart_1_1detail_1_1outer__constructor__coll__graph}
+\end{center}
+\end{figure}
+\subsection*{Public Types}
+\begin{DoxyCompactItemize}
+\item 
+typedef mpl\+::front$<$ Context\+List $>$\+::type \mbox{\hyperlink{structboost_1_1statechart_1_1detail_1_1outer__constructor_a9ebebe2d638d5f65279cc24fab763952}{to\+\_\+construct}}
+\item 
+typedef to\+\_\+construct\+::context\+\_\+ptr\+\_\+type \mbox{\hyperlink{structboost_1_1statechart_1_1detail_1_1outer__constructor_a2cfbd893ac80c92ac2e6ba1149851266}{context\+\_\+ptr\+\_\+type}}
+\item 
+typedef to\+\_\+construct\+::inner\+\_\+context\+\_\+ptr\+\_\+type \mbox{\hyperlink{structboost_1_1statechart_1_1detail_1_1outer__constructor_aa3fd039947106ceda4fa68a41f9d3307}{inner\+\_\+context\+\_\+ptr\+\_\+type}}
+\item 
+typedef to\+\_\+construct\+::inner\+\_\+initial\+\_\+list \mbox{\hyperlink{structboost_1_1statechart_1_1detail_1_1outer__constructor_a4c1c7fd76b5d06da5ebc2dc2c99444f9}{inner\+\_\+initial\+\_\+list}}
+\item 
+typedef mpl\+::pop\+\_\+front$<$ Context\+List $>$\+::type \mbox{\hyperlink{structboost_1_1statechart_1_1detail_1_1outer__constructor_a54865d68e270edafc233566aa9b296f0}{inner\+\_\+context\+\_\+list}}
+\item 
+typedef mpl\+::front$<$ \mbox{\hyperlink{structboost_1_1statechart_1_1detail_1_1outer__constructor_a54865d68e270edafc233566aa9b296f0}{inner\+\_\+context\+\_\+list}} $>$\+::type\+::orthogonal\+\_\+position \mbox{\hyperlink{structboost_1_1statechart_1_1detail_1_1outer__constructor_a4ef3f9542315cf35992826bd96cd9ece}{inner\+\_\+orthogonal\+\_\+position}}
+\item 
+typedef mpl\+::advance$<$ typename mpl\+::begin$<$ \mbox{\hyperlink{structboost_1_1statechart_1_1detail_1_1outer__constructor_a4c1c7fd76b5d06da5ebc2dc2c99444f9}{inner\+\_\+initial\+\_\+list}} $>$\+::type, \mbox{\hyperlink{structboost_1_1statechart_1_1detail_1_1outer__constructor_a4ef3f9542315cf35992826bd96cd9ece}{inner\+\_\+orthogonal\+\_\+position}} $>$\+::type \mbox{\hyperlink{structboost_1_1statechart_1_1detail_1_1outer__constructor_a90925740f3c0336f09a152967a7e7173}{to\+\_\+construct\+\_\+iter}}
+\item 
+typedef mpl\+::erase$<$ \mbox{\hyperlink{structboost_1_1statechart_1_1detail_1_1outer__constructor_a4c1c7fd76b5d06da5ebc2dc2c99444f9}{inner\+\_\+initial\+\_\+list}}, \mbox{\hyperlink{structboost_1_1statechart_1_1detail_1_1outer__constructor_a90925740f3c0336f09a152967a7e7173}{to\+\_\+construct\+\_\+iter}}, typename mpl\+::end$<$ \mbox{\hyperlink{structboost_1_1statechart_1_1detail_1_1outer__constructor_a4c1c7fd76b5d06da5ebc2dc2c99444f9}{inner\+\_\+initial\+\_\+list}} $>$\+::type $>$\+::type \mbox{\hyperlink{structboost_1_1statechart_1_1detail_1_1outer__constructor_aeaaf7a8578d83f93cf3a1f90011ec87b}{first\+\_\+inner\+\_\+initial\+\_\+list}}
+\item 
+typedef mpl\+::erase$<$ \mbox{\hyperlink{structboost_1_1statechart_1_1detail_1_1outer__constructor_a4c1c7fd76b5d06da5ebc2dc2c99444f9}{inner\+\_\+initial\+\_\+list}}, typename mpl\+::begin$<$ \mbox{\hyperlink{structboost_1_1statechart_1_1detail_1_1outer__constructor_a4c1c7fd76b5d06da5ebc2dc2c99444f9}{inner\+\_\+initial\+\_\+list}} $>$\+::type, typename mpl\+::next$<$ \mbox{\hyperlink{structboost_1_1statechart_1_1detail_1_1outer__constructor_a90925740f3c0336f09a152967a7e7173}{to\+\_\+construct\+\_\+iter}} $>$\+::type $>$\+::type \mbox{\hyperlink{structboost_1_1statechart_1_1detail_1_1outer__constructor_aef3673c2c30adab76dab9a8431f476e4}{last\+\_\+inner\+\_\+initial\+\_\+list}}
+\end{DoxyCompactItemize}
+\subsection*{Static Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+static void \mbox{\hyperlink{structboost_1_1statechart_1_1detail_1_1outer__constructor_af8c372517cf7586651a01bdd9e7fa15b}{construct}} (const \mbox{\hyperlink{structboost_1_1statechart_1_1detail_1_1outer__constructor_a2cfbd893ac80c92ac2e6ba1149851266}{context\+\_\+ptr\+\_\+type}} \&p\+Context, Outermost\+Context\+Base \&outermost\+Context\+Base)
+\end{DoxyCompactItemize}
+
+
+\subsection{Member Typedef Documentation}
+\mbox{\Hypertarget{structboost_1_1statechart_1_1detail_1_1outer__constructor_a2cfbd893ac80c92ac2e6ba1149851266}\label{structboost_1_1statechart_1_1detail_1_1outer__constructor_a2cfbd893ac80c92ac2e6ba1149851266}} 
+\index{boost\+::statechart\+::detail\+::outer\+\_\+constructor@{boost\+::statechart\+::detail\+::outer\+\_\+constructor}!context\+\_\+ptr\+\_\+type@{context\+\_\+ptr\+\_\+type}}
+\index{context\+\_\+ptr\+\_\+type@{context\+\_\+ptr\+\_\+type}!boost\+::statechart\+::detail\+::outer\+\_\+constructor@{boost\+::statechart\+::detail\+::outer\+\_\+constructor}}
+\subsubsection{\texorpdfstring{context\+\_\+ptr\+\_\+type}{context\_ptr\_type}}
+{\footnotesize\ttfamily template$<$class Context\+List , class Outermost\+Context\+Base $>$ \\
+typedef to\+\_\+construct\+::context\+\_\+ptr\+\_\+type \mbox{\hyperlink{structboost_1_1statechart_1_1detail_1_1outer__constructor}{boost\+::statechart\+::detail\+::outer\+\_\+constructor}}$<$ Context\+List, Outermost\+Context\+Base $>$\+::\mbox{\hyperlink{structboost_1_1statechart_1_1detail_1_1outer__constructor_a2cfbd893ac80c92ac2e6ba1149851266}{context\+\_\+ptr\+\_\+type}}}
+
+\mbox{\Hypertarget{structboost_1_1statechart_1_1detail_1_1outer__constructor_aeaaf7a8578d83f93cf3a1f90011ec87b}\label{structboost_1_1statechart_1_1detail_1_1outer__constructor_aeaaf7a8578d83f93cf3a1f90011ec87b}} 
+\index{boost\+::statechart\+::detail\+::outer\+\_\+constructor@{boost\+::statechart\+::detail\+::outer\+\_\+constructor}!first\+\_\+inner\+\_\+initial\+\_\+list@{first\+\_\+inner\+\_\+initial\+\_\+list}}
+\index{first\+\_\+inner\+\_\+initial\+\_\+list@{first\+\_\+inner\+\_\+initial\+\_\+list}!boost\+::statechart\+::detail\+::outer\+\_\+constructor@{boost\+::statechart\+::detail\+::outer\+\_\+constructor}}
+\subsubsection{\texorpdfstring{first\+\_\+inner\+\_\+initial\+\_\+list}{first\_inner\_initial\_list}}
+{\footnotesize\ttfamily template$<$class Context\+List , class Outermost\+Context\+Base $>$ \\
+typedef mpl\+::erase$<$ \mbox{\hyperlink{structboost_1_1statechart_1_1detail_1_1outer__constructor_a4c1c7fd76b5d06da5ebc2dc2c99444f9}{inner\+\_\+initial\+\_\+list}}, \mbox{\hyperlink{structboost_1_1statechart_1_1detail_1_1outer__constructor_a90925740f3c0336f09a152967a7e7173}{to\+\_\+construct\+\_\+iter}}, typename mpl\+::end$<$ \mbox{\hyperlink{structboost_1_1statechart_1_1detail_1_1outer__constructor_a4c1c7fd76b5d06da5ebc2dc2c99444f9}{inner\+\_\+initial\+\_\+list}} $>$\+::type $>$\+::type \mbox{\hyperlink{structboost_1_1statechart_1_1detail_1_1outer__constructor}{boost\+::statechart\+::detail\+::outer\+\_\+constructor}}$<$ Context\+List, Outermost\+Context\+Base $>$\+::\mbox{\hyperlink{structboost_1_1statechart_1_1detail_1_1outer__constructor_aeaaf7a8578d83f93cf3a1f90011ec87b}{first\+\_\+inner\+\_\+initial\+\_\+list}}}
+
+\mbox{\Hypertarget{structboost_1_1statechart_1_1detail_1_1outer__constructor_a54865d68e270edafc233566aa9b296f0}\label{structboost_1_1statechart_1_1detail_1_1outer__constructor_a54865d68e270edafc233566aa9b296f0}} 
+\index{boost\+::statechart\+::detail\+::outer\+\_\+constructor@{boost\+::statechart\+::detail\+::outer\+\_\+constructor}!inner\+\_\+context\+\_\+list@{inner\+\_\+context\+\_\+list}}
+\index{inner\+\_\+context\+\_\+list@{inner\+\_\+context\+\_\+list}!boost\+::statechart\+::detail\+::outer\+\_\+constructor@{boost\+::statechart\+::detail\+::outer\+\_\+constructor}}
+\subsubsection{\texorpdfstring{inner\+\_\+context\+\_\+list}{inner\_context\_list}}
+{\footnotesize\ttfamily template$<$class Context\+List , class Outermost\+Context\+Base $>$ \\
+typedef mpl\+::pop\+\_\+front$<$ Context\+List $>$\+::type \mbox{\hyperlink{structboost_1_1statechart_1_1detail_1_1outer__constructor}{boost\+::statechart\+::detail\+::outer\+\_\+constructor}}$<$ Context\+List, Outermost\+Context\+Base $>$\+::\mbox{\hyperlink{structboost_1_1statechart_1_1detail_1_1outer__constructor_a54865d68e270edafc233566aa9b296f0}{inner\+\_\+context\+\_\+list}}}
+
+\mbox{\Hypertarget{structboost_1_1statechart_1_1detail_1_1outer__constructor_aa3fd039947106ceda4fa68a41f9d3307}\label{structboost_1_1statechart_1_1detail_1_1outer__constructor_aa3fd039947106ceda4fa68a41f9d3307}} 
+\index{boost\+::statechart\+::detail\+::outer\+\_\+constructor@{boost\+::statechart\+::detail\+::outer\+\_\+constructor}!inner\+\_\+context\+\_\+ptr\+\_\+type@{inner\+\_\+context\+\_\+ptr\+\_\+type}}
+\index{inner\+\_\+context\+\_\+ptr\+\_\+type@{inner\+\_\+context\+\_\+ptr\+\_\+type}!boost\+::statechart\+::detail\+::outer\+\_\+constructor@{boost\+::statechart\+::detail\+::outer\+\_\+constructor}}
+\subsubsection{\texorpdfstring{inner\+\_\+context\+\_\+ptr\+\_\+type}{inner\_context\_ptr\_type}}
+{\footnotesize\ttfamily template$<$class Context\+List , class Outermost\+Context\+Base $>$ \\
+typedef to\+\_\+construct\+::inner\+\_\+context\+\_\+ptr\+\_\+type \mbox{\hyperlink{structboost_1_1statechart_1_1detail_1_1outer__constructor}{boost\+::statechart\+::detail\+::outer\+\_\+constructor}}$<$ Context\+List, Outermost\+Context\+Base $>$\+::\mbox{\hyperlink{structboost_1_1statechart_1_1detail_1_1outer__constructor_aa3fd039947106ceda4fa68a41f9d3307}{inner\+\_\+context\+\_\+ptr\+\_\+type}}}
+
+\mbox{\Hypertarget{structboost_1_1statechart_1_1detail_1_1outer__constructor_a4c1c7fd76b5d06da5ebc2dc2c99444f9}\label{structboost_1_1statechart_1_1detail_1_1outer__constructor_a4c1c7fd76b5d06da5ebc2dc2c99444f9}} 
+\index{boost\+::statechart\+::detail\+::outer\+\_\+constructor@{boost\+::statechart\+::detail\+::outer\+\_\+constructor}!inner\+\_\+initial\+\_\+list@{inner\+\_\+initial\+\_\+list}}
+\index{inner\+\_\+initial\+\_\+list@{inner\+\_\+initial\+\_\+list}!boost\+::statechart\+::detail\+::outer\+\_\+constructor@{boost\+::statechart\+::detail\+::outer\+\_\+constructor}}
+\subsubsection{\texorpdfstring{inner\+\_\+initial\+\_\+list}{inner\_initial\_list}}
+{\footnotesize\ttfamily template$<$class Context\+List , class Outermost\+Context\+Base $>$ \\
+typedef to\+\_\+construct\+::inner\+\_\+initial\+\_\+list \mbox{\hyperlink{structboost_1_1statechart_1_1detail_1_1outer__constructor}{boost\+::statechart\+::detail\+::outer\+\_\+constructor}}$<$ Context\+List, Outermost\+Context\+Base $>$\+::\mbox{\hyperlink{structboost_1_1statechart_1_1detail_1_1outer__constructor_a4c1c7fd76b5d06da5ebc2dc2c99444f9}{inner\+\_\+initial\+\_\+list}}}
+
+\mbox{\Hypertarget{structboost_1_1statechart_1_1detail_1_1outer__constructor_a4ef3f9542315cf35992826bd96cd9ece}\label{structboost_1_1statechart_1_1detail_1_1outer__constructor_a4ef3f9542315cf35992826bd96cd9ece}} 
+\index{boost\+::statechart\+::detail\+::outer\+\_\+constructor@{boost\+::statechart\+::detail\+::outer\+\_\+constructor}!inner\+\_\+orthogonal\+\_\+position@{inner\+\_\+orthogonal\+\_\+position}}
+\index{inner\+\_\+orthogonal\+\_\+position@{inner\+\_\+orthogonal\+\_\+position}!boost\+::statechart\+::detail\+::outer\+\_\+constructor@{boost\+::statechart\+::detail\+::outer\+\_\+constructor}}
+\subsubsection{\texorpdfstring{inner\+\_\+orthogonal\+\_\+position}{inner\_orthogonal\_position}}
+{\footnotesize\ttfamily template$<$class Context\+List , class Outermost\+Context\+Base $>$ \\
+typedef mpl\+::front$<$ \mbox{\hyperlink{structboost_1_1statechart_1_1detail_1_1outer__constructor_a54865d68e270edafc233566aa9b296f0}{inner\+\_\+context\+\_\+list}} $>$\+::type\+::orthogonal\+\_\+position \mbox{\hyperlink{structboost_1_1statechart_1_1detail_1_1outer__constructor}{boost\+::statechart\+::detail\+::outer\+\_\+constructor}}$<$ Context\+List, Outermost\+Context\+Base $>$\+::\mbox{\hyperlink{structboost_1_1statechart_1_1detail_1_1outer__constructor_a4ef3f9542315cf35992826bd96cd9ece}{inner\+\_\+orthogonal\+\_\+position}}}
+
+\mbox{\Hypertarget{structboost_1_1statechart_1_1detail_1_1outer__constructor_aef3673c2c30adab76dab9a8431f476e4}\label{structboost_1_1statechart_1_1detail_1_1outer__constructor_aef3673c2c30adab76dab9a8431f476e4}} 
+\index{boost\+::statechart\+::detail\+::outer\+\_\+constructor@{boost\+::statechart\+::detail\+::outer\+\_\+constructor}!last\+\_\+inner\+\_\+initial\+\_\+list@{last\+\_\+inner\+\_\+initial\+\_\+list}}
+\index{last\+\_\+inner\+\_\+initial\+\_\+list@{last\+\_\+inner\+\_\+initial\+\_\+list}!boost\+::statechart\+::detail\+::outer\+\_\+constructor@{boost\+::statechart\+::detail\+::outer\+\_\+constructor}}
+\subsubsection{\texorpdfstring{last\+\_\+inner\+\_\+initial\+\_\+list}{last\_inner\_initial\_list}}
+{\footnotesize\ttfamily template$<$class Context\+List , class Outermost\+Context\+Base $>$ \\
+typedef mpl\+::erase$<$ \mbox{\hyperlink{structboost_1_1statechart_1_1detail_1_1outer__constructor_a4c1c7fd76b5d06da5ebc2dc2c99444f9}{inner\+\_\+initial\+\_\+list}}, typename mpl\+::begin$<$ \mbox{\hyperlink{structboost_1_1statechart_1_1detail_1_1outer__constructor_a4c1c7fd76b5d06da5ebc2dc2c99444f9}{inner\+\_\+initial\+\_\+list}} $>$\+::type, typename mpl\+::next$<$ \mbox{\hyperlink{structboost_1_1statechart_1_1detail_1_1outer__constructor_a90925740f3c0336f09a152967a7e7173}{to\+\_\+construct\+\_\+iter}} $>$\+::type $>$\+::type \mbox{\hyperlink{structboost_1_1statechart_1_1detail_1_1outer__constructor}{boost\+::statechart\+::detail\+::outer\+\_\+constructor}}$<$ Context\+List, Outermost\+Context\+Base $>$\+::\mbox{\hyperlink{structboost_1_1statechart_1_1detail_1_1outer__constructor_aef3673c2c30adab76dab9a8431f476e4}{last\+\_\+inner\+\_\+initial\+\_\+list}}}
+
+\mbox{\Hypertarget{structboost_1_1statechart_1_1detail_1_1outer__constructor_a9ebebe2d638d5f65279cc24fab763952}\label{structboost_1_1statechart_1_1detail_1_1outer__constructor_a9ebebe2d638d5f65279cc24fab763952}} 
+\index{boost\+::statechart\+::detail\+::outer\+\_\+constructor@{boost\+::statechart\+::detail\+::outer\+\_\+constructor}!to\+\_\+construct@{to\+\_\+construct}}
+\index{to\+\_\+construct@{to\+\_\+construct}!boost\+::statechart\+::detail\+::outer\+\_\+constructor@{boost\+::statechart\+::detail\+::outer\+\_\+constructor}}
+\subsubsection{\texorpdfstring{to\+\_\+construct}{to\_construct}}
+{\footnotesize\ttfamily template$<$class Context\+List , class Outermost\+Context\+Base $>$ \\
+typedef mpl\+::front$<$ Context\+List $>$\+::type \mbox{\hyperlink{structboost_1_1statechart_1_1detail_1_1outer__constructor}{boost\+::statechart\+::detail\+::outer\+\_\+constructor}}$<$ Context\+List, Outermost\+Context\+Base $>$\+::\mbox{\hyperlink{structboost_1_1statechart_1_1detail_1_1outer__constructor_a9ebebe2d638d5f65279cc24fab763952}{to\+\_\+construct}}}
+
+\mbox{\Hypertarget{structboost_1_1statechart_1_1detail_1_1outer__constructor_a90925740f3c0336f09a152967a7e7173}\label{structboost_1_1statechart_1_1detail_1_1outer__constructor_a90925740f3c0336f09a152967a7e7173}} 
+\index{boost\+::statechart\+::detail\+::outer\+\_\+constructor@{boost\+::statechart\+::detail\+::outer\+\_\+constructor}!to\+\_\+construct\+\_\+iter@{to\+\_\+construct\+\_\+iter}}
+\index{to\+\_\+construct\+\_\+iter@{to\+\_\+construct\+\_\+iter}!boost\+::statechart\+::detail\+::outer\+\_\+constructor@{boost\+::statechart\+::detail\+::outer\+\_\+constructor}}
+\subsubsection{\texorpdfstring{to\+\_\+construct\+\_\+iter}{to\_construct\_iter}}
+{\footnotesize\ttfamily template$<$class Context\+List , class Outermost\+Context\+Base $>$ \\
+typedef mpl\+::advance$<$ typename mpl\+::begin$<$ \mbox{\hyperlink{structboost_1_1statechart_1_1detail_1_1outer__constructor_a4c1c7fd76b5d06da5ebc2dc2c99444f9}{inner\+\_\+initial\+\_\+list}} $>$\+::type, \mbox{\hyperlink{structboost_1_1statechart_1_1detail_1_1outer__constructor_a4ef3f9542315cf35992826bd96cd9ece}{inner\+\_\+orthogonal\+\_\+position}} $>$\+::type \mbox{\hyperlink{structboost_1_1statechart_1_1detail_1_1outer__constructor}{boost\+::statechart\+::detail\+::outer\+\_\+constructor}}$<$ Context\+List, Outermost\+Context\+Base $>$\+::\mbox{\hyperlink{structboost_1_1statechart_1_1detail_1_1outer__constructor_a90925740f3c0336f09a152967a7e7173}{to\+\_\+construct\+\_\+iter}}}
+
+
+
+\subsection{Member Function Documentation}
+\mbox{\Hypertarget{structboost_1_1statechart_1_1detail_1_1outer__constructor_af8c372517cf7586651a01bdd9e7fa15b}\label{structboost_1_1statechart_1_1detail_1_1outer__constructor_af8c372517cf7586651a01bdd9e7fa15b}} 
+\index{boost\+::statechart\+::detail\+::outer\+\_\+constructor@{boost\+::statechart\+::detail\+::outer\+\_\+constructor}!construct@{construct}}
+\index{construct@{construct}!boost\+::statechart\+::detail\+::outer\+\_\+constructor@{boost\+::statechart\+::detail\+::outer\+\_\+constructor}}
+\subsubsection{\texorpdfstring{construct()}{construct()}}
+{\footnotesize\ttfamily template$<$class Context\+List , class Outermost\+Context\+Base $>$ \\
+static void \mbox{\hyperlink{structboost_1_1statechart_1_1detail_1_1outer__constructor}{boost\+::statechart\+::detail\+::outer\+\_\+constructor}}$<$ Context\+List, Outermost\+Context\+Base $>$\+::construct (\begin{DoxyParamCaption}\item[{const \mbox{\hyperlink{structboost_1_1statechart_1_1detail_1_1outer__constructor_a2cfbd893ac80c92ac2e6ba1149851266}{context\+\_\+ptr\+\_\+type}} \&}]{p\+Context,  }\item[{Outermost\+Context\+Base \&}]{outermost\+Context\+Base }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [static]}}
+
+
+
+The documentation for this struct was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+include/boost/statechart/detail/\mbox{\hyperlink{constructor_8hpp}{constructor.\+hpp}}\end{DoxyCompactItemize}

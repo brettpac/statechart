@@ -1,0 +1,6 @@
+<map id="test_main" name="test_main">
+<area shape="rect" id="node2" href="$classboost_1_1statechart_1_1state__machine.html#a7165ce3d1120b98dde6e8d669e35aba9" title="boost::statechart::\lstate_machine::initiate" alt="" coords="155,5,309,47"/>
+<area shape="rect" id="node3" href="$_in_state_reaction_test_8cpp.html#afccd097454387c8d38fd047865aee424" title="RequireEventCounts" alt="" coords="161,71,303,98"/>
+<area shape="rect" id="node5" href="$classboost_1_1statechart_1_1state__machine.html#a78598d4982f6b85e83358652eb1c3d6e" title="boost::statechart::\lstate_machine::process_event" alt="" coords="132,123,332,164"/>
+<area shape="rect" id="node4" href="$classboost_1_1statechart_1_1state__machine.html#a8054170cced8b908272d9d8ba9e5deb9" title="boost::statechart::\lstate_machine::state\l_downcast" alt="" coords="380,57,524,113"/>
+</map>

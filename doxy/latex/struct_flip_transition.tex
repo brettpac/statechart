@@ -1,0 +1,87 @@
+\hypertarget{struct_flip_transition}{}\section{Flip\+Transition$<$ Bit\+No, State\+No $>$ Struct Template Reference}
+\label{struct_flip_transition}\index{Flip\+Transition$<$ Bit\+No, State\+No $>$@{Flip\+Transition$<$ Bit\+No, State\+No $>$}}
+
+
+Collaboration diagram for Flip\+Transition$<$ Bit\+No, State\+No $>$\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=238pt]{struct_flip_transition__coll__graph}
+\end{center}
+\end{figure}
+\subsection*{Public Types}
+\begin{DoxyCompactItemize}
+\item 
+typedef \mbox{\hyperlink{classboost_1_1statechart_1_1transition}{sc\+::transition}}$<$ \mbox{\hyperlink{struct_ev_flip_bit}{Ev\+Flip\+Bit}}$<$ Bit\+No $>$, \mbox{\hyperlink{struct_bit_state}{Bit\+State}}$<$ \mbox{\hyperlink{struct_flip_transition_a16b33cbdacbffc0e20e2ae9c76e8f645}{Next\+State\+No}} $>$ $>$ \mbox{\hyperlink{struct_flip_transition_acb1fc32084f19c5bd106af2da39df89e}{type}}
+\item 
+typedef mpl\+::if\+\_\+$<$ mpl\+::less$<$ Bit\+No, First\+Transition\+Bit $>$, \mbox{\hyperlink{classboost_1_1statechart_1_1in__state__reaction}{sc\+::in\+\_\+state\+\_\+reaction}}$<$ \mbox{\hyperlink{struct_ev_flip_bit}{Ev\+Flip\+Bit}}$<$ Bit\+No $>$, \mbox{\hyperlink{struct_bit_machine}{Bit\+Machine}}$<$ No\+Of\+Bits, First\+Transition\+Bit $>$, \&\mbox{\hyperlink{struct_bit_machine}{Bit\+Machine}}$<$ No\+Of\+Bits, First\+Transition\+Bit $>$\+::In\+State\+Reaction $>$, \mbox{\hyperlink{classboost_1_1statechart_1_1transition}{sc\+::transition}}$<$ \mbox{\hyperlink{struct_ev_flip_bit}{Ev\+Flip\+Bit}}$<$ Bit\+No $>$, \mbox{\hyperlink{struct_bit_state}{Bit\+State}}$<$ \mbox{\hyperlink{struct_flip_transition_a16b33cbdacbffc0e20e2ae9c76e8f645}{Next\+State\+No}}, No\+Of\+Bits, First\+Transition\+Bit $>$, \mbox{\hyperlink{struct_bit_machine}{Bit\+Machine}}$<$ No\+Of\+Bits, First\+Transition\+Bit $>$, \&\mbox{\hyperlink{struct_bit_machine}{Bit\+Machine}}$<$ No\+Of\+Bits, First\+Transition\+Bit $>$\+::Transition $>$ $>$\+::\mbox{\hyperlink{struct_flip_transition_acb1fc32084f19c5bd106af2da39df89e}{type}} \mbox{\hyperlink{struct_flip_transition_a6cf04e1d55488950cbaeeae1f16f8f21}{type}}
+\end{DoxyCompactItemize}
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{struct_flip_transition_a242a3dee150500fdcfdd980ca82a45e4}{B\+O\+O\+S\+T\+\_\+\+M\+P\+L\+\_\+\+A\+U\+X\+\_\+\+L\+A\+M\+B\+D\+A\+\_\+\+S\+U\+P\+P\+O\+RT}} (2, \mbox{\hyperlink{struct_flip_transition}{Flip\+Transition}},(Bit\+No, State\+No))
+\item 
+\mbox{\hyperlink{struct_flip_transition_ad9b80d15c35a0bff9e0f9ff8b0219d16}{B\+O\+O\+S\+T\+\_\+\+M\+P\+L\+\_\+\+A\+U\+X\+\_\+\+L\+A\+M\+B\+D\+A\+\_\+\+S\+U\+P\+P\+O\+RT}} (3, \mbox{\hyperlink{struct_flip_transition}{Flip\+Transition}},(Bit\+No, State\+No, First\+Transition\+Bit))
+\end{DoxyCompactItemize}
+\subsection*{Private Types}
+\begin{DoxyCompactItemize}
+\item 
+typedef mpl\+::bitxor\+\_\+$<$ State\+No, mpl\+::shift\+\_\+left$<$ mpl\+::integral\+\_\+c$<$ unsigned int, 1 $>$, Bit\+No $>$ $>$\+::\mbox{\hyperlink{struct_flip_transition_acb1fc32084f19c5bd106af2da39df89e}{type}} \mbox{\hyperlink{struct_flip_transition_a16b33cbdacbffc0e20e2ae9c76e8f645}{Next\+State\+No}}
+\item 
+typedef mpl\+::bitxor\+\_\+$<$ State\+No, mpl\+::shift\+\_\+left$<$ \mbox{\hyperlink{_performance_8cpp_afada4030cdd8c9628ca412e4409d07d1}{uint1}}, Bit\+No $>$ $>$\+::\mbox{\hyperlink{struct_flip_transition_acb1fc32084f19c5bd106af2da39df89e}{type}} \mbox{\hyperlink{struct_flip_transition_aa7e5237dbfee4dbe01006f5dfafc6229}{Next\+State\+No}}
+\end{DoxyCompactItemize}
+
+
+\subsection{Member Typedef Documentation}
+\mbox{\Hypertarget{struct_flip_transition_a16b33cbdacbffc0e20e2ae9c76e8f645}\label{struct_flip_transition_a16b33cbdacbffc0e20e2ae9c76e8f645}} 
+\index{Flip\+Transition@{Flip\+Transition}!Next\+State\+No@{Next\+State\+No}}
+\index{Next\+State\+No@{Next\+State\+No}!Flip\+Transition@{Flip\+Transition}}
+\subsubsection{\texorpdfstring{Next\+State\+No}{NextStateNo}\hspace{0.1cm}{\footnotesize\ttfamily [1/2]}}
+{\footnotesize\ttfamily template$<$class Bit\+No , class State\+No $>$ \\
+typedef mpl\+::bitxor\+\_\+$<$ State\+No, mpl\+::shift\+\_\+left$<$ mpl\+::integral\+\_\+c$<$ unsigned int, 1 $>$, Bit\+No $>$ $>$\+::\mbox{\hyperlink{struct_flip_transition_acb1fc32084f19c5bd106af2da39df89e}{type}} \mbox{\hyperlink{struct_flip_transition}{Flip\+Transition}}$<$ Bit\+No, State\+No $>$\+::\mbox{\hyperlink{struct_flip_transition_a16b33cbdacbffc0e20e2ae9c76e8f645}{Next\+State\+No}}\hspace{0.3cm}{\ttfamily [private]}}
+
+\mbox{\Hypertarget{struct_flip_transition_aa7e5237dbfee4dbe01006f5dfafc6229}\label{struct_flip_transition_aa7e5237dbfee4dbe01006f5dfafc6229}} 
+\index{Flip\+Transition@{Flip\+Transition}!Next\+State\+No@{Next\+State\+No}}
+\index{Next\+State\+No@{Next\+State\+No}!Flip\+Transition@{Flip\+Transition}}
+\subsubsection{\texorpdfstring{Next\+State\+No}{NextStateNo}\hspace{0.1cm}{\footnotesize\ttfamily [2/2]}}
+{\footnotesize\ttfamily template$<$class Bit\+No , class State\+No $>$ \\
+typedef mpl\+::bitxor\+\_\+$<$ State\+No, mpl\+::shift\+\_\+left$<$ \mbox{\hyperlink{_performance_8cpp_afada4030cdd8c9628ca412e4409d07d1}{uint1}}, Bit\+No $>$ $>$\+::\mbox{\hyperlink{struct_flip_transition_acb1fc32084f19c5bd106af2da39df89e}{type}} \mbox{\hyperlink{struct_flip_transition}{Flip\+Transition}}$<$ Bit\+No, State\+No $>$\+::\mbox{\hyperlink{struct_flip_transition_a16b33cbdacbffc0e20e2ae9c76e8f645}{Next\+State\+No}}\hspace{0.3cm}{\ttfamily [private]}}
+
+\mbox{\Hypertarget{struct_flip_transition_acb1fc32084f19c5bd106af2da39df89e}\label{struct_flip_transition_acb1fc32084f19c5bd106af2da39df89e}} 
+\index{Flip\+Transition@{Flip\+Transition}!type@{type}}
+\index{type@{type}!Flip\+Transition@{Flip\+Transition}}
+\subsubsection{\texorpdfstring{type}{type}\hspace{0.1cm}{\footnotesize\ttfamily [1/2]}}
+{\footnotesize\ttfamily template$<$class Bit\+No , class State\+No $>$ \\
+typedef \mbox{\hyperlink{classboost_1_1statechart_1_1transition}{sc\+::transition}}$<$ \mbox{\hyperlink{struct_ev_flip_bit}{Ev\+Flip\+Bit}}$<$ Bit\+No $>$, \mbox{\hyperlink{struct_bit_state}{Bit\+State}}$<$ \mbox{\hyperlink{struct_flip_transition_a16b33cbdacbffc0e20e2ae9c76e8f645}{Next\+State\+No}} $>$ $>$ \mbox{\hyperlink{struct_flip_transition}{Flip\+Transition}}$<$ Bit\+No, State\+No $>$\+::\mbox{\hyperlink{struct_flip_transition_acb1fc32084f19c5bd106af2da39df89e}{type}}}
+
+\mbox{\Hypertarget{struct_flip_transition_a6cf04e1d55488950cbaeeae1f16f8f21}\label{struct_flip_transition_a6cf04e1d55488950cbaeeae1f16f8f21}} 
+\index{Flip\+Transition@{Flip\+Transition}!type@{type}}
+\index{type@{type}!Flip\+Transition@{Flip\+Transition}}
+\subsubsection{\texorpdfstring{type}{type}\hspace{0.1cm}{\footnotesize\ttfamily [2/2]}}
+{\footnotesize\ttfamily template$<$class Bit\+No , class State\+No $>$ \\
+typedef mpl\+::if\+\_\+$<$ mpl\+::less$<$ Bit\+No, First\+Transition\+Bit $>$, \mbox{\hyperlink{classboost_1_1statechart_1_1in__state__reaction}{sc\+::in\+\_\+state\+\_\+reaction}}$<$ \mbox{\hyperlink{struct_ev_flip_bit}{Ev\+Flip\+Bit}}$<$ Bit\+No $>$, \mbox{\hyperlink{struct_bit_machine}{Bit\+Machine}}$<$ No\+Of\+Bits, First\+Transition\+Bit $>$, \&\mbox{\hyperlink{struct_bit_machine}{Bit\+Machine}}$<$ No\+Of\+Bits, First\+Transition\+Bit $>$\+::In\+State\+Reaction $>$, \mbox{\hyperlink{classboost_1_1statechart_1_1transition}{sc\+::transition}}$<$ \mbox{\hyperlink{struct_ev_flip_bit}{Ev\+Flip\+Bit}}$<$ Bit\+No $>$, \mbox{\hyperlink{struct_bit_state}{Bit\+State}}$<$ \mbox{\hyperlink{struct_flip_transition_a16b33cbdacbffc0e20e2ae9c76e8f645}{Next\+State\+No}}, No\+Of\+Bits, First\+Transition\+Bit $>$, \mbox{\hyperlink{struct_bit_machine}{Bit\+Machine}}$<$ No\+Of\+Bits, First\+Transition\+Bit $>$, \&\mbox{\hyperlink{struct_bit_machine}{Bit\+Machine}}$<$ No\+Of\+Bits, First\+Transition\+Bit $>$\+::Transition $>$ $>$\+::\mbox{\hyperlink{struct_flip_transition_acb1fc32084f19c5bd106af2da39df89e}{type}} \mbox{\hyperlink{struct_flip_transition}{Flip\+Transition}}$<$ Bit\+No, State\+No $>$\+::\mbox{\hyperlink{struct_flip_transition_acb1fc32084f19c5bd106af2da39df89e}{type}}}
+
+
+
+\subsection{Member Function Documentation}
+\mbox{\Hypertarget{struct_flip_transition_a242a3dee150500fdcfdd980ca82a45e4}\label{struct_flip_transition_a242a3dee150500fdcfdd980ca82a45e4}} 
+\index{Flip\+Transition@{Flip\+Transition}!B\+O\+O\+S\+T\+\_\+\+M\+P\+L\+\_\+\+A\+U\+X\+\_\+\+L\+A\+M\+B\+D\+A\+\_\+\+S\+U\+P\+P\+O\+RT@{B\+O\+O\+S\+T\+\_\+\+M\+P\+L\+\_\+\+A\+U\+X\+\_\+\+L\+A\+M\+B\+D\+A\+\_\+\+S\+U\+P\+P\+O\+RT}}
+\index{B\+O\+O\+S\+T\+\_\+\+M\+P\+L\+\_\+\+A\+U\+X\+\_\+\+L\+A\+M\+B\+D\+A\+\_\+\+S\+U\+P\+P\+O\+RT@{B\+O\+O\+S\+T\+\_\+\+M\+P\+L\+\_\+\+A\+U\+X\+\_\+\+L\+A\+M\+B\+D\+A\+\_\+\+S\+U\+P\+P\+O\+RT}!Flip\+Transition@{Flip\+Transition}}
+\subsubsection{\texorpdfstring{B\+O\+O\+S\+T\+\_\+\+M\+P\+L\+\_\+\+A\+U\+X\+\_\+\+L\+A\+M\+B\+D\+A\+\_\+\+S\+U\+P\+P\+O\+R\+T()}{BOOST\_MPL\_AUX\_LAMBDA\_SUPPORT()}\hspace{0.1cm}{\footnotesize\ttfamily [1/2]}}
+{\footnotesize\ttfamily template$<$class Bit\+No , class State\+No $>$ \\
+\mbox{\hyperlink{struct_flip_transition}{Flip\+Transition}}$<$ Bit\+No, State\+No $>$\+::B\+O\+O\+S\+T\+\_\+\+M\+P\+L\+\_\+\+A\+U\+X\+\_\+\+L\+A\+M\+B\+D\+A\+\_\+\+S\+U\+P\+P\+O\+RT (\begin{DoxyParamCaption}\item[{2}]{,  }\item[{\mbox{\hyperlink{struct_flip_transition}{Flip\+Transition}}$<$ Bit\+No, State\+No $>$}]{,  }\item[{(Bit\+No, State\+No)}]{ }\end{DoxyParamCaption})}
+
+\mbox{\Hypertarget{struct_flip_transition_ad9b80d15c35a0bff9e0f9ff8b0219d16}\label{struct_flip_transition_ad9b80d15c35a0bff9e0f9ff8b0219d16}} 
+\index{Flip\+Transition@{Flip\+Transition}!B\+O\+O\+S\+T\+\_\+\+M\+P\+L\+\_\+\+A\+U\+X\+\_\+\+L\+A\+M\+B\+D\+A\+\_\+\+S\+U\+P\+P\+O\+RT@{B\+O\+O\+S\+T\+\_\+\+M\+P\+L\+\_\+\+A\+U\+X\+\_\+\+L\+A\+M\+B\+D\+A\+\_\+\+S\+U\+P\+P\+O\+RT}}
+\index{B\+O\+O\+S\+T\+\_\+\+M\+P\+L\+\_\+\+A\+U\+X\+\_\+\+L\+A\+M\+B\+D\+A\+\_\+\+S\+U\+P\+P\+O\+RT@{B\+O\+O\+S\+T\+\_\+\+M\+P\+L\+\_\+\+A\+U\+X\+\_\+\+L\+A\+M\+B\+D\+A\+\_\+\+S\+U\+P\+P\+O\+RT}!Flip\+Transition@{Flip\+Transition}}
+\subsubsection{\texorpdfstring{B\+O\+O\+S\+T\+\_\+\+M\+P\+L\+\_\+\+A\+U\+X\+\_\+\+L\+A\+M\+B\+D\+A\+\_\+\+S\+U\+P\+P\+O\+R\+T()}{BOOST\_MPL\_AUX\_LAMBDA\_SUPPORT()}\hspace{0.1cm}{\footnotesize\ttfamily [2/2]}}
+{\footnotesize\ttfamily template$<$class Bit\+No , class State\+No $>$ \\
+\mbox{\hyperlink{struct_flip_transition}{Flip\+Transition}}$<$ Bit\+No, State\+No $>$\+::B\+O\+O\+S\+T\+\_\+\+M\+P\+L\+\_\+\+A\+U\+X\+\_\+\+L\+A\+M\+B\+D\+A\+\_\+\+S\+U\+P\+P\+O\+RT (\begin{DoxyParamCaption}\item[{3}]{,  }\item[{\mbox{\hyperlink{struct_flip_transition}{Flip\+Transition}}$<$ Bit\+No, State\+No $>$}]{,  }\item[{(Bit\+No, State\+No, First\+Transition\+Bit)}]{ }\end{DoxyParamCaption})}
+
+
+
+The documentation for this struct was generated from the following files\+:\begin{DoxyCompactItemize}
+\item 
+example/\+Bit\+Machine/\mbox{\hyperlink{_bit_machine_8cpp}{Bit\+Machine.\+cpp}}\item 
+example/\+Performance/\mbox{\hyperlink{_performance_8cpp}{Performance.\+cpp}}\end{DoxyCompactItemize}

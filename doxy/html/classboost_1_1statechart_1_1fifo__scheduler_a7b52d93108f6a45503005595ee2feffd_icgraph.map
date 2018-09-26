@@ -1,0 +1,6 @@
+<map id="boost::statechart::fifo_scheduler::queue_event" name="boost::statechart::fifo_scheduler::queue_event">
+<area shape="rect" id="node2" href="$_ping_pong_8cpp.html#ae66f6b31b5ad750f1fe042a706a4e3d4" title="main" alt="" coords="273,5,323,32"/>
+<area shape="rect" id="node3" href="$struct_waiting.html#a0c0fb756d46782ff26b8faa3ce80defc" title="Waiting::Waiting" alt="" coords="239,56,357,83"/>
+<area shape="rect" id="node4" href="$_fifo_scheduler_test_8cpp.html#a3e92f0cc56f5cc1e8b161f80f0494b95" title="Check" alt="" coords="268,107,328,133"/>
+<area shape="rect" id="node5" href="$_fifo_scheduler_test_8cpp.html#a3e926c6d48feb75bdce9c73fca2adf1c" title="test_main" alt="" coords="405,107,484,133"/>
+</map>

@@ -1,0 +1,9 @@
+<map id="include/boost/statechart/detail/node_state.hpp" name="include/boost/statechart/detail/node_state.hpp">
+<area shape="rect" id="node2" href="$state__base_8hpp.html" title="boost/statechart/detail\l/state_base.hpp" alt="" coords="673,95,824,136"/>
+<area shape="rect" id="node3" href="$result_8hpp.html" title="boost/statechart/result.hpp" alt="" coords="660,184,837,211"/>
+<area shape="rect" id="node5" href="$event_8hpp.html" title="boost/statechart/event.hpp" alt="" coords="406,184,584,211"/>
+<area shape="rect" id="node10" href="$counted__base_8hpp.html" title="boost/statechart/detail\l/counted_base.hpp" alt="" coords="37,348,188,389"/>
+<area shape="rect" id="node6" href="$event__base_8hpp.html" title="boost/statechart/event\l_base.hpp" alt="" coords="200,259,352,300"/>
+<area shape="rect" id="node7" href="$rtti__policy_8hpp.html" title="boost/statechart/detail\l/rtti_policy.hpp" alt="" coords="314,348,465,389"/>
+<area shape="rect" id="node12" href="$memory_8hpp.html" title="boost/statechart/detail\l/memory.hpp" alt="" coords="732,259,882,300"/>
+</map>

@@ -1,0 +1,5 @@
+<map id="DisplayStateConfiguration" name="DisplayStateConfiguration">
+<area shape="rect" id="node2" href="$classboost_1_1statechart_1_1state__machine.html#a270c21248c558be7daf8139c032b1f0c" title="boost::statechart::\lstate_machine::state_begin" alt="" coords="228,5,411,47"/>
+<area shape="rect" id="node3" href="$classboost_1_1statechart_1_1state__machine.html#aab9cfe96af77fbfb10098f9c6ba209a5" title="boost::statechart::\lstate_machine::state_end" alt="" coords="233,71,405,112"/>
+<area shape="rect" id="node4" href="$classboost_1_1statechart_1_1detail_1_1state__base.html#a03d51c261c052af1db3bb08b31891731" title="boost::statechart::\ldetail::state_base::\louter_state_ptr" alt="" coords="253,135,386,191"/>
+</map>

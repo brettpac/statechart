@@ -1,0 +1,22 @@
+<map id="example/Camera/Shooting.cpp" name="example/Camera/Shooting.cpp">
+<area shape="rect" id="node2" href="$_precompiled_8hpp.html" title="Precompiled.hpp" alt="" coords="4488,155,4607,181"/>
+<area shape="rect" id="node63" href="$_shooting_8hpp.html" title="Shooting.hpp" alt="" coords="4309,80,4407,107"/>
+<area shape="rect" id="node3" href="$state__machine_8hpp.html" title="boost/statechart/state\l_machine.hpp" alt="" coords="5619,229,5769,271"/>
+<area shape="rect" id="node4" href="$event_8hpp.html" title="boost/statechart/event.hpp" alt="" coords="6617,497,6795,524"/>
+<area shape="rect" id="node43" href="$simple__state_8hpp.html" title="boost/statechart/simple\l_state.hpp" alt="" coords="3336,229,3495,271"/>
+<area shape="rect" id="node61" href="$custom__reaction_8hpp.html" title="boost/statechart/custom\l_reaction.hpp" alt="" coords="3149,229,3311,271"/>
+<area shape="rect" id="node5" href="$rtti__policy_8hpp.html" title="boost/statechart/detail\l/rtti_policy.hpp" alt="" coords="6745,572,6896,613"/>
+<area shape="rect" id="node10" href="$avoid__unused__warning_8hpp.html" title="boost/statechart/detail\l/avoid_unused_warning.hpp" alt="" coords="5601,661,5784,703"/>
+<area shape="rect" id="node15" href="$null__exception__translator_8hpp.html" title="boost/statechart/null\l_exception_translator.hpp" alt="" coords="4655,408,4826,449"/>
+<area shape="rect" id="node16" href="$result_8hpp.html" title="boost/statechart/result.hpp" alt="" coords="373,497,551,524"/>
+<area shape="rect" id="node17" href="$state__base_8hpp.html" title="boost/statechart/detail\l/state_base.hpp" alt="" coords="5709,408,5860,449"/>
+<area shape="rect" id="node20" href="$leaf__state_8hpp.html" title="boost/statechart/detail\l/leaf_state.hpp" alt="" coords="5563,319,5713,360"/>
+<area shape="rect" id="node21" href="$node__state_8hpp.html" title="boost/statechart/detail\l/node_state.hpp" alt="" coords="5285,319,5436,360"/>
+<area shape="rect" id="node22" href="$constructor_8hpp.html" title="boost/statechart/detail\l/constructor.hpp" alt="" coords="2912,319,3063,360"/>
+<area shape="rect" id="node9" href="$memory_8hpp.html" title="boost/statechart/detail\l/memory.hpp" alt="" coords="5612,572,5763,613"/>
+<area shape="rect" id="node64" href="$_camera_8hpp.html" title="Camera.hpp" alt="" coords="5219,155,5313,181"/>
+<area shape="rect" id="node65" href="$state_8hpp.html" title="boost/statechart/state.hpp" alt="" coords="4237,155,4412,181"/>
+<area shape="rect" id="node66" href="$transition_8hpp.html" title="boost/statechart/transition.hpp" alt="" coords="261,155,460,181"/>
+<area shape="rect" id="node68" href="$deferral_8hpp.html" title="boost/statechart/deferral.hpp" alt="" coords="5,155,193,181"/>
+<area shape="rect" id="node67" href="$reaction__dispatcher_8hpp.html" title="boost/statechart/detail\l/reaction_dispatcher.hpp" alt="" coords="279,229,443,271"/>
+</map>

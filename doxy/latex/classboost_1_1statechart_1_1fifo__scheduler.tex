@@ -1,0 +1,322 @@
+\hypertarget{classboost_1_1statechart_1_1fifo__scheduler}{}\section{boost\+:\+:statechart\+:\+:fifo\+\_\+scheduler$<$ Fifo\+Worker, Allocator $>$ Class Template Reference}
+\label{classboost_1_1statechart_1_1fifo__scheduler}\index{boost\+::statechart\+::fifo\+\_\+scheduler$<$ Fifo\+Worker, Allocator $>$@{boost\+::statechart\+::fifo\+\_\+scheduler$<$ Fifo\+Worker, Allocator $>$}}
+
+
+{\ttfamily \#include $<$fifo\+\_\+scheduler.\+hpp$>$}
+
+
+
+Inheritance diagram for boost\+:\+:statechart\+:\+:fifo\+\_\+scheduler$<$ Fifo\+Worker, Allocator $>$\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=217pt]{classboost_1_1statechart_1_1fifo__scheduler__inherit__graph}
+\end{center}
+\end{figure}
+
+
+Collaboration diagram for boost\+:\+:statechart\+:\+:fifo\+\_\+scheduler$<$ Fifo\+Worker, Allocator $>$\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=550pt]{classboost_1_1statechart_1_1fifo__scheduler__coll__graph}
+\end{center}
+\end{figure}
+\subsection*{Public Types}
+\begin{DoxyCompactItemize}
+\item 
+typedef \mbox{\hyperlink{classboost_1_1statechart_1_1processor__container_a82ebbffaed81d7b99119ae0e892f6411}{container\+::processor\+\_\+handle}} \mbox{\hyperlink{classboost_1_1statechart_1_1fifo__scheduler_ada526939c16c4f8118bc4d7bbf09ad7d}{processor\+\_\+handle}}
+\item 
+typedef container\+::processor\+\_\+context \mbox{\hyperlink{classboost_1_1statechart_1_1fifo__scheduler_a7d1abb1c5cede2b8c42c59d76c301f5b}{processor\+\_\+context}}
+\item 
+typedef intrusive\+\_\+ptr$<$ const \mbox{\hyperlink{classboost_1_1statechart_1_1event__base}{event\+\_\+base}} $>$ \mbox{\hyperlink{classboost_1_1statechart_1_1fifo__scheduler_a30789ce36779246ebbaf43665289226a}{event\+\_\+ptr\+\_\+type}}
+\item 
+typedef Fifo\+Worker\+::work\+\_\+item \mbox{\hyperlink{classboost_1_1statechart_1_1fifo__scheduler_a72ed2c30a2fa295c2e6909ff09754998}{work\+\_\+item}}
+\end{DoxyCompactItemize}
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+{\footnotesize template$<$class Processor $>$ }\\\mbox{\hyperlink{classboost_1_1statechart_1_1fifo__scheduler_ada526939c16c4f8118bc4d7bbf09ad7d}{processor\+\_\+handle}} \mbox{\hyperlink{classboost_1_1statechart_1_1fifo__scheduler_a95c23f26708dcf81e6c0f8c4618fc015}{create\+\_\+processor}} ()
+\item 
+{\footnotesize template$<$class Processor , typename Arg1 $>$ }\\\mbox{\hyperlink{classboost_1_1statechart_1_1fifo__scheduler_ada526939c16c4f8118bc4d7bbf09ad7d}{processor\+\_\+handle}} \mbox{\hyperlink{classboost_1_1statechart_1_1fifo__scheduler_ac03c8e9f9a1485f60ac5c13bbe961f42}{create\+\_\+processor}} (Arg1 arg1)
+\item 
+{\footnotesize template$<$class Processor , typename Arg1 , typename Arg2 $>$ }\\\mbox{\hyperlink{classboost_1_1statechart_1_1fifo__scheduler_ada526939c16c4f8118bc4d7bbf09ad7d}{processor\+\_\+handle}} \mbox{\hyperlink{classboost_1_1statechart_1_1fifo__scheduler_ac62b7521bb9a38912f2ce9b9694e8769}{create\+\_\+processor}} (Arg1 arg1, Arg2 arg2)
+\item 
+{\footnotesize template$<$class Processor , typename Arg1 , typename Arg2 , typename Arg3 $>$ }\\\mbox{\hyperlink{classboost_1_1statechart_1_1fifo__scheduler_ada526939c16c4f8118bc4d7bbf09ad7d}{processor\+\_\+handle}} \mbox{\hyperlink{classboost_1_1statechart_1_1fifo__scheduler_a0bb479c40e8b605841f4db56068fd5f5}{create\+\_\+processor}} (Arg1 arg1, Arg2 arg2, Arg3 arg3)
+\item 
+{\footnotesize template$<$class Processor , typename Arg1 , typename Arg2 , typename Arg3 , typename Arg4 $>$ }\\\mbox{\hyperlink{classboost_1_1statechart_1_1fifo__scheduler_ada526939c16c4f8118bc4d7bbf09ad7d}{processor\+\_\+handle}} \mbox{\hyperlink{classboost_1_1statechart_1_1fifo__scheduler_af750a0e0c749cbe56004e1a835ba06f9}{create\+\_\+processor}} (Arg1 arg1, Arg2 arg2, Arg3 arg3, Arg4 arg4)
+\item 
+{\footnotesize template$<$class Processor , typename Arg1 , typename Arg2 , typename Arg3 , typename Arg4 , typename Arg5 $>$ }\\\mbox{\hyperlink{classboost_1_1statechart_1_1fifo__scheduler_ada526939c16c4f8118bc4d7bbf09ad7d}{processor\+\_\+handle}} \mbox{\hyperlink{classboost_1_1statechart_1_1fifo__scheduler_aa4ccee39767ff4c0e883bcde7a637987}{create\+\_\+processor}} (Arg1 arg1, Arg2 arg2, Arg3 arg3, Arg4 arg4, Arg5 arg5)
+\item 
+{\footnotesize template$<$class Processor , typename Arg1 , typename Arg2 , typename Arg3 , typename Arg4 , typename Arg5 , typename Arg6 $>$ }\\\mbox{\hyperlink{classboost_1_1statechart_1_1fifo__scheduler_ada526939c16c4f8118bc4d7bbf09ad7d}{processor\+\_\+handle}} \mbox{\hyperlink{classboost_1_1statechart_1_1fifo__scheduler_a02a1f84cd3e6117100418a6d105587e6}{create\+\_\+processor}} (Arg1 arg1, Arg2 arg2, Arg3 arg3, Arg4 arg4, Arg5 arg5, Arg6 arg6)
+\item 
+void \mbox{\hyperlink{classboost_1_1statechart_1_1fifo__scheduler_a4a25edb5f67e9dd339a6f6cfe6bcc873}{destroy\+\_\+processor}} (const \mbox{\hyperlink{classboost_1_1statechart_1_1fifo__scheduler_ada526939c16c4f8118bc4d7bbf09ad7d}{processor\+\_\+handle}} \&processor)
+\item 
+void \mbox{\hyperlink{classboost_1_1statechart_1_1fifo__scheduler_a466f16a9904ebdb1123948d3d2b3cd66}{initiate\+\_\+processor}} (const \mbox{\hyperlink{classboost_1_1statechart_1_1fifo__scheduler_ada526939c16c4f8118bc4d7bbf09ad7d}{processor\+\_\+handle}} \&processor)
+\item 
+void \mbox{\hyperlink{classboost_1_1statechart_1_1fifo__scheduler_a15b81ce74a62a078dd447acfafbf275c}{terminate\+\_\+processor}} (const \mbox{\hyperlink{classboost_1_1statechart_1_1fifo__scheduler_ada526939c16c4f8118bc4d7bbf09ad7d}{processor\+\_\+handle}} \&processor)
+\item 
+void \mbox{\hyperlink{classboost_1_1statechart_1_1fifo__scheduler_a7b52d93108f6a45503005595ee2feffd}{queue\+\_\+event}} (const \mbox{\hyperlink{classboost_1_1statechart_1_1fifo__scheduler_ada526939c16c4f8118bc4d7bbf09ad7d}{processor\+\_\+handle}} \&processor, const \mbox{\hyperlink{classboost_1_1statechart_1_1fifo__scheduler_a30789ce36779246ebbaf43665289226a}{event\+\_\+ptr\+\_\+type}} \&p\+Event)
+\item 
+void \mbox{\hyperlink{classboost_1_1statechart_1_1fifo__scheduler_a94caded752eb1e4226b2118e400067a3}{queue\+\_\+work\+\_\+item}} (\mbox{\hyperlink{classboost_1_1statechart_1_1fifo__scheduler_a72ed2c30a2fa295c2e6909ff09754998}{work\+\_\+item}} \&item)
+\item 
+void \mbox{\hyperlink{classboost_1_1statechart_1_1fifo__scheduler_a28cac5f086d4c677af0fdeb2973859dd}{queue\+\_\+work\+\_\+item}} (const \mbox{\hyperlink{classboost_1_1statechart_1_1fifo__scheduler_a72ed2c30a2fa295c2e6909ff09754998}{work\+\_\+item}} \&item)
+\item 
+void \mbox{\hyperlink{classboost_1_1statechart_1_1fifo__scheduler_ad8b581c6bc8bee838633b5ed9562b996}{terminate}} ()
+\item 
+bool \mbox{\hyperlink{classboost_1_1statechart_1_1fifo__scheduler_a231ad7f0d511dcc9be86270a9ace50bd}{terminated}} () const
+\item 
+unsigned long \mbox{\hyperlink{classboost_1_1statechart_1_1fifo__scheduler_ade6cb1d2bec98187dc1ec8efa834bba7}{operator()}} (unsigned long max\+Event\+Count=0)
+\end{DoxyCompactItemize}
+\subsection*{Private Types}
+\begin{DoxyCompactItemize}
+\item 
+typedef \mbox{\hyperlink{classboost_1_1statechart_1_1processor__container}{processor\+\_\+container}}$<$ \mbox{\hyperlink{classboost_1_1statechart_1_1fifo__scheduler}{fifo\+\_\+scheduler}}, typename Fifo\+Worker\+::work\+\_\+item, Allocator $>$ \mbox{\hyperlink{classboost_1_1statechart_1_1fifo__scheduler_a1bb1a46846b8c95208a1d2e0c364ac6e}{container}}
+\end{DoxyCompactItemize}
+\subsection*{Private Attributes}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{classboost_1_1statechart_1_1fifo__scheduler_a1bb1a46846b8c95208a1d2e0c364ac6e}{container}} \mbox{\hyperlink{classboost_1_1statechart_1_1fifo__scheduler_a87fdd84b72a6fbea81eab725050c553a}{container\+\_\+}}
+\item 
+Fifo\+Worker \mbox{\hyperlink{classboost_1_1statechart_1_1fifo__scheduler_a6ff99598f5cdf7c170450a9ac100767b}{worker\+\_\+}}
+\end{DoxyCompactItemize}
+
+
+\subsection{Member Typedef Documentation}
+\mbox{\Hypertarget{classboost_1_1statechart_1_1fifo__scheduler_a1bb1a46846b8c95208a1d2e0c364ac6e}\label{classboost_1_1statechart_1_1fifo__scheduler_a1bb1a46846b8c95208a1d2e0c364ac6e}} 
+\index{boost\+::statechart\+::fifo\+\_\+scheduler@{boost\+::statechart\+::fifo\+\_\+scheduler}!container@{container}}
+\index{container@{container}!boost\+::statechart\+::fifo\+\_\+scheduler@{boost\+::statechart\+::fifo\+\_\+scheduler}}
+\subsubsection{\texorpdfstring{container}{container}}
+{\footnotesize\ttfamily template$<$class Fifo\+Worker = fifo\+\_\+worker$<$$>$, class Allocator = std\+::allocator$<$ void $>$$>$ \\
+typedef \mbox{\hyperlink{classboost_1_1statechart_1_1processor__container}{processor\+\_\+container}}$<$ \mbox{\hyperlink{classboost_1_1statechart_1_1fifo__scheduler}{fifo\+\_\+scheduler}}, typename Fifo\+Worker\+::work\+\_\+item, Allocator $>$ \mbox{\hyperlink{classboost_1_1statechart_1_1fifo__scheduler}{boost\+::statechart\+::fifo\+\_\+scheduler}}$<$ Fifo\+Worker, Allocator $>$\+::\mbox{\hyperlink{classboost_1_1statechart_1_1fifo__scheduler_a1bb1a46846b8c95208a1d2e0c364ac6e}{container}}\hspace{0.3cm}{\ttfamily [private]}}
+
+\mbox{\Hypertarget{classboost_1_1statechart_1_1fifo__scheduler_a30789ce36779246ebbaf43665289226a}\label{classboost_1_1statechart_1_1fifo__scheduler_a30789ce36779246ebbaf43665289226a}} 
+\index{boost\+::statechart\+::fifo\+\_\+scheduler@{boost\+::statechart\+::fifo\+\_\+scheduler}!event\+\_\+ptr\+\_\+type@{event\+\_\+ptr\+\_\+type}}
+\index{event\+\_\+ptr\+\_\+type@{event\+\_\+ptr\+\_\+type}!boost\+::statechart\+::fifo\+\_\+scheduler@{boost\+::statechart\+::fifo\+\_\+scheduler}}
+\subsubsection{\texorpdfstring{event\+\_\+ptr\+\_\+type}{event\_ptr\_type}}
+{\footnotesize\ttfamily template$<$class Fifo\+Worker = fifo\+\_\+worker$<$$>$, class Allocator = std\+::allocator$<$ void $>$$>$ \\
+typedef intrusive\+\_\+ptr$<$ const \mbox{\hyperlink{classboost_1_1statechart_1_1event__base}{event\+\_\+base}} $>$ \mbox{\hyperlink{classboost_1_1statechart_1_1fifo__scheduler}{boost\+::statechart\+::fifo\+\_\+scheduler}}$<$ Fifo\+Worker, Allocator $>$\+::\mbox{\hyperlink{classboost_1_1statechart_1_1fifo__scheduler_a30789ce36779246ebbaf43665289226a}{event\+\_\+ptr\+\_\+type}}}
+
+\mbox{\Hypertarget{classboost_1_1statechart_1_1fifo__scheduler_a7d1abb1c5cede2b8c42c59d76c301f5b}\label{classboost_1_1statechart_1_1fifo__scheduler_a7d1abb1c5cede2b8c42c59d76c301f5b}} 
+\index{boost\+::statechart\+::fifo\+\_\+scheduler@{boost\+::statechart\+::fifo\+\_\+scheduler}!processor\+\_\+context@{processor\+\_\+context}}
+\index{processor\+\_\+context@{processor\+\_\+context}!boost\+::statechart\+::fifo\+\_\+scheduler@{boost\+::statechart\+::fifo\+\_\+scheduler}}
+\subsubsection{\texorpdfstring{processor\+\_\+context}{processor\_context}}
+{\footnotesize\ttfamily template$<$class Fifo\+Worker = fifo\+\_\+worker$<$$>$, class Allocator = std\+::allocator$<$ void $>$$>$ \\
+typedef container\+::processor\+\_\+context \mbox{\hyperlink{classboost_1_1statechart_1_1fifo__scheduler}{boost\+::statechart\+::fifo\+\_\+scheduler}}$<$ Fifo\+Worker, Allocator $>$\+::\mbox{\hyperlink{classboost_1_1statechart_1_1fifo__scheduler_a7d1abb1c5cede2b8c42c59d76c301f5b}{processor\+\_\+context}}}
+
+\mbox{\Hypertarget{classboost_1_1statechart_1_1fifo__scheduler_ada526939c16c4f8118bc4d7bbf09ad7d}\label{classboost_1_1statechart_1_1fifo__scheduler_ada526939c16c4f8118bc4d7bbf09ad7d}} 
+\index{boost\+::statechart\+::fifo\+\_\+scheduler@{boost\+::statechart\+::fifo\+\_\+scheduler}!processor\+\_\+handle@{processor\+\_\+handle}}
+\index{processor\+\_\+handle@{processor\+\_\+handle}!boost\+::statechart\+::fifo\+\_\+scheduler@{boost\+::statechart\+::fifo\+\_\+scheduler}}
+\subsubsection{\texorpdfstring{processor\+\_\+handle}{processor\_handle}}
+{\footnotesize\ttfamily template$<$class Fifo\+Worker = fifo\+\_\+worker$<$$>$, class Allocator = std\+::allocator$<$ void $>$$>$ \\
+typedef \mbox{\hyperlink{classboost_1_1statechart_1_1processor__container_a82ebbffaed81d7b99119ae0e892f6411}{container\+::processor\+\_\+handle}} \mbox{\hyperlink{classboost_1_1statechart_1_1fifo__scheduler}{boost\+::statechart\+::fifo\+\_\+scheduler}}$<$ Fifo\+Worker, Allocator $>$\+::\mbox{\hyperlink{classboost_1_1statechart_1_1fifo__scheduler_ada526939c16c4f8118bc4d7bbf09ad7d}{processor\+\_\+handle}}}
+
+\mbox{\Hypertarget{classboost_1_1statechart_1_1fifo__scheduler_a72ed2c30a2fa295c2e6909ff09754998}\label{classboost_1_1statechart_1_1fifo__scheduler_a72ed2c30a2fa295c2e6909ff09754998}} 
+\index{boost\+::statechart\+::fifo\+\_\+scheduler@{boost\+::statechart\+::fifo\+\_\+scheduler}!work\+\_\+item@{work\+\_\+item}}
+\index{work\+\_\+item@{work\+\_\+item}!boost\+::statechart\+::fifo\+\_\+scheduler@{boost\+::statechart\+::fifo\+\_\+scheduler}}
+\subsubsection{\texorpdfstring{work\+\_\+item}{work\_item}}
+{\footnotesize\ttfamily template$<$class Fifo\+Worker = fifo\+\_\+worker$<$$>$, class Allocator = std\+::allocator$<$ void $>$$>$ \\
+typedef Fifo\+Worker\+::work\+\_\+item \mbox{\hyperlink{classboost_1_1statechart_1_1fifo__scheduler}{boost\+::statechart\+::fifo\+\_\+scheduler}}$<$ Fifo\+Worker, Allocator $>$\+::\mbox{\hyperlink{classboost_1_1statechart_1_1fifo__scheduler_a72ed2c30a2fa295c2e6909ff09754998}{work\+\_\+item}}}
+
+
+
+\subsection{Member Function Documentation}
+\mbox{\Hypertarget{classboost_1_1statechart_1_1fifo__scheduler_a95c23f26708dcf81e6c0f8c4618fc015}\label{classboost_1_1statechart_1_1fifo__scheduler_a95c23f26708dcf81e6c0f8c4618fc015}} 
+\index{boost\+::statechart\+::fifo\+\_\+scheduler@{boost\+::statechart\+::fifo\+\_\+scheduler}!create\+\_\+processor@{create\+\_\+processor}}
+\index{create\+\_\+processor@{create\+\_\+processor}!boost\+::statechart\+::fifo\+\_\+scheduler@{boost\+::statechart\+::fifo\+\_\+scheduler}}
+\subsubsection{\texorpdfstring{create\+\_\+processor()}{create\_processor()}\hspace{0.1cm}{\footnotesize\ttfamily [1/7]}}
+{\footnotesize\ttfamily template$<$class Fifo\+Worker = fifo\+\_\+worker$<$$>$, class Allocator = std\+::allocator$<$ void $>$$>$ \\
+template$<$class Processor $>$ \\
+\mbox{\hyperlink{classboost_1_1statechart_1_1fifo__scheduler_ada526939c16c4f8118bc4d7bbf09ad7d}{processor\+\_\+handle}} \mbox{\hyperlink{classboost_1_1statechart_1_1fifo__scheduler}{boost\+::statechart\+::fifo\+\_\+scheduler}}$<$ Fifo\+Worker, Allocator $>$\+::create\+\_\+processor (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=285pt]{classboost_1_1statechart_1_1fifo__scheduler_a95c23f26708dcf81e6c0f8c4618fc015_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{classboost_1_1statechart_1_1fifo__scheduler_ac03c8e9f9a1485f60ac5c13bbe961f42}\label{classboost_1_1statechart_1_1fifo__scheduler_ac03c8e9f9a1485f60ac5c13bbe961f42}} 
+\index{boost\+::statechart\+::fifo\+\_\+scheduler@{boost\+::statechart\+::fifo\+\_\+scheduler}!create\+\_\+processor@{create\+\_\+processor}}
+\index{create\+\_\+processor@{create\+\_\+processor}!boost\+::statechart\+::fifo\+\_\+scheduler@{boost\+::statechart\+::fifo\+\_\+scheduler}}
+\subsubsection{\texorpdfstring{create\+\_\+processor()}{create\_processor()}\hspace{0.1cm}{\footnotesize\ttfamily [2/7]}}
+{\footnotesize\ttfamily template$<$class Fifo\+Worker = fifo\+\_\+worker$<$$>$, class Allocator = std\+::allocator$<$ void $>$$>$ \\
+template$<$class Processor , typename Arg1 $>$ \\
+\mbox{\hyperlink{classboost_1_1statechart_1_1fifo__scheduler_ada526939c16c4f8118bc4d7bbf09ad7d}{processor\+\_\+handle}} \mbox{\hyperlink{classboost_1_1statechart_1_1fifo__scheduler}{boost\+::statechart\+::fifo\+\_\+scheduler}}$<$ Fifo\+Worker, Allocator $>$\+::create\+\_\+processor (\begin{DoxyParamCaption}\item[{Arg1}]{arg1 }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+\mbox{\Hypertarget{classboost_1_1statechart_1_1fifo__scheduler_ac62b7521bb9a38912f2ce9b9694e8769}\label{classboost_1_1statechart_1_1fifo__scheduler_ac62b7521bb9a38912f2ce9b9694e8769}} 
+\index{boost\+::statechart\+::fifo\+\_\+scheduler@{boost\+::statechart\+::fifo\+\_\+scheduler}!create\+\_\+processor@{create\+\_\+processor}}
+\index{create\+\_\+processor@{create\+\_\+processor}!boost\+::statechart\+::fifo\+\_\+scheduler@{boost\+::statechart\+::fifo\+\_\+scheduler}}
+\subsubsection{\texorpdfstring{create\+\_\+processor()}{create\_processor()}\hspace{0.1cm}{\footnotesize\ttfamily [3/7]}}
+{\footnotesize\ttfamily template$<$class Fifo\+Worker = fifo\+\_\+worker$<$$>$, class Allocator = std\+::allocator$<$ void $>$$>$ \\
+template$<$class Processor , typename Arg1 , typename Arg2 $>$ \\
+\mbox{\hyperlink{classboost_1_1statechart_1_1fifo__scheduler_ada526939c16c4f8118bc4d7bbf09ad7d}{processor\+\_\+handle}} \mbox{\hyperlink{classboost_1_1statechart_1_1fifo__scheduler}{boost\+::statechart\+::fifo\+\_\+scheduler}}$<$ Fifo\+Worker, Allocator $>$\+::create\+\_\+processor (\begin{DoxyParamCaption}\item[{Arg1}]{arg1,  }\item[{Arg2}]{arg2 }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+\mbox{\Hypertarget{classboost_1_1statechart_1_1fifo__scheduler_a0bb479c40e8b605841f4db56068fd5f5}\label{classboost_1_1statechart_1_1fifo__scheduler_a0bb479c40e8b605841f4db56068fd5f5}} 
+\index{boost\+::statechart\+::fifo\+\_\+scheduler@{boost\+::statechart\+::fifo\+\_\+scheduler}!create\+\_\+processor@{create\+\_\+processor}}
+\index{create\+\_\+processor@{create\+\_\+processor}!boost\+::statechart\+::fifo\+\_\+scheduler@{boost\+::statechart\+::fifo\+\_\+scheduler}}
+\subsubsection{\texorpdfstring{create\+\_\+processor()}{create\_processor()}\hspace{0.1cm}{\footnotesize\ttfamily [4/7]}}
+{\footnotesize\ttfamily template$<$class Fifo\+Worker = fifo\+\_\+worker$<$$>$, class Allocator = std\+::allocator$<$ void $>$$>$ \\
+template$<$class Processor , typename Arg1 , typename Arg2 , typename Arg3 $>$ \\
+\mbox{\hyperlink{classboost_1_1statechart_1_1fifo__scheduler_ada526939c16c4f8118bc4d7bbf09ad7d}{processor\+\_\+handle}} \mbox{\hyperlink{classboost_1_1statechart_1_1fifo__scheduler}{boost\+::statechart\+::fifo\+\_\+scheduler}}$<$ Fifo\+Worker, Allocator $>$\+::create\+\_\+processor (\begin{DoxyParamCaption}\item[{Arg1}]{arg1,  }\item[{Arg2}]{arg2,  }\item[{Arg3}]{arg3 }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+\mbox{\Hypertarget{classboost_1_1statechart_1_1fifo__scheduler_af750a0e0c749cbe56004e1a835ba06f9}\label{classboost_1_1statechart_1_1fifo__scheduler_af750a0e0c749cbe56004e1a835ba06f9}} 
+\index{boost\+::statechart\+::fifo\+\_\+scheduler@{boost\+::statechart\+::fifo\+\_\+scheduler}!create\+\_\+processor@{create\+\_\+processor}}
+\index{create\+\_\+processor@{create\+\_\+processor}!boost\+::statechart\+::fifo\+\_\+scheduler@{boost\+::statechart\+::fifo\+\_\+scheduler}}
+\subsubsection{\texorpdfstring{create\+\_\+processor()}{create\_processor()}\hspace{0.1cm}{\footnotesize\ttfamily [5/7]}}
+{\footnotesize\ttfamily template$<$class Fifo\+Worker = fifo\+\_\+worker$<$$>$, class Allocator = std\+::allocator$<$ void $>$$>$ \\
+template$<$class Processor , typename Arg1 , typename Arg2 , typename Arg3 , typename Arg4 $>$ \\
+\mbox{\hyperlink{classboost_1_1statechart_1_1fifo__scheduler_ada526939c16c4f8118bc4d7bbf09ad7d}{processor\+\_\+handle}} \mbox{\hyperlink{classboost_1_1statechart_1_1fifo__scheduler}{boost\+::statechart\+::fifo\+\_\+scheduler}}$<$ Fifo\+Worker, Allocator $>$\+::create\+\_\+processor (\begin{DoxyParamCaption}\item[{Arg1}]{arg1,  }\item[{Arg2}]{arg2,  }\item[{Arg3}]{arg3,  }\item[{Arg4}]{arg4 }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+\mbox{\Hypertarget{classboost_1_1statechart_1_1fifo__scheduler_aa4ccee39767ff4c0e883bcde7a637987}\label{classboost_1_1statechart_1_1fifo__scheduler_aa4ccee39767ff4c0e883bcde7a637987}} 
+\index{boost\+::statechart\+::fifo\+\_\+scheduler@{boost\+::statechart\+::fifo\+\_\+scheduler}!create\+\_\+processor@{create\+\_\+processor}}
+\index{create\+\_\+processor@{create\+\_\+processor}!boost\+::statechart\+::fifo\+\_\+scheduler@{boost\+::statechart\+::fifo\+\_\+scheduler}}
+\subsubsection{\texorpdfstring{create\+\_\+processor()}{create\_processor()}\hspace{0.1cm}{\footnotesize\ttfamily [6/7]}}
+{\footnotesize\ttfamily template$<$class Fifo\+Worker = fifo\+\_\+worker$<$$>$, class Allocator = std\+::allocator$<$ void $>$$>$ \\
+template$<$class Processor , typename Arg1 , typename Arg2 , typename Arg3 , typename Arg4 , typename Arg5 $>$ \\
+\mbox{\hyperlink{classboost_1_1statechart_1_1fifo__scheduler_ada526939c16c4f8118bc4d7bbf09ad7d}{processor\+\_\+handle}} \mbox{\hyperlink{classboost_1_1statechart_1_1fifo__scheduler}{boost\+::statechart\+::fifo\+\_\+scheduler}}$<$ Fifo\+Worker, Allocator $>$\+::create\+\_\+processor (\begin{DoxyParamCaption}\item[{Arg1}]{arg1,  }\item[{Arg2}]{arg2,  }\item[{Arg3}]{arg3,  }\item[{Arg4}]{arg4,  }\item[{Arg5}]{arg5 }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+\mbox{\Hypertarget{classboost_1_1statechart_1_1fifo__scheduler_a02a1f84cd3e6117100418a6d105587e6}\label{classboost_1_1statechart_1_1fifo__scheduler_a02a1f84cd3e6117100418a6d105587e6}} 
+\index{boost\+::statechart\+::fifo\+\_\+scheduler@{boost\+::statechart\+::fifo\+\_\+scheduler}!create\+\_\+processor@{create\+\_\+processor}}
+\index{create\+\_\+processor@{create\+\_\+processor}!boost\+::statechart\+::fifo\+\_\+scheduler@{boost\+::statechart\+::fifo\+\_\+scheduler}}
+\subsubsection{\texorpdfstring{create\+\_\+processor()}{create\_processor()}\hspace{0.1cm}{\footnotesize\ttfamily [7/7]}}
+{\footnotesize\ttfamily template$<$class Fifo\+Worker = fifo\+\_\+worker$<$$>$, class Allocator = std\+::allocator$<$ void $>$$>$ \\
+template$<$class Processor , typename Arg1 , typename Arg2 , typename Arg3 , typename Arg4 , typename Arg5 , typename Arg6 $>$ \\
+\mbox{\hyperlink{classboost_1_1statechart_1_1fifo__scheduler_ada526939c16c4f8118bc4d7bbf09ad7d}{processor\+\_\+handle}} \mbox{\hyperlink{classboost_1_1statechart_1_1fifo__scheduler}{boost\+::statechart\+::fifo\+\_\+scheduler}}$<$ Fifo\+Worker, Allocator $>$\+::create\+\_\+processor (\begin{DoxyParamCaption}\item[{Arg1}]{arg1,  }\item[{Arg2}]{arg2,  }\item[{Arg3}]{arg3,  }\item[{Arg4}]{arg4,  }\item[{Arg5}]{arg5,  }\item[{Arg6}]{arg6 }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+\mbox{\Hypertarget{classboost_1_1statechart_1_1fifo__scheduler_a4a25edb5f67e9dd339a6f6cfe6bcc873}\label{classboost_1_1statechart_1_1fifo__scheduler_a4a25edb5f67e9dd339a6f6cfe6bcc873}} 
+\index{boost\+::statechart\+::fifo\+\_\+scheduler@{boost\+::statechart\+::fifo\+\_\+scheduler}!destroy\+\_\+processor@{destroy\+\_\+processor}}
+\index{destroy\+\_\+processor@{destroy\+\_\+processor}!boost\+::statechart\+::fifo\+\_\+scheduler@{boost\+::statechart\+::fifo\+\_\+scheduler}}
+\subsubsection{\texorpdfstring{destroy\+\_\+processor()}{destroy\_processor()}}
+{\footnotesize\ttfamily template$<$class Fifo\+Worker = fifo\+\_\+worker$<$$>$, class Allocator = std\+::allocator$<$ void $>$$>$ \\
+void \mbox{\hyperlink{classboost_1_1statechart_1_1fifo__scheduler}{boost\+::statechart\+::fifo\+\_\+scheduler}}$<$ Fifo\+Worker, Allocator $>$\+::destroy\+\_\+processor (\begin{DoxyParamCaption}\item[{const \mbox{\hyperlink{classboost_1_1statechart_1_1fifo__scheduler_ada526939c16c4f8118bc4d7bbf09ad7d}{processor\+\_\+handle}} \&}]{processor }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classboost_1_1statechart_1_1fifo__scheduler_a4a25edb5f67e9dd339a6f6cfe6bcc873_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{classboost_1_1statechart_1_1fifo__scheduler_a466f16a9904ebdb1123948d3d2b3cd66}\label{classboost_1_1statechart_1_1fifo__scheduler_a466f16a9904ebdb1123948d3d2b3cd66}} 
+\index{boost\+::statechart\+::fifo\+\_\+scheduler@{boost\+::statechart\+::fifo\+\_\+scheduler}!initiate\+\_\+processor@{initiate\+\_\+processor}}
+\index{initiate\+\_\+processor@{initiate\+\_\+processor}!boost\+::statechart\+::fifo\+\_\+scheduler@{boost\+::statechart\+::fifo\+\_\+scheduler}}
+\subsubsection{\texorpdfstring{initiate\+\_\+processor()}{initiate\_processor()}}
+{\footnotesize\ttfamily template$<$class Fifo\+Worker = fifo\+\_\+worker$<$$>$, class Allocator = std\+::allocator$<$ void $>$$>$ \\
+void \mbox{\hyperlink{classboost_1_1statechart_1_1fifo__scheduler}{boost\+::statechart\+::fifo\+\_\+scheduler}}$<$ Fifo\+Worker, Allocator $>$\+::initiate\+\_\+processor (\begin{DoxyParamCaption}\item[{const \mbox{\hyperlink{classboost_1_1statechart_1_1fifo__scheduler_ada526939c16c4f8118bc4d7bbf09ad7d}{processor\+\_\+handle}} \&}]{processor }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classboost_1_1statechart_1_1fifo__scheduler_a466f16a9904ebdb1123948d3d2b3cd66_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{classboost_1_1statechart_1_1fifo__scheduler_ade6cb1d2bec98187dc1ec8efa834bba7}\label{classboost_1_1statechart_1_1fifo__scheduler_ade6cb1d2bec98187dc1ec8efa834bba7}} 
+\index{boost\+::statechart\+::fifo\+\_\+scheduler@{boost\+::statechart\+::fifo\+\_\+scheduler}!operator()@{operator()}}
+\index{operator()@{operator()}!boost\+::statechart\+::fifo\+\_\+scheduler@{boost\+::statechart\+::fifo\+\_\+scheduler}}
+\subsubsection{\texorpdfstring{operator()()}{operator()()}}
+{\footnotesize\ttfamily template$<$class Fifo\+Worker = fifo\+\_\+worker$<$$>$, class Allocator = std\+::allocator$<$ void $>$$>$ \\
+unsigned long \mbox{\hyperlink{classboost_1_1statechart_1_1fifo__scheduler}{boost\+::statechart\+::fifo\+\_\+scheduler}}$<$ Fifo\+Worker, Allocator $>$\+::operator() (\begin{DoxyParamCaption}\item[{unsigned long}]{max\+Event\+Count = {\ttfamily 0} }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+\mbox{\Hypertarget{classboost_1_1statechart_1_1fifo__scheduler_a7b52d93108f6a45503005595ee2feffd}\label{classboost_1_1statechart_1_1fifo__scheduler_a7b52d93108f6a45503005595ee2feffd}} 
+\index{boost\+::statechart\+::fifo\+\_\+scheduler@{boost\+::statechart\+::fifo\+\_\+scheduler}!queue\+\_\+event@{queue\+\_\+event}}
+\index{queue\+\_\+event@{queue\+\_\+event}!boost\+::statechart\+::fifo\+\_\+scheduler@{boost\+::statechart\+::fifo\+\_\+scheduler}}
+\subsubsection{\texorpdfstring{queue\+\_\+event()}{queue\_event()}}
+{\footnotesize\ttfamily template$<$class Fifo\+Worker = fifo\+\_\+worker$<$$>$, class Allocator = std\+::allocator$<$ void $>$$>$ \\
+void \mbox{\hyperlink{classboost_1_1statechart_1_1fifo__scheduler}{boost\+::statechart\+::fifo\+\_\+scheduler}}$<$ Fifo\+Worker, Allocator $>$\+::queue\+\_\+event (\begin{DoxyParamCaption}\item[{const \mbox{\hyperlink{classboost_1_1statechart_1_1fifo__scheduler_ada526939c16c4f8118bc4d7bbf09ad7d}{processor\+\_\+handle}} \&}]{processor,  }\item[{const \mbox{\hyperlink{classboost_1_1statechart_1_1fifo__scheduler_a30789ce36779246ebbaf43665289226a}{event\+\_\+ptr\+\_\+type}} \&}]{p\+Event }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classboost_1_1statechart_1_1fifo__scheduler_a7b52d93108f6a45503005595ee2feffd_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{classboost_1_1statechart_1_1fifo__scheduler_a94caded752eb1e4226b2118e400067a3}\label{classboost_1_1statechart_1_1fifo__scheduler_a94caded752eb1e4226b2118e400067a3}} 
+\index{boost\+::statechart\+::fifo\+\_\+scheduler@{boost\+::statechart\+::fifo\+\_\+scheduler}!queue\+\_\+work\+\_\+item@{queue\+\_\+work\+\_\+item}}
+\index{queue\+\_\+work\+\_\+item@{queue\+\_\+work\+\_\+item}!boost\+::statechart\+::fifo\+\_\+scheduler@{boost\+::statechart\+::fifo\+\_\+scheduler}}
+\subsubsection{\texorpdfstring{queue\+\_\+work\+\_\+item()}{queue\_work\_item()}\hspace{0.1cm}{\footnotesize\ttfamily [1/2]}}
+{\footnotesize\ttfamily template$<$class Fifo\+Worker = fifo\+\_\+worker$<$$>$, class Allocator = std\+::allocator$<$ void $>$$>$ \\
+void \mbox{\hyperlink{classboost_1_1statechart_1_1fifo__scheduler}{boost\+::statechart\+::fifo\+\_\+scheduler}}$<$ Fifo\+Worker, Allocator $>$\+::queue\+\_\+work\+\_\+item (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{classboost_1_1statechart_1_1fifo__scheduler_a72ed2c30a2fa295c2e6909ff09754998}{work\+\_\+item}} \&}]{item }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=285pt]{classboost_1_1statechart_1_1fifo__scheduler_a94caded752eb1e4226b2118e400067a3_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{classboost_1_1statechart_1_1fifo__scheduler_a28cac5f086d4c677af0fdeb2973859dd}\label{classboost_1_1statechart_1_1fifo__scheduler_a28cac5f086d4c677af0fdeb2973859dd}} 
+\index{boost\+::statechart\+::fifo\+\_\+scheduler@{boost\+::statechart\+::fifo\+\_\+scheduler}!queue\+\_\+work\+\_\+item@{queue\+\_\+work\+\_\+item}}
+\index{queue\+\_\+work\+\_\+item@{queue\+\_\+work\+\_\+item}!boost\+::statechart\+::fifo\+\_\+scheduler@{boost\+::statechart\+::fifo\+\_\+scheduler}}
+\subsubsection{\texorpdfstring{queue\+\_\+work\+\_\+item()}{queue\_work\_item()}\hspace{0.1cm}{\footnotesize\ttfamily [2/2]}}
+{\footnotesize\ttfamily template$<$class Fifo\+Worker = fifo\+\_\+worker$<$$>$, class Allocator = std\+::allocator$<$ void $>$$>$ \\
+void \mbox{\hyperlink{classboost_1_1statechart_1_1fifo__scheduler}{boost\+::statechart\+::fifo\+\_\+scheduler}}$<$ Fifo\+Worker, Allocator $>$\+::queue\+\_\+work\+\_\+item (\begin{DoxyParamCaption}\item[{const \mbox{\hyperlink{classboost_1_1statechart_1_1fifo__scheduler_a72ed2c30a2fa295c2e6909ff09754998}{work\+\_\+item}} \&}]{item }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+\mbox{\Hypertarget{classboost_1_1statechart_1_1fifo__scheduler_ad8b581c6bc8bee838633b5ed9562b996}\label{classboost_1_1statechart_1_1fifo__scheduler_ad8b581c6bc8bee838633b5ed9562b996}} 
+\index{boost\+::statechart\+::fifo\+\_\+scheduler@{boost\+::statechart\+::fifo\+\_\+scheduler}!terminate@{terminate}}
+\index{terminate@{terminate}!boost\+::statechart\+::fifo\+\_\+scheduler@{boost\+::statechart\+::fifo\+\_\+scheduler}}
+\subsubsection{\texorpdfstring{terminate()}{terminate()}}
+{\footnotesize\ttfamily template$<$class Fifo\+Worker = fifo\+\_\+worker$<$$>$, class Allocator = std\+::allocator$<$ void $>$$>$ \\
+void \mbox{\hyperlink{classboost_1_1statechart_1_1fifo__scheduler}{boost\+::statechart\+::fifo\+\_\+scheduler}}$<$ Fifo\+Worker, Allocator $>$\+::terminate (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=299pt]{classboost_1_1statechart_1_1fifo__scheduler_ad8b581c6bc8bee838633b5ed9562b996_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{classboost_1_1statechart_1_1fifo__scheduler_a15b81ce74a62a078dd447acfafbf275c}\label{classboost_1_1statechart_1_1fifo__scheduler_a15b81ce74a62a078dd447acfafbf275c}} 
+\index{boost\+::statechart\+::fifo\+\_\+scheduler@{boost\+::statechart\+::fifo\+\_\+scheduler}!terminate\+\_\+processor@{terminate\+\_\+processor}}
+\index{terminate\+\_\+processor@{terminate\+\_\+processor}!boost\+::statechart\+::fifo\+\_\+scheduler@{boost\+::statechart\+::fifo\+\_\+scheduler}}
+\subsubsection{\texorpdfstring{terminate\+\_\+processor()}{terminate\_processor()}}
+{\footnotesize\ttfamily template$<$class Fifo\+Worker = fifo\+\_\+worker$<$$>$, class Allocator = std\+::allocator$<$ void $>$$>$ \\
+void \mbox{\hyperlink{classboost_1_1statechart_1_1fifo__scheduler}{boost\+::statechart\+::fifo\+\_\+scheduler}}$<$ Fifo\+Worker, Allocator $>$\+::terminate\+\_\+processor (\begin{DoxyParamCaption}\item[{const \mbox{\hyperlink{classboost_1_1statechart_1_1fifo__scheduler_ada526939c16c4f8118bc4d7bbf09ad7d}{processor\+\_\+handle}} \&}]{processor }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+\mbox{\Hypertarget{classboost_1_1statechart_1_1fifo__scheduler_a231ad7f0d511dcc9be86270a9ace50bd}\label{classboost_1_1statechart_1_1fifo__scheduler_a231ad7f0d511dcc9be86270a9ace50bd}} 
+\index{boost\+::statechart\+::fifo\+\_\+scheduler@{boost\+::statechart\+::fifo\+\_\+scheduler}!terminated@{terminated}}
+\index{terminated@{terminated}!boost\+::statechart\+::fifo\+\_\+scheduler@{boost\+::statechart\+::fifo\+\_\+scheduler}}
+\subsubsection{\texorpdfstring{terminated()}{terminated()}}
+{\footnotesize\ttfamily template$<$class Fifo\+Worker = fifo\+\_\+worker$<$$>$, class Allocator = std\+::allocator$<$ void $>$$>$ \\
+bool \mbox{\hyperlink{classboost_1_1statechart_1_1fifo__scheduler}{boost\+::statechart\+::fifo\+\_\+scheduler}}$<$ Fifo\+Worker, Allocator $>$\+::terminated (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const\hspace{0.3cm}{\ttfamily [inline]}}
+
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=304pt]{classboost_1_1statechart_1_1fifo__scheduler_a231ad7f0d511dcc9be86270a9ace50bd_icgraph}
+\end{center}
+\end{figure}
+
+
+\subsection{Member Data Documentation}
+\mbox{\Hypertarget{classboost_1_1statechart_1_1fifo__scheduler_a87fdd84b72a6fbea81eab725050c553a}\label{classboost_1_1statechart_1_1fifo__scheduler_a87fdd84b72a6fbea81eab725050c553a}} 
+\index{boost\+::statechart\+::fifo\+\_\+scheduler@{boost\+::statechart\+::fifo\+\_\+scheduler}!container\+\_\+@{container\+\_\+}}
+\index{container\+\_\+@{container\+\_\+}!boost\+::statechart\+::fifo\+\_\+scheduler@{boost\+::statechart\+::fifo\+\_\+scheduler}}
+\subsubsection{\texorpdfstring{container\+\_\+}{container\_}}
+{\footnotesize\ttfamily template$<$class Fifo\+Worker = fifo\+\_\+worker$<$$>$, class Allocator = std\+::allocator$<$ void $>$$>$ \\
+\mbox{\hyperlink{classboost_1_1statechart_1_1fifo__scheduler_a1bb1a46846b8c95208a1d2e0c364ac6e}{container}} \mbox{\hyperlink{classboost_1_1statechart_1_1fifo__scheduler}{boost\+::statechart\+::fifo\+\_\+scheduler}}$<$ Fifo\+Worker, Allocator $>$\+::container\+\_\+\hspace{0.3cm}{\ttfamily [private]}}
+
+\mbox{\Hypertarget{classboost_1_1statechart_1_1fifo__scheduler_a6ff99598f5cdf7c170450a9ac100767b}\label{classboost_1_1statechart_1_1fifo__scheduler_a6ff99598f5cdf7c170450a9ac100767b}} 
+\index{boost\+::statechart\+::fifo\+\_\+scheduler@{boost\+::statechart\+::fifo\+\_\+scheduler}!worker\+\_\+@{worker\+\_\+}}
+\index{worker\+\_\+@{worker\+\_\+}!boost\+::statechart\+::fifo\+\_\+scheduler@{boost\+::statechart\+::fifo\+\_\+scheduler}}
+\subsubsection{\texorpdfstring{worker\+\_\+}{worker\_}}
+{\footnotesize\ttfamily template$<$class Fifo\+Worker = fifo\+\_\+worker$<$$>$, class Allocator = std\+::allocator$<$ void $>$$>$ \\
+Fifo\+Worker \mbox{\hyperlink{classboost_1_1statechart_1_1fifo__scheduler}{boost\+::statechart\+::fifo\+\_\+scheduler}}$<$ Fifo\+Worker, Allocator $>$\+::worker\+\_\+\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+include/boost/statechart/\mbox{\hyperlink{fifo__scheduler_8hpp}{fifo\+\_\+scheduler.\+hpp}}\end{DoxyCompactItemize}

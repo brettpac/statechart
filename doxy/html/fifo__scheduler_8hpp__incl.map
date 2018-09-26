@@ -1,0 +1,8 @@
+<map id="include/boost/statechart/fifo_scheduler.hpp" name="include/boost/statechart/fifo_scheduler.hpp">
+<area shape="rect" id="node2" href="$event__base_8hpp.html" title="boost/statechart/event\l_base.hpp" alt="" coords="179,184,331,225"/>
+<area shape="rect" id="node11" href="$fifo__worker_8hpp.html" title="boost/statechart/fifo\l_worker.hpp" alt="" coords="1591,95,1730,136"/>
+<area shape="rect" id="node18" href="$processor__container_8hpp.html" title="boost/statechart/processor\l_container.hpp" alt="" coords="811,95,988,136"/>
+<area shape="rect" id="node3" href="$rtti__policy_8hpp.html" title="boost/statechart/detail\l/rtti_policy.hpp" alt="" coords="180,273,331,315"/>
+<area shape="rect" id="node8" href="$counted__base_8hpp.html" title="boost/statechart/detail\l/counted_base.hpp" alt="" coords="871,273,1021,315"/>
+<area shape="rect" id="node19" href="$event__processor_8hpp.html" title="boost/statechart/event\l_processor.hpp" alt="" coords="419,184,571,225"/>
+</map>

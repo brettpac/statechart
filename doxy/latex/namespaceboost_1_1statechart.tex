@@ -1,0 +1,145 @@
+\hypertarget{namespaceboost_1_1statechart}{}\section{boost\+:\+:statechart Namespace Reference}
+\label{namespaceboost_1_1statechart}\index{boost\+::statechart@{boost\+::statechart}}
+\subsection*{Namespaces}
+\begin{DoxyCompactItemize}
+\item 
+ \mbox{\hyperlink{namespaceboost_1_1statechart_1_1detail}{detail}}
+\end{DoxyCompactItemize}
+\subsection*{Classes}
+\begin{DoxyCompactItemize}
+\item 
+class \mbox{\hyperlink{classboost_1_1statechart_1_1asynchronous__state__machine}{asynchronous\+\_\+state\+\_\+machine}}
+\item 
+class \mbox{\hyperlink{classboost_1_1statechart_1_1custom__reaction}{custom\+\_\+reaction}}
+\item 
+class \mbox{\hyperlink{classboost_1_1statechart_1_1custom__reaction_3_01event__base_01_4}{custom\+\_\+reaction$<$ event\+\_\+base $>$}}
+\item 
+class \mbox{\hyperlink{classboost_1_1statechart_1_1deep__history}{deep\+\_\+history}}
+\item 
+class \mbox{\hyperlink{classboost_1_1statechart_1_1deferral}{deferral}}
+\item 
+class \mbox{\hyperlink{classboost_1_1statechart_1_1deferral_3_01event__base_01_4}{deferral$<$ event\+\_\+base $>$}}
+\item 
+class \mbox{\hyperlink{classboost_1_1statechart_1_1event}{event}}
+\item 
+class \mbox{\hyperlink{classboost_1_1statechart_1_1event__base}{event\+\_\+base}}
+\item 
+class \mbox{\hyperlink{classboost_1_1statechart_1_1event__processor}{event\+\_\+processor}}
+\item 
+class \mbox{\hyperlink{classboost_1_1statechart_1_1exception__thrown}{exception\+\_\+thrown}}
+\item 
+class \mbox{\hyperlink{classboost_1_1statechart_1_1exception__translator}{exception\+\_\+translator}}
+\item 
+class \mbox{\hyperlink{classboost_1_1statechart_1_1fifo__scheduler}{fifo\+\_\+scheduler}}
+\item 
+class \mbox{\hyperlink{classboost_1_1statechart_1_1fifo__worker}{fifo\+\_\+worker}}
+\item 
+class \mbox{\hyperlink{classboost_1_1statechart_1_1in__state__reaction}{in\+\_\+state\+\_\+reaction}}
+\item 
+class \mbox{\hyperlink{classboost_1_1statechart_1_1null__exception__translator}{null\+\_\+exception\+\_\+translator}}
+\item 
+class \mbox{\hyperlink{classboost_1_1statechart_1_1processor__container}{processor\+\_\+container}}
+\item 
+class \mbox{\hyperlink{classboost_1_1statechart_1_1shallow__history}{shallow\+\_\+history}}
+\item 
+class \mbox{\hyperlink{classboost_1_1statechart_1_1simple__state}{simple\+\_\+state}}
+\item 
+class \mbox{\hyperlink{classboost_1_1statechart_1_1state}{state}}
+\item 
+class \mbox{\hyperlink{classboost_1_1statechart_1_1state__machine}{state\+\_\+machine}}
+\item 
+class \mbox{\hyperlink{classboost_1_1statechart_1_1termination}{termination}}
+\item 
+class \mbox{\hyperlink{classboost_1_1statechart_1_1termination_3_01event__base_01_4}{termination$<$ event\+\_\+base $>$}}
+\item 
+class \mbox{\hyperlink{classboost_1_1statechart_1_1transition}{transition}}
+\end{DoxyCompactItemize}
+\subsection*{Typedefs}
+\begin{DoxyCompactItemize}
+\item 
+typedef \mbox{\hyperlink{classboost_1_1statechart_1_1detail_1_1safe__reaction__result}{detail\+::safe\+\_\+reaction\+\_\+result}} \mbox{\hyperlink{namespaceboost_1_1statechart_abe807f6598b614d6d87bb951ecd92331}{result}}
+\end{DoxyCompactItemize}
+\subsection*{Enumerations}
+\begin{DoxyCompactItemize}
+\item 
+enum \mbox{\hyperlink{namespaceboost_1_1statechart_a9c4ec64d7a0422b8b9c97b489f731372}{history\+\_\+mode}} \{ \mbox{\hyperlink{namespaceboost_1_1statechart_a9c4ec64d7a0422b8b9c97b489f731372a0a83ee30095cf16e41ec634de52ad636}{has\+\_\+no\+\_\+history}}, 
+\mbox{\hyperlink{namespaceboost_1_1statechart_a9c4ec64d7a0422b8b9c97b489f731372a91f197dd8c8935ec1a9328dfc5f90b43}{has\+\_\+shallow\+\_\+history}}, 
+\mbox{\hyperlink{namespaceboost_1_1statechart_a9c4ec64d7a0422b8b9c97b489f731372aac03603fa90405ad5de45cc858477c7d}{has\+\_\+deep\+\_\+history}}, 
+\mbox{\hyperlink{namespaceboost_1_1statechart_a9c4ec64d7a0422b8b9c97b489f731372ab8908e987c54cf2d9ef42a5c7298d159}{has\+\_\+full\+\_\+history}}
+ \}
+\end{DoxyCompactItemize}
+\subsection*{Functions}
+\begin{DoxyCompactItemize}
+\item 
+void \mbox{\hyperlink{namespaceboost_1_1statechart_af28fc7e043b5d8c4434e2b91a7f813fe}{intrusive\+\_\+ptr\+\_\+add\+\_\+ref}} (const \+::\mbox{\hyperlink{classboost_1_1statechart_1_1event__base}{boost\+::statechart\+::event\+\_\+base}} $\ast$p\+Base)
+\item 
+void \mbox{\hyperlink{namespaceboost_1_1statechart_a1920a5b283c13c30ecd4aeb5b9499aeb}{intrusive\+\_\+ptr\+\_\+release}} (const \+::\mbox{\hyperlink{classboost_1_1statechart_1_1event__base}{boost\+::statechart\+::event\+\_\+base}} $\ast$p\+Base)
+\item 
+{\footnotesize template$<$class Most\+Derived , class Context , class Inner\+Initial , history\+\_\+mode history\+Mode$>$ }\\void \mbox{\hyperlink{namespaceboost_1_1statechart_a16a84edc3e19176233fbdf977c1aa7ec}{intrusive\+\_\+ptr\+\_\+release}} (const \+::\mbox{\hyperlink{classboost_1_1statechart_1_1simple__state}{boost\+::statechart\+::simple\+\_\+state}}$<$ Most\+Derived, Context, Inner\+Initial, history\+Mode $>$ $\ast$p\+Base)
+\end{DoxyCompactItemize}
+
+
+\subsection{Typedef Documentation}
+\mbox{\Hypertarget{namespaceboost_1_1statechart_abe807f6598b614d6d87bb951ecd92331}\label{namespaceboost_1_1statechart_abe807f6598b614d6d87bb951ecd92331}} 
+\index{boost\+::statechart@{boost\+::statechart}!result@{result}}
+\index{result@{result}!boost\+::statechart@{boost\+::statechart}}
+\subsubsection{\texorpdfstring{result}{result}}
+{\footnotesize\ttfamily typedef \mbox{\hyperlink{classboost_1_1statechart_1_1detail_1_1safe__reaction__result}{detail\+::safe\+\_\+reaction\+\_\+result}} \mbox{\hyperlink{namespaceboost_1_1statechart_abe807f6598b614d6d87bb951ecd92331}{boost\+::statechart\+::result}}}
+
+
+
+\subsection{Enumeration Type Documentation}
+\mbox{\Hypertarget{namespaceboost_1_1statechart_a9c4ec64d7a0422b8b9c97b489f731372}\label{namespaceboost_1_1statechart_a9c4ec64d7a0422b8b9c97b489f731372}} 
+\index{boost\+::statechart@{boost\+::statechart}!history\+\_\+mode@{history\+\_\+mode}}
+\index{history\+\_\+mode@{history\+\_\+mode}!boost\+::statechart@{boost\+::statechart}}
+\subsubsection{\texorpdfstring{history\+\_\+mode}{history\_mode}}
+{\footnotesize\ttfamily enum \mbox{\hyperlink{namespaceboost_1_1statechart_a9c4ec64d7a0422b8b9c97b489f731372}{boost\+::statechart\+::history\+\_\+mode}}}
+
+\begin{DoxyEnumFields}{Enumerator}
+\raisebox{\heightof{T}}[0pt][0pt]{\index{has\+\_\+no\+\_\+history@{has\+\_\+no\+\_\+history}!boost\+::statechart@{boost\+::statechart}}\index{boost\+::statechart@{boost\+::statechart}!has\+\_\+no\+\_\+history@{has\+\_\+no\+\_\+history}}}\mbox{\Hypertarget{namespaceboost_1_1statechart_a9c4ec64d7a0422b8b9c97b489f731372a0a83ee30095cf16e41ec634de52ad636}\label{namespaceboost_1_1statechart_a9c4ec64d7a0422b8b9c97b489f731372a0a83ee30095cf16e41ec634de52ad636}} 
+has\+\_\+no\+\_\+history&\\
+\hline
+
+\raisebox{\heightof{T}}[0pt][0pt]{\index{has\+\_\+shallow\+\_\+history@{has\+\_\+shallow\+\_\+history}!boost\+::statechart@{boost\+::statechart}}\index{boost\+::statechart@{boost\+::statechart}!has\+\_\+shallow\+\_\+history@{has\+\_\+shallow\+\_\+history}}}\mbox{\Hypertarget{namespaceboost_1_1statechart_a9c4ec64d7a0422b8b9c97b489f731372a91f197dd8c8935ec1a9328dfc5f90b43}\label{namespaceboost_1_1statechart_a9c4ec64d7a0422b8b9c97b489f731372a91f197dd8c8935ec1a9328dfc5f90b43}} 
+has\+\_\+shallow\+\_\+history&\\
+\hline
+
+\raisebox{\heightof{T}}[0pt][0pt]{\index{has\+\_\+deep\+\_\+history@{has\+\_\+deep\+\_\+history}!boost\+::statechart@{boost\+::statechart}}\index{boost\+::statechart@{boost\+::statechart}!has\+\_\+deep\+\_\+history@{has\+\_\+deep\+\_\+history}}}\mbox{\Hypertarget{namespaceboost_1_1statechart_a9c4ec64d7a0422b8b9c97b489f731372aac03603fa90405ad5de45cc858477c7d}\label{namespaceboost_1_1statechart_a9c4ec64d7a0422b8b9c97b489f731372aac03603fa90405ad5de45cc858477c7d}} 
+has\+\_\+deep\+\_\+history&\\
+\hline
+
+\raisebox{\heightof{T}}[0pt][0pt]{\index{has\+\_\+full\+\_\+history@{has\+\_\+full\+\_\+history}!boost\+::statechart@{boost\+::statechart}}\index{boost\+::statechart@{boost\+::statechart}!has\+\_\+full\+\_\+history@{has\+\_\+full\+\_\+history}}}\mbox{\Hypertarget{namespaceboost_1_1statechart_a9c4ec64d7a0422b8b9c97b489f731372ab8908e987c54cf2d9ef42a5c7298d159}\label{namespaceboost_1_1statechart_a9c4ec64d7a0422b8b9c97b489f731372ab8908e987c54cf2d9ef42a5c7298d159}} 
+has\+\_\+full\+\_\+history&\\
+\hline
+
+\end{DoxyEnumFields}
+
+
+\subsection{Function Documentation}
+\mbox{\Hypertarget{namespaceboost_1_1statechart_af28fc7e043b5d8c4434e2b91a7f813fe}\label{namespaceboost_1_1statechart_af28fc7e043b5d8c4434e2b91a7f813fe}} 
+\index{boost\+::statechart@{boost\+::statechart}!intrusive\+\_\+ptr\+\_\+add\+\_\+ref@{intrusive\+\_\+ptr\+\_\+add\+\_\+ref}}
+\index{intrusive\+\_\+ptr\+\_\+add\+\_\+ref@{intrusive\+\_\+ptr\+\_\+add\+\_\+ref}!boost\+::statechart@{boost\+::statechart}}
+\subsubsection{\texorpdfstring{intrusive\+\_\+ptr\+\_\+add\+\_\+ref()}{intrusive\_ptr\_add\_ref()}}
+{\footnotesize\ttfamily void boost\+::statechart\+::intrusive\+\_\+ptr\+\_\+add\+\_\+ref (\begin{DoxyParamCaption}\item[{const \+::\mbox{\hyperlink{classboost_1_1statechart_1_1event__base}{boost\+::statechart\+::event\+\_\+base}} $\ast$}]{p\+Base }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+\mbox{\Hypertarget{namespaceboost_1_1statechart_a1920a5b283c13c30ecd4aeb5b9499aeb}\label{namespaceboost_1_1statechart_a1920a5b283c13c30ecd4aeb5b9499aeb}} 
+\index{boost\+::statechart@{boost\+::statechart}!intrusive\+\_\+ptr\+\_\+release@{intrusive\+\_\+ptr\+\_\+release}}
+\index{intrusive\+\_\+ptr\+\_\+release@{intrusive\+\_\+ptr\+\_\+release}!boost\+::statechart@{boost\+::statechart}}
+\subsubsection{\texorpdfstring{intrusive\+\_\+ptr\+\_\+release()}{intrusive\_ptr\_release()}\hspace{0.1cm}{\footnotesize\ttfamily [1/2]}}
+{\footnotesize\ttfamily void boost\+::statechart\+::intrusive\+\_\+ptr\+\_\+release (\begin{DoxyParamCaption}\item[{const \+::\mbox{\hyperlink{classboost_1_1statechart_1_1event__base}{boost\+::statechart\+::event\+\_\+base}} $\ast$}]{p\+Base }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=327pt]{namespaceboost_1_1statechart_a1920a5b283c13c30ecd4aeb5b9499aeb_cgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{namespaceboost_1_1statechart_a16a84edc3e19176233fbdf977c1aa7ec}\label{namespaceboost_1_1statechart_a16a84edc3e19176233fbdf977c1aa7ec}} 
+\index{boost\+::statechart@{boost\+::statechart}!intrusive\+\_\+ptr\+\_\+release@{intrusive\+\_\+ptr\+\_\+release}}
+\index{intrusive\+\_\+ptr\+\_\+release@{intrusive\+\_\+ptr\+\_\+release}!boost\+::statechart@{boost\+::statechart}}
+\subsubsection{\texorpdfstring{intrusive\+\_\+ptr\+\_\+release()}{intrusive\_ptr\_release()}\hspace{0.1cm}{\footnotesize\ttfamily [2/2]}}
+{\footnotesize\ttfamily template$<$class Most\+Derived , class Context , class Inner\+Initial , history\+\_\+mode history\+Mode$>$ \\
+void boost\+::statechart\+::intrusive\+\_\+ptr\+\_\+release (\begin{DoxyParamCaption}\item[{const \+::\mbox{\hyperlink{classboost_1_1statechart_1_1simple__state}{boost\+::statechart\+::simple\+\_\+state}}$<$ Most\+Derived, Context, Inner\+Initial, history\+Mode $>$ $\ast$}]{p\+Base }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+

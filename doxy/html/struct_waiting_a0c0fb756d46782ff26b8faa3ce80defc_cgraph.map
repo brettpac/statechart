@@ -1,0 +1,5 @@
+<map id="Waiting::Waiting" name="Waiting::Waiting">
+<area shape="rect" id="node2" href="$classboost_1_1statechart_1_1simple__state.html#a5a2e9abf29040c3dd91ac9d98a17f564" title="boost::statechart::\lsimple_state\&lt; Waiting,\l Player, mpl::list\&lt;\&gt;,\l has_no_history \&gt;::outermost\l_context" alt="" coords="172,5,364,91"/>
+<area shape="rect" id="node3" href="$classboost_1_1statechart_1_1fifo__scheduler.html#a7b52d93108f6a45503005595ee2feffd" title="boost::statechart::\lfifo_scheduler::queue_event" alt="" coords="175,115,361,157"/>
+<area shape="rect" id="node4" href="$_player_8hpp.html#a515007b05298a4ce50aa902c772b9268" title="MakeIntrusive" alt="" coords="216,181,320,208"/>
+</map>

@@ -1,0 +1,10 @@
+<map id="boost::statechart::detail::avoid_unused_warning" name="boost::statechart::detail::avoid_unused_warning">
+<area shape="rect" id="node2" href="$class_unique_object_allocator.html#a7baf5a708dcd516ce694499687e0cdc2" title="UniqueObjectAllocator\l::allocate" alt="" coords="227,9,379,51"/>
+<area shape="rect" id="node4" href="$class_unique_object_allocator.html#a56c2cd1285c50ab8ed537aba9493b970" title="UniqueObjectAllocator\l::deallocate" alt="" coords="227,77,379,119"/>
+<area shape="rect" id="node6" href="$namespaceboost_1_1statechart_1_1detail.html#a23e46110b9423928f648c10933316959" title="boost::statechart::\ldetail::allocate" alt="" coords="239,143,367,184"/>
+<area shape="rect" id="node8" href="$classboost_1_1statechart_1_1state__machine.html#ae3cebe8b5870bda788a95be852e5d3be" title="boost::statechart::\lstate_machine\&lt; CustomReaction\lEventBaseTest, X1 \&gt;::add\l_inner_state" alt="" coords="195,208,412,279"/>
+<area shape="rect" id="node9" href="$classboost_1_1statechart_1_1state__machine.html#a3d848420d633249edb93d984e2bd8bb4" title="boost::statechart::\lstate_machine\&lt; CustomReaction\lEventBaseTest, X1 \&gt;::remove\l_inner_state" alt="" coords="195,303,412,373"/>
+<area shape="rect" id="node3" href="$class_unique_object.html#acc458556cb9e67a6496d3d2c363202e6" title="UniqueObject\&lt; BitState\l\&lt; StateNo \&gt; \&gt;::operator new" alt="" coords="469,5,658,47"/>
+<area shape="rect" id="node5" href="$class_unique_object.html#ae2eb65234b1b3d9574d5e7c8c11be27c" title="UniqueObject\&lt; BitState\l\&lt; StateNo \&gt; \&gt;::operator\l delete" alt="" coords="483,70,644,126"/>
+<area shape="rect" id="node7" href="$classboost_1_1statechart_1_1simple__state.html#a4fbec8248bbcd17578b6746a684e3c9e" title="boost::statechart::\lsimple_state\&lt; A, TypeInfoTest,\l B \&gt;::operator new" alt="" coords="460,150,667,206"/>
+</map>

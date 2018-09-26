@@ -1,0 +1,4 @@
+<map id="IElapsedTime" name="IElapsedTime">
+<area shape="rect" id="node2" href="$struct_running.html" title="{Running\n|&#45; startTime_\l|+ Running()\l+ ~Running()\l+ ElapsedTime()\l+ Running()\l+ ~Running()\l+ react()\l&#45; ElapsedTime()\l}" alt="" coords="5,131,124,296"/>
+<area shape="rect" id="node3" href="$struct_stopped.html" title="{Stopped\n||+ ElapsedTime()\l+ react()\l}" alt="" coords="148,167,267,259"/>
+</map>

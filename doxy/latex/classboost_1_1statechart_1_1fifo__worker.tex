@@ -1,0 +1,198 @@
+\hypertarget{classboost_1_1statechart_1_1fifo__worker}{}\section{boost\+:\+:statechart\+:\+:fifo\+\_\+worker$<$ Allocator $>$ Class Template Reference}
+\label{classboost_1_1statechart_1_1fifo__worker}\index{boost\+::statechart\+::fifo\+\_\+worker$<$ Allocator $>$@{boost\+::statechart\+::fifo\+\_\+worker$<$ Allocator $>$}}
+
+
+{\ttfamily \#include $<$fifo\+\_\+worker.\+hpp$>$}
+
+
+
+Inheritance diagram for boost\+:\+:statechart\+:\+:fifo\+\_\+worker$<$ Allocator $>$\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=201pt]{classboost_1_1statechart_1_1fifo__worker__inherit__graph}
+\end{center}
+\end{figure}
+
+
+Collaboration diagram for boost\+:\+:statechart\+:\+:fifo\+\_\+worker$<$ Allocator $>$\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=201pt]{classboost_1_1statechart_1_1fifo__worker__coll__graph}
+\end{center}
+\end{figure}
+\subsection*{Public Types}
+\begin{DoxyCompactItemize}
+\item 
+typedef function0$<$ void $>$ \mbox{\hyperlink{classboost_1_1statechart_1_1fifo__worker_ac90f6805565bb3e8d65e4cdde96d90c2}{work\+\_\+item}}
+\end{DoxyCompactItemize}
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{classboost_1_1statechart_1_1fifo__worker_a27e65c9ac66783bdf8a459f83e814946}{fifo\+\_\+worker}} ()
+\item 
+void \mbox{\hyperlink{classboost_1_1statechart_1_1fifo__worker_a1478832fd6093329616ddc0747674ae9}{queue\+\_\+work\+\_\+item}} (\mbox{\hyperlink{classboost_1_1statechart_1_1fifo__worker_ac90f6805565bb3e8d65e4cdde96d90c2}{work\+\_\+item}} \&item)
+\item 
+void \mbox{\hyperlink{classboost_1_1statechart_1_1fifo__worker_ae337753f66b8b8e9d5e473fdba656e5b}{queue\+\_\+work\+\_\+item}} (const \mbox{\hyperlink{classboost_1_1statechart_1_1fifo__worker_ac90f6805565bb3e8d65e4cdde96d90c2}{work\+\_\+item}} \&item)
+\item 
+void \mbox{\hyperlink{classboost_1_1statechart_1_1fifo__worker_a3010e3b8572e537865bca0158de39a5c}{terminate}} ()
+\item 
+bool \mbox{\hyperlink{classboost_1_1statechart_1_1fifo__worker_ac05ccf21dfcce48372f3022642e0c135}{terminated}} () const
+\item 
+unsigned long \mbox{\hyperlink{classboost_1_1statechart_1_1fifo__worker_a5b3bed56e4cef74649ab1f3b389600d7}{operator()}} (unsigned long max\+Item\+Count=0)
+\end{DoxyCompactItemize}
+\subsection*{Private Types}
+\begin{DoxyCompactItemize}
+\item 
+typedef std\+::list$<$ \mbox{\hyperlink{classboost_1_1statechart_1_1fifo__worker_ac90f6805565bb3e8d65e4cdde96d90c2}{work\+\_\+item}}, typename boost\+::detail\+::allocator\+::rebind\+\_\+to$<$ Allocator, \mbox{\hyperlink{classboost_1_1statechart_1_1fifo__worker_ac90f6805565bb3e8d65e4cdde96d90c2}{work\+\_\+item}} $>$\+::type $>$ \mbox{\hyperlink{classboost_1_1statechart_1_1fifo__worker_a59c84b45f3d55dfdd63e7627d0fa2e7b}{work\+\_\+queue\+\_\+type}}
+\end{DoxyCompactItemize}
+\subsection*{Private Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{classboost_1_1statechart_1_1fifo__worker_ac90f6805565bb3e8d65e4cdde96d90c2}{work\+\_\+item}} \mbox{\hyperlink{classboost_1_1statechart_1_1fifo__worker_a63316cebc1a5e703b5e4765b577addfa}{dequeue\+\_\+item}} ()
+\item 
+void \mbox{\hyperlink{classboost_1_1statechart_1_1fifo__worker_ab220ce19cda37ceabc0da940109d7d05}{terminate\+\_\+impl}} ()
+\end{DoxyCompactItemize}
+\subsection*{Private Attributes}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{classboost_1_1statechart_1_1fifo__worker_a59c84b45f3d55dfdd63e7627d0fa2e7b}{work\+\_\+queue\+\_\+type}} \mbox{\hyperlink{classboost_1_1statechart_1_1fifo__worker_a26eeadc0a18615679e035b393b5dee2c}{work\+Queue\+\_\+}}
+\item 
+bool \mbox{\hyperlink{classboost_1_1statechart_1_1fifo__worker_a4fa42fb70ad8cf4ddc71c5792f03ba5e}{terminated\+\_\+}}
+\end{DoxyCompactItemize}
+
+
+\subsection{Member Typedef Documentation}
+\mbox{\Hypertarget{classboost_1_1statechart_1_1fifo__worker_ac90f6805565bb3e8d65e4cdde96d90c2}\label{classboost_1_1statechart_1_1fifo__worker_ac90f6805565bb3e8d65e4cdde96d90c2}} 
+\index{boost\+::statechart\+::fifo\+\_\+worker@{boost\+::statechart\+::fifo\+\_\+worker}!work\+\_\+item@{work\+\_\+item}}
+\index{work\+\_\+item@{work\+\_\+item}!boost\+::statechart\+::fifo\+\_\+worker@{boost\+::statechart\+::fifo\+\_\+worker}}
+\subsubsection{\texorpdfstring{work\+\_\+item}{work\_item}}
+{\footnotesize\ttfamily template$<$class Allocator = std\+::allocator$<$ void $>$$>$ \\
+typedef function0$<$ void $>$ \mbox{\hyperlink{classboost_1_1statechart_1_1fifo__worker}{boost\+::statechart\+::fifo\+\_\+worker}}$<$ Allocator $>$\+::\mbox{\hyperlink{classboost_1_1statechart_1_1fifo__worker_ac90f6805565bb3e8d65e4cdde96d90c2}{work\+\_\+item}}}
+
+\mbox{\Hypertarget{classboost_1_1statechart_1_1fifo__worker_a59c84b45f3d55dfdd63e7627d0fa2e7b}\label{classboost_1_1statechart_1_1fifo__worker_a59c84b45f3d55dfdd63e7627d0fa2e7b}} 
+\index{boost\+::statechart\+::fifo\+\_\+worker@{boost\+::statechart\+::fifo\+\_\+worker}!work\+\_\+queue\+\_\+type@{work\+\_\+queue\+\_\+type}}
+\index{work\+\_\+queue\+\_\+type@{work\+\_\+queue\+\_\+type}!boost\+::statechart\+::fifo\+\_\+worker@{boost\+::statechart\+::fifo\+\_\+worker}}
+\subsubsection{\texorpdfstring{work\+\_\+queue\+\_\+type}{work\_queue\_type}}
+{\footnotesize\ttfamily template$<$class Allocator = std\+::allocator$<$ void $>$$>$ \\
+typedef std\+::list$<$ \mbox{\hyperlink{classboost_1_1statechart_1_1fifo__worker_ac90f6805565bb3e8d65e4cdde96d90c2}{work\+\_\+item}}, typename boost\+::detail\+::allocator\+::rebind\+\_\+to$<$ Allocator, \mbox{\hyperlink{classboost_1_1statechart_1_1fifo__worker_ac90f6805565bb3e8d65e4cdde96d90c2}{work\+\_\+item}} $>$\+::type $>$ \mbox{\hyperlink{classboost_1_1statechart_1_1fifo__worker}{boost\+::statechart\+::fifo\+\_\+worker}}$<$ Allocator $>$\+::\mbox{\hyperlink{classboost_1_1statechart_1_1fifo__worker_a59c84b45f3d55dfdd63e7627d0fa2e7b}{work\+\_\+queue\+\_\+type}}\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+\subsection{Constructor \& Destructor Documentation}
+\mbox{\Hypertarget{classboost_1_1statechart_1_1fifo__worker_a27e65c9ac66783bdf8a459f83e814946}\label{classboost_1_1statechart_1_1fifo__worker_a27e65c9ac66783bdf8a459f83e814946}} 
+\index{boost\+::statechart\+::fifo\+\_\+worker@{boost\+::statechart\+::fifo\+\_\+worker}!fifo\+\_\+worker@{fifo\+\_\+worker}}
+\index{fifo\+\_\+worker@{fifo\+\_\+worker}!boost\+::statechart\+::fifo\+\_\+worker@{boost\+::statechart\+::fifo\+\_\+worker}}
+\subsubsection{\texorpdfstring{fifo\+\_\+worker()}{fifo\_worker()}}
+{\footnotesize\ttfamily template$<$class Allocator = std\+::allocator$<$ void $>$$>$ \\
+\mbox{\hyperlink{classboost_1_1statechart_1_1fifo__worker}{boost\+::statechart\+::fifo\+\_\+worker}}$<$ Allocator $>$\+::\mbox{\hyperlink{classboost_1_1statechart_1_1fifo__worker}{fifo\+\_\+worker}} (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+\subsection{Member Function Documentation}
+\mbox{\Hypertarget{classboost_1_1statechart_1_1fifo__worker_a63316cebc1a5e703b5e4765b577addfa}\label{classboost_1_1statechart_1_1fifo__worker_a63316cebc1a5e703b5e4765b577addfa}} 
+\index{boost\+::statechart\+::fifo\+\_\+worker@{boost\+::statechart\+::fifo\+\_\+worker}!dequeue\+\_\+item@{dequeue\+\_\+item}}
+\index{dequeue\+\_\+item@{dequeue\+\_\+item}!boost\+::statechart\+::fifo\+\_\+worker@{boost\+::statechart\+::fifo\+\_\+worker}}
+\subsubsection{\texorpdfstring{dequeue\+\_\+item()}{dequeue\_item()}}
+{\footnotesize\ttfamily template$<$class Allocator = std\+::allocator$<$ void $>$$>$ \\
+\mbox{\hyperlink{classboost_1_1statechart_1_1fifo__worker_ac90f6805565bb3e8d65e4cdde96d90c2}{work\+\_\+item}} \mbox{\hyperlink{classboost_1_1statechart_1_1fifo__worker}{boost\+::statechart\+::fifo\+\_\+worker}}$<$ Allocator $>$\+::dequeue\+\_\+item (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [private]}}
+
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classboost_1_1statechart_1_1fifo__worker_a63316cebc1a5e703b5e4765b577addfa_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{classboost_1_1statechart_1_1fifo__worker_a5b3bed56e4cef74649ab1f3b389600d7}\label{classboost_1_1statechart_1_1fifo__worker_a5b3bed56e4cef74649ab1f3b389600d7}} 
+\index{boost\+::statechart\+::fifo\+\_\+worker@{boost\+::statechart\+::fifo\+\_\+worker}!operator()@{operator()}}
+\index{operator()@{operator()}!boost\+::statechart\+::fifo\+\_\+worker@{boost\+::statechart\+::fifo\+\_\+worker}}
+\subsubsection{\texorpdfstring{operator()()}{operator()()}}
+{\footnotesize\ttfamily template$<$class Allocator = std\+::allocator$<$ void $>$$>$ \\
+unsigned long \mbox{\hyperlink{classboost_1_1statechart_1_1fifo__worker}{boost\+::statechart\+::fifo\+\_\+worker}}$<$ Allocator $>$\+::operator() (\begin{DoxyParamCaption}\item[{unsigned long}]{max\+Item\+Count = {\ttfamily 0} }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+\mbox{\Hypertarget{classboost_1_1statechart_1_1fifo__worker_a1478832fd6093329616ddc0747674ae9}\label{classboost_1_1statechart_1_1fifo__worker_a1478832fd6093329616ddc0747674ae9}} 
+\index{boost\+::statechart\+::fifo\+\_\+worker@{boost\+::statechart\+::fifo\+\_\+worker}!queue\+\_\+work\+\_\+item@{queue\+\_\+work\+\_\+item}}
+\index{queue\+\_\+work\+\_\+item@{queue\+\_\+work\+\_\+item}!boost\+::statechart\+::fifo\+\_\+worker@{boost\+::statechart\+::fifo\+\_\+worker}}
+\subsubsection{\texorpdfstring{queue\+\_\+work\+\_\+item()}{queue\_work\_item()}\hspace{0.1cm}{\footnotesize\ttfamily [1/2]}}
+{\footnotesize\ttfamily template$<$class Allocator = std\+::allocator$<$ void $>$$>$ \\
+void \mbox{\hyperlink{classboost_1_1statechart_1_1fifo__worker}{boost\+::statechart\+::fifo\+\_\+worker}}$<$ Allocator $>$\+::queue\+\_\+work\+\_\+item (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{classboost_1_1statechart_1_1fifo__worker_ac90f6805565bb3e8d65e4cdde96d90c2}{work\+\_\+item}} \&}]{item }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classboost_1_1statechart_1_1fifo__worker_a1478832fd6093329616ddc0747674ae9_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{classboost_1_1statechart_1_1fifo__worker_ae337753f66b8b8e9d5e473fdba656e5b}\label{classboost_1_1statechart_1_1fifo__worker_ae337753f66b8b8e9d5e473fdba656e5b}} 
+\index{boost\+::statechart\+::fifo\+\_\+worker@{boost\+::statechart\+::fifo\+\_\+worker}!queue\+\_\+work\+\_\+item@{queue\+\_\+work\+\_\+item}}
+\index{queue\+\_\+work\+\_\+item@{queue\+\_\+work\+\_\+item}!boost\+::statechart\+::fifo\+\_\+worker@{boost\+::statechart\+::fifo\+\_\+worker}}
+\subsubsection{\texorpdfstring{queue\+\_\+work\+\_\+item()}{queue\_work\_item()}\hspace{0.1cm}{\footnotesize\ttfamily [2/2]}}
+{\footnotesize\ttfamily template$<$class Allocator = std\+::allocator$<$ void $>$$>$ \\
+void \mbox{\hyperlink{classboost_1_1statechart_1_1fifo__worker}{boost\+::statechart\+::fifo\+\_\+worker}}$<$ Allocator $>$\+::queue\+\_\+work\+\_\+item (\begin{DoxyParamCaption}\item[{const \mbox{\hyperlink{classboost_1_1statechart_1_1fifo__worker_ac90f6805565bb3e8d65e4cdde96d90c2}{work\+\_\+item}} \&}]{item }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+\mbox{\Hypertarget{classboost_1_1statechart_1_1fifo__worker_a3010e3b8572e537865bca0158de39a5c}\label{classboost_1_1statechart_1_1fifo__worker_a3010e3b8572e537865bca0158de39a5c}} 
+\index{boost\+::statechart\+::fifo\+\_\+worker@{boost\+::statechart\+::fifo\+\_\+worker}!terminate@{terminate}}
+\index{terminate@{terminate}!boost\+::statechart\+::fifo\+\_\+worker@{boost\+::statechart\+::fifo\+\_\+worker}}
+\subsubsection{\texorpdfstring{terminate()}{terminate()}}
+{\footnotesize\ttfamily template$<$class Allocator = std\+::allocator$<$ void $>$$>$ \\
+void \mbox{\hyperlink{classboost_1_1statechart_1_1fifo__worker}{boost\+::statechart\+::fifo\+\_\+worker}}$<$ Allocator $>$\+::terminate (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+\mbox{\Hypertarget{classboost_1_1statechart_1_1fifo__worker_ab220ce19cda37ceabc0da940109d7d05}\label{classboost_1_1statechart_1_1fifo__worker_ab220ce19cda37ceabc0da940109d7d05}} 
+\index{boost\+::statechart\+::fifo\+\_\+worker@{boost\+::statechart\+::fifo\+\_\+worker}!terminate\+\_\+impl@{terminate\+\_\+impl}}
+\index{terminate\+\_\+impl@{terminate\+\_\+impl}!boost\+::statechart\+::fifo\+\_\+worker@{boost\+::statechart\+::fifo\+\_\+worker}}
+\subsubsection{\texorpdfstring{terminate\+\_\+impl()}{terminate\_impl()}}
+{\footnotesize\ttfamily template$<$class Allocator = std\+::allocator$<$ void $>$$>$ \\
+void \mbox{\hyperlink{classboost_1_1statechart_1_1fifo__worker}{boost\+::statechart\+::fifo\+\_\+worker}}$<$ Allocator $>$\+::terminate\+\_\+impl (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [private]}}
+
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classboost_1_1statechart_1_1fifo__worker_ab220ce19cda37ceabc0da940109d7d05_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{classboost_1_1statechart_1_1fifo__worker_ac05ccf21dfcce48372f3022642e0c135}\label{classboost_1_1statechart_1_1fifo__worker_ac05ccf21dfcce48372f3022642e0c135}} 
+\index{boost\+::statechart\+::fifo\+\_\+worker@{boost\+::statechart\+::fifo\+\_\+worker}!terminated@{terminated}}
+\index{terminated@{terminated}!boost\+::statechart\+::fifo\+\_\+worker@{boost\+::statechart\+::fifo\+\_\+worker}}
+\subsubsection{\texorpdfstring{terminated()}{terminated()}}
+{\footnotesize\ttfamily template$<$class Allocator = std\+::allocator$<$ void $>$$>$ \\
+bool \mbox{\hyperlink{classboost_1_1statechart_1_1fifo__worker}{boost\+::statechart\+::fifo\+\_\+worker}}$<$ Allocator $>$\+::terminated (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const\hspace{0.3cm}{\ttfamily [inline]}}
+
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classboost_1_1statechart_1_1fifo__worker_ac05ccf21dfcce48372f3022642e0c135_icgraph}
+\end{center}
+\end{figure}
+
+
+\subsection{Member Data Documentation}
+\mbox{\Hypertarget{classboost_1_1statechart_1_1fifo__worker_a4fa42fb70ad8cf4ddc71c5792f03ba5e}\label{classboost_1_1statechart_1_1fifo__worker_a4fa42fb70ad8cf4ddc71c5792f03ba5e}} 
+\index{boost\+::statechart\+::fifo\+\_\+worker@{boost\+::statechart\+::fifo\+\_\+worker}!terminated\+\_\+@{terminated\+\_\+}}
+\index{terminated\+\_\+@{terminated\+\_\+}!boost\+::statechart\+::fifo\+\_\+worker@{boost\+::statechart\+::fifo\+\_\+worker}}
+\subsubsection{\texorpdfstring{terminated\+\_\+}{terminated\_}}
+{\footnotesize\ttfamily template$<$class Allocator = std\+::allocator$<$ void $>$$>$ \\
+bool \mbox{\hyperlink{classboost_1_1statechart_1_1fifo__worker}{boost\+::statechart\+::fifo\+\_\+worker}}$<$ Allocator $>$\+::terminated\+\_\+\hspace{0.3cm}{\ttfamily [private]}}
+
+\mbox{\Hypertarget{classboost_1_1statechart_1_1fifo__worker_a26eeadc0a18615679e035b393b5dee2c}\label{classboost_1_1statechart_1_1fifo__worker_a26eeadc0a18615679e035b393b5dee2c}} 
+\index{boost\+::statechart\+::fifo\+\_\+worker@{boost\+::statechart\+::fifo\+\_\+worker}!work\+Queue\+\_\+@{work\+Queue\+\_\+}}
+\index{work\+Queue\+\_\+@{work\+Queue\+\_\+}!boost\+::statechart\+::fifo\+\_\+worker@{boost\+::statechart\+::fifo\+\_\+worker}}
+\subsubsection{\texorpdfstring{work\+Queue\+\_\+}{workQueue\_}}
+{\footnotesize\ttfamily template$<$class Allocator = std\+::allocator$<$ void $>$$>$ \\
+\mbox{\hyperlink{classboost_1_1statechart_1_1fifo__worker_a59c84b45f3d55dfdd63e7627d0fa2e7b}{work\+\_\+queue\+\_\+type}} \mbox{\hyperlink{classboost_1_1statechart_1_1fifo__worker}{boost\+::statechart\+::fifo\+\_\+worker}}$<$ Allocator $>$\+::work\+Queue\+\_\+\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+include/boost/statechart/\mbox{\hyperlink{fifo__worker_8hpp}{fifo\+\_\+worker.\+hpp}}\end{DoxyCompactItemize}

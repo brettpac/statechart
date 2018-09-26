@@ -1,0 +1,11 @@
+<map id="test_main" name="test_main">
+<area shape="rect" id="node2" href="$_transition_test_8cpp.html#aabca4688617cf680d83e8eda825ef06a" title="TestTransitions" alt="" coords="176,97,288,123"/>
+<area shape="rect" id="node7" href="$classboost_1_1statechart_1_1state__machine.html#a7165ce3d1120b98dde6e8d669e35aba9" title="boost::statechart::\lstate_machine::initiate" alt="" coords="155,148,309,189"/>
+<area shape="rect" id="node8" href="$classboost_1_1statechart_1_1state__machine.html#aabd07005b47036311b5e80e05c1746c2" title="boost::statechart::\lstate_machine::state_cast" alt="" coords="144,213,320,255"/>
+<area shape="rect" id="node9" href="$classboost_1_1statechart_1_1state__machine.html#a78598d4982f6b85e83358652eb1c3d6e" title="boost::statechart::\lstate_machine::process_event" alt="" coords="132,279,332,320"/>
+<area shape="rect" id="node10" href="$struct_transition_event_base_test.html#aaa7342cb01aaa149b772ca279fdb4473" title="TransitionEventBaseTest\l::GetActionCallCounter" alt="" coords="147,344,317,385"/>
+<area shape="rect" id="node3" href="$classboost_1_1statechart_1_1simple__state.html#af1b306e54db708323280093a4452da13" title="boost::statechart::\lsimple_state::terminate" alt="" coords="380,5,539,47"/>
+<area shape="rect" id="node4" href="$_transition_test_8cpp.html#af15928a1f28a538f2d297280a32417ad" title="Entry" alt="" coords="433,71,486,98"/>
+<area shape="rect" id="node5" href="$_transition_test_8cpp.html#aebba5e696306bb4a2bf0fa77087fa058" title="Trans" alt="" coords="432,122,487,149"/>
+<area shape="rect" id="node6" href="$_transition_test_8cpp.html#ab7006a4bce61f4fe5505199ba73a6f16" title="ExitFn" alt="" coords="429,173,489,199"/>
+</map>

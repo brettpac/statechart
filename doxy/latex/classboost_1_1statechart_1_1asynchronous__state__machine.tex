@@ -1,0 +1,166 @@
+\hypertarget{classboost_1_1statechart_1_1asynchronous__state__machine}{}\section{boost\+:\+:statechart\+:\+:asynchronous\+\_\+state\+\_\+machine$<$ Most\+Derived, Initial\+State, Scheduler, Allocator, Exception\+Translator $>$ Class Template Reference}
+\label{classboost_1_1statechart_1_1asynchronous__state__machine}\index{boost\+::statechart\+::asynchronous\+\_\+state\+\_\+machine$<$ Most\+Derived, Initial\+State, Scheduler, Allocator, Exception\+Translator $>$@{boost\+::statechart\+::asynchronous\+\_\+state\+\_\+machine$<$ Most\+Derived, Initial\+State, Scheduler, Allocator, Exception\+Translator $>$}}
+
+
+{\ttfamily \#include $<$asynchronous\+\_\+state\+\_\+machine.\+hpp$>$}
+
+
+
+Inheritance diagram for boost\+:\+:statechart\+:\+:asynchronous\+\_\+state\+\_\+machine$<$ Most\+Derived, Initial\+State, Scheduler, Allocator, Exception\+Translator $>$\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=550pt]{classboost_1_1statechart_1_1asynchronous__state__machine__inherit__graph}
+\end{center}
+\end{figure}
+
+
+Collaboration diagram for boost\+:\+:statechart\+:\+:asynchronous\+\_\+state\+\_\+machine$<$ Most\+Derived, Initial\+State, Scheduler, Allocator, Exception\+Translator $>$\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=550pt]{classboost_1_1statechart_1_1asynchronous__state__machine__coll__graph}
+\end{center}
+\end{figure}
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+void \mbox{\hyperlink{classboost_1_1statechart_1_1asynchronous__state__machine_aeb5ac2e3a0f539b313544357ae2be26d}{terminate}} ()
+\end{DoxyCompactItemize}
+\subsection*{Protected Types}
+\begin{DoxyCompactItemize}
+\item 
+typedef \mbox{\hyperlink{classboost_1_1statechart_1_1asynchronous__state__machine}{asynchronous\+\_\+state\+\_\+machine}} \mbox{\hyperlink{classboost_1_1statechart_1_1asynchronous__state__machine_ad2d3eb216740758af0982c1b04e7331d}{my\+\_\+base}}
+\end{DoxyCompactItemize}
+\subsection*{Protected Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{classboost_1_1statechart_1_1asynchronous__state__machine_af27bb28945bb6a4d824e3a2c0a7c6968}{asynchronous\+\_\+state\+\_\+machine}} (typename \mbox{\hyperlink{classboost_1_1statechart_1_1event__processor_a99f1c6ec8419ec82f140c5c93c5eb8cd}{processor\+\_\+base\+::my\+\_\+context}} ctx)
+\item 
+virtual \mbox{\hyperlink{classboost_1_1statechart_1_1asynchronous__state__machine_aca67fcba8555b76db8c1d13c94f597bb}{$\sim$asynchronous\+\_\+state\+\_\+machine}} ()
+\end{DoxyCompactItemize}
+\subsection*{Private Types}
+\begin{DoxyCompactItemize}
+\item 
+typedef \mbox{\hyperlink{classboost_1_1statechart_1_1state__machine}{state\+\_\+machine}}$<$ Most\+Derived, Initial\+State, Allocator, Exception\+Translator $>$ \mbox{\hyperlink{classboost_1_1statechart_1_1asynchronous__state__machine_a5fb2caf90c443b6517ecb6ce86a672d7}{machine\+\_\+base}}
+\item 
+typedef \mbox{\hyperlink{classboost_1_1statechart_1_1event__processor}{event\+\_\+processor}}$<$ Scheduler $>$ \mbox{\hyperlink{classboost_1_1statechart_1_1asynchronous__state__machine_a59f192af18b9070396e42994a8dbeb35}{processor\+\_\+base}}
+\end{DoxyCompactItemize}
+\subsection*{Private Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+virtual void \mbox{\hyperlink{classboost_1_1statechart_1_1asynchronous__state__machine_a346bde99a27dc391a0c4beb8c728dce0}{initiate\+\_\+impl}} ()
+\item 
+virtual void \mbox{\hyperlink{classboost_1_1statechart_1_1asynchronous__state__machine_a3e4a4a8910ec610542fc41dba4fd2d04}{process\+\_\+event\+\_\+impl}} (const \mbox{\hyperlink{classboost_1_1statechart_1_1event__base}{event\+\_\+base}} \&evt)
+\item 
+virtual void \mbox{\hyperlink{classboost_1_1statechart_1_1asynchronous__state__machine_a528bedaf8c4d4b3fefc78984673bf30b}{terminate\+\_\+impl}} ()
+\item 
+{\footnotesize template$<$$>$ }\\void \mbox{\hyperlink{classboost_1_1statechart_1_1asynchronous__state__machine_a7c4de22b056f8a85f2c163b6c5677f23}{initiate\+\_\+impl}} ()
+\end{DoxyCompactItemize}
+\subsection*{Additional Inherited Members}
+
+
+\subsection{Member Typedef Documentation}
+\mbox{\Hypertarget{classboost_1_1statechart_1_1asynchronous__state__machine_a5fb2caf90c443b6517ecb6ce86a672d7}\label{classboost_1_1statechart_1_1asynchronous__state__machine_a5fb2caf90c443b6517ecb6ce86a672d7}} 
+\index{boost\+::statechart\+::asynchronous\+\_\+state\+\_\+machine@{boost\+::statechart\+::asynchronous\+\_\+state\+\_\+machine}!machine\+\_\+base@{machine\+\_\+base}}
+\index{machine\+\_\+base@{machine\+\_\+base}!boost\+::statechart\+::asynchronous\+\_\+state\+\_\+machine@{boost\+::statechart\+::asynchronous\+\_\+state\+\_\+machine}}
+\subsubsection{\texorpdfstring{machine\+\_\+base}{machine\_base}}
+{\footnotesize\ttfamily template$<$class Most\+Derived, class Initial\+State, class Scheduler = fifo\+\_\+scheduler$<$$>$, class Allocator = std\+::allocator$<$ void $>$, class Exception\+Translator = null\+\_\+exception\+\_\+translator$>$ \\
+typedef \mbox{\hyperlink{classboost_1_1statechart_1_1state__machine}{state\+\_\+machine}}$<$ Most\+Derived, Initial\+State, Allocator, Exception\+Translator $>$ \mbox{\hyperlink{classboost_1_1statechart_1_1asynchronous__state__machine}{boost\+::statechart\+::asynchronous\+\_\+state\+\_\+machine}}$<$ Most\+Derived, Initial\+State, Scheduler, Allocator, Exception\+Translator $>$\+::\mbox{\hyperlink{classboost_1_1statechart_1_1asynchronous__state__machine_a5fb2caf90c443b6517ecb6ce86a672d7}{machine\+\_\+base}}\hspace{0.3cm}{\ttfamily [private]}}
+
+\mbox{\Hypertarget{classboost_1_1statechart_1_1asynchronous__state__machine_ad2d3eb216740758af0982c1b04e7331d}\label{classboost_1_1statechart_1_1asynchronous__state__machine_ad2d3eb216740758af0982c1b04e7331d}} 
+\index{boost\+::statechart\+::asynchronous\+\_\+state\+\_\+machine@{boost\+::statechart\+::asynchronous\+\_\+state\+\_\+machine}!my\+\_\+base@{my\+\_\+base}}
+\index{my\+\_\+base@{my\+\_\+base}!boost\+::statechart\+::asynchronous\+\_\+state\+\_\+machine@{boost\+::statechart\+::asynchronous\+\_\+state\+\_\+machine}}
+\subsubsection{\texorpdfstring{my\+\_\+base}{my\_base}}
+{\footnotesize\ttfamily template$<$class Most\+Derived, class Initial\+State, class Scheduler = fifo\+\_\+scheduler$<$$>$, class Allocator = std\+::allocator$<$ void $>$, class Exception\+Translator = null\+\_\+exception\+\_\+translator$>$ \\
+typedef \mbox{\hyperlink{classboost_1_1statechart_1_1asynchronous__state__machine}{asynchronous\+\_\+state\+\_\+machine}} \mbox{\hyperlink{classboost_1_1statechart_1_1asynchronous__state__machine}{boost\+::statechart\+::asynchronous\+\_\+state\+\_\+machine}}$<$ Most\+Derived, Initial\+State, Scheduler, Allocator, Exception\+Translator $>$\+::\mbox{\hyperlink{classboost_1_1statechart_1_1asynchronous__state__machine_ad2d3eb216740758af0982c1b04e7331d}{my\+\_\+base}}\hspace{0.3cm}{\ttfamily [protected]}}
+
+\mbox{\Hypertarget{classboost_1_1statechart_1_1asynchronous__state__machine_a59f192af18b9070396e42994a8dbeb35}\label{classboost_1_1statechart_1_1asynchronous__state__machine_a59f192af18b9070396e42994a8dbeb35}} 
+\index{boost\+::statechart\+::asynchronous\+\_\+state\+\_\+machine@{boost\+::statechart\+::asynchronous\+\_\+state\+\_\+machine}!processor\+\_\+base@{processor\+\_\+base}}
+\index{processor\+\_\+base@{processor\+\_\+base}!boost\+::statechart\+::asynchronous\+\_\+state\+\_\+machine@{boost\+::statechart\+::asynchronous\+\_\+state\+\_\+machine}}
+\subsubsection{\texorpdfstring{processor\+\_\+base}{processor\_base}}
+{\footnotesize\ttfamily template$<$class Most\+Derived, class Initial\+State, class Scheduler = fifo\+\_\+scheduler$<$$>$, class Allocator = std\+::allocator$<$ void $>$, class Exception\+Translator = null\+\_\+exception\+\_\+translator$>$ \\
+typedef \mbox{\hyperlink{classboost_1_1statechart_1_1event__processor}{event\+\_\+processor}}$<$ Scheduler $>$ \mbox{\hyperlink{classboost_1_1statechart_1_1asynchronous__state__machine}{boost\+::statechart\+::asynchronous\+\_\+state\+\_\+machine}}$<$ Most\+Derived, Initial\+State, Scheduler, Allocator, Exception\+Translator $>$\+::\mbox{\hyperlink{classboost_1_1statechart_1_1asynchronous__state__machine_a59f192af18b9070396e42994a8dbeb35}{processor\+\_\+base}}\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+\subsection{Constructor \& Destructor Documentation}
+\mbox{\Hypertarget{classboost_1_1statechart_1_1asynchronous__state__machine_af27bb28945bb6a4d824e3a2c0a7c6968}\label{classboost_1_1statechart_1_1asynchronous__state__machine_af27bb28945bb6a4d824e3a2c0a7c6968}} 
+\index{boost\+::statechart\+::asynchronous\+\_\+state\+\_\+machine@{boost\+::statechart\+::asynchronous\+\_\+state\+\_\+machine}!asynchronous\+\_\+state\+\_\+machine@{asynchronous\+\_\+state\+\_\+machine}}
+\index{asynchronous\+\_\+state\+\_\+machine@{asynchronous\+\_\+state\+\_\+machine}!boost\+::statechart\+::asynchronous\+\_\+state\+\_\+machine@{boost\+::statechart\+::asynchronous\+\_\+state\+\_\+machine}}
+\subsubsection{\texorpdfstring{asynchronous\+\_\+state\+\_\+machine()}{asynchronous\_state\_machine()}}
+{\footnotesize\ttfamily template$<$class Most\+Derived, class Initial\+State, class Scheduler = fifo\+\_\+scheduler$<$$>$, class Allocator = std\+::allocator$<$ void $>$, class Exception\+Translator = null\+\_\+exception\+\_\+translator$>$ \\
+\mbox{\hyperlink{classboost_1_1statechart_1_1asynchronous__state__machine}{boost\+::statechart\+::asynchronous\+\_\+state\+\_\+machine}}$<$ Most\+Derived, Initial\+State, Scheduler, Allocator, Exception\+Translator $>$\+::\mbox{\hyperlink{classboost_1_1statechart_1_1asynchronous__state__machine}{asynchronous\+\_\+state\+\_\+machine}} (\begin{DoxyParamCaption}\item[{typename \mbox{\hyperlink{classboost_1_1statechart_1_1event__processor_a99f1c6ec8419ec82f140c5c93c5eb8cd}{processor\+\_\+base\+::my\+\_\+context}}}]{ctx }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [protected]}}
+
+\mbox{\Hypertarget{classboost_1_1statechart_1_1asynchronous__state__machine_aca67fcba8555b76db8c1d13c94f597bb}\label{classboost_1_1statechart_1_1asynchronous__state__machine_aca67fcba8555b76db8c1d13c94f597bb}} 
+\index{boost\+::statechart\+::asynchronous\+\_\+state\+\_\+machine@{boost\+::statechart\+::asynchronous\+\_\+state\+\_\+machine}!````~asynchronous\+\_\+state\+\_\+machine@{$\sim$asynchronous\+\_\+state\+\_\+machine}}
+\index{````~asynchronous\+\_\+state\+\_\+machine@{$\sim$asynchronous\+\_\+state\+\_\+machine}!boost\+::statechart\+::asynchronous\+\_\+state\+\_\+machine@{boost\+::statechart\+::asynchronous\+\_\+state\+\_\+machine}}
+\subsubsection{\texorpdfstring{$\sim$asynchronous\+\_\+state\+\_\+machine()}{~asynchronous\_state\_machine()}}
+{\footnotesize\ttfamily template$<$class Most\+Derived, class Initial\+State, class Scheduler = fifo\+\_\+scheduler$<$$>$, class Allocator = std\+::allocator$<$ void $>$, class Exception\+Translator = null\+\_\+exception\+\_\+translator$>$ \\
+virtual \mbox{\hyperlink{classboost_1_1statechart_1_1asynchronous__state__machine}{boost\+::statechart\+::asynchronous\+\_\+state\+\_\+machine}}$<$ Most\+Derived, Initial\+State, Scheduler, Allocator, Exception\+Translator $>$\+::$\sim$\mbox{\hyperlink{classboost_1_1statechart_1_1asynchronous__state__machine}{asynchronous\+\_\+state\+\_\+machine}} (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [protected]}, {\ttfamily [virtual]}}
+
+
+
+\subsection{Member Function Documentation}
+\mbox{\Hypertarget{classboost_1_1statechart_1_1asynchronous__state__machine_a346bde99a27dc391a0c4beb8c728dce0}\label{classboost_1_1statechart_1_1asynchronous__state__machine_a346bde99a27dc391a0c4beb8c728dce0}} 
+\index{boost\+::statechart\+::asynchronous\+\_\+state\+\_\+machine@{boost\+::statechart\+::asynchronous\+\_\+state\+\_\+machine}!initiate\+\_\+impl@{initiate\+\_\+impl}}
+\index{initiate\+\_\+impl@{initiate\+\_\+impl}!boost\+::statechart\+::asynchronous\+\_\+state\+\_\+machine@{boost\+::statechart\+::asynchronous\+\_\+state\+\_\+machine}}
+\subsubsection{\texorpdfstring{initiate\+\_\+impl()}{initiate\_impl()}\hspace{0.1cm}{\footnotesize\ttfamily [1/2]}}
+{\footnotesize\ttfamily template$<$class Most\+Derived, class Initial\+State, class Scheduler = fifo\+\_\+scheduler$<$$>$, class Allocator = std\+::allocator$<$ void $>$, class Exception\+Translator = null\+\_\+exception\+\_\+translator$>$ \\
+virtual void \mbox{\hyperlink{classboost_1_1statechart_1_1asynchronous__state__machine}{boost\+::statechart\+::asynchronous\+\_\+state\+\_\+machine}}$<$ Most\+Derived, Initial\+State, Scheduler, Allocator, Exception\+Translator $>$\+::initiate\+\_\+impl (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [private]}, {\ttfamily [virtual]}}
+
+
+
+Implements \mbox{\hyperlink{classboost_1_1statechart_1_1event__processor_a48a2bfcad66582f6c88e6034b2b838cb}{boost\+::statechart\+::event\+\_\+processor$<$ Scheduler $>$}}.
+
+
+
+Reimplemented in \mbox{\hyperlink{struct_player_ae5001b1a7c1ba022d7bdb6d7da25e647}{Player}}.
+
+\mbox{\Hypertarget{classboost_1_1statechart_1_1asynchronous__state__machine_a7c4de22b056f8a85f2c163b6c5677f23}\label{classboost_1_1statechart_1_1asynchronous__state__machine_a7c4de22b056f8a85f2c163b6c5677f23}} 
+\index{boost\+::statechart\+::asynchronous\+\_\+state\+\_\+machine@{boost\+::statechart\+::asynchronous\+\_\+state\+\_\+machine}!initiate\+\_\+impl@{initiate\+\_\+impl}}
+\index{initiate\+\_\+impl@{initiate\+\_\+impl}!boost\+::statechart\+::asynchronous\+\_\+state\+\_\+machine@{boost\+::statechart\+::asynchronous\+\_\+state\+\_\+machine}}
+\subsubsection{\texorpdfstring{initiate\+\_\+impl()}{initiate\_impl()}\hspace{0.1cm}{\footnotesize\ttfamily [2/2]}}
+{\footnotesize\ttfamily template$<$$>$ \\
+void \mbox{\hyperlink{classboost_1_1statechart_1_1asynchronous__state__machine}{boost\+::statechart\+::asynchronous\+\_\+state\+\_\+machine}}$<$ \mbox{\hyperlink{struct_player}{Player}}, \mbox{\hyperlink{struct_waiting}{Waiting}}, \mbox{\hyperlink{_player_8hpp_a24a1f41c11f96c5934bd8e82b4fb2805}{My\+Scheduler}}, \mbox{\hyperlink{_player_8hpp_ab302cdbc6b094291e393ac49d404d75a}{My\+Allocator}} $>$\+::initiate\+\_\+impl (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [private]}, {\ttfamily [virtual]}}
+
+
+
+Implements \mbox{\hyperlink{classboost_1_1statechart_1_1event__processor_a48a2bfcad66582f6c88e6034b2b838cb}{boost\+::statechart\+::event\+\_\+processor$<$ Scheduler $>$}}.
+
+\mbox{\Hypertarget{classboost_1_1statechart_1_1asynchronous__state__machine_a3e4a4a8910ec610542fc41dba4fd2d04}\label{classboost_1_1statechart_1_1asynchronous__state__machine_a3e4a4a8910ec610542fc41dba4fd2d04}} 
+\index{boost\+::statechart\+::asynchronous\+\_\+state\+\_\+machine@{boost\+::statechart\+::asynchronous\+\_\+state\+\_\+machine}!process\+\_\+event\+\_\+impl@{process\+\_\+event\+\_\+impl}}
+\index{process\+\_\+event\+\_\+impl@{process\+\_\+event\+\_\+impl}!boost\+::statechart\+::asynchronous\+\_\+state\+\_\+machine@{boost\+::statechart\+::asynchronous\+\_\+state\+\_\+machine}}
+\subsubsection{\texorpdfstring{process\+\_\+event\+\_\+impl()}{process\_event\_impl()}}
+{\footnotesize\ttfamily template$<$class Most\+Derived, class Initial\+State, class Scheduler = fifo\+\_\+scheduler$<$$>$, class Allocator = std\+::allocator$<$ void $>$, class Exception\+Translator = null\+\_\+exception\+\_\+translator$>$ \\
+virtual void \mbox{\hyperlink{classboost_1_1statechart_1_1asynchronous__state__machine}{boost\+::statechart\+::asynchronous\+\_\+state\+\_\+machine}}$<$ Most\+Derived, Initial\+State, Scheduler, Allocator, Exception\+Translator $>$\+::process\+\_\+event\+\_\+impl (\begin{DoxyParamCaption}\item[{const \mbox{\hyperlink{classboost_1_1statechart_1_1event__base}{event\+\_\+base}} \&}]{evt }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [private]}, {\ttfamily [virtual]}}
+
+
+
+Implements \mbox{\hyperlink{classboost_1_1statechart_1_1event__processor_a5db03beb4d6c1545e7bb9584cd60b500}{boost\+::statechart\+::event\+\_\+processor$<$ Scheduler $>$}}.
+
+\mbox{\Hypertarget{classboost_1_1statechart_1_1asynchronous__state__machine_aeb5ac2e3a0f539b313544357ae2be26d}\label{classboost_1_1statechart_1_1asynchronous__state__machine_aeb5ac2e3a0f539b313544357ae2be26d}} 
+\index{boost\+::statechart\+::asynchronous\+\_\+state\+\_\+machine@{boost\+::statechart\+::asynchronous\+\_\+state\+\_\+machine}!terminate@{terminate}}
+\index{terminate@{terminate}!boost\+::statechart\+::asynchronous\+\_\+state\+\_\+machine@{boost\+::statechart\+::asynchronous\+\_\+state\+\_\+machine}}
+\subsubsection{\texorpdfstring{terminate()}{terminate()}}
+{\footnotesize\ttfamily template$<$class Most\+Derived, class Initial\+State, class Scheduler = fifo\+\_\+scheduler$<$$>$, class Allocator = std\+::allocator$<$ void $>$, class Exception\+Translator = null\+\_\+exception\+\_\+translator$>$ \\
+void \mbox{\hyperlink{classboost_1_1statechart_1_1asynchronous__state__machine}{boost\+::statechart\+::asynchronous\+\_\+state\+\_\+machine}}$<$ Most\+Derived, Initial\+State, Scheduler, Allocator, Exception\+Translator $>$\+::terminate (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+\mbox{\Hypertarget{classboost_1_1statechart_1_1asynchronous__state__machine_a528bedaf8c4d4b3fefc78984673bf30b}\label{classboost_1_1statechart_1_1asynchronous__state__machine_a528bedaf8c4d4b3fefc78984673bf30b}} 
+\index{boost\+::statechart\+::asynchronous\+\_\+state\+\_\+machine@{boost\+::statechart\+::asynchronous\+\_\+state\+\_\+machine}!terminate\+\_\+impl@{terminate\+\_\+impl}}
+\index{terminate\+\_\+impl@{terminate\+\_\+impl}!boost\+::statechart\+::asynchronous\+\_\+state\+\_\+machine@{boost\+::statechart\+::asynchronous\+\_\+state\+\_\+machine}}
+\subsubsection{\texorpdfstring{terminate\+\_\+impl()}{terminate\_impl()}}
+{\footnotesize\ttfamily template$<$class Most\+Derived, class Initial\+State, class Scheduler = fifo\+\_\+scheduler$<$$>$, class Allocator = std\+::allocator$<$ void $>$, class Exception\+Translator = null\+\_\+exception\+\_\+translator$>$ \\
+virtual void \mbox{\hyperlink{classboost_1_1statechart_1_1asynchronous__state__machine}{boost\+::statechart\+::asynchronous\+\_\+state\+\_\+machine}}$<$ Most\+Derived, Initial\+State, Scheduler, Allocator, Exception\+Translator $>$\+::terminate\+\_\+impl (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [private]}, {\ttfamily [virtual]}}
+
+
+
+Implements \mbox{\hyperlink{classboost_1_1statechart_1_1event__processor_a3f5f4c757909fca5f389b485a789c24e}{boost\+::statechart\+::event\+\_\+processor$<$ Scheduler $>$}}.
+
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+include/boost/statechart/\mbox{\hyperlink{asynchronous__state__machine_8hpp}{asynchronous\+\_\+state\+\_\+machine.\+hpp}}\end{DoxyCompactItemize}

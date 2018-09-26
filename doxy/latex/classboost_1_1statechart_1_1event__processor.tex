@@ -1,0 +1,240 @@
+\hypertarget{classboost_1_1statechart_1_1event__processor}{}\section{boost\+:\+:statechart\+:\+:event\+\_\+processor$<$ Scheduler $>$ Class Template Reference}
+\label{classboost_1_1statechart_1_1event__processor}\index{boost\+::statechart\+::event\+\_\+processor$<$ Scheduler $>$@{boost\+::statechart\+::event\+\_\+processor$<$ Scheduler $>$}}
+
+
+{\ttfamily \#include $<$event\+\_\+processor.\+hpp$>$}
+
+
+
+Inheritance diagram for boost\+:\+:statechart\+:\+:event\+\_\+processor$<$ Scheduler $>$\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=230pt]{classboost_1_1statechart_1_1event__processor__inherit__graph}
+\end{center}
+\end{figure}
+
+
+Collaboration diagram for boost\+:\+:statechart\+:\+:event\+\_\+processor$<$ Scheduler $>$\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=230pt]{classboost_1_1statechart_1_1event__processor__coll__graph}
+\end{center}
+\end{figure}
+\subsection*{Public Types}
+\begin{DoxyCompactItemize}
+\item 
+typedef Scheduler\+::processor\+\_\+handle \mbox{\hyperlink{classboost_1_1statechart_1_1event__processor_a0cb7488f303c3c79a6bd52b58ce43a2a}{processor\+\_\+handle}}
+\end{DoxyCompactItemize}
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+virtual \mbox{\hyperlink{classboost_1_1statechart_1_1event__processor_abb48f7659323e4775763bf7ade2c07f8}{$\sim$event\+\_\+processor}} ()
+\item 
+Scheduler \& \mbox{\hyperlink{classboost_1_1statechart_1_1event__processor_ac31ddbd5fc37e237911285d65c6d1d82}{my\+\_\+scheduler}} () const
+\item 
+\mbox{\hyperlink{classboost_1_1statechart_1_1event__processor_a0cb7488f303c3c79a6bd52b58ce43a2a}{processor\+\_\+handle}} \mbox{\hyperlink{classboost_1_1statechart_1_1event__processor_ae38f310cc4422e28f7ff57d516f6e6b6}{my\+\_\+handle}} () const
+\item 
+void \mbox{\hyperlink{classboost_1_1statechart_1_1event__processor_aa08d0a4e2b14026b9085efb05dbc852b}{initiate}} ()
+\item 
+void \mbox{\hyperlink{classboost_1_1statechart_1_1event__processor_aa3ce5ebe4415e8fac525a34aaa0eee1d}{process\+\_\+event}} (const \mbox{\hyperlink{classboost_1_1statechart_1_1event__base}{event\+\_\+base}} \&evt)
+\item 
+void \mbox{\hyperlink{classboost_1_1statechart_1_1event__processor_a9134afd6e3f693e035f35d3af434dee9}{terminate}} ()
+\end{DoxyCompactItemize}
+\subsection*{Protected Types}
+\begin{DoxyCompactItemize}
+\item 
+typedef const Scheduler\+::processor\+\_\+context \& \mbox{\hyperlink{classboost_1_1statechart_1_1event__processor_a99f1c6ec8419ec82f140c5c93c5eb8cd}{my\+\_\+context}}
+\end{DoxyCompactItemize}
+\subsection*{Protected Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{classboost_1_1statechart_1_1event__processor_af55129557bcd66d615c6c07e5ea47880}{event\+\_\+processor}} (\mbox{\hyperlink{classboost_1_1statechart_1_1event__processor_a99f1c6ec8419ec82f140c5c93c5eb8cd}{my\+\_\+context}} ctx)
+\end{DoxyCompactItemize}
+\subsection*{Private Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+virtual void \mbox{\hyperlink{classboost_1_1statechart_1_1event__processor_a48a2bfcad66582f6c88e6034b2b838cb}{initiate\+\_\+impl}} ()=0
+\item 
+virtual void \mbox{\hyperlink{classboost_1_1statechart_1_1event__processor_a5db03beb4d6c1545e7bb9584cd60b500}{process\+\_\+event\+\_\+impl}} (const \mbox{\hyperlink{classboost_1_1statechart_1_1event__base}{event\+\_\+base}} \&evt)=0
+\item 
+virtual void \mbox{\hyperlink{classboost_1_1statechart_1_1event__processor_a3f5f4c757909fca5f389b485a789c24e}{terminate\+\_\+impl}} ()=0
+\item 
+\mbox{\hyperlink{classboost_1_1statechart_1_1event__processor}{event\+\_\+processor}} \& \mbox{\hyperlink{classboost_1_1statechart_1_1event__processor_af25f0f18781032f24b251c1108132f39}{operator=}} (const \mbox{\hyperlink{classboost_1_1statechart_1_1event__processor}{event\+\_\+processor}} \&)
+\end{DoxyCompactItemize}
+\subsection*{Private Attributes}
+\begin{DoxyCompactItemize}
+\item 
+Scheduler \& \mbox{\hyperlink{classboost_1_1statechart_1_1event__processor_ac79038b02ceb3fe8acef2a5ce62d4c02}{my\+Scheduler\+\_\+}}
+\item 
+const \mbox{\hyperlink{classboost_1_1statechart_1_1event__processor_a0cb7488f303c3c79a6bd52b58ce43a2a}{processor\+\_\+handle}} \mbox{\hyperlink{classboost_1_1statechart_1_1event__processor_a97d7bf7f1f4c1fcfec7982ede809d9c4}{my\+Handle\+\_\+}}
+\end{DoxyCompactItemize}
+
+
+\subsection{Member Typedef Documentation}
+\mbox{\Hypertarget{classboost_1_1statechart_1_1event__processor_a99f1c6ec8419ec82f140c5c93c5eb8cd}\label{classboost_1_1statechart_1_1event__processor_a99f1c6ec8419ec82f140c5c93c5eb8cd}} 
+\index{boost\+::statechart\+::event\+\_\+processor@{boost\+::statechart\+::event\+\_\+processor}!my\+\_\+context@{my\+\_\+context}}
+\index{my\+\_\+context@{my\+\_\+context}!boost\+::statechart\+::event\+\_\+processor@{boost\+::statechart\+::event\+\_\+processor}}
+\subsubsection{\texorpdfstring{my\+\_\+context}{my\_context}}
+{\footnotesize\ttfamily template$<$class Scheduler$>$ \\
+typedef const Scheduler\+::processor\+\_\+context\& \mbox{\hyperlink{classboost_1_1statechart_1_1event__processor}{boost\+::statechart\+::event\+\_\+processor}}$<$ Scheduler $>$\+::\mbox{\hyperlink{classboost_1_1statechart_1_1event__processor_a99f1c6ec8419ec82f140c5c93c5eb8cd}{my\+\_\+context}}\hspace{0.3cm}{\ttfamily [protected]}}
+
+\mbox{\Hypertarget{classboost_1_1statechart_1_1event__processor_a0cb7488f303c3c79a6bd52b58ce43a2a}\label{classboost_1_1statechart_1_1event__processor_a0cb7488f303c3c79a6bd52b58ce43a2a}} 
+\index{boost\+::statechart\+::event\+\_\+processor@{boost\+::statechart\+::event\+\_\+processor}!processor\+\_\+handle@{processor\+\_\+handle}}
+\index{processor\+\_\+handle@{processor\+\_\+handle}!boost\+::statechart\+::event\+\_\+processor@{boost\+::statechart\+::event\+\_\+processor}}
+\subsubsection{\texorpdfstring{processor\+\_\+handle}{processor\_handle}}
+{\footnotesize\ttfamily template$<$class Scheduler$>$ \\
+typedef Scheduler\+::processor\+\_\+handle \mbox{\hyperlink{classboost_1_1statechart_1_1event__processor}{boost\+::statechart\+::event\+\_\+processor}}$<$ Scheduler $>$\+::\mbox{\hyperlink{classboost_1_1statechart_1_1event__processor_a0cb7488f303c3c79a6bd52b58ce43a2a}{processor\+\_\+handle}}}
+
+
+
+\subsection{Constructor \& Destructor Documentation}
+\mbox{\Hypertarget{classboost_1_1statechart_1_1event__processor_abb48f7659323e4775763bf7ade2c07f8}\label{classboost_1_1statechart_1_1event__processor_abb48f7659323e4775763bf7ade2c07f8}} 
+\index{boost\+::statechart\+::event\+\_\+processor@{boost\+::statechart\+::event\+\_\+processor}!````~event\+\_\+processor@{$\sim$event\+\_\+processor}}
+\index{````~event\+\_\+processor@{$\sim$event\+\_\+processor}!boost\+::statechart\+::event\+\_\+processor@{boost\+::statechart\+::event\+\_\+processor}}
+\subsubsection{\texorpdfstring{$\sim$event\+\_\+processor()}{~event\_processor()}}
+{\footnotesize\ttfamily template$<$class Scheduler$>$ \\
+virtual \mbox{\hyperlink{classboost_1_1statechart_1_1event__processor}{boost\+::statechart\+::event\+\_\+processor}}$<$ Scheduler $>$\+::$\sim$\mbox{\hyperlink{classboost_1_1statechart_1_1event__processor}{event\+\_\+processor}} (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [virtual]}}
+
+\mbox{\Hypertarget{classboost_1_1statechart_1_1event__processor_af55129557bcd66d615c6c07e5ea47880}\label{classboost_1_1statechart_1_1event__processor_af55129557bcd66d615c6c07e5ea47880}} 
+\index{boost\+::statechart\+::event\+\_\+processor@{boost\+::statechart\+::event\+\_\+processor}!event\+\_\+processor@{event\+\_\+processor}}
+\index{event\+\_\+processor@{event\+\_\+processor}!boost\+::statechart\+::event\+\_\+processor@{boost\+::statechart\+::event\+\_\+processor}}
+\subsubsection{\texorpdfstring{event\+\_\+processor()}{event\_processor()}}
+{\footnotesize\ttfamily template$<$class Scheduler$>$ \\
+\mbox{\hyperlink{classboost_1_1statechart_1_1event__processor}{boost\+::statechart\+::event\+\_\+processor}}$<$ Scheduler $>$\+::\mbox{\hyperlink{classboost_1_1statechart_1_1event__processor}{event\+\_\+processor}} (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{classboost_1_1statechart_1_1event__processor_a99f1c6ec8419ec82f140c5c93c5eb8cd}{my\+\_\+context}}}]{ctx }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [protected]}}
+
+
+
+\subsection{Member Function Documentation}
+\mbox{\Hypertarget{classboost_1_1statechart_1_1event__processor_aa08d0a4e2b14026b9085efb05dbc852b}\label{classboost_1_1statechart_1_1event__processor_aa08d0a4e2b14026b9085efb05dbc852b}} 
+\index{boost\+::statechart\+::event\+\_\+processor@{boost\+::statechart\+::event\+\_\+processor}!initiate@{initiate}}
+\index{initiate@{initiate}!boost\+::statechart\+::event\+\_\+processor@{boost\+::statechart\+::event\+\_\+processor}}
+\subsubsection{\texorpdfstring{initiate()}{initiate()}}
+{\footnotesize\ttfamily template$<$class Scheduler$>$ \\
+void \mbox{\hyperlink{classboost_1_1statechart_1_1event__processor}{boost\+::statechart\+::event\+\_\+processor}}$<$ Scheduler $>$\+::initiate (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+\mbox{\Hypertarget{classboost_1_1statechart_1_1event__processor_a48a2bfcad66582f6c88e6034b2b838cb}\label{classboost_1_1statechart_1_1event__processor_a48a2bfcad66582f6c88e6034b2b838cb}} 
+\index{boost\+::statechart\+::event\+\_\+processor@{boost\+::statechart\+::event\+\_\+processor}!initiate\+\_\+impl@{initiate\+\_\+impl}}
+\index{initiate\+\_\+impl@{initiate\+\_\+impl}!boost\+::statechart\+::event\+\_\+processor@{boost\+::statechart\+::event\+\_\+processor}}
+\subsubsection{\texorpdfstring{initiate\+\_\+impl()}{initiate\_impl()}}
+{\footnotesize\ttfamily template$<$class Scheduler$>$ \\
+virtual void \mbox{\hyperlink{classboost_1_1statechart_1_1event__processor}{boost\+::statechart\+::event\+\_\+processor}}$<$ Scheduler $>$\+::initiate\+\_\+impl (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [private]}, {\ttfamily [pure virtual]}}
+
+
+
+Implemented in \mbox{\hyperlink{struct_player_ae5001b1a7c1ba022d7bdb6d7da25e647}{Player}}, \mbox{\hyperlink{classboost_1_1statechart_1_1asynchronous__state__machine_a7c4de22b056f8a85f2c163b6c5677f23}{boost\+::statechart\+::asynchronous\+\_\+state\+\_\+machine$<$ Most\+Derived, Initial\+State, Scheduler, Allocator, Exception\+Translator $>$}}, \mbox{\hyperlink{classboost_1_1statechart_1_1asynchronous__state__machine_a7c4de22b056f8a85f2c163b6c5677f23}{boost\+::statechart\+::asynchronous\+\_\+state\+\_\+machine$<$ Player, Waiting, My\+Scheduler, My\+Allocator $>$}}, \mbox{\hyperlink{classboost_1_1statechart_1_1asynchronous__state__machine_a7c4de22b056f8a85f2c163b6c5677f23}{boost\+::statechart\+::asynchronous\+\_\+state\+\_\+machine$<$ Fifo\+Scheduler\+Test, Initial $>$}}, \mbox{\hyperlink{classboost_1_1statechart_1_1asynchronous__state__machine_a346bde99a27dc391a0c4beb8c728dce0}{boost\+::statechart\+::asynchronous\+\_\+state\+\_\+machine$<$ Most\+Derived, Initial\+State, Scheduler, Allocator, Exception\+Translator $>$}}, \mbox{\hyperlink{classboost_1_1statechart_1_1asynchronous__state__machine_a346bde99a27dc391a0c4beb8c728dce0}{boost\+::statechart\+::asynchronous\+\_\+state\+\_\+machine$<$ Player, Waiting, My\+Scheduler, My\+Allocator $>$}}, and \mbox{\hyperlink{classboost_1_1statechart_1_1asynchronous__state__machine_a346bde99a27dc391a0c4beb8c728dce0}{boost\+::statechart\+::asynchronous\+\_\+state\+\_\+machine$<$ Fifo\+Scheduler\+Test, Initial $>$}}.
+
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classboost_1_1statechart_1_1event__processor_a48a2bfcad66582f6c88e6034b2b838cb_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{classboost_1_1statechart_1_1event__processor_ae38f310cc4422e28f7ff57d516f6e6b6}\label{classboost_1_1statechart_1_1event__processor_ae38f310cc4422e28f7ff57d516f6e6b6}} 
+\index{boost\+::statechart\+::event\+\_\+processor@{boost\+::statechart\+::event\+\_\+processor}!my\+\_\+handle@{my\+\_\+handle}}
+\index{my\+\_\+handle@{my\+\_\+handle}!boost\+::statechart\+::event\+\_\+processor@{boost\+::statechart\+::event\+\_\+processor}}
+\subsubsection{\texorpdfstring{my\+\_\+handle()}{my\_handle()}}
+{\footnotesize\ttfamily template$<$class Scheduler$>$ \\
+\mbox{\hyperlink{classboost_1_1statechart_1_1event__processor_a0cb7488f303c3c79a6bd52b58ce43a2a}{processor\+\_\+handle}} \mbox{\hyperlink{classboost_1_1statechart_1_1event__processor}{boost\+::statechart\+::event\+\_\+processor}}$<$ Scheduler $>$\+::my\+\_\+handle (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const\hspace{0.3cm}{\ttfamily [inline]}}
+
+\mbox{\Hypertarget{classboost_1_1statechart_1_1event__processor_ac31ddbd5fc37e237911285d65c6d1d82}\label{classboost_1_1statechart_1_1event__processor_ac31ddbd5fc37e237911285d65c6d1d82}} 
+\index{boost\+::statechart\+::event\+\_\+processor@{boost\+::statechart\+::event\+\_\+processor}!my\+\_\+scheduler@{my\+\_\+scheduler}}
+\index{my\+\_\+scheduler@{my\+\_\+scheduler}!boost\+::statechart\+::event\+\_\+processor@{boost\+::statechart\+::event\+\_\+processor}}
+\subsubsection{\texorpdfstring{my\+\_\+scheduler()}{my\_scheduler()}}
+{\footnotesize\ttfamily template$<$class Scheduler$>$ \\
+Scheduler\& \mbox{\hyperlink{classboost_1_1statechart_1_1event__processor}{boost\+::statechart\+::event\+\_\+processor}}$<$ Scheduler $>$\+::my\+\_\+scheduler (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const\hspace{0.3cm}{\ttfamily [inline]}}
+
+\mbox{\Hypertarget{classboost_1_1statechart_1_1event__processor_af25f0f18781032f24b251c1108132f39}\label{classboost_1_1statechart_1_1event__processor_af25f0f18781032f24b251c1108132f39}} 
+\index{boost\+::statechart\+::event\+\_\+processor@{boost\+::statechart\+::event\+\_\+processor}!operator=@{operator=}}
+\index{operator=@{operator=}!boost\+::statechart\+::event\+\_\+processor@{boost\+::statechart\+::event\+\_\+processor}}
+\subsubsection{\texorpdfstring{operator=()}{operator=()}}
+{\footnotesize\ttfamily template$<$class Scheduler$>$ \\
+\mbox{\hyperlink{classboost_1_1statechart_1_1event__processor}{event\+\_\+processor}}\& \mbox{\hyperlink{classboost_1_1statechart_1_1event__processor}{boost\+::statechart\+::event\+\_\+processor}}$<$ Scheduler $>$\+::operator= (\begin{DoxyParamCaption}\item[{const \mbox{\hyperlink{classboost_1_1statechart_1_1event__processor}{event\+\_\+processor}}$<$ Scheduler $>$ \&}]{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [private]}}
+
+\mbox{\Hypertarget{classboost_1_1statechart_1_1event__processor_aa3ce5ebe4415e8fac525a34aaa0eee1d}\label{classboost_1_1statechart_1_1event__processor_aa3ce5ebe4415e8fac525a34aaa0eee1d}} 
+\index{boost\+::statechart\+::event\+\_\+processor@{boost\+::statechart\+::event\+\_\+processor}!process\+\_\+event@{process\+\_\+event}}
+\index{process\+\_\+event@{process\+\_\+event}!boost\+::statechart\+::event\+\_\+processor@{boost\+::statechart\+::event\+\_\+processor}}
+\subsubsection{\texorpdfstring{process\+\_\+event()}{process\_event()}}
+{\footnotesize\ttfamily template$<$class Scheduler$>$ \\
+void \mbox{\hyperlink{classboost_1_1statechart_1_1event__processor}{boost\+::statechart\+::event\+\_\+processor}}$<$ Scheduler $>$\+::process\+\_\+event (\begin{DoxyParamCaption}\item[{const \mbox{\hyperlink{classboost_1_1statechart_1_1event__base}{event\+\_\+base}} \&}]{evt }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+\mbox{\Hypertarget{classboost_1_1statechart_1_1event__processor_a5db03beb4d6c1545e7bb9584cd60b500}\label{classboost_1_1statechart_1_1event__processor_a5db03beb4d6c1545e7bb9584cd60b500}} 
+\index{boost\+::statechart\+::event\+\_\+processor@{boost\+::statechart\+::event\+\_\+processor}!process\+\_\+event\+\_\+impl@{process\+\_\+event\+\_\+impl}}
+\index{process\+\_\+event\+\_\+impl@{process\+\_\+event\+\_\+impl}!boost\+::statechart\+::event\+\_\+processor@{boost\+::statechart\+::event\+\_\+processor}}
+\subsubsection{\texorpdfstring{process\+\_\+event\+\_\+impl()}{process\_event\_impl()}}
+{\footnotesize\ttfamily template$<$class Scheduler$>$ \\
+virtual void \mbox{\hyperlink{classboost_1_1statechart_1_1event__processor}{boost\+::statechart\+::event\+\_\+processor}}$<$ Scheduler $>$\+::process\+\_\+event\+\_\+impl (\begin{DoxyParamCaption}\item[{const \mbox{\hyperlink{classboost_1_1statechart_1_1event__base}{event\+\_\+base}} \&}]{evt }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [private]}, {\ttfamily [pure virtual]}}
+
+
+
+Implemented in \mbox{\hyperlink{classboost_1_1statechart_1_1asynchronous__state__machine_a3e4a4a8910ec610542fc41dba4fd2d04}{boost\+::statechart\+::asynchronous\+\_\+state\+\_\+machine$<$ Most\+Derived, Initial\+State, Scheduler, Allocator, Exception\+Translator $>$}}, \mbox{\hyperlink{classboost_1_1statechart_1_1asynchronous__state__machine_a3e4a4a8910ec610542fc41dba4fd2d04}{boost\+::statechart\+::asynchronous\+\_\+state\+\_\+machine$<$ Player, Waiting, My\+Scheduler, My\+Allocator $>$}}, and \mbox{\hyperlink{classboost_1_1statechart_1_1asynchronous__state__machine_a3e4a4a8910ec610542fc41dba4fd2d04}{boost\+::statechart\+::asynchronous\+\_\+state\+\_\+machine$<$ Fifo\+Scheduler\+Test, Initial $>$}}.
+
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classboost_1_1statechart_1_1event__processor_a5db03beb4d6c1545e7bb9584cd60b500_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{classboost_1_1statechart_1_1event__processor_a9134afd6e3f693e035f35d3af434dee9}\label{classboost_1_1statechart_1_1event__processor_a9134afd6e3f693e035f35d3af434dee9}} 
+\index{boost\+::statechart\+::event\+\_\+processor@{boost\+::statechart\+::event\+\_\+processor}!terminate@{terminate}}
+\index{terminate@{terminate}!boost\+::statechart\+::event\+\_\+processor@{boost\+::statechart\+::event\+\_\+processor}}
+\subsubsection{\texorpdfstring{terminate()}{terminate()}}
+{\footnotesize\ttfamily template$<$class Scheduler$>$ \\
+void \mbox{\hyperlink{classboost_1_1statechart_1_1event__processor}{boost\+::statechart\+::event\+\_\+processor}}$<$ Scheduler $>$\+::terminate (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classboost_1_1statechart_1_1event__processor_a9134afd6e3f693e035f35d3af434dee9_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{classboost_1_1statechart_1_1event__processor_a3f5f4c757909fca5f389b485a789c24e}\label{classboost_1_1statechart_1_1event__processor_a3f5f4c757909fca5f389b485a789c24e}} 
+\index{boost\+::statechart\+::event\+\_\+processor@{boost\+::statechart\+::event\+\_\+processor}!terminate\+\_\+impl@{terminate\+\_\+impl}}
+\index{terminate\+\_\+impl@{terminate\+\_\+impl}!boost\+::statechart\+::event\+\_\+processor@{boost\+::statechart\+::event\+\_\+processor}}
+\subsubsection{\texorpdfstring{terminate\+\_\+impl()}{terminate\_impl()}}
+{\footnotesize\ttfamily template$<$class Scheduler$>$ \\
+virtual void \mbox{\hyperlink{classboost_1_1statechart_1_1event__processor}{boost\+::statechart\+::event\+\_\+processor}}$<$ Scheduler $>$\+::terminate\+\_\+impl (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [private]}, {\ttfamily [pure virtual]}}
+
+
+
+Implemented in \mbox{\hyperlink{classboost_1_1statechart_1_1asynchronous__state__machine_a528bedaf8c4d4b3fefc78984673bf30b}{boost\+::statechart\+::asynchronous\+\_\+state\+\_\+machine$<$ Most\+Derived, Initial\+State, Scheduler, Allocator, Exception\+Translator $>$}}, \mbox{\hyperlink{classboost_1_1statechart_1_1asynchronous__state__machine_a528bedaf8c4d4b3fefc78984673bf30b}{boost\+::statechart\+::asynchronous\+\_\+state\+\_\+machine$<$ Player, Waiting, My\+Scheduler, My\+Allocator $>$}}, and \mbox{\hyperlink{classboost_1_1statechart_1_1asynchronous__state__machine_a528bedaf8c4d4b3fefc78984673bf30b}{boost\+::statechart\+::asynchronous\+\_\+state\+\_\+machine$<$ Fifo\+Scheduler\+Test, Initial $>$}}.
+
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classboost_1_1statechart_1_1event__processor_a3f5f4c757909fca5f389b485a789c24e_icgraph}
+\end{center}
+\end{figure}
+
+
+\subsection{Member Data Documentation}
+\mbox{\Hypertarget{classboost_1_1statechart_1_1event__processor_a97d7bf7f1f4c1fcfec7982ede809d9c4}\label{classboost_1_1statechart_1_1event__processor_a97d7bf7f1f4c1fcfec7982ede809d9c4}} 
+\index{boost\+::statechart\+::event\+\_\+processor@{boost\+::statechart\+::event\+\_\+processor}!my\+Handle\+\_\+@{my\+Handle\+\_\+}}
+\index{my\+Handle\+\_\+@{my\+Handle\+\_\+}!boost\+::statechart\+::event\+\_\+processor@{boost\+::statechart\+::event\+\_\+processor}}
+\subsubsection{\texorpdfstring{my\+Handle\+\_\+}{myHandle\_}}
+{\footnotesize\ttfamily template$<$class Scheduler$>$ \\
+const \mbox{\hyperlink{classboost_1_1statechart_1_1event__processor_a0cb7488f303c3c79a6bd52b58ce43a2a}{processor\+\_\+handle}} \mbox{\hyperlink{classboost_1_1statechart_1_1event__processor}{boost\+::statechart\+::event\+\_\+processor}}$<$ Scheduler $>$\+::my\+Handle\+\_\+\hspace{0.3cm}{\ttfamily [private]}}
+
+\mbox{\Hypertarget{classboost_1_1statechart_1_1event__processor_ac79038b02ceb3fe8acef2a5ce62d4c02}\label{classboost_1_1statechart_1_1event__processor_ac79038b02ceb3fe8acef2a5ce62d4c02}} 
+\index{boost\+::statechart\+::event\+\_\+processor@{boost\+::statechart\+::event\+\_\+processor}!my\+Scheduler\+\_\+@{my\+Scheduler\+\_\+}}
+\index{my\+Scheduler\+\_\+@{my\+Scheduler\+\_\+}!boost\+::statechart\+::event\+\_\+processor@{boost\+::statechart\+::event\+\_\+processor}}
+\subsubsection{\texorpdfstring{my\+Scheduler\+\_\+}{myScheduler\_}}
+{\footnotesize\ttfamily template$<$class Scheduler$>$ \\
+Scheduler\& \mbox{\hyperlink{classboost_1_1statechart_1_1event__processor}{boost\+::statechart\+::event\+\_\+processor}}$<$ Scheduler $>$\+::my\+Scheduler\+\_\+\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+include/boost/statechart/\mbox{\hyperlink{event__processor_8hpp}{event\+\_\+processor.\+hpp}}\end{DoxyCompactItemize}

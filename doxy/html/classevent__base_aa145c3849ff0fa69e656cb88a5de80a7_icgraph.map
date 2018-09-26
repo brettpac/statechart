@@ -1,0 +1,6 @@
+<map id="event_base::send" name="event_base::send">
+<area shape="rect" id="node2" href="$struct_bit_machine.html#ae77e5375e470002e98bde6307793b102" title="BitMachine::process\l_event" alt="" coords="179,49,320,90"/>
+<area shape="rect" id="node3" href="$_bit_machine_8cpp.html#a04a54a80894f10144744713e77686b35" title="VisitAllStates" alt="" coords="388,5,489,32"/>
+<area shape="rect" id="node4" href="$_bit_machine_8cpp.html#ae66f6b31b5ad750f1fe042a706a4e3d4" title="main" alt="" coords="557,31,608,57"/>
+<area shape="rect" id="node5" href="$class_performance_tester.html#accdf29cc546c012cd3db37a36cb555d4" title="PerformanceTester::\lVisitAllStatesImpl" alt="" coords="368,107,509,149"/>
+</map>

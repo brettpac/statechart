@@ -1,0 +1,77 @@
+<map id="Graphical Class Hierarchy" name="Graphical Class Hierarchy">
+<area shape="rect" id="node1" href="$classboost_1_1statechart_1_1event__processor.html" title="boost::statechart::\levent_processor\&lt; Scheduler \&gt;" alt="" coords="231,496,431,537"/>
+<area shape="rect" id="node2" href="$classboost_1_1statechart_1_1asynchronous__state__machine.html" title="boost::statechart::\lasynchronous_state_machine\l\&lt; MostDerived, InitialState,\l Scheduler, Allocator, ExceptionTranslator \&gt;" alt="" coords="497,441,776,512"/>
+<area shape="rect" id="node3" href="$classboost_1_1statechart_1_1event__processor.html" title="boost::statechart::\levent_processor\&lt; fifo\l_scheduler\&lt;\&gt; \&gt;" alt="" coords="257,1758,405,1814"/>
+<area shape="rect" id="node4" href="$classboost_1_1statechart_1_1asynchronous__state__machine.html" title="boost::statechart::\lasynchronous_state_machine\l\&lt; FifoSchedulerTest, Initial \&gt;" alt="" coords="539,1714,734,1770"/>
+<area shape="rect" id="node5" href="$struct_fifo_scheduler_test.html" title="FifoSchedulerTest" alt="" coords="845,1729,973,1755"/>
+<area shape="rect" id="node6" href="$classboost_1_1statechart_1_1event__processor.html" title="boost::statechart::\levent_processor\&lt; MyScheduler \&gt;" alt="" coords="221,2623,440,2664"/>
+<area shape="rect" id="node7" href="$classboost_1_1statechart_1_1asynchronous__state__machine.html" title="boost::statechart::\lasynchronous_state_machine\l\&lt; Player, Waiting, MyScheduler,\l MyAllocator \&gt;" alt="" coords="531,2567,742,2637"/>
+<area shape="rect" id="node8" href="$struct_player.html" title="Player" alt="" coords="879,2589,938,2615"/>
+<area shape="rect" id="node10" href="$classboost_1_1statechart_1_1detail_1_1state__base.html" title="boost::statechart::\ldetail::state_base\&lt;\l Allocator, RttiPolicy \&gt;" alt="" coords="253,81,408,137"/>
+<area shape="rect" id="node14" href="$classboost_1_1statechart_1_1fifo__scheduler.html" title="boost::statechart::\lfifo_scheduler\&lt; FifoWorker,\l Allocator \&gt;" alt="" coords="239,561,422,617"/>
+<area shape="rect" id="node15" href="$classboost_1_1statechart_1_1fifo__worker.html" title="boost::statechart::\lfifo_worker\&lt; Allocator \&gt;" alt="" coords="250,640,411,681"/>
+<area shape="rect" id="node16" href="$classboost_1_1statechart_1_1processor__container.html" title="boost::statechart::\lprocessor_container\l\&lt; Scheduler, WorkItem,\l Allocator \&gt;" alt="" coords="250,705,411,776"/>
+<area shape="rect" id="node17" href="$classboost_1_1statechart_1_1state__machine.html" title="boost::statechart::\lstate_machine\&lt; MostDerived,\l InitialState, Allocator,\l ExceptionTranslator \&gt;" alt="" coords="232,401,429,472"/>
+<area shape="rect" id="node18" href="$classboost_1_1statechart_1_1fifo__scheduler.html" title="boost::statechart::\lfifo_scheduler\&lt;\&gt;" alt="" coords="267,880,395,921"/>
+<area shape="rect" id="node19" href="$classboost_1_1statechart_1_1fifo__worker.html" title="boost::statechart::\lfifo_worker\&lt;\&gt;" alt="" coords="267,945,395,987"/>
+<area shape="rect" id="node20" href="$classboost_1_1statechart_1_1processor__container.html" title="boost::statechart::\lprocessor_container\l\&lt; fifo_scheduler, typename\l fifo_worker\&lt;\&gt; ::work_item,\l std::allocator\&lt; void \&gt; \&gt;" alt="" coords="239,1011,422,1097"/>
+<area shape="rect" id="node21" href="$classboost_1_1statechart_1_1processor__container.html" title="boost::statechart::\lprocessor_container\l\&lt; fifo_scheduler, typename\l FifoWorker::work_item, Allocator \&gt;" alt="" coords="216,1121,445,1192"/>
+<area shape="rect" id="node22" href="$classboost_1_1statechart_1_1state__machine.html" title="boost::statechart::\lstate_machine\&lt; BitMachine,\l BitState\&lt; mpl::integral\l_c\&lt; unsigned int, 0 \&gt; \&gt; \&gt;" alt="" coords="237,1327,425,1397"/>
+<area shape="rect" id="node24" href="$classboost_1_1statechart_1_1state__machine.html" title="boost::statechart::\lstate_machine\&lt; BitMachine\l\&lt; NoOfBits, FirstTransitionBit\l \&gt;, BitState\&lt; uint0, NoOfBits,\l FirstTransitionBit \&gt; \&gt;" alt="" coords="233,1217,428,1302"/>
+<area shape="rect" id="node25" href="$classboost_1_1statechart_1_1state__machine.html" title="boost::statechart::\lstate_machine\&lt; Camera,\l NotShooting \&gt;" alt="" coords="246,1422,415,1478"/>
+<area shape="rect" id="node27" href="$classboost_1_1statechart_1_1state__machine.html" title="boost::statechart::\lstate_machine\&lt; CustomReaction\lEventBaseTest, X1 \&gt;" alt="" coords="222,1502,439,1558"/>
+<area shape="rect" id="node29" href="$classboost_1_1statechart_1_1state__machine.html" title="boost::statechart::\lstate_machine\&lt; CustomReaction\lTest, A \&gt;" alt="" coords="222,1582,439,1638"/>
+<area shape="rect" id="node31" href="$classboost_1_1statechart_1_1state__machine.html" title="boost::statechart::\lstate_machine\&lt; DeferralEvent\lBaseTest, X1 \&gt;" alt="" coords="231,1838,430,1894"/>
+<area shape="rect" id="node33" href="$classboost_1_1statechart_1_1state__machine.html" title="boost::statechart::\lstate_machine\&lt; DeferralTest,\l Active \&gt;" alt="" coords="233,1918,428,1974"/>
+<area shape="rect" id="node35" href="$classboost_1_1statechart_1_1state__machine.html" title="boost::statechart::\lstate_machine\&lt; FifoScheduler\lTest, Initial, std::allocator\l\&lt; void \&gt;, null_exception_translator \&gt;" alt="" coords="213,1663,448,1733"/>
+<area shape="rect" id="node36" href="$classboost_1_1statechart_1_1state__machine.html" title="boost::statechart::\lstate_machine\&lt; fsm, s1 \&gt;" alt="" coords="243,1997,418,2039"/>
+<area shape="rect" id="node38" href="$classboost_1_1statechart_1_1state__machine.html" title="boost::statechart::\lstate_machine\&lt; HistoryTest, A \&gt;" alt="" coords="223,2063,439,2104"/>
+<area shape="rect" id="node40" href="$classboost_1_1statechart_1_1state__machine.html" title="boost::statechart::\lstate_machine\&lt; Inconsistent\lHistoryTest, A \&gt;" alt="" coords="235,2127,426,2183"/>
+<area shape="rect" id="node42" href="$classboost_1_1statechart_1_1state__machine.html" title="boost::statechart::\lstate_machine\&lt; InStateReaction\lTest, A \&gt;" alt="" coords="224,2207,437,2263"/>
+<area shape="rect" id="node44" href="$classboost_1_1statechart_1_1state__machine.html" title="boost::statechart::\lstate_machine\&lt; InvalidChart\lTest, A \&gt;" alt="" coords="236,2287,425,2343"/>
+<area shape="rect" id="node46" href="$classboost_1_1statechart_1_1state__machine.html" title="boost::statechart::\lstate_machine\&lt; InvalidResult\lAssignTest, A \&gt;" alt="" coords="233,2367,428,2423"/>
+<area shape="rect" id="node48" href="$classboost_1_1statechart_1_1state__machine.html" title="boost::statechart::\lstate_machine\&lt; InvalidResult\lCopyTest, A \&gt;" alt="" coords="233,2447,428,2503"/>
+<area shape="rect" id="node50" href="$classboost_1_1statechart_1_1state__machine.html" title="boost::statechart::\lstate_machine\&lt; InvalidTransition\lTest, Active \&gt;" alt="" coords="223,2687,438,2743"/>
+<area shape="rect" id="node52" href="$classboost_1_1statechart_1_1state__machine.html" title="boost::statechart::\lstate_machine\&lt; Keyboard,\l Active \&gt;" alt="" coords="241,2767,420,2823"/>
+<area shape="rect" id="node54" href="$classboost_1_1statechart_1_1state__machine.html" title="boost::statechart::\lstate_machine\&lt; Player,\l Waiting, MyAllocator,\l null_exception_translator \&gt;" alt="" coords="239,2528,422,2599"/>
+<area shape="rect" id="node55" href="$classboost_1_1statechart_1_1state__machine.html" title="boost::statechart::\lstate_machine\&lt; StateCastTest, A \&gt;" alt="" coords="214,2847,447,2888"/>
+<area shape="rect" id="node57" href="$classboost_1_1statechart_1_1state__machine.html" title="boost::statechart::\lstate_machine\&lt; StateIteration\lTest, A \&gt;" alt="" coords="232,2911,429,2967"/>
+<area shape="rect" id="node59" href="$classboost_1_1statechart_1_1state__machine.html" title="boost::statechart::\lstate_machine\&lt; StopWatch,\l Active \&gt;" alt="" coords="237,2991,425,3047"/>
+<area shape="rect" id="node61" href="$classboost_1_1statechart_1_1state__machine.html" title="boost::statechart::\lstate_machine\&lt; Termination\lEventBaseTest, X \&gt;" alt="" coords="237,3071,424,3127"/>
+<area shape="rect" id="node63" href="$classboost_1_1statechart_1_1state__machine.html" title="boost::statechart::\lstate_machine\&lt; Termination\lTest, A \&gt;" alt="" coords="237,3151,424,3207"/>
+<area shape="rect" id="node65" href="$classboost_1_1statechart_1_1state__machine.html" title="boost::statechart::\lstate_machine\&lt; TransitionEvent\lBaseTest, X1 \&gt;" alt="" coords="225,3231,436,3287"/>
+<area shape="rect" id="node67" href="$classboost_1_1statechart_1_1state__machine.html" title="boost::statechart::\lstate_machine\&lt; TransitionTest\l\&lt; Translator \&gt;, S0\&lt; TransitionTest\l\&lt; Translator \&gt; \&gt;, std::allocator\l\&lt; void \&gt;, Translator \&gt;" alt="" coords="219,3311,442,3397"/>
+<area shape="rect" id="node69" href="$classboost_1_1statechart_1_1state__machine.html" title="boost::statechart::\lstate_machine\&lt; TriggringEvent\lTest, A, std::allocator\&lt;\l void \&gt;, sc::exception_translator\&lt;\&gt; \&gt;" alt="" coords="212,161,449,232"/>
+<area shape="rect" id="node71" href="$classboost_1_1statechart_1_1state__machine.html" title="boost::statechart::\lstate_machine\&lt; TuTest,\l Initial \&gt;" alt="" coords="249,257,413,313"/>
+<area shape="rect" id="node73" href="$classboost_1_1statechart_1_1state__machine.html" title="boost::statechart::\lstate_machine\&lt; TypeInfoTest, A \&gt;" alt="" coords="218,336,443,377"/>
+<area shape="rect" id="node75" href="$classboost_1_1statechart_1_1state__machine.html" title="boost::statechart::\lstate_machine\&lt; Unsupported\lDeepHistoryTest, A \&gt;" alt="" coords="234,801,427,857"/>
+<area shape="rect" id="node11" href="$classboost_1_1statechart_1_1detail_1_1leaf__state.html" title="boost::statechart::\ldetail::leaf_state\&lt;\l Allocator, RttiPolicy \&gt;" alt="" coords="559,93,714,149"/>
+<area shape="rect" id="node12" href="$classboost_1_1statechart_1_1detail_1_1node__state__base.html" title="boost::statechart::\ldetail::node_state_base\l\&lt; Allocator, RttiPolicy \&gt;" alt="" coords="555,13,718,69"/>
+<area shape="rect" id="node13" href="$classboost_1_1statechart_1_1detail_1_1node__state.html" title="boost::statechart::\ldetail::node_state\&lt;\l OrthogonalRegionCount,\l Allocator, RttiPolicy \&gt;" alt="" coords="824,5,993,76"/>
+<area shape="rect" id="node23" href="$struct_bit_machine.html" title="BitMachine\&lt; NoOfBits,\l FirstTransitionBit \&gt;" alt="" coords="558,1289,715,1331"/>
+<area shape="rect" id="node26" href="$struct_camera.html" title="Camera" alt="" coords="603,1437,671,1463"/>
+<area shape="rect" id="node28" href="$struct_custom_reaction_event_base_test.html" title="CustomReactionEventBaseTest" alt="" coords="531,1517,742,1543"/>
+<area shape="rect" id="node30" href="$struct_custom_reaction_test.html" title="CustomReactionTest" alt="" coords="563,1597,710,1623"/>
+<area shape="rect" id="node32" href="$struct_deferral_event_base_test.html" title="DeferralEventBaseTest" alt="" coords="557,1853,716,1879"/>
+<area shape="rect" id="node34" href="$struct_deferral_test.html" title="DeferralTest" alt="" coords="589,1933,684,1959"/>
+<area shape="rect" id="node37" href="$structfsm.html" title="fsm" alt="" coords="615,2005,659,2031"/>
+<area shape="rect" id="node39" href="$struct_history_test.html" title="HistoryTest" alt="" coords="591,2070,682,2097"/>
+<area shape="rect" id="node41" href="$struct_inconsistent_history_test.html" title="InconsistentHistoryTest" alt="" coords="556,2142,717,2169"/>
+<area shape="rect" id="node43" href="$struct_in_state_reaction_test.html" title="InStateReactionTest" alt="" coords="565,2222,708,2249"/>
+<area shape="rect" id="node45" href="$struct_invalid_chart_test.html" title="InvalidChartTest" alt="" coords="577,2302,696,2329"/>
+<area shape="rect" id="node47" href="$struct_invalid_result_assign_test.html" title="InvalidResultAssignTest" alt="" coords="555,2382,719,2409"/>
+<area shape="rect" id="node49" href="$struct_invalid_result_copy_test.html" title="InvalidResultCopyTest" alt="" coords="559,2462,714,2489"/>
+<area shape="rect" id="node51" href="$struct_invalid_transition_test.html" title="InvalidTransitionTest" alt="" coords="565,2702,708,2729"/>
+<area shape="rect" id="node53" href="$struct_keyboard.html" title="Keyboard" alt="" coords="598,2782,675,2809"/>
+<area shape="rect" id="node56" href="$struct_state_cast_test.html" title="StateCastTest" alt="" coords="583,2854,690,2881"/>
+<area shape="rect" id="node58" href="$struct_state_iteration_test.html" title="StateIterationTest" alt="" coords="573,2926,700,2953"/>
+<area shape="rect" id="node60" href="$struct_stop_watch.html" title="StopWatch" alt="" coords="593,3006,680,3033"/>
+<area shape="rect" id="node62" href="$struct_termination_event_base_test.html" title="TerminationEventBaseTest" alt="" coords="547,3086,727,3113"/>
+<area shape="rect" id="node64" href="$struct_termination_test.html" title="TerminationTest" alt="" coords="579,3166,695,3193"/>
+<area shape="rect" id="node66" href="$struct_transition_event_base_test.html" title="TransitionEventBaseTest" alt="" coords="552,3246,721,3273"/>
+<area shape="rect" id="node68" href="$struct_transition_test.html" title="TransitionTest\&lt; Translator \&gt;" alt="" coords="543,3341,730,3367"/>
+<area shape="rect" id="node70" href="$struct_triggring_event_test.html" title="TriggringEventTest" alt="" coords="571,183,703,210"/>
+<area shape="rect" id="node72" href="$struct_tu_test.html" title="TuTest" alt="" coords="605,271,668,298"/>
+<area shape="rect" id="node74" href="$struct_type_info_test.html" title="TypeInfoTest" alt="" coords="587,343,686,370"/>
+<area shape="rect" id="node76" href="$struct_unsupported_deep_history_test.html" title="UnsupportedDeepHistoryTest" alt="" coords="539,815,734,842"/>
+</map>

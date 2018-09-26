@@ -1,0 +1,8 @@
+<map id="boost::statechart::state_machine::initiate" name="boost::statechart::state_machine::initiate">
+<area shape="rect" id="node2" href="$_bit_machine_8cpp.html#ae66f6b31b5ad750f1fe042a706a4e3d4" title="main" alt="" coords="279,5,329,32"/>
+<area shape="rect" id="node3" href="$struct_player.html#ae5001b1a7c1ba022d7bdb6d7da25e647" title="Player::initiate_impl" alt="" coords="236,56,372,83"/>
+<area shape="rect" id="node4" href="$classboost_1_1statechart_1_1asynchronous__state__machine.html#a346bde99a27dc391a0c4beb8c728dce0" title="boost::statechart::\lasynchronous_state_machine\l\&lt; FifoSchedulerTest, Initial\l \&gt;::initiate_impl" alt="" coords="207,107,401,178"/>
+<area shape="rect" id="node5" href="$_custom_reaction_test_8cpp.html#a3e926c6d48feb75bdce9c73fca2adf1c" title="test_main" alt="" coords="265,203,343,229"/>
+<area shape="rect" id="node6" href="$struct_tu_test.html#a9f447a6fee2142e3b1a064c9f6d64c17" title="TuTest::initiate" alt="" coords="249,253,359,280"/>
+<area shape="rect" id="node7" href="$_tu_test_main_8cpp.html#a3e926c6d48feb75bdce9c73fca2adf1c" title="test_main" alt="" coords="449,253,528,280"/>
+</map>

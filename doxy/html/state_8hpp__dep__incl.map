@@ -1,0 +1,12 @@
+<map id="include/boost/statechart/state.hpp" name="include/boost/statechart/state.hpp">
+<area shape="rect" id="node2" href="$_shooting_8hpp.html" title="example/Camera/Shooting.hpp" alt="" coords="224,95,425,121"/>
+<area shape="rect" id="node5" href="$_waiting_8hpp.html" title="example/PingPong/Waiting.hpp" alt="" coords="449,95,653,121"/>
+<area shape="rect" id="node7" href="$_innermost_default_8hpp.html" title="test/InnermostDefault.hpp" alt="" coords="729,95,902,121"/>
+<area shape="rect" id="node8" href="$_outer_orthogonal_8hpp.html" title="test/OuterOrthogonal.hpp" alt="" coords="674,169,842,196"/>
+<area shape="rect" id="node10" href="$_state_cast_test_8cpp.html" title="test/StateCastTest.cpp" alt="" coords="927,95,1085,121"/>
+<area shape="rect" id="node11" href="$_triggering_event_test_8cpp.html" title="test/TriggeringEventTest.cpp" alt="" coords="1109,95,1300,121"/>
+<area shape="rect" id="node3" href="$_camera_8cpp.html" title="example/Camera/Camera.cpp" alt="" coords="5,169,201,196"/>
+<area shape="rect" id="node4" href="$_shooting_8cpp.html" title="example/Camera/Shooting.cpp" alt="" coords="225,169,427,196"/>
+<area shape="rect" id="node6" href="$_player_8cpp.html" title="example/PingPong/Player.cpp" alt="" coords="453,169,650,196"/>
+<area shape="rect" id="node9" href="$_transition_test_8cpp.html" title="test/TransitionTest.cpp" alt="" coords="740,244,896,271"/>
+</map>

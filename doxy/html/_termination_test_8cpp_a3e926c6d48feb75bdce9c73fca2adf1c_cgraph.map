@@ -1,0 +1,11 @@
+<map id="test_main" name="test_main">
+<area shape="rect" id="node2" href="$struct_termination_test.html#aec947c03a7b1bfbc20a93cc0e7434381" title="TerminationTest::AssertIn\lState" alt="" coords="145,125,319,166"/>
+<area shape="rect" id="node7" href="$classboost_1_1statechart_1_1state__machine.html#a7165ce3d1120b98dde6e8d669e35aba9" title="boost::statechart::\lstate_machine::initiate" alt="" coords="155,190,309,231"/>
+<area shape="rect" id="node8" href="$classboost_1_1statechart_1_1state__machine.html#a78598d4982f6b85e83358652eb1c3d6e" title="boost::statechart::\lstate_machine::process_event" alt="" coords="132,255,332,297"/>
+<area shape="rect" id="node9" href="$classboost_1_1statechart_1_1state__machine.html#a6abd7c38c09f87fa662c5aa5e8f6f3ff" title="boost::statechart::\lstate_machine::terminate" alt="" coords="147,321,317,362"/>
+<area shape="rect" id="node10" href="$classboost_1_1statechart_1_1state__machine.html#a78fc6d94ce7ba0ac18e0a83e96f3b215" title="boost::statechart::\lstate_machine::terminated" alt="" coords="144,386,320,427"/>
+<area shape="rect" id="node3" href="$classboost_1_1statechart_1_1state__machine.html#a270c21248c558be7daf8139c032b1f0c" title="boost::statechart::\lstate_machine\&lt; Termination\lTest, A \&gt;::state_begin" alt="" coords="380,5,567,61"/>
+<area shape="rect" id="node4" href="$classboost_1_1statechart_1_1state__machine.html#aab9cfe96af77fbfb10098f9c6ba209a5" title="boost::statechart::\lstate_machine\&lt; Termination\lTest, A \&gt;::state_end" alt="" coords="380,85,567,141"/>
+<area shape="rect" id="node5" href="$struct_termination_test.html#adbc9e083971e138c6ce231d4b1287a80" title="TerminationTest::AddName" alt="" coords="382,165,565,192"/>
+<area shape="rect" id="node6" href="$classboost_1_1statechart_1_1detail_1_1state__base.html#a03d51c261c052af1db3bb08b31891731" title="boost::statechart::\ldetail::state_base::\louter_state_ptr" alt="" coords="407,216,540,272"/>
+</map>

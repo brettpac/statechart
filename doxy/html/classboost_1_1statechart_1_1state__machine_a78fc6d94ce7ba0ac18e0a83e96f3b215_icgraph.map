@@ -1,0 +1,5 @@
+<map id="boost::statechart::state_machine::terminated" name="boost::statechart::state_machine::terminated">
+<area shape="rect" id="node2" href="$classboost_1_1statechart_1_1state__machine.html#a870e55352a7a01e7224ae0f06f89b0e9" title="boost::statechart::\lstate_machine\&lt; CustomReaction\lEventBaseTest, X1 \&gt;::handle\l_exception_event" alt="" coords="241,5,459,76"/>
+<area shape="rect" id="node3" href="$classboost_1_1statechart_1_1state__machine.html#a74a1650e45e284366802f9709b15cf31" title="boost::statechart::\lstate_machine\&lt; CustomReaction\lEventBaseTest, X1 \&gt;::terminate_impl" alt="" coords="229,101,471,157"/>
+<area shape="rect" id="node4" href="$_termination_test_8cpp.html#a3e926c6d48feb75bdce9c73fca2adf1c" title="test_main" alt="" coords="311,181,389,207"/>
+</map>

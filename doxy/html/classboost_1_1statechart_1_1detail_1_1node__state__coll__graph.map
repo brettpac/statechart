@@ -1,0 +1,4 @@
+<map id="boost::statechart::detail::node_state&lt; OrthogonalRegionCount, Allocator, RttiPolicy &gt;" name="boost::statechart::detail::node_state&lt; OrthogonalRegionCount, Allocator, RttiPolicy &gt;">
+<area shape="rect" id="node2" href="$classboost_1_1statechart_1_1detail_1_1node__state__base.html" title="{boost::statechart::\ldetail::node_state_base\l\&lt; Allocator, RttiPolicy \&gt;\n||+ exit_impl()\l# node_state_base()\l# ~node_state_base()\l}" alt="" coords="221,435,383,571"/>
+<area shape="rect" id="node3" href="$classboost_1_1statechart_1_1detail_1_1state__base.html" title="{boost::statechart::\ldetail::state_base\&lt;\l Allocator, RttiPolicy \&gt;\n|&#45; deferredEvents_\l|+ exit()\l+ outer_state_ptr()\l+ react_impl()\l+ remove_from_state_list()\l# state_base()\l# ~state_base()\l# defer_event()\l# deferred_events()\l# set_context()\l}" alt="" coords="41,161,219,385"/>
+</map>

@@ -1,0 +1,5 @@
+<map id="Stopped::react" name="Stopped::react">
+<area shape="rect" id="node2" href="$struct_ev_get_elapsed_time.html#aa0381285a0151abbc5e8a57d088cc394" title="EvGetElapsedTime::Assign" alt="" coords="160,5,343,32"/>
+<area shape="rect" id="node3" href="$struct_stopped.html#ae9dec429ddbf79320898e3bdd67580e8" title="Stopped::ElapsedTime" alt="" coords="174,56,329,83"/>
+<area shape="rect" id="node4" href="$classboost_1_1statechart_1_1simple__state.html#aba633726b29a7bd07d69429bab4a3a1b" title="boost::statechart::\lsimple_state\&lt; Stopped,\l Active \&gt;::discard_event" alt="" coords="169,107,333,163"/>
+</map>

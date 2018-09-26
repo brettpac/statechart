@@ -1,0 +1,82 @@
+\hypertarget{state__machine_8hpp}{}\section{include/boost/statechart/state\+\_\+machine.hpp File Reference}
+\label{state__machine_8hpp}\index{include/boost/statechart/state\+\_\+machine.\+hpp@{include/boost/statechart/state\+\_\+machine.\+hpp}}
+{\ttfamily \#include $<$boost/statechart/event.\+hpp$>$}\newline
+{\ttfamily \#include $<$boost/statechart/null\+\_\+exception\+\_\+translator.\+hpp$>$}\newline
+{\ttfamily \#include $<$boost/statechart/result.\+hpp$>$}\newline
+{\ttfamily \#include $<$boost/statechart/detail/rtti\+\_\+policy.\+hpp$>$}\newline
+{\ttfamily \#include $<$boost/statechart/detail/state\+\_\+base.\+hpp$>$}\newline
+{\ttfamily \#include $<$boost/statechart/detail/leaf\+\_\+state.\+hpp$>$}\newline
+{\ttfamily \#include $<$boost/statechart/detail/node\+\_\+state.\+hpp$>$}\newline
+{\ttfamily \#include $<$boost/statechart/detail/constructor.\+hpp$>$}\newline
+{\ttfamily \#include $<$boost/statechart/detail/avoid\+\_\+unused\+\_\+warning.\+hpp$>$}\newline
+{\ttfamily \#include $<$boost/mpl/list.\+hpp$>$}\newline
+{\ttfamily \#include $<$boost/mpl/clear.\+hpp$>$}\newline
+{\ttfamily \#include $<$boost/mpl/if.\+hpp$>$}\newline
+{\ttfamily \#include $<$boost/mpl/at.\+hpp$>$}\newline
+{\ttfamily \#include $<$boost/mpl/integral\+\_\+c.\+hpp$>$}\newline
+{\ttfamily \#include $<$boost/mpl/minus.\+hpp$>$}\newline
+{\ttfamily \#include $<$boost/mpl/equal\+\_\+to.\+hpp$>$}\newline
+{\ttfamily \#include $<$boost/intrusive\+\_\+ptr.\+hpp$>$}\newline
+{\ttfamily \#include $<$boost/type\+\_\+traits/is\+\_\+pointer.\+hpp$>$}\newline
+{\ttfamily \#include $<$boost/type\+\_\+traits/remove\+\_\+reference.\+hpp$>$}\newline
+{\ttfamily \#include $<$boost/noncopyable.\+hpp$>$}\newline
+{\ttfamily \#include $<$boost/assert.\+hpp$>$}\newline
+{\ttfamily \#include $<$boost/static\+\_\+assert.\+hpp$>$}\newline
+{\ttfamily \#include $<$boost/polymorphic\+\_\+cast.\+hpp$>$}\newline
+{\ttfamily \#include $<$boost/config.\+hpp$>$}\newline
+{\ttfamily \#include $<$boost/detail/allocator\+\_\+utilities.\+hpp$>$}\newline
+{\ttfamily \#include $<$map$>$}\newline
+{\ttfamily \#include $<$memory$>$}\newline
+{\ttfamily \#include $<$typeinfo$>$}\newline
+{\ttfamily \#include $<$functional$>$}\newline
+{\ttfamily \#include $<$iterator$>$}\newline
+Include dependency graph for state\+\_\+machine.\+hpp\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{state__machine_8hpp__incl}
+\end{center}
+\end{figure}
+This graph shows which files directly or indirectly include this file\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{state__machine_8hpp__dep__incl}
+\end{center}
+\end{figure}
+\subsection*{Classes}
+\begin{DoxyCompactItemize}
+\item 
+class \mbox{\hyperlink{classboost_1_1statechart_1_1detail_1_1send__function}{boost\+::statechart\+::detail\+::send\+\_\+function$<$ State\+Base\+Type, Event\+Base\+Type, Id\+Type $>$}}
+\item 
+struct \mbox{\hyperlink{structboost_1_1statechart_1_1detail_1_1state__cast__impl__pointer__target}{boost\+::statechart\+::detail\+::state\+\_\+cast\+\_\+impl\+\_\+pointer\+\_\+target}}
+\item 
+struct \mbox{\hyperlink{structboost_1_1statechart_1_1detail_1_1state__cast__impl__reference__target}{boost\+::statechart\+::detail\+::state\+\_\+cast\+\_\+impl\+\_\+reference\+\_\+target}}
+\item 
+struct \mbox{\hyperlink{structboost_1_1statechart_1_1detail_1_1state__cast__impl}{boost\+::statechart\+::detail\+::state\+\_\+cast\+\_\+impl$<$ Target $>$}}
+\item 
+class \mbox{\hyperlink{classboost_1_1statechart_1_1detail_1_1history__key}{boost\+::statechart\+::detail\+::history\+\_\+key$<$ Rtti\+Policy $>$}}
+\item 
+class \mbox{\hyperlink{classboost_1_1statechart_1_1state__machine}{boost\+::statechart\+::state\+\_\+machine$<$ Most\+Derived, Initial\+State, Allocator, Exception\+Translator $>$}}
+\item 
+class \mbox{\hyperlink{classboost_1_1statechart_1_1state__machine_1_1state__iterator}{boost\+::statechart\+::state\+\_\+machine$<$ Most\+Derived, Initial\+State, Allocator, Exception\+Translator $>$\+::state\+\_\+iterator}}
+\item 
+class \mbox{\hyperlink{classboost_1_1statechart_1_1state__machine_1_1initial__construct__function}{boost\+::statechart\+::state\+\_\+machine$<$ Most\+Derived, Initial\+State, Allocator, Exception\+Translator $>$\+::initial\+\_\+construct\+\_\+function}}
+\item 
+class \mbox{\hyperlink{classboost_1_1statechart_1_1state__machine_1_1terminate__function}{boost\+::statechart\+::state\+\_\+machine$<$ Most\+Derived, Initial\+State, Allocator, Exception\+Translator $>$\+::terminate\+\_\+function}}
+\item 
+class \mbox{\hyperlink{classboost_1_1statechart_1_1state__machine_1_1exception__event__handler}{boost\+::statechart\+::state\+\_\+machine$<$ Most\+Derived, Initial\+State, Allocator, Exception\+Translator $>$\+::exception\+\_\+event\+\_\+handler}}
+\item 
+class \mbox{\hyperlink{classboost_1_1statechart_1_1state__machine_1_1terminator}{boost\+::statechart\+::state\+\_\+machine$<$ Most\+Derived, Initial\+State, Allocator, Exception\+Translator $>$\+::terminator}}
+\end{DoxyCompactItemize}
+\subsection*{Namespaces}
+\begin{DoxyCompactItemize}
+\item 
+ \mbox{\hyperlink{namespaceboost}{boost}}
+\item 
+ \mbox{\hyperlink{namespaceboost_1_1statechart}{boost\+::statechart}}
+\item 
+ \mbox{\hyperlink{namespaceboost_1_1statechart_1_1detail}{boost\+::statechart\+::detail}}
+\end{DoxyCompactItemize}

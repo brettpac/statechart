@@ -1,0 +1,9 @@
+<map id="include/boost/statechart/exception_translator.hpp" name="include/boost/statechart/exception_translator.hpp">
+<area shape="rect" id="node2" href="$event_8hpp.html" title="boost/statechart/event.hpp" alt="" coords="325,95,502,121"/>
+<area shape="rect" id="node15" href="$result_8hpp.html" title="boost/statechart/result.hpp" alt="" coords="81,95,258,121"/>
+<area shape="rect" id="node3" href="$event__base_8hpp.html" title="boost/statechart/event\l_base.hpp" alt="" coords="622,169,774,211"/>
+<area shape="rect" id="node4" href="$rtti__policy_8hpp.html" title="boost/statechart/detail\l/rtti_policy.hpp" alt="" coords="509,259,660,300"/>
+<area shape="rect" id="node9" href="$memory_8hpp.html" title="boost/statechart/detail\l/memory.hpp" alt="" coords="226,169,377,211"/>
+<area shape="rect" id="node7" href="$counted__base_8hpp.html" title="boost/statechart/detail\l/counted_base.hpp" alt="" coords="786,259,937,300"/>
+<area shape="rect" id="node10" href="$avoid__unused__warning_8hpp.html" title="boost/statechart/detail\l/avoid_unused_warning.hpp" alt="" coords="302,259,485,300"/>
+</map>

@@ -1,0 +1,6 @@
+<map id="test_main" name="test_main">
+<area shape="rect" id="node2" href="$classboost_1_1statechart_1_1state__machine.html#a7165ce3d1120b98dde6e8d669e35aba9" title="boost::statechart::\lstate_machine::initiate" alt="" coords="155,5,309,47"/>
+<area shape="rect" id="node3" href="$classboost_1_1statechart_1_1state__machine.html#a78598d4982f6b85e83358652eb1c3d6e" title="boost::statechart::\lstate_machine::process_event" alt="" coords="132,71,332,112"/>
+<area shape="rect" id="node4" href="$_deferral_test_8cpp.html#abd7887816b4bd14253f23f7a9488289d" title="MakeIntrusive" alt="" coords="180,137,284,163"/>
+<area shape="rect" id="node5" href="$struct_deferral_test.html#ac3989277695cfc48e85b6918ae95672d" title="DeferralTest::ProcessedCount" alt="" coords="133,187,331,214"/>
+</map>

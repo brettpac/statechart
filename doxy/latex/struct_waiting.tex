@@ -1,0 +1,160 @@
+\hypertarget{struct_waiting}{}\section{Waiting Struct Reference}
+\label{struct_waiting}\index{Waiting@{Waiting}}
+
+
+{\ttfamily \#include $<$Waiting.\+hpp$>$}
+
+
+
+Inheritance diagram for Waiting\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=550pt]{struct_waiting__inherit__graph}
+\end{center}
+\end{figure}
+
+
+Collaboration diagram for Waiting\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=550pt]{struct_waiting__coll__graph}
+\end{center}
+\end{figure}
+\subsection*{Public Types}
+\begin{DoxyCompactItemize}
+\item 
+typedef mpl\+::list$<$ \mbox{\hyperlink{classboost_1_1statechart_1_1custom__reaction}{sc\+::custom\+\_\+reaction}}$<$ \mbox{\hyperlink{struct_ball_returned}{Ball\+Returned}} $>$, \mbox{\hyperlink{classboost_1_1statechart_1_1custom__reaction}{sc\+::custom\+\_\+reaction}}$<$ \mbox{\hyperlink{struct_game_aborted}{Game\+Aborted}} $>$ $>$ \mbox{\hyperlink{struct_waiting_a81771f42c7fd4098798766c8586bd164}{reactions}}
+\end{DoxyCompactItemize}
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{struct_waiting_a0c0fb756d46782ff26b8faa3ce80defc}{Waiting}} (my\+\_\+context ctx)
+\item 
+\mbox{\hyperlink{namespaceboost_1_1statechart_abe807f6598b614d6d87bb951ecd92331}{sc\+::result}} \mbox{\hyperlink{struct_waiting_afb8322d5f8e33ef42f20a904095afe3d}{react}} (const \mbox{\hyperlink{struct_game_aborted}{Game\+Aborted}} \&)
+\item 
+\mbox{\hyperlink{namespaceboost_1_1statechart_abe807f6598b614d6d87bb951ecd92331}{sc\+::result}} \mbox{\hyperlink{struct_waiting_a8c34737a1eb91381c14fb9647958f41b}{react}} (const \mbox{\hyperlink{struct_ball_returned}{Ball\+Returned}} \&ball\+Returned)
+\end{DoxyCompactItemize}
+\subsection*{Private Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{namespaceboost_1_1statechart_abe807f6598b614d6d87bb951ecd92331}{sc\+::result}} \mbox{\hyperlink{struct_waiting_a130dc49639541e8bc0bc04b8b81fc90f}{Destroy\+Myself}} ()
+\item 
+\mbox{\hyperlink{struct_waiting}{Waiting}} \& \mbox{\hyperlink{struct_waiting_a161ef2052a6de4dfc9189317db05b4e3}{operator=}} (const \mbox{\hyperlink{struct_waiting}{Waiting}} \&)
+\end{DoxyCompactItemize}
+\subsection*{Private Attributes}
+\begin{DoxyCompactItemize}
+\item 
+unsigned int \mbox{\hyperlink{struct_waiting_a34e5cb3810b8c1c5199cd9a9d81b6480}{no\+Of\+Returns\+\_\+}}
+\item 
+const boost\+::intrusive\+\_\+ptr$<$ \mbox{\hyperlink{struct_ball_returned}{Ball\+Returned}} $>$ \mbox{\hyperlink{struct_waiting_a66aabb3e766408dec514b0a9ef6ac39e}{p\+Ball\+Returned\+\_\+}}
+\end{DoxyCompactItemize}
+\subsection*{Additional Inherited Members}
+
+
+\subsection{Member Typedef Documentation}
+\mbox{\Hypertarget{struct_waiting_a81771f42c7fd4098798766c8586bd164}\label{struct_waiting_a81771f42c7fd4098798766c8586bd164}} 
+\index{Waiting@{Waiting}!reactions@{reactions}}
+\index{reactions@{reactions}!Waiting@{Waiting}}
+\subsubsection{\texorpdfstring{reactions}{reactions}}
+{\footnotesize\ttfamily typedef mpl\+::list$<$ \mbox{\hyperlink{classboost_1_1statechart_1_1custom__reaction}{sc\+::custom\+\_\+reaction}}$<$ \mbox{\hyperlink{struct_ball_returned}{Ball\+Returned}} $>$, \mbox{\hyperlink{classboost_1_1statechart_1_1custom__reaction}{sc\+::custom\+\_\+reaction}}$<$ \mbox{\hyperlink{struct_game_aborted}{Game\+Aborted}} $>$ $>$ \mbox{\hyperlink{struct_waiting_a81771f42c7fd4098798766c8586bd164}{Waiting\+::reactions}}}
+
+
+
+\subsection{Constructor \& Destructor Documentation}
+\mbox{\Hypertarget{struct_waiting_a0c0fb756d46782ff26b8faa3ce80defc}\label{struct_waiting_a0c0fb756d46782ff26b8faa3ce80defc}} 
+\index{Waiting@{Waiting}!Waiting@{Waiting}}
+\index{Waiting@{Waiting}!Waiting@{Waiting}}
+\subsubsection{\texorpdfstring{Waiting()}{Waiting()}}
+{\footnotesize\ttfamily Waiting\+::\+Waiting (\begin{DoxyParamCaption}\item[{my\+\_\+context}]{ctx }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=349pt]{struct_waiting_a0c0fb756d46782ff26b8faa3ce80defc_cgraph}
+\end{center}
+\end{figure}
+
+
+\subsection{Member Function Documentation}
+\mbox{\Hypertarget{struct_waiting_a130dc49639541e8bc0bc04b8b81fc90f}\label{struct_waiting_a130dc49639541e8bc0bc04b8b81fc90f}} 
+\index{Waiting@{Waiting}!Destroy\+Myself@{Destroy\+Myself}}
+\index{Destroy\+Myself@{Destroy\+Myself}!Waiting@{Waiting}}
+\subsubsection{\texorpdfstring{Destroy\+Myself()}{DestroyMyself()}}
+{\footnotesize\ttfamily \mbox{\hyperlink{namespaceboost_1_1statechart_abe807f6598b614d6d87bb951ecd92331}{sc\+::result}} Waiting\+::\+Destroy\+Myself (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [private]}}
+
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{struct_waiting_a130dc49639541e8bc0bc04b8b81fc90f_cgraph}
+\end{center}
+\end{figure}
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=312pt]{struct_waiting_a130dc49639541e8bc0bc04b8b81fc90f_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{struct_waiting_a161ef2052a6de4dfc9189317db05b4e3}\label{struct_waiting_a161ef2052a6de4dfc9189317db05b4e3}} 
+\index{Waiting@{Waiting}!operator=@{operator=}}
+\index{operator=@{operator=}!Waiting@{Waiting}}
+\subsubsection{\texorpdfstring{operator=()}{operator=()}}
+{\footnotesize\ttfamily \mbox{\hyperlink{struct_waiting}{Waiting}}\& Waiting\+::operator= (\begin{DoxyParamCaption}\item[{const \mbox{\hyperlink{struct_waiting}{Waiting}} \&}]{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [private]}}
+
+\mbox{\Hypertarget{struct_waiting_afb8322d5f8e33ef42f20a904095afe3d}\label{struct_waiting_afb8322d5f8e33ef42f20a904095afe3d}} 
+\index{Waiting@{Waiting}!react@{react}}
+\index{react@{react}!Waiting@{Waiting}}
+\subsubsection{\texorpdfstring{react()}{react()}\hspace{0.1cm}{\footnotesize\ttfamily [1/2]}}
+{\footnotesize\ttfamily \mbox{\hyperlink{namespaceboost_1_1statechart_abe807f6598b614d6d87bb951ecd92331}{sc\+::result}} Waiting\+::react (\begin{DoxyParamCaption}\item[{const \mbox{\hyperlink{struct_game_aborted}{Game\+Aborted}} \&}]{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{struct_waiting_afb8322d5f8e33ef42f20a904095afe3d_cgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{struct_waiting_a8c34737a1eb91381c14fb9647958f41b}\label{struct_waiting_a8c34737a1eb91381c14fb9647958f41b}} 
+\index{Waiting@{Waiting}!react@{react}}
+\index{react@{react}!Waiting@{Waiting}}
+\subsubsection{\texorpdfstring{react()}{react()}\hspace{0.1cm}{\footnotesize\ttfamily [2/2]}}
+{\footnotesize\ttfamily \mbox{\hyperlink{namespaceboost_1_1statechart_abe807f6598b614d6d87bb951ecd92331}{sc\+::result}} Waiting\+::react (\begin{DoxyParamCaption}\item[{const \mbox{\hyperlink{struct_ball_returned}{Ball\+Returned}} \&}]{ball\+Returned }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{struct_waiting_a8c34737a1eb91381c14fb9647958f41b_cgraph}
+\end{center}
+\end{figure}
+
+
+\subsection{Member Data Documentation}
+\mbox{\Hypertarget{struct_waiting_a34e5cb3810b8c1c5199cd9a9d81b6480}\label{struct_waiting_a34e5cb3810b8c1c5199cd9a9d81b6480}} 
+\index{Waiting@{Waiting}!no\+Of\+Returns\+\_\+@{no\+Of\+Returns\+\_\+}}
+\index{no\+Of\+Returns\+\_\+@{no\+Of\+Returns\+\_\+}!Waiting@{Waiting}}
+\subsubsection{\texorpdfstring{no\+Of\+Returns\+\_\+}{noOfReturns\_}}
+{\footnotesize\ttfamily unsigned int Waiting\+::no\+Of\+Returns\+\_\+\hspace{0.3cm}{\ttfamily [private]}}
+
+\mbox{\Hypertarget{struct_waiting_a66aabb3e766408dec514b0a9ef6ac39e}\label{struct_waiting_a66aabb3e766408dec514b0a9ef6ac39e}} 
+\index{Waiting@{Waiting}!p\+Ball\+Returned\+\_\+@{p\+Ball\+Returned\+\_\+}}
+\index{p\+Ball\+Returned\+\_\+@{p\+Ball\+Returned\+\_\+}!Waiting@{Waiting}}
+\subsubsection{\texorpdfstring{p\+Ball\+Returned\+\_\+}{pBallReturned\_}}
+{\footnotesize\ttfamily const boost\+::intrusive\+\_\+ptr$<$ \mbox{\hyperlink{struct_ball_returned}{Ball\+Returned}} $>$ Waiting\+::p\+Ball\+Returned\+\_\+\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+The documentation for this struct was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+example/\+Ping\+Pong/\mbox{\hyperlink{_waiting_8hpp}{Waiting.\+hpp}}\end{DoxyCompactItemize}

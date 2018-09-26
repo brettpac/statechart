@@ -1,0 +1,16 @@
+<map id="example/Camera/Precompiled.cpp" name="example/Camera/Precompiled.cpp">
+<area shape="rect" id="node2" href="$_precompiled_8hpp.html" title="Precompiled.hpp" alt="" coords="1641,80,1759,107"/>
+<area shape="rect" id="node3" href="$state__machine_8hpp.html" title="boost/statechart/state\l_machine.hpp" alt="" coords="1267,155,1416,196"/>
+<area shape="rect" id="node4" href="$event_8hpp.html" title="boost/statechart/event.hpp" alt="" coords="1071,423,1249,449"/>
+<area shape="rect" id="node43" href="$simple__state_8hpp.html" title="boost/statechart/simple\l_state.hpp" alt="" coords="3501,155,3659,196"/>
+<area shape="rect" id="node61" href="$custom__reaction_8hpp.html" title="boost/statechart/custom\l_reaction.hpp" alt="" coords="144,333,307,375"/>
+<area shape="rect" id="node5" href="$rtti__policy_8hpp.html" title="boost/statechart/detail\l/rtti_policy.hpp" alt="" coords="178,497,329,539"/>
+<area shape="rect" id="node10" href="$avoid__unused__warning_8hpp.html" title="boost/statechart/detail\l/avoid_unused_warning.hpp" alt="" coords="1610,587,1793,628"/>
+<area shape="rect" id="node15" href="$null__exception__translator_8hpp.html" title="boost/statechart/null\l_exception_translator.hpp" alt="" coords="1105,333,1276,375"/>
+<area shape="rect" id="node16" href="$result_8hpp.html" title="boost/statechart/result.hpp" alt="" coords="870,423,1047,449"/>
+<area shape="rect" id="node17" href="$state__base_8hpp.html" title="boost/statechart/detail\l/state_base.hpp" alt="" coords="1430,333,1581,375"/>
+<area shape="rect" id="node20" href="$leaf__state_8hpp.html" title="boost/statechart/detail\l/leaf_state.hpp" alt="" coords="1531,244,1682,285"/>
+<area shape="rect" id="node21" href="$node__state_8hpp.html" title="boost/statechart/detail\l/node_state.hpp" alt="" coords="1758,244,1909,285"/>
+<area shape="rect" id="node22" href="$constructor_8hpp.html" title="boost/statechart/detail\l/constructor.hpp" alt="" coords="3062,244,3213,285"/>
+<area shape="rect" id="node9" href="$memory_8hpp.html" title="boost/statechart/detail\l/memory.hpp" alt="" coords="1707,497,1858,539"/>
+</map>
